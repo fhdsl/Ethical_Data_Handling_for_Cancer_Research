@@ -9,7 +9,9 @@ AnVIL
 ArrayExpress
 bam
 Biostrings
+BIPOC
 Blavatnik
+Bloomberg
 Bukner
 cBIBOP
 citable
@@ -17,6 +19,7 @@ cybercriminal
 cybercriminals
 cyberinfastructure
 CyVerse
+DataTrail
 Dashlane
 decrypt
 De
@@ -47,6 +50,7 @@ https
 JHPCE
 IB
 IBM
+impactful
 iPlant
 IRB
 itcrtraining
@@ -61,8 +65,10 @@ Keychain
 Klarman
 Kubernettes
 leanbuild
+Leanpub
 macOS
 Markua
+mentorship
 MetaboAnalyst
 metabolomic
 methylation
@@ -109,6 +115,7 @@ transcriptomic
 translational
 tranSMARt
 UE
+underserved
 Unsplash
 Vick
 VPN
