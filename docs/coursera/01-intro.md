@@ -1,5 +1,7 @@
 
 
+
+
 # Introduction
 
 <img src="resources/images/01-intro_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_p.png" title="Data Management for Cancer Research. Written by: Carrie Wright. Contributed and Edited by: Sarah Wheelan and Jeff Leek" alt="Data Management for Cancer Research. Written by: Carrie Wright. Contributed and Edited by: Sarah Wheelan and Jeff Leek" width="100%" style="display: block; margin: auto;" />
