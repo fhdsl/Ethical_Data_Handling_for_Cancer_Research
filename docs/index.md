@@ -1,5 +1,5 @@
 --- 
-title: "Computing & Data Management for Cancer Research"
+title: "Computing for Cancer Research"
 date: "2021-12-08"
 site: bookdown::bookdown_site
 documentclass: book
