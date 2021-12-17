@@ -3,7 +3,7 @@
 ** This course is still a work in progress** The authors will be working on it for the next few months.
 
 
-This course was created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
+This course was created from [this github template](https://github.com/jhudsl/OTTR_Template).
 
 You can see the rendered course material here:  https://jhudatascience.org/Data_Management_for_Cancer_Research
 
