@@ -28,6 +28,11 @@ This is so important, that starting in January, 2023 the NIH will require specif
 - [European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/submission/)
 - [International Nucleotide Sequence Databases—DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/ddbj/submission-e.html)
 
+### Imaging data repositories
+
+- [Imaging data resource](https://idr.openmicroscopy.org/)
+AVOCADO: Others?
+
 ### Repositories for journal articles
 
 For manuscripts or large datasets that are of atypical format, using one of these repositories is a good idea.
@@ -42,7 +47,23 @@ The journal you submit to may have a recommendation of one over another. If not,
 
 Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.
 
+## File names and sample IDs
 
-AVOCADO Somewhere want to talk about where you can access data... or share it...
-https://transcriptomics.sequentiabiotech.com/
-Repositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress
+- Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes in detail your samples in a way that is clear without any prior knowledge of the project.
+- Sample and data IDs should keep with standard formatting otherwise known in the field.
+- Features names should avoid using genomic coordinates as these may change with new genome versions.
+
+## Data Submission tips
+
+Have someone else review your code and data!
+
+## Make your project reproducible
+
+Reproducible projects are able to be re-run by others to obtain the same results.
+
+The three main requirements for a reproducible project are:
+- The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
+- The code can be freely obtained from GitHub (or another similar repository).
+- The code and data are well described and organized with a system that is consistent.
+
+For more details on how to make data and code reproducible tips, see our [Intro to Reproducibility](https://www.itcrtraining.org/courses#h.ugabyqq1bigx) course.
