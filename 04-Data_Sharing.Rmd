@@ -18,7 +18,17 @@ Sharing data is critical for optimizing the advancement of scientific understand
 
 This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 
+```
+A comic about why data sharing is important. 
+```
+
 ## Put your data in repository
+
+Below are some of the standard repositories for data you should consider. For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).
+
+```
+A comic with "data available by request of email"
+```
 
 ### Genomic Data Repositories
 
@@ -31,7 +41,6 @@ This is so important, that starting in January, 2023 the NIH will require specif
 ### Imaging data repositories
 
 - [Imaging data resource](https://idr.openmicroscopy.org/)
-AVOCADO: Others?
 
 ### Repositories for journal articles
 
@@ -49,6 +58,10 @@ Data sets that are small and atypical format can be published as supplementary f
 
 ## Data Submission tips
 
+```
+A comic that illustrates the pain of looking at unclear data
+```
+
 ### Have someone else review your code and data!
 
 There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.
@@ -64,7 +77,7 @@ The best way to test if your data project is useable is to have someone else (wh
 
 Reproducible projects are able to be re-run by others to obtain the same results.
 
-The main requirements for a reproducible project are:
+**The main requirements for a reproducible project are:**  
 - The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
 - The code can be freely obtained from GitHub (or another similar repository).
 - The software versions used to obtain the results are made clear by documentation or providing a Docker container.
