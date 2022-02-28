@@ -14,9 +14,33 @@ leanbuild::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJ
 
 ## Data sharing is important!
 
-Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data. 
+Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data.
 
 This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
+
+## Put your data in repository
+
+### Genomic Data Repositories
+
+- [National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/)
+  - For microarray: [GEO Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/info/submission.html)
+  - For RNA-seq: [SRA (Sequencing Read Archive)](https://www.ncbi.nlm.nih.gov/sra/docs/submit/)
+- [European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/submission/)
+- [International Nucleotide Sequence Databases—DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/ddbj/submission-e.html)
+
+### Repositories for journal articles
+
+For manuscripts or large datasets that are of atypical format, using one of these repositories is a good idea.
+The journal you submit to may have a recommendation of one over another. If not, you might end up having a preference.
+
+- [CyVerse Data Commons Repository](https://cyverse.org/data-commons)
+- [Data Dryad](https://datadryad.org/stash)
+- [FigShare](https://help.figshare.com/article/how-to-upload-and-publish-your-data)
+- [ZENODO](https://help.zenodo.org/)
+
+### Small datasets
+
+Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.
 
 
 AVOCADO Somewhere want to talk about where you can access data... or share it...
