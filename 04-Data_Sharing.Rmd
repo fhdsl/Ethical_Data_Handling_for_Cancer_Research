@@ -61,9 +61,10 @@ Have someone else review your code and data!
 
 Reproducible projects are able to be re-run by others to obtain the same results.
 
-The three main requirements for a reproducible project are:
+The main requirements for a reproducible project are:
 - The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
 - The code can be freely obtained from GitHub (or another similar repository).
+- The software versions used to obtain the results are made clear by documentation or providing a Docker container. 
 - The code and data are well described and organized with a system that is consistent.
 
 For more details on how to make data and code reproducible tips, see our [Intro to Reproducibility](https://www.itcrtraining.org/courses#h.ugabyqq1bigx) course.
