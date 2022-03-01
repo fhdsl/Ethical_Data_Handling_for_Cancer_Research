@@ -75,7 +75,7 @@ Data sets that are small and atypical format can be published as supplementary f
 
 ## Data Submission tips
 
-Uploading a dataset to a data repository is a great step toward sharing your data! But, the dataset uploaded is unclear and unuseable it might as well not been uploaded in the first place.
+Uploading a dataset to a data repository is a great step toward sharing your data! But, the dataset uploaded is unclear and unusable it might as well not been uploaded in the first place.
 
 Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.
 
