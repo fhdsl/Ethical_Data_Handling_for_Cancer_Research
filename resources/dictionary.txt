@@ -9,6 +9,7 @@ AnVIL
 ArrayExpress
 bam
 Biostrings
+Bioinformatics
 BIPOC
 Blavatnik
 Bloomberg
@@ -21,6 +22,7 @@ cyberinfastructure
 CyVerse
 DataTrail
 Dashlane
+DDBJ
 decrypt
 De
 De-identification
@@ -31,11 +33,14 @@ DNAnexus
 Dockstore
 DSA
 ENIAC
+EBI
+EMBL
 et
 exome
 fasta
 fastq
 FedRAMP
+Figshare
 FireCloud
 Goecks
 GPUs
@@ -91,6 +96,7 @@ PoLP
 proteomic
 punchcards
 QuIP
+Reproducibility
 RNA
 RSA
 RStudio
@@ -117,6 +123,7 @@ tranSMARt
 UE
 underserved
 Unsplash
+useable
 Vick
 VPN
 Wheelan
@@ -126,4 +133,5 @@ www
 XNAT
 XQuartz
 Xsede
+ZENODO
 20th
