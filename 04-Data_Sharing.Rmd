@@ -18,17 +18,34 @@ Sharing data is critical for optimizing the advancement of scientific understand
 
 This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 
-```
-A comic about why data sharing is important.
+There's so many excellent reasons to put your data in a repository whether or not a journal requires it:  
+
+**Sharing your data...**  
+
+1. Makes your project more transparent and thus more likely to be trusted and cited.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’
+", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_636")
 ```
 
-## Put your data in repository
+2. Helps your relieve your own workload so your email inbox isn't loaded by requests you probably don't have time to respond to.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_616")
+```
+
+3. Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_1_37")
+```
+
+## Data repositories
+
+The best way to share your data is by putting it somewhere that others can download it (and it can be kept private when necessary). There's many repositories out there that handle this for you.
 
 Below are some of the standard repositories for data you should consider. For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).
-
-```
-A comic with "data available by request of email"
-```
 
 ### Genomic Data Repositories
 
@@ -58,14 +75,20 @@ Data sets that are small and atypical format can be published as supplementary f
 
 ## Data Submission tips
 
-```
-A comic that illustrates the pain of looking at unclear data
+Uploading a dataset to a data repository is a great step toward sharing your data! But, the dataset uploaded is unclear and unuseable it might as well not been uploaded in the first place.
+
+Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_455")
 ```
 
-### Have someone else review your code and data!
+To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
+There are two files you should make sure to include to help describe and organize your data project:
 
-There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.
-The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.
+- [A main README file](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes) that orients others to what is included in your data.
+- A metadata file that samples that are included, how they are connected, and when appropriate following privacy ethics, describes clinical features.
+  - [Standards for genomic metadata](https://genestack.com/assets/pdfs/The%20importance%20of%20metadata%20in%20genomics%20and%20the%20FAIR%20principles%20ebook.pdf)
 
 ### Use consistent and clear names
 
@@ -73,14 +96,20 @@ The best way to test if your data project is useable is to have someone else (wh
 - Sample and data IDs should keep with standard formatting otherwise known in the field.
 - Features names should avoid using genomic coordinates as these may change with new genome versions.
 
-## Make your project reproducible
+### Make your project reproducible
 
 Reproducible projects are able to be re-run by others to obtain the same results.
 
-**The main requirements for a reproducible project are:**  
+**The main requirements for a reproducible project are:**
+
 - The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
 - The code can be freely obtained from GitHub (or another similar repository).
 - The software versions used to obtain the results are made clear by documentation or providing a Docker container.
 - The code and data are well described and organized with a system that is consistent.
+
+### Have someone else review your code and data!
+
+The best way to find out if your data are useable by others is to have someone else look it over!
+There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.
 
 For more details on how to make data and code reproducible tips, see our [Intro to Reproducibility](https://www.itcrtraining.org/courses#h.ugabyqq1bigx) course.
