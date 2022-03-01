@@ -1,7 +1,7 @@
 
 
 ```{r, include = FALSE}
-leanbuild::set_knitr_image_path()
+ottrpal::set_knitr_image_path()
 ```
 
 # Data Ethics
@@ -9,7 +9,7 @@ leanbuild::set_knitr_image_path()
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow", out.width="100%"}
-leanbuild::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
 ````
 
 
