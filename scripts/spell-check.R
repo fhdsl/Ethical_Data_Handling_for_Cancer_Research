@@ -33,10 +33,14 @@ files <- grep("About.Rmd", files, ignore.case = TRUE, invert = TRUE, value = TRU
 files <- grep("style-sets", files, ignore.case = TRUE, invert = TRUE, value = TRUE)
 
 # Run spell check
-sp_errors <- spelling::spell_check_files(files, ignore = dictionary) %>%
-  data.frame() %>%
-  tidyr::unnest(cols = found) %>%
-  tidyr::separate(found, into = c("file", "lines"), sep = ":")
+sp_errors <- spelling::spell_check_files(files, ignore = dictionary)
+  
+if (nrow(sp_errors) > 0) {
+  sp_errors <- 
+    data.frame() %>%
+    tidyr::unnest(cols = found) %>%
+    tidyr::separate(found, into = c("file", "lines"), sep = ":")
+}
 
 # Print out how many spell check errors
 write(nrow(sp_errors), stdout())
