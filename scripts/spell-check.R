@@ -49,5 +49,7 @@ if (!dir.exists("resources")) {
   dir.create("resources")
 }
 
+if (nrow(sp_errors) > 0) {
 # Save spell errors to file temporarily
 readr::write_tsv(sp_errors, file.path('resources', 'spell_check_results.tsv'))
+}
