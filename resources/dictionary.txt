@@ -40,7 +40,7 @@ exome
 fasta
 fastq
 FedRAMP
-Figshare
+FigShare
 FireCloud
 Goecks
 GPUs
