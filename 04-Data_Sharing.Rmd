@@ -45,7 +45,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 The best way to share your data is by putting it somewhere that others can download it (and it can be kept private when necessary). There's many repositories out there that handle this for you.
 
-Below are some of the standard repositories for data you should consider. For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).
+Below are some of the standard repositories for data you should consider.
+
+**For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).**
 
 ### Genomic Data Repositories
 
@@ -58,6 +60,7 @@ Below are some of the standard repositories for data you should consider. For a 
 ### Imaging data repositories
 
 - [Imaging data resource](https://idr.openmicroscopy.org/)
+- [Cancer imaging archive](https://www.cancerimagingarchive.net/primary-data/)
 
 ### Repositories for journal articles
 
