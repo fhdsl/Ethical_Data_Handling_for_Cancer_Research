@@ -64,7 +64,7 @@ Kammers
 Keychain
 Klarman
 Kubernettes
-leanbuild
+ottrpal
 Leanpub
 macOS
 Markua
