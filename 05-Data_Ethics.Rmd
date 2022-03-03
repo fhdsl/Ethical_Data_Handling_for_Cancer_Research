@@ -12,6 +12,12 @@ Now that we have covered the basics of data management, we will take a moment to
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
 ````
 
+Data ethics involves the consideration of the aspects that we have already described int terms of data security, privacy and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use our data, code, and results in the future.
+
+
+
+
+
 
 
 
