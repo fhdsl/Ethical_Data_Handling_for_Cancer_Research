@@ -10,6 +10,8 @@ ArrayExpress
 bam
 Biostrings
 BIPOC
+Biometric
+birthdates
 Blavatnik
 Bloomberg
 Bukner
@@ -23,6 +25,7 @@ DataTrail
 Dashlane
 decrypt
 De
+de
 De-identification
 de-identification
 discoverability
@@ -37,6 +40,7 @@ fasta
 fastq
 FedRAMP
 FireCloud
+Geneology
 Goecks
 GPUs
 GTEx
@@ -86,8 +90,10 @@ n2c2
 OHIF
 omics
 OpenBEL
+PII
 PKCS
 PoLP
+polymorphisms
 proteomic
 punchcards
 QuIP
@@ -111,6 +117,7 @@ TCGA
 TCIA
 th
 TLS
+transcriptome
 transcriptomic
 translational
 tranSMARt
@@ -118,6 +125,7 @@ UE
 underserved
 Unsplash
 Vick
+voiceprints
 VPN
 Wheelan
 workspaces
