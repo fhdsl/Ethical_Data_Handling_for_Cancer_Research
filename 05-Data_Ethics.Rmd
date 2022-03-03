@@ -15,6 +15,38 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 Data ethics involves the consideration of the aspects that we have already described about data security, privacy, and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use our data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021].
 
 
+## Data Ethics History
+
+To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.
+
+Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but neglectful research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
+
+Avocado - want to provide examples for databanks gone wrong, such as the use of data for commercial purposes. Could go back further too... to  HIPAA in 1996 and 1957 Code of Medical Ethics.
+
+
+## General Ethics Code
+
+- informed consent etc.
+
+## Current Ethical Issues
+There are several issues that researchers and research participants, and really all indivudals engaging in health care face. 
+
+
+### Consent for Data Reuse
+
+One major current ethical issue that we face now, is the consequences of the resuse of shared data. 
+
+
+### Protection of Vulnerable Populations
+
+
+### Equity of Health Care
+
+
+### Data Security and Privacy in the Age of AI
+
+
+
 
 
 
