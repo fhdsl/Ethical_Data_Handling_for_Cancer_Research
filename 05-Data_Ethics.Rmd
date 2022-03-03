@@ -29,12 +29,28 @@ Avocado - want to provide examples for databanks gone wrong, such as the use of 
 - informed consent etc.
 
 ## Current Ethical Issues
-There are several issues that researchers and research participants, and really all indivudals engaging in health care face. 
+There are several issues that researchers and research participants, and really all individuals engaging in health care face. 
 
 
 ### Consent for Data Reuse
 
-One major current ethical issue that we face now, is the consequences of the resuse of shared data. 
+One major current ethical issue that we face now, is the consequences of the reuse of shared data. As we have described, there are major benefits of sharing data. It can allow researchers to really maximize their efforts. However, there are also negative potential consequences as well.
+
+
+Previous management strategies for informed consent originate from research that predates the large scale data sharing that we now use today. In those cases, informed consent was a bit more straight forward to achieve. Now that data is often reused more often, it is often less obvious how data will be used for research purposes in the future, thus it is less obvious how to inform potential research participants what participation really means. Ideally we want to protect participants and family, while also maximizing the research potential of useful data. So how do we do this?
+
+Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some methods for consent that some ethicist suggest as described in @mckeown_consent_2021.
+
+1) blanket consent - 
+2) broad consent -
+3) dynamic consent -
+4) meta consent -
+
+### Finding Articts
+
+In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
+
+
 
 
 ### Protection of Vulnerable Populations
@@ -44,6 +60,8 @@ One major current ethical issue that we face now, is the consequences of the res
 
 
 ### Data Security and Privacy in the Age of AI
+
+avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/
 
 
 
