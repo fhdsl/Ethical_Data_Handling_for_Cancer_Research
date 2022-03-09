@@ -9,6 +9,7 @@ AnVIL
 ArrayExpress
 bam
 Biostrings
+Bioinformatics
 BIPOC
 Biometric
 birthdates
@@ -23,6 +24,7 @@ cyberinfastructure
 CyVerse
 DataTrail
 Dashlane
+DDBJ
 decrypt
 De
 de
@@ -34,13 +36,17 @@ DNAnexus
 Dockstore
 DSA
 ENIAC
+EBI
+EMBL
 et
 exome
 fasta
 fastq
 FedRAMP
+FigShare
 FireCloud
 Geneology
+funders
 Goecks
 GPUs
 GTEx
@@ -97,8 +103,10 @@ polymorphisms
 proteomic
 punchcards
 QuIP
+Reproducibility
 RNA
 RSA
+README
 RStudio
 scalable
 scalability
@@ -123,7 +131,9 @@ translational
 tranSMARt
 UE
 underserved
+unuseable
 Unsplash
+useable
 Vick
 voiceprints
 VPN
@@ -134,4 +144,5 @@ www
 XNAT
 XQuartz
 Xsede
+ZENODO
 20th

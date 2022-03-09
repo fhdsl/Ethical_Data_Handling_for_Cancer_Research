@@ -28,4 +28,13 @@ what-genomic-data-is-protected
 how-to-protect-this-information
 data-sharing
 data-sharing-is-important
+data-repositories
+genomic-data-repositories
+imaging-data-repositories
+repositories-for-journal-articles
+small-datasets
+data-submission-tips
+use-consistent-and-clear-names
+make-your-project-reproducible
+have-someone-else-review-your-code-and-data
 data-ethics
