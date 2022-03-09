@@ -133,6 +133,19 @@ div.csl-indent {
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
@@ -180,10 +193,101 @@ div.csl-indent {
 <h2><span class="header-section-number">4.1</span> Data sharing is important!</h2>
 <p>Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data.</p>
 <p>This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">here</a>.</p>
-<p>AVOCADO Somewhere want to talk about where you can access data… or share it…
-<a href="https://transcriptomics.sequentiabiotech.com/" class="uri">https://transcriptomics.sequentiabiotech.com/</a>
-Repositories: GEO Gene Expression Omnibus(GEO), SRA(Sequencing Read Archive), ArrayExpress</p>
+<p>There’s so many excellent reasons to put your data in a repository whether or not a journal requires it:</p>
+<p><strong>Sharing your data…</strong></p>
+<ol style="list-style-type: decimal">
+<li>Makes your project more transparent and thus more likely to be trusted and cited.</li>
+</ol>
+<p><code>{r, fig.align='center', echo = FALSE, fig.alt= "Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’ ", out.width="100%"} ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_636")</code></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Helps your relieve your own workload so your email inbox isn’t loaded by requests you probably don’t have time to respond to.</li>
+</ol>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" title="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.</li>
+</ol>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" title="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="data-repositories" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Data repositories</h2>
+<p>The best way to share your data is by putting it somewhere that others can download it (and it can be kept private when necessary). There’s many repositories out there that handle this for you.</p>
+<p>Below are some of the standard repositories for data you should consider.</p>
+<p><strong>For a longer list of repositories, we also advise consulting this <a href="https://www.nature.com/sdata/policies/repositories">Nature guidance on data repositories</a>.</strong></p>
+<div id="genomic-data-repositories" class="section level3" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Genomic Data Repositories</h3>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/">National Center for Biotechnology Information (NCBI)</a>
+<ul>
+<li>For microarray: <a href="https://www.ncbi.nlm.nih.gov/geo/info/submission.html">GEO Gene Expression Omnibus (GEO)</a></li>
+<li>For RNA-seq: <a href="https://www.ncbi.nlm.nih.gov/sra/docs/submit/">SRA (Sequencing Read Archive)</a></li>
+</ul></li>
+<li><a href="https://www.ebi.ac.uk/submission/">European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)</a></li>
+<li><a href="https://www.ddbj.nig.ac.jp/ddbj/submission-e.html">International Nucleotide Sequence Databases—DNA Data Bank of Japan (DDBJ)</a></li>
+</ul>
+</div>
+<div id="imaging-data-repositories" class="section level3" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Imaging data repositories</h3>
+<ul>
+<li><a href="https://idr.openmicroscopy.org/">Imaging data resource</a></li>
+<li><a href="https://www.cancerimagingarchive.net/primary-data/">Cancer imaging archive</a></li>
+</ul>
+</div>
+<div id="repositories-for-journal-articles" class="section level3" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Repositories for journal articles</h3>
+<p>For manuscripts or large datasets that are of atypical format, using one of these repositories is a good idea.
+The journal you submit to may have a recommendation of one over another. If not, you might end up having a preference.</p>
+<ul>
+<li><a href="https://cyverse.org/data-commons">CyVerse Data Commons Repository</a></li>
+<li><a href="https://datadryad.org/stash">Data Dryad</a></li>
+<li><a href="https://help.figshare.com/article/how-to-upload-and-publish-your-data">FigShare</a></li>
+<li><a href="https://help.zenodo.org/">ZENODO</a></li>
+</ul>
+</div>
+<div id="small-datasets" class="section level3" number="4.2.4">
+<h3><span class="header-section-number">4.2.4</span> Small datasets</h3>
+<p>Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.</p>
+</div>
+</div>
+<div id="data-submission-tips" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Data Submission tips</h2>
+<p>Uploading a dataset to a data repository is a great step toward sharing your data! But, the dataset uploaded is unclear and unusable it might as well not been uploaded in the first place.</p>
+<p>Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" title="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" /></p>
+<p>To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
+There are two files you should make sure to include to help describe and organize your data project:</p>
+<ul>
+<li><a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes">A main README file</a> that orients others to what is included in your data.</li>
+<li>A metadata file that samples that are included, how they are connected, and when appropriate following privacy ethics, describes clinical features.
+<ul>
+<li><a href="https://genestack.com/assets/pdfs/The%20importance%20of%20metadata%20in%20genomics%20and%20the%20FAIR%20principles%20ebook.pdf">Standards for genomic metadata</a></li>
+</ul></li>
+</ul>
+<div id="use-consistent-and-clear-names" class="section level3" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Use consistent and clear names</h3>
+<ul>
+<li>Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes in detail your samples in a way that is clear without any prior knowledge of the project.</li>
+<li>Sample and data IDs should keep with standard formatting otherwise known in the field.</li>
+<li>Features names should avoid using genomic coordinates as these may change with new genome versions.</li>
+</ul>
+</div>
+<div id="make-your-project-reproducible" class="section level3" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Make your project reproducible</h3>
+<p>Reproducible projects are able to be re-run by others to obtain the same results.</p>
+<p><strong>The main requirements for a reproducible project are:</strong></p>
+<ul>
+<li>The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).</li>
+<li>The code can be freely obtained from GitHub (or another similar repository).</li>
+<li>The software versions used to obtain the results are made clear by documentation or providing a Docker container.</li>
+<li>The code and data are well described and organized with a system that is consistent.</li>
+</ul>
+</div>
+<div id="have-someone-else-review-your-code-and-data" class="section level3" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Have someone else review your code and data!</h3>
+<p>The best way to find out if your data are useable by others is to have someone else look it over!
+There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.</p>
+<p>For more details on how to make data and code reproducible tips, see our <a href="https://www.itcrtraining.org/courses#h.ugabyqq1bigx">Intro to Reproducibility</a> course.</p>
 
+</div>
 </div>
 </div>
 <hr>
