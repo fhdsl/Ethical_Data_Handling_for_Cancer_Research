@@ -11,6 +11,8 @@ bam
 Biostrings
 Bioinformatics
 BIPOC
+Biometric
+birthdates
 Blavatnik
 Bloomberg
 Bukner
@@ -25,6 +27,7 @@ Dashlane
 DDBJ
 decrypt
 De
+de
 De-identification
 de-identification
 discoverability
@@ -42,6 +45,7 @@ fastq
 FedRAMP
 FigShare
 FireCloud
+Geneology
 funders
 Goecks
 GPUs
@@ -92,8 +96,10 @@ n2c2
 OHIF
 omics
 OpenBEL
+PII
 PKCS
 PoLP
+polymorphisms
 proteomic
 punchcards
 QuIP
@@ -119,6 +125,7 @@ TCGA
 TCIA
 th
 TLS
+transcriptome
 transcriptomic
 translational
 tranSMARt
@@ -128,6 +135,7 @@ unuseable
 Unsplash
 useable
 Vick
+voiceprints
 VPN
 Wheelan
 workspaces
