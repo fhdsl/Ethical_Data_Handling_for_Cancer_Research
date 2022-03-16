@@ -22,6 +22,10 @@ data-erasure
 data-resiliency
 security-in-workflows
 data-privacy
+pii-personal-identifiable-information
+phi-protected-health-information
+what-genomic-data-is-protected
+how-to-protect-this-information
 data-sharing
 data-sharing-is-important
 data-repositories
