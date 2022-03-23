@@ -9,6 +9,7 @@ AnVIL
 ArrayExpress
 bam
 Biostrings
+bioethical
 Bioinformatics
 BIPOC
 Biometric
@@ -25,6 +26,7 @@ CyVerse
 databanks
 DataTrail
 Dashlane
+DBIR
 DDBJ
 decrypt
 De
@@ -103,6 +105,7 @@ PII
 PKCS
 PoLP
 polymorphisms
+Ponemon 
 proteomic
 punchcards
 QuIP

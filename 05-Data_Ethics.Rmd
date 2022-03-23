@@ -146,9 +146,9 @@ https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-
 
 Places that report data breaches - based on @@seh_breaches_2020:
 1) PRC Database (Consumer data  established in 1992)
-2) HIPAA Journal (Examples ofviolations of HIPAA compliance and guides to avoid violation, established in 2009)
+2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
 3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports since 2009 on healthcare data)
-4) Ponomen Institute Reports (Data privacy and security issues and policies, Established in 2002)
+4) Ponemon Institute Reports (Data privacy and security issues and policies, Established in 2002)
 5) Verizon-DBIR (,yearly investigations by Verizon Enterprises Established in 2008)
 
 
