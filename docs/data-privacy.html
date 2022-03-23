@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-03-02" />
+<meta name="date" content="2022-03-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -123,10 +123,29 @@ div.csl-indent {
 <li class="chapter" data-level="2.5" data-path="data-security.html"><a href="data-security.html#data-resiliency"><i class="fa fa-check"></i><b>2.5</b> Data resiliency</a></li>
 <li class="chapter" data-level="2.6" data-path="data-security.html"><a href="data-security.html#security-in-workflows"><i class="fa fa-check"></i><b>2.6</b> Security in workflows</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>3</b> Data Privacy</a></li>
+<li class="chapter" data-level="3" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>3</b> Data Privacy</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>3.1</b> PII (personal identifiable information)</a></li>
+<li class="chapter" data-level="3.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>3.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="3.3" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>3.3</b> What genomic data is protected?</a></li>
+<li class="chapter" data-level="3.4" data-path="data-privacy.html"><a href="data-privacy.html#how-to-protect-this-information"><i class="fa fa-check"></i><b>3.4</b> How to protect this information</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
@@ -170,7 +189,96 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 3</span> Data Privacy</h1>
 <p>Cancer research often involves personal health data that requires compliance with <a href="https://searchhealthit.techtarget.com/definition/HIPAA">Health Insurance Portability and Accountability Act (HIPAA)</a> regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.</p>
 <p><img src="resources/images/03-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
+<p>There are two kinds of information that we will need to be careful to protect:
+<em>personal identifiable information (PII)</em> and <em>protected health information (PHI)</em></p>
+<p>Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.</p>
+<div id="pii-personal-identifiable-information" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> PII (personal identifiable information)</h2>
+<p>PII (personal identifiable information) are items that would allow you to identify a person.</p>
+<p><em>Examples include (but aren’t limited to):</em><br />
+- Name
+- Telephone number
+- Address
+- Social security number
+- Age
+- Driver’s licenses
+- Medical record numbers
+- Full face photographs
+- IP addresses</p>
+</div>
+<div id="phi-protected-health-information" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> PHI (protected health information)</h2>
+<p>The <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">U.S. Department of Health &amp; Human Services</a> describes protected health information (PHI) as:</p>
+<blockquote>
+<p>…information including demographic data that relates to:</p>
+</blockquote>
+<blockquote>
+<p>the individual’s past, present or future physical or mental health or condition,
+the provision of health care to the individual, or
+the past, present, or future payment for the provision of health care to the individual,</p>
+</blockquote>
+<p>This includes 18 categories:</p>
+<ul>
+<li>Patient names<br />
+</li>
+<li>Geographical elements (such as a street address, city, county, or zip code)</li>
+<li>Dates related to the health or identity of individuals (including birthdates, date of admission, date of discharge, date of death, or exact age of a patient older than 89)</li>
+<li>Telephone numbers</li>
+<li>Fax numbers</li>
+<li>Email addresses</li>
+<li>Social security numbers</li>
+<li>Medical record numbers</li>
+<li>Health insurance beneficiary numbers</li>
+<li>Account numbers</li>
+<li>Certificate/license numbers</li>
+<li>Vehicle identifiers</li>
+<li>Device attributes or serial numbers</li>
+<li>Digital identifiers, such as website URLs</li>
+<li>IP addresses</li>
+<li>Biometric elements, including finger, retinal, and voiceprints</li>
+<li>Full face photographic images</li>
+<li>Other identifying numbers or codes</li>
+</ul>
+</div>
+<div id="what-genomic-data-is-protected" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> What genomic data is protected?</h2>
+<p>So what does this mean for the data you handle?</p>
+<p><strong>A not comprehensive list of identifiable and protected information:</strong></p>
+<ul>
+<li>Clinical information in metadata</li>
+<li>Genomic sequences
+<ul>
+<li>Whole genome sequences</li>
+<li>Exome</li>
+<li>Whole transcriptome</li>
+</ul></li>
+<li>Single nucleotide polymorphisms</li>
+<li>Geneology information</li>
+</ul>
+<p><strong>What is not protected and generally is safe:</strong></p>
+<ul>
+<li>Summarized cohort data</li>
+</ul>
+</div>
+<div id="how-to-protect-this-information" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> How to protect this information</h2>
+<p>Your institution will have guidance regarding how to keep this information protected but in general there are 3 main strategies we will summarize here:</p>
+<ol style="list-style-type: decimal">
+<li>As few eyes as possible</li>
+</ol>
+<p>The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle the data.
+Make sure the data is stored in a place that only these few people who are allowed have access to it. If you aren’t sure who has access to a place – don’t put the data there!</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Aggressively de-identify the shared data</li>
+</ol>
+<p>Before results or data are shared or published, it is aggressively de-identified.
+If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Err on the side of caution!</li>
+</ol>
+<p>If in doubt if something counts as PHI or PII, or if you are unsure whether a database or repository is secure, ask!</p>
 
+</div>
 </div>
 <hr>
 <center> 
