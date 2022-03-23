@@ -46,7 +46,7 @@ Although ethical guidelines about this type of consent are evolving as research 
 3) dynamic consent -
 4) meta consent -
 
-### Finding Articts
+### Finding Artifacts
 
 In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
 
