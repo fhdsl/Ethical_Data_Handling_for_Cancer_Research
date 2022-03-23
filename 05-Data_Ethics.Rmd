@@ -8,16 +8,20 @@ ottrpal::set_knitr_image_path()
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the general considerations for data ethics, 2. Recognize where these considerations come from in the history of research, 3. Understand what the current ethical dilemmas are in the current climate of biomedical research 4. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g11ef3a2f2bf_0_4")
 ````
+
+## What is data ethics?
 
 Data ethics involves the consideration of the aspects that we have already described about data security, privacy, and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
 
-While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, we have much more information about the subjects we are using, and thus the risk for others to identify the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, we have much more information about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+
+Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk,  intermediate forms of data such as summarized counts across a set of human samples pose more risk, raw data and in particular data from individuals such as whole genome sequencing data, are very specific to those individuals that the data is collected from and pose great risk for identification[@byrd_responsible_2020]. 
 
 
-## Data Ethics History
+## Data ethics history
 
 To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.
 
