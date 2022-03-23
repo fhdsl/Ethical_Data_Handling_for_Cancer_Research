@@ -22,6 +22,7 @@ cybercriminal
 cybercriminals
 cyberinfastructure
 CyVerse
+databanks
 DataTrail
 Dashlane
 DDBJ
@@ -35,10 +36,11 @@ DBMI
 DNAnexus
 Dockstore
 DSA
-ENIAC
 EBI
+ENIAC
 EMBL
 et
+ethicist
 exome
 fasta
 fastq
