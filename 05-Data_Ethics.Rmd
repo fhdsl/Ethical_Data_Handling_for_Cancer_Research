@@ -12,7 +12,9 @@ Now that we have covered the basics of data management, we will take a moment to
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
 ````
 
-Data ethics involves the consideration of the aspects that we have already described about data security, privacy, and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use our data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021].
+Data ethics involves the consideration of the aspects that we have already described about data security, privacy, and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
+
+While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, we have much more information about the subjects we are using, and thus the risk for others to identify the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
 
 
 ## Data Ethics History
@@ -29,6 +31,7 @@ Avocado - want to provide examples for databanks gone wrong, such as the use of 
 - informed consent etc.
 
 ## Current Ethical Issues
+
 There are several issues that researchers and research participants, and really all individuals engaging in health care face. 
 
 
@@ -45,6 +48,8 @@ Although ethical guidelines about this type of consent are evolving as research 
 2) broad consent -
 3) dynamic consent -
 4) meta consent -
+
+hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf
 
 ### Finding Artifacts
 
