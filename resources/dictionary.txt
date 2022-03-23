@@ -55,6 +55,7 @@ Goecks
 GPUs
 GTEx
 HealthCare
+HeLa
 HIPAA
 HDDs
 HPC
@@ -105,7 +106,7 @@ PII
 PKCS
 PoLP
 polymorphisms
-Ponemon 
+Ponemon
 proteomic
 punchcards
 QuIP
