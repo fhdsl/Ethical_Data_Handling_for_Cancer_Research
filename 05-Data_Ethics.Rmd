@@ -14,11 +14,33 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## What is data ethics?
 
-Data ethics involves the consideration of the aspects that we have already described about data security, privacy, and sharing, in terms of how our research can ultimately impact research participants and other individuals. Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
+Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact research participants and other individuals. 
+
+Other general principles have to do with research integrity, consideration for social justice, and the transparency of our work. This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
 
 While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, we have much more information about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
 
-Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk,  intermediate forms of data such as summarized counts across a set of human samples pose more risk, raw data and in particular data from individuals such as whole genome sequencing data, are very specific to those individuals that the data is collected from and pose great risk for identification[@byrd_responsible_2020]. 
+
+Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, raw data and in particular data from individuals such as whole genome sequencing data, are very specific to those individuals that the data is collected from and pose great risk for identification[@byrd_responsible_2020]. 
+
+
+Why does it mater that research subjects might be identifiable to others?
+
+In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions). 
+
+However, such information can put these individuals at risk for difficulty with insurance and employment. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals.  
+
+Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised.
+
+
+Why else does data protection matter at the individual level?
+
+Manipulated data can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
+
+
+interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf
+
+We will discuss what can be done to reduce the risk of research participants being identified.
 
 
 ## Data ethics history
@@ -27,12 +49,16 @@ To have an understanding of current theories about how to best deal with our res
 
 Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but neglectful research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
 
-Avocado - want to provide examples for databanks gone wrong, such as the use of data for commercial purposes. Could go back further too... to  HIPAA in 1996 and 1957 Code of Medical Ethics.
+Avocado - want to provide examples for databanks gone wrong, such as the use of data for commercial purposes. Could go back further too... to  HIPAA in 1996 and 1957 Code of Medical Ethics .
 
 
 ## General Ethics Code
 
-- informed consent etc.
+- informed consent etc. [@commissioner_guide_2020]
+
+https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research
+
+https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/Recruitment%20of%20Research%20Participants.pdf
 
 ## Current Ethical Issues
 
@@ -55,11 +81,13 @@ Although ethical guidelines about this type of consent are evolving as research 
 
 hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf
 
+great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
+
 ### Finding Artifacts
 
 In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
 
-
+https://link.springer.com/article/10.1007/s10805-019-09336-2
 
 
 ### Protection of Vulnerable Populations
@@ -75,8 +103,26 @@ avocado... possibly introduce: differential privacy https://mccourt.georgetown.e
 
 
 
+patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121
 
+HIPAA: https://www.hipaaexams.com/blog/everything-you-need-to-know-about-a-hipaa-violation/#:~:text=Criminal%20Penalties,-These%20penalties%20are&text=They%20can%20be%20as%20follows,for%20up%20to%20five%20years
 
+https://inspiredelearning.com/blog/hipaa-violation-examples/
 
+https://www.hhs.gov/hipaa/filing-a-complaint/index.html
 
+bad examples:
 
+https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-medical-research-3361/
+
+Places that report data breaches - based on @@seh_breaches_2020:
+1) PRC Database (Consumer data  established in 1992)
+2) HIPAA Journal (Examples ofviolations of HIPAA compliance and guides to avoid violation, established in 2009)
+3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports since 2009 on healthcare data)
+4) Ponomen Institute Reports (Data privacy and security issues and policies, Established in 2002)
+5) Verizon-DBIR (,yearly investigations by Verizon Enterprises Established in 2008)
+
+Data manipulation can lead to poor treatment or even death. 
+
+New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks [@seh_breaches_2020]. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/
