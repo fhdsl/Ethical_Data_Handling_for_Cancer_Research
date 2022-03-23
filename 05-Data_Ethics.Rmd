@@ -14,23 +14,32 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## What is data ethics?
 
-Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. 
+Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency. 
 
-General principles have to do with research integrity, consideration for social justice, data security, and transparency in our work. 
+### Before and after research
 
-This requires thoughtfulness throughout the planning and research process, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider how others might use their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
+Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
 
-While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, we have much more information about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+### Considerations before
+
+Ethical research should involve consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, nonbinary individuals, disabled individuals, and people of certain ethnic backgrounds, and intersections of various demographic factors have been historically left out of clinical trials or when included, their data was inadequately recorded [@clark_increasing_2019]. For example, clinical trials often have questions about sex or gender with limited options resulting in a lack of collection of important information that could impact clinical outcomes [@chen_approach_2019].
+
+Beyond this, even basic studies often neglect to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004. 
 
 
-Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, raw data and in particular data from individuals such as whole genome sequencing data, are very specific to those individuals that the data is collected from and pose great risk for identification [@byrd_responsible_2020]. 
+## After Considerations
+
+While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+
+
+Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020]. 
 
 
 Why does it mater that research subjects might be identifiable to others?
 
 In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions). 
 
-However, such information can put these individuals at risk for difficulty with insurance and employment, as well as risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks [@seh_breaches_2020].  
+However, such information can put these individuals at risk for difficulty with insurance and employment, as well as at risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks based on data collection about the behaviors of research participants [@seh_breaches_2020].  
 
 Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised.
 
@@ -42,13 +51,31 @@ Manipulated data can result in false research findings, altered treatment plans 
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
 
-Importantly data ethics should involve consideration for how data could be misused but also consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, disabled individuals, and people of certain ethnic background and intersections of various demographic factors have been historically left out of clinical trails. Beyond this, even basic studies often neglect to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004. 
+
 
 ## Data ethics history
 
 To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.
 
 Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but neglectful research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
+
+### Historical incidences:
+
+1. [Tuskegee syphilis trial](https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study):
+A study in Tuskegee, Alabama about the outcomes of untreated syphilis in Black males (1932-1972) in which the patients were told they were being treated but were in fact not being treated [@mcvean_40_2019].
+
+2. [Henrietta Lacks and HeLa Cells](https://www.nature.com/articles/d41586-020-02494-z):
+In 1951, a patient named Henrietta Lacks was treated for cervical cancer at Johns Hopkins. Her cancerous cells turned out to be uniquely capable of surviving and reproducing and have been used widely in research for decades for many discoveries. Her family did not receive money from the companies that profited from her cells, and for decades her family was often not asked for consent as doctors and scientists revealed her name and medical records publicly (@noauthor_henrietta_2020).
+
+
+See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-diversity-equity-and-inclusion.html#historical-injustice) for additional examples.
+
+These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
+
+### Recent incidences:
+
+With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we saw the creation of databanks and other shared data resources. This resulted in new ethical blunders. 
+
 
 
 Avocado - want to provide examples for databanks gone wrong, such as the use of data for commercial purposes. Could go back further too... to  HIPAA in 1996 and 1957 Code of Medical Ethics .
