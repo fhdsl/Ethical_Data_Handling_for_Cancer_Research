@@ -29,7 +29,7 @@ Beyond this, even basic studies have historically often neglected to evaluate fe
 
 ## After Considerations
 
-While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could me caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information (including real-time data) about the subjects we are using, and thus the risk for others to **identify** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
 
 
 Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020]. 
@@ -121,6 +121,8 @@ https://link.springer.com/article/10.1007/s10805-019-09336-2
 
 ### Protection of Vulnerable Populations
 
+#### Minors
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237875
 
 ### Equity of Health Care
 
