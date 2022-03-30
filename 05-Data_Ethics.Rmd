@@ -91,22 +91,34 @@ https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/R
 
 ## Current Ethical Issues
 
-There are several issues that researchers and research participants, and really all individuals engaging in health care face. 
+There are several issues that researchers and research participants, and really all individuals engaging in health care face. We will discuss some of these briefly.
 
 
 ### Consent for Data Reuse
 
-One major current ethical issue that we face now, is the consequences of the reuse of shared data. As we have described, there are major benefits of sharing data. It can allow researchers to really maximize their efforts. However, there are also negative potential consequences as well.
+One major current ethical issue that we face now, is the consequences of the reuse of shared data. As we have described, there are major benefits of sharing data. It can allow researchers to really maximize their efforts. However, there are also negative potential consequences as well. Furthermore, it is still unclear what is exactly possible with our data, for both good and bad uses, as technology continues to advance.
 
 
 Previous management strategies for informed consent originate from research that predates the large scale data sharing that we now use today. In those cases, informed consent was a bit more straight forward to achieve. Now that data is often reused more often, it is often less obvious how data will be used for research purposes in the future, thus it is less obvious how to inform potential research participants what participation really means. Ideally we want to protect participants and family, while also maximizing the research potential of useful data. So how do we do this?
 
-Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some methods for consent that some ethicist suggest as described in @mckeown_consent_2021.
+Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some current methods for consent as described in @mckeown_consent_2021.
 
-1) blanket consent - 
-2) broad consent -
-3) dynamic consent -
-4) meta consent -
+1) blanket consent - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
+2) broad consent - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
+3) dynamic consent - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
+4) meta consent - Subjects get to choose what type of consent they prefer of the other 3 options. 
+
+
+@mckeown_consent_2021 suggests that we also need to be mindful of the following:
+
+1) Participants should be educated about the uncertainty of the possible future uses of the data.
+2) Participants should be able to withdraw their consent for reasons that have been identified as being reasonable. (This creates many more ethical considerations.)
+3) Those managing the data and those using the data behave in a trustworthy manner based on defined data management and use regulations (including protection of of data).
+4) Participants should be informed about how ethical decisions about their data are weighed based on the benefit to society vs. the risk to individuals and that this involves uncertanty as well.
+
+We would like to suggest that updated information should possibly be provided to iparticpants about changes in awareness of potential data uses and changes in awareness of the potential benefit or lack of benefit of the data to society.
+
+
 
 hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf
 
