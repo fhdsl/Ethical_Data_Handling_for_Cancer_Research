@@ -183,3 +183,8 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 
 ## Security in workflows
+
+
+## Data protection tools for healthcare
+
+
