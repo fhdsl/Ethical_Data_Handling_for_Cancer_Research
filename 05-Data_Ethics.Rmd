@@ -10,7 +10,7 @@ Now that we have covered the basics of data management, we will take a moment to
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the general considerations for data ethics, 2. Recognize where these considerations come from in the history of research, 3. Understand what the current ethical dilemmas are in the current climate of biomedical research 4. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. ", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g11ef3a2f2bf_0_4")
-````
+```
 
 ## What is data ethics?
 
@@ -18,7 +18,7 @@ Data ethics involves the consideration of data collection, maintenance, security
 
 ### Before and after research
 
-Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@ipworth_ethics_2017; @teoli_informatics_2021]. 
+Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021]. 
 
 ### Considerations before
 
@@ -125,7 +125,19 @@ https://www.tandfonline.com/doi/full/10.1080/08989621003641132
 https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
 
-4) Native American case https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
+Targeted testing for specific research use more comfortable for people then broad consent...
+
+4) Improper Data Reuse for Research
+
+A research group at Arizona State University initially collected data from individuals of the Havasupai tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. These are topics that were considered taboo by the tribe. The research participants did not feel that they consented to other research outside the scope of diabetes. This was a very informative case, 
+
+
+ownership should stay in the communities:
+
+https://docs.google.com/document/d/1UYVnpzSRXn4yXZaQsoaX1ei8eiBRUTABcCb0EFwG_EE/edit
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
 
 ## General Ethics Code
 
