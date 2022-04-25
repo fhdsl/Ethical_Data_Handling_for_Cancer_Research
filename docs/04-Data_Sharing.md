@@ -18,12 +18,9 @@ There's so many excellent reasons to put your data in a repository whether or no
 
 **Sharing your data...**  
 
-1. Makes your project more transparent and thus more likely to be trusted and cited.
+1. Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing [@colavizza_citation_2020].
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’
-", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_636")
-```
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" title="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" />
 
 2. Helps your relieve your own workload so your email inbox isn't loaded by requests you probably don't have time to respond to.
 
@@ -106,3 +103,14 @@ The best way to find out if your data are useable by others is to have someone e
 There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.
 
 For more details on how to make data and code reproducible tips, see our [Intro to Reproducibility](https://www.itcrtraining.org/courses#h.ugabyqq1bigx) course.
+
+
+## Health care data sharing tools
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
+
+Healthcare Cost and Utilization Project (HCUP)
+
+Redcap
+
+Amazon Comprehend

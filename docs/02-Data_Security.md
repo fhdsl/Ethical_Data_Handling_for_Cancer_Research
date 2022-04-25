@@ -87,11 +87,37 @@ As an example of this in practice: If a postdoc is working on a project with sen
 
 ### WiFi
 
+Make sure you also only access secure WiFi networks. One way to ensure this is is to avoid using public WiFi networks. If you must use a public WiFi network, consider using a [virtual private network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) for added security. Here is an [article](https://www.wired.com/story/best-vpn/) about different VPN options [@gilbertson_4_2021].
+
 ### Passwords
 
-### Stale access
+Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
 
-### Flash drives.. not sure where to put this...
+Don't share your password and keep it safe!
+ 
+If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember. 
+
+<img src="resources/images/02-Data_Security_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
+
+### Cached data (maybe need to move - was going to be stale access)
+
+In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing)  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
+
+This process is used by the computer processor or CPU called a CPU cache, as well as software, which we will call a software cache. If you are working with data stored on your local computer, then a subset of short-term memory will be used for the cache, rather than requiring the user to access the data from where it is typically stored much further away in long-term memory. This is more efficient because it is located closer to processor and thus allows for requests on that data to happen faster [@memory_caching]. 
+
+
+This general process is also used for accessing data on servers or websites. For servers, a cache is often stored on the server side, while often for websites, a cache is stored locally on the user's computer in the long-term memory so that when users access the site again, access will be faster. Web browser caches can store your browsing history, cookies (a unique ID for the website to identify the user), as well as sensitive data. 
+
+
+Although this makes your work faster, caching poses some security risk. They provide additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches [@caching_security]. 
+
+In the case of a CPU or software cache, this can be important in case your laptop gets stolen, or if you decide to sell your laptop. The easiest way to clear such a cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power [@caching_security].
+
+See [here](https://www.upguard.com/blog/cache) for instructions on how to clear browser caches. It's a good idea to clear your browser cache relatively often, and possibly more often if you access sensitive data on your computer regularly.
+
+### Flash drives
+
+
 
 ## Data masking
 
@@ -166,6 +192,13 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 ## Data resiliency
 
+## Data recovery
+
 
 
 ## Security in workflows
+
+
+## Data protection tools for healthcare
+
+
