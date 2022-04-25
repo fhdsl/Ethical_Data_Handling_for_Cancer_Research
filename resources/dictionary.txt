@@ -58,8 +58,10 @@ FireCloud
 Geneology
 funders
 Goecks
+Goodstein
 GPUs
 GTEx
+Havasupai
 HCUP
 HealthCare
 HeLa
@@ -114,6 +116,7 @@ OHIF
 omics
 OpenBEL
 PII
+PillPack
 PKCS
 PoLP
 polymorphisms
