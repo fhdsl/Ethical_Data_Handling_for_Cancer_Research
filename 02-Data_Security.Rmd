@@ -208,6 +208,8 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 ## Data resiliency
 
+## Data recovery
+
 
 
 ## Security in workflows
