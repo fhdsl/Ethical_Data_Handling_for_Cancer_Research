@@ -123,12 +123,30 @@ This general process is also used for accessing data on servers or websites. For
 
 Although this makes your work faster, caching poses some security risk. They provide additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches [@caching_security]. 
 
-In the case of a CPU or software cache, this can be important in case your laptop gets stolen, or if you decide to sell your laptop. The easiest way to clear such a cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power [@caching_security].
+In the case of a CPU or software cache, this can be important in case your laptop gets stolen, or if you decide to sell your laptop. The easiest way to clear such a cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power [@caching_security]. Note that it can take a few minutes for such memory to disappear.
 
 See [here](https://www.upguard.com/blog/cache) for instructions on how to clear browser caches. It's a good idea to clear your browser cache relatively often, and possibly more often if you access sensitive data on your computer regularly.
 
-### Flash drives
+### External drives
 
+There are a few major reasons why external drives, especially flash and USB drives (also called thumb drives) pose a security risk.
+ 
+ - they are small and especially portable and thus easily taken or lost
+ - often these drives can contain malware that gets installed on your computer when you plug it into your computer
+ - the memory sometimes fails and gets damaged or corrupted
+ 
+ 
+There are several strategies you can take to avoid these issues, if you must use such a drive [@drives_CISA_2019, @durken_how_2021]:
+
+- never use a drive that you find randomly, ideally only use drives you get from a reputable manufacturer, even drives at conferences could pose a security risk
+- use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive)
+- disable AutoRun software which allows drives to automatically be opened. See [here](https://www.lifewire.com/disable-autorun-on-a-pc-153344) for how to do this. Note that this is mostly an issue for Windows computers.
+- remove the drive when not in use (it improves the life of the drive)
+- keep all your software up to date to get important security updates
+- editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer
+
+
+If you really need to use a drive that is questionable, check out this [article](https://www.popsci.com/safely-open-USB-flash-drive/) for practices to *more* safely open such a drive. 
 
 
 ## Data masking
@@ -210,6 +228,7 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 ## Data recovery
 
+> The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.[@durken_how_2021]
 
 
 ## Security in workflows
