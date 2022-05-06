@@ -145,7 +145,7 @@ There are several strategies you can take to avoid these issues, if you must use
 - keep all your software up to date to get important security updates
 - editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer
 
-
+ 
 If you really need to use a drive that is questionable, check out this [article](https://www.popsci.com/safely-open-USB-flash-drive/) for practices to *more* safely open such a drive. 
 
 
@@ -226,9 +226,11 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 ## Data resiliency
 
-## Data recovery
+Especially when working with precious data, in case something happens to a computer, drive or even server, it's a good idea to think about storing the data with multiple methods.
 
 > The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.[@durken_how_2021]
+
+https://redmondmag.com/articles/2021/12/01/modernizing-the-3-2-1-backup-rule.aspx#:~:text=Backup%20vendors%20often%20try%20to,with%20cloud%20backup%20in%20mind.
 
 
 ## Security in workflows
