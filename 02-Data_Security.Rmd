@@ -226,11 +226,14 @@ One method to ensure that the deleted data is really eliminated is to physically
 
 ## Data resiliency
 
-Especially when working with precious data, in case something happens to a computer, drive or even server, it's a good idea to think about storing the data with multiple methods.
+If you are working with precious data directly on your laptop, in case something happens to a computer, it's a good idea to think about storing the data with multiple locations.
 
 > The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.[@durken_how_2021]
 
-https://redmondmag.com/articles/2021/12/01/modernizing-the-3-2-1-backup-rule.aspx#:~:text=Backup%20vendors%20often%20try%20to,with%20cloud%20backup%20in%20mind.
+For example, you might think about having one copy on your password protected laptop, one encrypted and zipped copy on your password protected external drive at home, and another encrypted copy on your password protected external drive in your office. 
+
+
+However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead the 3 should indicate that there should be 3 additional copies to the original, 2 indicates that there should be copies stored in two different places on a server or two regions in a cloud (where possible), and the 1 indicates that you should have one copy of the data that is closer to where it was originally created just in case something happens with the server or cloud that you are using [@posey_modernizing_2021].  
 
 
 ## Security in workflows
