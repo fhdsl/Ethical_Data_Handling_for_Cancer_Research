@@ -32,6 +32,7 @@ PII (personal identifiable information) are items that would allow you to identi
   - Full face photographs
   - IP addresses
 
+ 
 ## PHI (protected health information)
 
 The [U.S. Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html) describes protected health information (PHI) as:
@@ -64,6 +65,7 @@ This includes 18 categories:
 - Other identifying numbers or codes
 
 
+
 ## What genomic data is protected?
 
 So what does this mean for the data you handle?
@@ -81,6 +83,10 @@ So what does this mean for the data you handle?
 **What is not protected and generally is safe:**   
 
 - Summarized cohort data
+ 
+ Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
+ 
+ 
 
 ## How to protect this information
 
@@ -93,9 +99,11 @@ Make sure the data is stored in a place that only these few people who are allow
 
 2. Aggressively de-identify the shared data
 
-Before results or data are shared or published, it is aggressively de-identified.
+Before results or data are shared or published, it is aggressively de-identified. We will talk more about what this is in the next chapter.
 If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.
 
 3. Err on the side of caution!
 
 If in doubt if something counts as PHI or PII, or if you are unsure whether a database or repository is secure, ask! 
+
+avocado - who can they ask?

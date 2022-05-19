@@ -158,12 +158,50 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ```
 
 ### De-identification
-https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html
-https://opin.com/de-identify-health-information-phi-v2/
-https://en.wikipedia.org/wiki/De-identification
+
+Data de-identification is the process of removing any values that could be personally identifiable. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.
+Re-identification is the process of determining the identity of such individuals based on data [@de-identification_2022]. Typically an ID number is assigned to each individual to allow for re-identification. 
+
+The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should ***not*** be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) which is a condensed representation of an individual's data (including identifiable information) to a standard ID length.  Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked (but are not intended for re-identification), which can be helpful for longitudinal studies [@hipaa_regulations]. See [here](https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368) for additional information about HIPAA de-identification regualtions.
+
+While somewhat useful for protecting the identity of those included in data, de-identification is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary. 
+
+The HIPAA Privacy Rule specifies two methods or standards for de-identification: Safe Harbor and Expert Determination.
+
+
+<div class = "warning">
+While it is possible to de-identify your data your self, we do not suggest that you do so. Please seek an expert instead. The possible risks of the individuals being re-identified are too high. 
+</div>
+
+
 #### Safe harbor
+
+This method is the more extreme of the two and results in more loss of data.
+A list of 18 standard identifiers must be removed from the data. These are the same 18 PHI categories of identifiers that we described in the last chapter, including name, IP addresses, etc [@rights_ocr_guidance_2012]. Additional rules are required as well. For example zip codes may remain in the data if they are shortened to the initial 3 digits and meet certain population threshold criteria. Dates can only remain at the year level, with extra protection for individuals over 89 years of age. However other abbreviations, such as name initials are not permitted.
+
+
+
 #### Expert Determination
+
+This method attempts to preserve more of the original data, and data is removed based on the risk of re-identification. As the name describes, an expert evaluates the risk for re-identification of the various values within the data including what the risk might be with if the data were to be combined with other data sources.  Ultimately data is removed until there is only a very small risk of someone being able to re-identify the individuals with data values among the dataset. The expert records what methods they used an the analysis that they did to determine the risk.
+
+
+
+There is no standardized single way to mitigate risk, but again a set of methods. These typically involve slight modifications to the data called **perturbation**, coding certain values called **generalization** or removal of data called **suppression**. These can occur at the feature level, such as all ages, at the individual level, such as removal of one individual, or at the value level, such as one data value for one individual.
+
+An example of perturbation could be the modification of age by up to 5 years. 
+An example of generalization would be that all individuals over a certain age could be given the same age group value. As example of suppression at the feature level, one could remove all names. As example of suppression at the individual level, in some cases there are individuals who are themselves very distinguishable due to some extreme attribute about themselves and may need to be removed due to the uniquely high risk of identification. If there is just one aspect about these individuals, than that value for the individual can be removed instead of removing the individual from the data entirely. 
+
+
+
+
 #### Limitations
+
+In some cases removing protected information can result in data loss that could impede research initiatives. However, generally the limitations of de-identification are the risks that they pose for re-identification. 
+
+For Expert Determination, there is no specific degree requirement or training to be considered an "expert", however typically they are individuals with a statistical background. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsly populated area, they could become identifiable.  There is also no  standard single method to assess re-identification risk. Instead there are a set of methods that follow major principles of risk assessment. They are based on the ability to reproduce the data values for the individual, the availability of identifiable data values from other sources, and the uniqueness or distinguishability of the data values. However, whatever methods are used, the expert is required to document this and make it available to the OCR if they request it. 
+
+Even safe harbor which is a more stringent method, has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.
 
 ### Encryption
 
