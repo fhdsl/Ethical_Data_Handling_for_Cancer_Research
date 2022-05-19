@@ -280,3 +280,11 @@ However, in the age of cloud computing and servers, this rule needs to be update
 ## Data protection tools for healthcare
 
 redcap
+
+## Email security
+
+### Phishing
+
+https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png
+
+### Email Encryption
