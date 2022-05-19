@@ -170,7 +170,7 @@ The HIPAA Privacy Rule specifies two methods or standards for de-identification:
 
 
 <div class = "warning">
-While it is possible to de-identify your data your self, we do not suggest that you do so. Please seek an expert instead. The possible risks of the individuals being re-identified are too high. 
+While it is possible to de-identify your data yourself, unless you are an expert,  we suggest that you seek out an expert to help you instead. There are nuances regarding privacy that you may miss without ample experience.
 </div>
 
 
@@ -279,4 +279,4 @@ However, in the age of cloud computing and servers, this rule needs to be update
 
 ## Data protection tools for healthcare
 
-
+redcap
