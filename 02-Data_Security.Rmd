@@ -292,7 +292,7 @@ However we understand that there are situations where you might need to email da
 
 How do you do this?
 
-If you use outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date.
+If you use Outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date.
 
 
 ### Phishing
