@@ -58,8 +58,9 @@ fastq
 FedRAMP
 FigShare
 FireCloud
-Geneology
 funders
+Geneology
+Gmail
 Goecks
 Goodstein
 GPUs

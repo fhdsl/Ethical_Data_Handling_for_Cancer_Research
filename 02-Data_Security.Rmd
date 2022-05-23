@@ -282,9 +282,20 @@ However, in the age of cloud computing and servers, this rule needs to be update
 redcap
 
 ## Email security
+Email can also pose a risk for our data. This can be due to the security risks of actually emailing our data to a colleague or issues related to having our computer hacked by someone through phishing emails.
+
+### Email Encryption
+
+If possible we would suggest that you avoid sharing data through email, and instead share data through other means, such as a shared computing platform, especially if you have data that requires HIPAA compliance and you have identified a platform to work on that is HIPAA compliant. Please see our [computing course](https://jhudatascience.org/Computing_for_Cancer_Informatics/) for more information about this. 
+
+However we understand that there are situations where you might need to email data. If your data has any PHI or PII, we suggest that you only send such emails using a secure network and using an encrypted email.
+
+How do you do this?
+
+If you use outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date.
+
 
 ### Phishing
 
 https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png
 
-### Email Encryption
