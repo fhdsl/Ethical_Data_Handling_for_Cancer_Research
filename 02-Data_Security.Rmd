@@ -297,30 +297,35 @@ If you use Outlook, there are options to do so currently under the "Draft" menu,
 
 ### Phishing
 
-You likely have heard from your IT department at your institute about being careful about phishing emails. If you are working with PII or PHI, then you need to be extra vigalent. Phising emails are emails in which someone tries to get you to click on a link or to respond with credential information in order to hack your computer or gain access to sensitive data. Criminals are getting more sophisticated in their attempts.
+You likely have heard from your IT department at your institute about being careful about [phishing](https://en.wikipedia.org/wiki/Phishing). If you are working with PII or PHI, then you need to be extra vigilant. Phishing emails are emails in which someone tries to get you to click on a link or to respond with credential information in order to hack your computer or gain access to sensitive data. **Spear phishing** occurs when someone poses as an individual, often someone who is more senior at the institution (this is specifically called **whaling**), to gain information from others [@phishing_2022]. Criminals are getting more sophisticated in their attempts, making it more difficult to avoid.
 
 Here are some things to look out for:
 
 1) Be very weary about emails from unrecognized senders!
 
-You can look up the sender to verify if the person is who you expect. If the email looks suspicious but still potentially real, you could contact the individual on linked-in or elsewhere to verify if the person actually contacted you. If their email does not match their name this is also extra suspicious. For example, if you get an email signed by George and the email is Peter125@network.org, this could very well be a phishing attempt. 
+You can look up the sender to verify if the person is who you expect. If the email looks suspicious but still potentially real, you could contact the individual on linked-in or elsewhere to verify if the person actually contacted you. If their email does not match their name this is also extra suspicious. For example, if you get an email signed by George and the email is `Peter125@network.org`, this could very well be a phishing attempt. 
 
 2) Check the senders email.
 
-Make sure that the email address from the sender looks like what you recognize. If you know the sender and they send you an email with an unusual email address, be  careful. You can send them an email to their typical address to verify if it is really them. For example if your boss Karen, sends you an email from kit345@TSU.edu or titan@hotmail.com and typically her email is karenw3@TSU.edu, you should be suspicious.
+Make sure that the email address from the sender looks like what you recognize. If you know the sender and they send you an email with an unusual email address, be  careful. You can send them an email to their typical address to verify if it is really them. For example if your boss Karen, sends you an email from `kit345@TSU.edu` or `titan@hotmail.com` and typically her email is `karenw3@TSU.edu`, you should be suspicious.
 
 3)  Watch out for links.
 
-Avoid clicking on links in emails where possible. If you must click a link, first  make sure that the link looks like what you would expect. It's also a good idea to send a follow-up fresh email (not a reply) or, communicate using another method (phone, slack, different email address) to make sure the individual actually sent the link instead of a hacker if the link seems out of context. For example, your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link that does not look like a Google doc link, then do not click it before verifying that the person really intended to send it.
+Avoid clicking on links in emails as much as possible! If you know that your colleague is sending you a link and you see it right away, that is probably trustworthy, but if your admin sends you a link out of the blue, you should be careful. If you must click a link, first make sure that the link looks like what you would expect. Second, send a follow-up communication using another method (phone, slack, different email address), or email a different colleague that you know works with the individual to make sure the individual actually sent the link instead of a hacker.  For example, if your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. Keep in mind that phishing criminals can make the emails look very legitimate!
+
+4) Be especially careful of links from two similar emails.
+
+**Clone phishing** is a sophisticated method in which a legitimate email may be maliciously changed and resent to recipients claiming that there was a necessary change. Be especially careful in such situations where you receive nearly duplicate emails with links and reach out to those who sent it to make sure that a repeated email was really from them [@phishing_2022].
 
 4) Don't give your credentials in emails! Be careful giving other information.
 
-If someone asks for your credentials be especially concerned. Generally you will not need to share your password with anyone. Typically administrators will have you log in to whatever platform or system you are working in and proceed from there or they will reset your password. If someone asks for your password or username, it is highly likely  a phishing attempt, even if it seems like it is coming from a verified source. For example, let's say the chair of your department suddenly (out of context) asks you for your personal phone number. Before sending this information, contact the chair by other means to make sure this request is legitimate. 
+If someone asks for your credentials or personal information, you should be especially concerned. Generally you will not need to share your password with anyone. Typically administrators will have you log in to whatever platform or system you are working in and proceed from there or they will reset your password. If someone asks for your password or username, it is highly likely  a phishing attempt, even if it seems like it is coming from a verified source. An example of this type of phishing is if the chair of your department suddenly (out of context) asks you for your personal phone number. Before sending this information, contact the chair by other means to make sure this request is legitimate. 
 
 
 Additionally, be careful logging into websites as well. Make sure that you are indeed at the link you expect - one way to avoid this is to make a bookmark of the sites that you log in to. 
 
-See [here](https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for form the HIPAA journal.
+See [here](https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for from the HIPAA journal.
 
 
 
+https://www.imperva.com/learn/application-security/phishing-attack-scam/
