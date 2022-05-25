@@ -111,7 +111,7 @@ See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-
 
 4. Err on the side of caution!
 
-If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possbly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.
+If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possibly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.
 
 If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository! 
 
