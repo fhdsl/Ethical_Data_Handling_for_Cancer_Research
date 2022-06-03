@@ -6,7 +6,7 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Ethical Data Handling for Cancer Research. Written by: Carrie Wright. Contributed and Edited by: Sarah Wheelan and Jeff Leek", out.width= "100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Ethical Data Handling for Cancer Research. Written by: Carrie Wright. Contributed and Edited by: Candace Savonen and Jeff Leek", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.p")
 ```
 
