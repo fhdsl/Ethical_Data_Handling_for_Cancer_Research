@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-05-19" />
+<meta name="date" content="2022-06-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -106,7 +106,11 @@ div.csl-indent {
 <li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a></li>
 <li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
 <li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>2.3</b> What genomic data is protected?</a></li>
-<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#how-to-protect-this-information"><i class="fa fa-check"></i><b>2.4</b> How to protect this information</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.4</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.5</b> How is HIPAA enforced?</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.5.1</b> Common Violations</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
 <ul>
@@ -130,6 +134,11 @@ div.csl-indent {
 <li class="chapter" data-level="3.5" data-path="data-security.html"><a href="data-security.html#data-resiliency"><i class="fa fa-check"></i><b>3.5</b> Data resiliency</a></li>
 <li class="chapter" data-level="3.6" data-path="data-security.html"><a href="data-security.html#security-in-workflows"><i class="fa fa-check"></i><b>3.6</b> Security in workflows</a></li>
 <li class="chapter" data-level="3.7" data-path="data-security.html"><a href="data-security.html#data-protection-tools-for-healthcare"><i class="fa fa-check"></i><b>3.7</b> Data protection tools for healthcare</a></li>
+<li class="chapter" data-level="3.8" data-path="data-security.html"><a href="data-security.html#email-security"><i class="fa fa-check"></i><b>3.8</b> Email security</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="data-security.html"><a href="data-security.html#email-encryption"><i class="fa fa-check"></i><b>3.8.1</b> Email Encryption</a></li>
+<li class="chapter" data-level="3.8.2" data-path="data-security.html"><a href="data-security.html#phishing"><i class="fa fa-check"></i><b>3.8.2</b> Phishing</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
@@ -211,7 +220,7 @@ div.csl-indent {
 <div id="data-privacy" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Data Privacy</h1>
 <p>Cancer research often involves personal health data that requires compliance with <a href="https://searchhealthit.techtarget.com/definition/HIPAA">Health Insurance Portability and Accountability Act (HIPAA)</a> regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.</p>
-<p><img src="resources/images/03-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
 <p>There are two kinds of information that we will need to be careful to protect:
 <em>personal identifiable information (PII)</em> and <em>protected health information (PHI)</em></p>
 <p>Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.</p>
@@ -284,9 +293,9 @@ the past, present, or future payment for the provision of health care to the ind
 </ul>
 <p>Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.</p>
 </div>
-<div id="how-to-protect-this-information" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> How to protect this information</h2>
-<p>Your institution will have guidance regarding how to keep this information protected but in general there are 3 main strategies we will summarize here:</p>
+<div id="how-to-ensure-the-privacy-of-this-information" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> How to ensure the privacy of this information</h2>
+<p>Your institution will have guidance regarding how to keep this information private and protected but in general there are 4 main strategies we will summarize here:</p>
 <ol style="list-style-type: decimal">
 <li>As few eyes as possible</li>
 </ol>
@@ -298,11 +307,60 @@ Make sure the data is stored in a place that only these few people who are allow
 <p>Before results or data are shared or published, it is aggressively de-identified. We will talk more about what this is in the next chapter.
 If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.</p>
 <ol start="3" style="list-style-type: decimal">
+<li>Consider a data use agreement</li>
+</ol>
+<p>Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. <strong>Finally if you need to share data that is not fully de-identified, than a data use agreement is required.</strong> Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.</p>
+<p>See <a href="https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf">here</a> and <a href="https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf">here</a> for more information about when you might need a Data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.</p>
+<p>See <a href="https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf">here</a> for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.</p>
+<ol start="4" style="list-style-type: decimal">
 <li>Err on the side of caution!</li>
 </ol>
-<p>If in doubt if something counts as PHI or PII, or if you are unsure whether a database or repository is secure, ask!</p>
-<p>avocado - who can they ask?</p>
+<p>If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possibly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.</p>
+<p>If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository!</p>
+</div>
+<div id="how-is-hipaa-enforced" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> How is HIPAA enforced?</h2>
+<p>The <a href="https://www.hhs.gov/ocr/index.html">Office for Civil Right (OCR)</a> of the United States Department of Health and Human Services is in charge of enforcing HIPAA compliance.</p>
+<p>If you feel that someone is using or sharing data that is in violation of HIPAA compliance, you can file a complaint online using the <a href="https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf">OCR compliant portal</a>. Typically you should see if you can get the violation to be resolved through local means by contacting research administrators or management. However, you could submit to the OCR. Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.</p>
+<p>If compliance is not resolved, than the covered entity may have to pay fines.</p>
+<p>Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of <code>$</code>50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to <code>$</code>250,000 and may face jail time of up to 10 years <span class="citation">(<a href="#ref-violations_2018" role="doc-biblioref">eLearning 2018</a>)</span>.</p>
+<div id="common-violations" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> Common Violations</h3>
+<p>Common violations of HIPAA taken from <span class="citation">eLearning (<a href="#ref-violations_2018" role="doc-biblioref">2018</a>)</span> are:</p>
+<ol style="list-style-type: decimal">
+<li>A lack of encryption</li>
+</ol>
+<p>If your email or data transfer is intercepted it is important to keep your data safe! We will talk more about how to do this in the next chapter.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Computer hacking or phishing</li>
+</ol>
+<p>If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. The data security practices that we will describe in the next chapter will help avoid this.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Unauthorized Access</li>
+</ol>
+<p>Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore leaving your laptop open to PHI data in public or even at home can pose a risk from people who walk by.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Loss or Theft of Devices</li>
+</ol>
+<p>If your laptop are external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next. Again the measures in the next chapter will help to avoid this potential issue.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Improper Disposal of data or devices</li>
+</ol>
+<p>Sometimes there are remnants of your data still on your device!</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Unsecured access to data</li>
+</ol>
+<p>Accessing your data form an unsecured WIFI network can also make the data vulnerable.</p>
+<p>See <a href="https://privacyruleandresearch.nih.gov/faq.asp">here</a> for more information about HIPAA and research.</p>
+<p>In the next chapter, we will talk about measures that you can do to avoid these violations.</p>
 
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-violations_2018" class="csl-entry">
+eLearning, Inspired. 2018. <span>“Most <span>Common</span> <span>HIPAA</span> <span>Violations</span> <span>With</span> <span>Examples</span>.”</span> <em>Inspired eLearning</em>. <a href="https://inspiredelearning.com/blog/hipaa-violation-examples/">https://inspiredelearning.com/blog/hipaa-violation-examples/</a>.
 </div>
 </div>
 <hr>

@@ -305,6 +305,19 @@ div.warning{
   background-image: url("../assets/box_images/warning.png");
 }
 
+div.email{
+  border: 1px #000000;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  background-color: #E5E4E2;
+}
+
 
 
 div.github{

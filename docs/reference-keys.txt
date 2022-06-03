@@ -6,7 +6,9 @@ data-privacy
 pii-personal-identifiable-information
 phi-protected-health-information
 what-genomic-data-is-protected
-how-to-protect-this-information
+how-to-ensure-the-privacy-of-this-information
+how-is-hipaa-enforced
+common-violations
 data-security
 data-security-strategies
 data-access
@@ -30,6 +32,9 @@ data-erasure
 data-resiliency
 security-in-workflows
 data-protection-tools-for-healthcare
+email-security
+email-encryption
+phishing
 data-sharing
 data-sharing-is-important
 data-repositories
