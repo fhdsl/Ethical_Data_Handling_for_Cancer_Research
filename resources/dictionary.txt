@@ -26,7 +26,9 @@ chemosensitivity
 citable
 CFR
 Coombes
+COVID
 cryptographic
+CSUN
 cybercriminal
 cybercriminals
 cyberinfastructure
@@ -44,9 +46,12 @@ de-identification
 discoverability
 distinguishability
 DBMI
+Dmca
+DMCA
 DNAnexus
 Dockstore
 DSA
+DUA
 EBI
 ENIAC
 EMBL
@@ -58,8 +63,9 @@ fastq
 FedRAMP
 FigShare
 FireCloud
-Geneology
 funders
+Geneology
+Gmail
 Goecks
 Goodstein
 GPUs
@@ -114,6 +120,7 @@ NCI
 NCSA
 NHGRI
 NLP
+Northridge
 n2c2
 OHIF
 omics

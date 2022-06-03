@@ -170,7 +170,7 @@ The HIPAA Privacy Rule specifies two methods or standards for de-identification:
 
 
 <div class = "warning">
-While it is possible to de-identify your data your self, we do not suggest that you do so. Please seek an expert instead. The possible risks of the individuals being re-identified are too high. 
+While it is possible to de-identify your data yourself, unless you are an expert,  we suggest that you seek out an expert to help you instead. There are nuances regarding privacy that you may miss without ample experience.
 </div>
 
 
@@ -278,5 +278,113 @@ However, in the age of cloud computing and servers, this rule needs to be update
 
 
 ## Data protection tools for healthcare
+
+redcap
+
+## Email security
+Email can also pose a risk for our data. This can be due to the security risks of actually emailing our data to a colleague or issues related to having our computer hacked by someone through phishing emails.
+
+### Email Encryption
+
+If possible we would suggest that you avoid sharing data through email, and instead share data through other means, such as a shared computing platform, especially if you have data that requires HIPAA compliance and you have identified a platform to work on that is HIPAA compliant. Please see our [computing course](https://jhudatascience.org/Computing_for_Cancer_Informatics/) for more information about this. 
+
+However we understand that there are situations where you might need to email data. If your data has any PHI or PII, we suggest that you only send such emails using a secure network and using an encrypted email.
+
+How do you do this?
+
+If you use Outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date.
+
+
+### Phishing
+
+You likely have heard from your IT department at your institute about being careful about [phishing](https://en.wikipedia.org/wiki/Phishing). If you are working with PII or PHI, then you need to be extra vigilant. Phishing emails are emails in which someone tries to get you to click on a link or to respond with credential information in order to hack your computer or gain access to sensitive data. **Spear phishing** occurs when someone poses as an individual, often someone who is more senior at the institution (this is specifically called **whaling**), to gain information from others [@phishing_2022]. Criminals are getting more sophisticated in their attempts, making it more difficult to avoid.
+
+Here are some things to look out for:
+
+1) Be very weary about emails from unrecognized senders!
+
+You can look up the sender to verify if the person is who you expect. If the email looks suspicious but still potentially real, you could contact the individual on linked-in or elsewhere to verify if the person actually contacted you. If their email does not match their name this is also extra suspicious. For example, if you get an email signed by George and the email is `Peter125@network.org`, this could very well be a phishing attempt. 
+
+2) Check the senders email.
+
+Make sure that the email address from the sender looks like what you recognize. If you know the sender and they send you an email with an unusual email address, be  careful. You can send them an email to their typical address to verify if it is really them. For example if your boss Karen, sends you an email from `kit345@TSU.edu` or `titan@hotmail.com` and typically her email is `karenw3@TSU.edu`, you should be suspicious.
+
+3)  Watch out for links.
+
+Avoid clicking on links in emails as much as possible! If you know that your colleague is sending you a link and you see it right away, that is probably trustworthy, but if your admin sends you a link out of the blue, you should be careful. If you must click a link, first make sure that the link looks like what you would expect. Second, send a follow-up communication using another method (phone, slack, different email address), or email a different colleague that you know works with the individual to make sure the individual actually sent the link instead of a hacker.  Make sure that you don't get the phone number or other information to validate if the individual really sent you the email from the suspicious email itself. 
+
+An example of these types of phishing methods is if your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. Keep in mind that phishing criminals can make the emails look very legitimate!
+
+Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
+
+
+<div class = "email">
+From: xxxxx, xxxxx< >
+Date: Tue, May 25, 2021 at 3:01 PM
+Subject: Action Required | Returning to Campus Guide for Employees Training
+
+Dear Colleague,
+
+Our records show that you have not completed the Returning to Campus Guide for Employees Training. This training is required to ensure CSUN is in compliance with California OSHA law which mandates that all employees be trained on COVID safety. Please complete this important safety training video ASAP. If you are having issues accessing the course, let me know.
+
+Here’s a shortcut to access the training,
+(Link has been removed) from this link, you’ll select “Northridge” from the drop down and then sign-in with your CSUN credentials. Then select the “Start” button to view the training.
+
+</div>
+
+4) Be especially careful of links from two similar emails.
+
+**Clone phishing** is a sophisticated method in which a legitimate email may be maliciously changed and resent to recipients claiming that there was a necessary change. Be especially careful in such situations where you receive nearly duplicate emails with links and reach out to those who sent it to make sure that a repeated email was really from them [@phishing_2022].
+
+5) Be careful about attachments!
+
+Similar to links, if you receive an email with an attachment that you do not expect you should be careful and not open them unless you verify by other means that the sender really meant to send you an attachment. 
+
+6) Don't give your credentials in emails! Be careful giving personal information.
+
+If someone asks for your credentials or personal information, you should be especially concerned. Generally you will not need to share your password with anyone. Typically administrators will have you log in to whatever platform or system you are working in and proceed from there or they will reset your password. If someone asks for your password or username, it is highly likely  a phishing attempt, even if it seems like it is coming from a verified source. An example of this type of phishing is if the chair of your department suddenly (out of context) asks you for your personal phone number. Before sending this information, contact the chair by other means to make sure this request is legitimate. 
+
+7) Watch out for urgent situations.
+
+Often phishers will create a false urgent situation to trick you into clicking a link or giving information.
+
+Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
+
+
+<div class = "email">
+
+
+Hello there!
+
+My name is Sarah.
+
+Your website or a website that your company hosts is infringing on a copyrighted images owned by myself.
+
+Check out this doc with the hyperlinks to my images you utilized at  (URL removed) and my previous publication to find the evidence of my copyrights.
+
+Download it now and check this out for yourself:
+
+(URL removed)
+
+I believe you've intentionally infringed my rights under 17 U.S.C. Sec. 101 et seq. and could possibly be liable for statutory damage as high as $150,000 as set forth in Section 504 (c)(2) of the Digital millennium copyright act(DMCA) therein.
+
+This message is official notification. I demand the elimination of the infringing materials referenced above. Take note as a service provider, the Dmca demands you, to remove and/or deactivate access to the copyrighted materials upon receipt of this notification letter. If you do not cease the utilization of the previously mentioned copyrighted content a law suit will likely be initiated against you.
+
+I do have a strong belief that utilization of the copyrighted materials referenced above as presumably infringing is not approved by the copyright proprietor, its agent, as well as legislation.
+
+I swear, under penalty of perjury, that the information in this letter is accurate and that I am the copyright proprietor or am certified to act on behalf of the proprietor of an exclusive and legal right that is presumably violated.
+
+Sincerely,
+
+Sarah Olson
+
+07/21/2021
+
+</div>
+
+Additionally, be careful logging into websites as well. Make sure that you are indeed at the link you expect - one way to avoid this is to make a bookmark of the sites that you log in to. 
+
+See [here](https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for from the HIPAA journal.
+
 
 

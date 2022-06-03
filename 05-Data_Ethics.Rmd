@@ -241,7 +241,7 @@ Places that report data breaches - based on @@seh_breaches_2020:
 4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
 5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
 
-
+maybe talk about federated learning? https://www.nature.com/articles/s41591-021-01614-0
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/
 
