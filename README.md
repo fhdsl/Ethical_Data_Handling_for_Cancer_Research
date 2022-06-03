@@ -5,7 +5,7 @@
 
 This course was created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
-You can see the rendered course material here:  https://jhudatascience.org/Data_Management_for_Cancer_Research
+You can see the rendered course material here:  https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/
 
 If you would like to contribute to this course material, take a look at the [getting_started.md](./getting_started.md).
 
