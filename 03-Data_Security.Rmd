@@ -346,7 +346,7 @@ If someone asks for your credentials or personal information, you should be espe
 
 7) Watch out for urgent situations.
 
-Often phishers will create a false urgent sitation to trick you into clicking a link or giving information.
+Often phishers will create a false urgent situation to trick you into clicking a link or giving information.
 
 Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
 

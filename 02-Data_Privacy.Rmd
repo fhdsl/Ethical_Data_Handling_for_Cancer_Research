@@ -108,7 +108,7 @@ Data use agreements (DUA) are not typically required for HIPAA compliance when s
 
 See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a Data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
-See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in thelink if you adapt the template for your use.  
+See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.  
 
 4. Err on the side of caution!
 

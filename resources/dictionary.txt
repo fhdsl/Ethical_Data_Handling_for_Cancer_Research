@@ -26,7 +26,9 @@ chemosensitivity
 citable
 CFR
 Coombes
+COVID
 cryptographic
+CSUN
 cybercriminal
 cybercriminals
 cyberinfastructure
@@ -44,6 +46,8 @@ de-identification
 discoverability
 distinguishability
 DBMI
+Dmca
+DMCA
 DNAnexus
 Dockstore
 DSA
@@ -116,6 +120,7 @@ NCI
 NCSA
 NHGRI
 NLP
+Northridge
 n2c2
 OHIF
 omics
