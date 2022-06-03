@@ -1,5 +1,5 @@
 --- 
-title: "Data Management for Cancer Research"
+title: "Ethical Data Handling for Cancer Research"
 date: "2022-06-03"
 site: bookdown::bookdown_site
 documentclass: book
