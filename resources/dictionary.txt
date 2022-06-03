@@ -9,6 +9,7 @@ analytics
 Anil
 AnVIL
 ArrayExpress
+AutoRun
 bam
 Baggerly
 Biostrings
@@ -25,6 +26,7 @@ chemosensitivity
 citable
 CFR
 Coombes
+cryptographic
 cybercriminal
 cybercriminals
 cyberinfastructure
@@ -40,6 +42,7 @@ de
 De-identification
 de-identification
 discoverability
+distinguishability
 DBMI
 DNAnexus
 Dockstore
