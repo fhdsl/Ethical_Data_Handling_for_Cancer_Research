@@ -63,7 +63,9 @@ fastq
 FedRAMP
 FigShare
 FireCloud
+FISMA
 funders
+GDPR
 Geneology
 Gmail
 Goecks
@@ -125,6 +127,8 @@ n2c2
 OHIF
 omics
 OpenBEL
+ORI
+overcommitted
 PII
 PillPack
 PKCS
@@ -136,8 +140,10 @@ Potti's
 proteomic
 punchcards
 QuIP
+REDCap
 ReMy
 Reproducibility
+reproducibility
 RNA
 RSA
 README
