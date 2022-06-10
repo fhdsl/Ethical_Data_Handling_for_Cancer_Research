@@ -139,7 +139,7 @@ There are several things to keep in mind when using REDCap from an ethical stand
 
 1) Roles
 
-REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
+REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
 
 You can modify these roles using the `User Rights` menu.
 
