@@ -18,6 +18,10 @@ Sharing data is critical for optimizing the advancement of scientific understand
 
 This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 
+<div class = "warning">
+Note that many institutes and funding agencies or mechanisms have requirements about how your data can be shared. Typically data sharing of protected data also requires Institutional Review Board (IRB) approval before the study is conducted. Ensure that you are following those requirements before you share your data.
+</div>
+
 There's so many excellent reasons to put your data in a repository whether or not a journal requires it:  
 
 **Sharing your data...**  
