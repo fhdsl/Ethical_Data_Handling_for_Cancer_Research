@@ -141,13 +141,30 @@ There are several things to keep in mind when using REDCap from an ethical stand
 
 REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
 
-You can modify these roles using the `User rights` menu. This will first show you who has what role on the project and their rights. You can click on an individual role to modfiy it.
+You can modify these roles using the `User Rights` menu.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "REDCap User Rights Menu", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_17")
+```
+
+This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Menu items within the User Rights menu on REDcap", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_22")
+```
 
 These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
 2) Reports
 
 Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on [de-identification](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification) to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.
+
+For example, you might remove the dates from the following report:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "REDCap reports can be modified to remove identifiable information.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_10")
+```
+
 
 3) Auditing
 
@@ -160,6 +177,12 @@ If your instruments are too long, this can result in accidentally sharing data t
 5) Data can be locked
 
 You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified. 
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Later project steps in REDCap can lock all data from being modified.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_28")
+```
+
 
 6) Security
 
