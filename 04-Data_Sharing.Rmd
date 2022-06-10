@@ -116,7 +116,7 @@ Reproducible projects are able to be re-run by others to obtain the same results
 ### Have someone else review your code and data!
 
 The best way to find out if your data are useable by others is to have someone else look it over!
-There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.
+There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is usable is to have someone else (who has not prepared the data) is able to make sense of it.
 
 For more details on how to make data and code reproducible tips, see our [Intro to Reproducibility](https://www.itcrtraining.org/courses#h.ugabyqq1bigx) course.
 
@@ -124,7 +124,7 @@ For more details on how to make data and code reproducible tips, see our [Intro 
 ## Health care data sharing tools
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
-
+Amazon Comprehend
 Healthcare Cost and Utilization Project (HCUP)
 
 ### REDCap (Research Electronic Data Capture)
@@ -168,7 +168,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 3) Auditing
 
-REDCap keeps track of all modifications and data exports or report generations and who performs those actions. This can be helpful for checking what has happened and when  in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the `logging` menu.
+REDCap keeps track of all data modifications, as well as data exports or report generations, in addition to keeping track of who performs those actions. This can be helpful for checking what has happened and when, in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the `logging` menu.
 
 4) Keep instruments short
 
@@ -193,4 +193,3 @@ Keep in mind that your institution likely has their own guidelines for how to us
 </div>
 
 
-Amazon Comprehend
