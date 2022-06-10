@@ -129,13 +129,17 @@ Healthcare Cost and Utilization Project (HCUP)
 
 REDCap allows for multi-institutional work, as well as compliance with HIPAA, 21 CFR Part 11, FISMA, HIPAA, and GDPR. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research [@redcap_2022]. 
 
-You can find out more about how to use REDCap at the [Redcap website](https://projectredcap.org/) which includes instructional [videos](https://projectredcap.org/resources/videos/) and other resources. 
+You can find out more about how to use REDCap at the [REDCap website](https://projectredcap.org/) which includes instructional [videos](https://projectredcap.org/resources/videos/) and other resources. 
 
-There are 3 main things to keep in mind when using REDCap from an ethical standpoint.
+There are several things to keep in mind when using REDCap from an ethical standpoint.
 
 1) Roles
 
-REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
+REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
+
+You can modify these roles using the `User rights` menu. This will first show you who has what role on the project and their rights. You can click on an individual role to modfiy it.
+
+These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
 2) Reports
 
@@ -143,10 +147,23 @@ Reports that are exported can be customized to only show data that should be sha
 
 3) Auditing
 
-REDCap keeps track of all modifications and data exports or report generations and who performs those actions. This can be helpful for checking what has happened to the data.
+REDCap keeps track of all modifications and data exports or report generations and who performs those actions. This can be helpful for checking what has happened and when  in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifcations to the data. This information can be obtained from the `logging` menu.
 
-4) Security
+4) Keep instruments short
+
+If your instruments are too long, this can result in accidentally sharing data that you don't intend to, simply becuase you have more data to sift through. This also makes it easier to generate reports only on specific data that you would like to share.
+
+5) Data can be locked
+
+You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified. 
+
+6) Security
 
 Scott Carey can help with this section maybe
+
+<div class = "warning">
+Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.
+</div>
+
 
 Amazon Comprehend
