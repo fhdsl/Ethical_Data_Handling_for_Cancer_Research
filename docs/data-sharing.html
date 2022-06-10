@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-06-03" />
+<meta name="date" content="2022-06-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -156,7 +156,10 @@ div.csl-indent {
 <li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
 <li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a></li>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
 <ul>
@@ -175,9 +178,15 @@ div.csl-indent {
 <li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#current-ethical-issues"><i class="fa fa-check"></i><b>5.5</b> Current Ethical Issues</a>
 <ul>
 <li class="chapter" data-level="5.5.1" data-path="data-ethics.html"><a href="data-ethics.html#consent-for-data-reuse"><i class="fa fa-check"></i><b>5.5.1</b> Consent for Data Reuse</a></li>
-<li class="chapter" data-level="5.5.2" data-path="data-ethics.html"><a href="data-ethics.html#finding-artifacts"><i class="fa fa-check"></i><b>5.5.2</b> Finding Artifacts</a></li>
-<li class="chapter" data-level="5.5.3" data-path="data-ethics.html"><a href="data-ethics.html#protection-of-vulnerable-populations"><i class="fa fa-check"></i><b>5.5.3</b> Protection of Vulnerable Populations</a></li>
-<li class="chapter" data-level="5.5.4" data-path="data-ethics.html"><a href="data-ethics.html#data-security-and-privacy-in-the-age-of-ai"><i class="fa fa-check"></i><b>5.5.4</b> Data Security and Privacy in the Age of AI</a></li>
+<li class="chapter" data-level="5.5.2" data-path="data-ethics.html"><a href="data-ethics.html#data-sovereignty"><i class="fa fa-check"></i><b>5.5.2</b> Data sovereignty</a></li>
+<li class="chapter" data-level="5.5.3" data-path="data-ethics.html"><a href="data-ethics.html#finding-artifacts"><i class="fa fa-check"></i><b>5.5.3</b> Finding Artifacts</a></li>
+<li class="chapter" data-level="5.5.4" data-path="data-ethics.html"><a href="data-ethics.html#protection-of-vulnerable-populations"><i class="fa fa-check"></i><b>5.5.4</b> Protection of Vulnerable Populations</a></li>
+<li class="chapter" data-level="5.5.5" data-path="data-ethics.html"><a href="data-ethics.html#data-security-and-privacy-in-the-age-of-ai"><i class="fa fa-check"></i><b>5.5.5</b> Data Security and Privacy in the Age of AI</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.6</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Consequences of research misconduct</a>
+<ul>
+<li class="chapter" data-level="5.7.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.7.1</b> The Researcher</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
@@ -245,6 +254,9 @@ div.csl-indent {
 <h2><span class="header-section-number">4.1</span> Data sharing is important!</h2>
 <p>Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data.</p>
 <p>This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">here</a>.</p>
+<div class="warning">
+<p>Note that many institutes and funding agencies or mechanisms have requirements about how your data can be shared. Typically data sharing of protected data also requires Institutional Review Board (IRB) approval before the study is conducted. Ensure that you are following those requirements before you share your data.</p>
+</div>
 <p>There’s so many excellent reasons to put your data in a repository whether or not a journal requires it:</p>
 <p><strong>Sharing your data…</strong></p>
 <ol style="list-style-type: decimal">
@@ -344,15 +356,59 @@ There are so many little details that go into your data and projects. Those deta
 <h2><span class="header-section-number">4.4</span> Health care data sharing tools</h2>
 <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic</a></p>
 <p>Healthcare Cost and Utilization Project (HCUP)</p>
-<p>Redcap</p>
+<div id="redcap-research-electronic-data-capture" class="section level3" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> REDCap (Research Electronic Data Capture)</h3>
+<p><a href="https://www.project-redcap.org/">REDCap</a> is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a <a href="https://i2b2transmart.org/redcapcon2022/">conference</a> dedicated to it.</p>
+<p>REDCap allows for multi-institutional work, as well as compliance with HIPAA, 21 <a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11">CFR Part 11</a> for data for the FDA, <a href="https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act">FISMA</a> for government data, HIPAA, and <a href="https://gdpr-info.eu/">GDPR</a> for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research <span class="citation">(<a href="#ref-redcap_2022" role="doc-biblioref"><span>“<span>REDCap</span>”</span> 2022</a>)</span>.</p>
+<p>You can find out more about how to use REDCap at the <a href="https://projectredcap.org/">REDCap website</a> which includes instructional <a href="https://projectredcap.org/resources/videos/">videos</a> and other resources.</p>
+<p>There are several things to keep in mind when using REDCap from an ethical standpoint.</p>
+<ol style="list-style-type: decimal">
+<li>Roles</li>
+</ol>
+<p>REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary.</p>
+<p>You can modify these roles using the <code>User Rights</code> menu.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" title="REDCap User Rights Menu" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" /></p>
+<p>This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" title="Menu items within the User Rights menu on REDcap" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" /></p>
+<p>These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Reports</li>
+</ol>
+<p>Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on <a href="https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification">de-identification</a> to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.</p>
+<p>For example, you might remove the dates from the following report:</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" title="REDCap reports can be modified to remove identifiable information." alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Auditing</li>
+</ol>
+<p>REDCap keeps track of all modifications and data exports or report generations and who performs those actions. This can be helpful for checking what has happened and when in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the <code>logging</code> menu.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Keep instruments short</li>
+</ol>
+<p>If your instruments are too long, this can result in accidentally sharing data that you don’t intend to, simply because you have more data to sift through. This also makes it easier to generate reports only on specific data that you would like to share.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Data can be locked</li>
+</ol>
+<p>You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" title="Later project steps in REDCap can lock all data from being modified." alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" /></p>
+<ol start="6" style="list-style-type: decimal">
+<li>Security</li>
+</ol>
+<p>Scott Carey can help with this section maybe</p>
+<div class="warning">
+<p>Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.</p>
+</div>
 <p>Amazon Comprehend</p>
 
+</div>
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-colavizza_citation_2020" class="csl-entry">
 Colavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Barbara McGillivray. 2020. <span>“The Citation Advantage of Linking Publications to Research Data.”</span> <em>PLOS ONE</em> 15 (4): e0230416. <a href="https://doi.org/10.1371/journal.pone.0230416">https://doi.org/10.1371/journal.pone.0230416</a>.
+</div>
+<div id="ref-redcap_2022" class="csl-entry">
+<span>“<span>REDCap</span>.”</span> 2022. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=REDCap&amp;oldid=1086529440">https://en.wikipedia.org/w/index.php?title=REDCap&amp;oldid=1086529440</a>.
 </div>
 </div>
 <hr>

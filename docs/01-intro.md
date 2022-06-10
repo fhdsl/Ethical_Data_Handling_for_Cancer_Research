@@ -8,7 +8,7 @@
 
 ## Motivation
 
-One of the key cancer informatics challenges is dealing with and managing the explosion of data from multiple sources. This course is designed to help researchers and investigators to understand the key eithcal principles of data management from a privacy, security, usability and discoverability perspective. 
+One of the key cancer informatics challenges is dealing with and managing the explosion of data from multiple sources. This course is designed to help researchers and investigators to understand the key ethical principles of data management from a privacy, security, usability and discoverability perspective. 
 
 ## Target Audience 
 

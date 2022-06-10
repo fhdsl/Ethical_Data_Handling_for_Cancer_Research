@@ -47,6 +47,7 @@ use-consistent-and-clear-names
 make-your-project-reproducible
 have-someone-else-review-your-code-and-data
 health-care-data-sharing-tools
+redcap-research-electronic-data-capture
 data-ethics
 what-is-data-ethics
 before-and-after-research
@@ -58,7 +59,11 @@ recent-incidences
 general-ethics-code
 current-ethical-issues
 consent-for-data-reuse
+data-sovereignty
 finding-artifacts
 protection-of-vulnerable-populations
 minors
 data-security-and-privacy-in-the-age-of-ai
+causes-of-research-misconduct
+consequences-of-research-misconduct
+the-researcher

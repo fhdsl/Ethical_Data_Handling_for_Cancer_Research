@@ -196,6 +196,10 @@ hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-
 
 great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
 
+### Data sovereignty
+
+https://en.wikipedia.org/wiki/Data_sovereignty
+
 ### Finding Artifacts
 
 In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
@@ -243,3 +247,62 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/
 
 
 interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf
+
+## Causes of research misconduct
+
+A research study @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
+
+
+The following categories of factors were identified among the reports:
+1) Personal and professional stressors
+ This included statements about stressors encountered at work and personally such as:
+ 
+ - pressure to produce
+ - overworked
+ - insufficient time
+ - mental health issues
+ - overcommitted
+ - lack of support
+ - stress
+
+2) Organizational climate factors
+This included statements of factors such as:
+
+- insufficient mentoring/supervision
+- poor communication/coordination
+- substandard lab procedures
+- lost stolen data
+
+3) Job Insecurities
+These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.
+- Inappropriate responsibility
+-  Competition for position
+- Language Barrier
+ 
+4) Rationalizations
+Justifications that were often offered included:
+- Lack of control over environment
+- jumping to the gun to disseminate findings
+
+5) Personal Inhibitions
+Difficult job/task
+Frustrations
+
+6) Another category of Rationalizations
+
+Fear, Apathy/Dislike, Restoring Equity, Avoiding Degradation by Others, and Slippery Slope
+
+7) Personality traits
+
+
+Impatience, Amnesia, Laziness, Character Flaw, and Personal Need for Recognition
+Choosing Public Good over Science can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
+
+
+## Consequences of research misconduct
+
+
+### The Researcher
+
+According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, the face many consequences including possible debarment [@davis_causal_2007].
+
