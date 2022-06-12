@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2022-06-10" />
+<meta name="date" content="2022-06-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -348,24 +348,25 @@ There are two files you should make sure to include to help describe and organiz
 <div id="have-someone-else-review-your-code-and-data" class="section level3" number="4.3.3">
 <h3><span class="header-section-number">4.3.3</span> Have someone else review your code and data!</h3>
 <p>The best way to find out if your data are useable by others is to have someone else look it over!
-There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is useable is to have someone else (who has not prepared the data) is able to make sense of it.</p>
+There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is usable is to have someone else (who has not prepared the data) is able to make sense of it.</p>
 <p>For more details on how to make data and code reproducible tips, see our <a href="https://www.itcrtraining.org/courses#h.ugabyqq1bigx">Intro to Reproducibility</a> course.</p>
 </div>
 </div>
 <div id="health-care-data-sharing-tools" class="section level2" number="4.4">
 <h2><span class="header-section-number">4.4</span> Health care data sharing tools</h2>
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic</a></p>
-<p>Healthcare Cost and Utilization Project (HCUP)</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic</a>
+Amazon Comprehend
+Healthcare Cost and Utilization Project (HCUP)</p>
 <div id="redcap-research-electronic-data-capture" class="section level3" number="4.4.1">
 <h3><span class="header-section-number">4.4.1</span> REDCap (Research Electronic Data Capture)</h3>
 <p><a href="https://www.project-redcap.org/">REDCap</a> is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a <a href="https://i2b2transmart.org/redcapcon2022/">conference</a> dedicated to it.</p>
-<p>REDCap allows for multi-institutional work, as well as compliance with HIPAA, 21 <a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11">CFR Part 11</a> for data for the FDA, <a href="https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act">FISMA</a> for government data, HIPAA, and <a href="https://gdpr-info.eu/">GDPR</a> for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research <span class="citation">(<a href="#ref-redcap_2022" role="doc-biblioref"><span>“<span>REDCap</span>”</span> 2022</a>)</span>.</p>
+<p>REDCap allows for multi-institutional work, as well as compliance with HIPAA, <a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11">21 CFR Part 11</a> for data for the FDA, <a href="https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act">FISMA</a> for government data, HIPAA, and <a href="https://gdpr-info.eu/">GDPR</a> for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research <span class="citation">(<a href="#ref-redcap_2022" role="doc-biblioref"><span>“<span>REDCap</span>”</span> 2022</a>)</span>.</p>
 <p>You can find out more about how to use REDCap at the <a href="https://projectredcap.org/">REDCap website</a> which includes instructional <a href="https://projectredcap.org/resources/videos/">videos</a> and other resources.</p>
 <p>There are several things to keep in mind when using REDCap from an ethical standpoint.</p>
 <ol style="list-style-type: decimal">
 <li>Roles</li>
 </ol>
-<p>REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals.As described previously, it is a good idea to restrict access to the smallest number of individuals necessary.</p>
+<p>REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, it is a good idea to restrict access to the smallest number of individuals necessary.</p>
 <p>You can modify these roles using the <code>User Rights</code> menu.</p>
 <p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" title="REDCap User Rights Menu" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" /></p>
 <p>This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.</p>
@@ -380,7 +381,7 @@ There are so many little details that go into your data and projects. Those deta
 <ol start="3" style="list-style-type: decimal">
 <li>Auditing</li>
 </ol>
-<p>REDCap keeps track of all modifications and data exports or report generations and who performs those actions. This can be helpful for checking what has happened and when in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the <code>logging</code> menu.</p>
+<p>REDCap keeps track of all data modifications, as well as data exports or report generations, in addition to keeping track of who performs those actions. This can be helpful for checking what has happened and when, in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the <code>logging</code> menu.</p>
 <ol start="4" style="list-style-type: decimal">
 <li>Keep instruments short</li>
 </ol>
@@ -397,7 +398,6 @@ There are so many little details that go into your data and projects. Those deta
 <div class="warning">
 <p>Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.</p>
 </div>
-<p>Amazon Comprehend</p>
 
 </div>
 </div>
