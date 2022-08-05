@@ -143,6 +143,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
 
 maybe go into this: https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/
 
+and this amazing timeline:
+https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf
+
 - informed consent etc. [@commissioner_guide_2020]
 
 Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality 
