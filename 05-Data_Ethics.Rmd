@@ -141,6 +141,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
 
 ## General Ethics Code
 
+maybe go into this: https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/
+
 - informed consent etc. [@commissioner_guide_2020]
 
 Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality 
