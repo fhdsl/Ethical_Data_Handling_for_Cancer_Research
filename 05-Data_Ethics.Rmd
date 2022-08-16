@@ -131,7 +131,7 @@ https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
 This section is largely based on an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/) by @garrison_genomic_2013.
 
-A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. The Tribe did not want research to be done on these topics, as they could be stigmatizing or considered inappropriate by the Tribe. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation. 
+A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. The Tribe did not want research to be done on these topics, as they could be stigmatizing for certain groups. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation. 
 
 This case pointed out the challenges of informed consent especially when documents are written in languages other than the native language of the participants. In this case the participants signed informed consent documents written in English that said samples would be used for "behavioral/medical problems", yet in spoken word, the consent documents may have been described as indicating that the samples were to be used for diabetes specifically.
 
@@ -141,11 +141,11 @@ Another important component of native or tribal populations, is that some tribes
 
 This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations.  These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations. 
 
-Due this case and other historical disrespectful or harmful research practices, subsequently caused many tribes to be reluctant to participate in research and as many of these concerns continue,  many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, however more discussion is desperately needed to improve both health disparities and justice. 
+Due to this case [@after_2010] and other historical disrespectful, neglectful, or harmful research engagments [@garrison_genomic_2019], subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way [@garrison_genomic_2019]. However more work is desperately needed to improve both health disparities and justice. 
 
-Possible guidelines could include:
+Possible guidelines could include (based on @garrison_genomic_2019, @garrison_genomic_2013, and the author's thoughts):
 
-1) To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in discussions about how to work with and consent individuals. More direct participation of these members in the research or IRB processes itself would also be beneficial. 
+1) To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in the governance of biological data. This concept is called data sovereignty [@garrison_genomic_2019].  Population members should help determine how researchers work with and consent individuals. More direct participation of these members in the research or IRB processes itself is also  beneficial. 
 
 2) Where possible biological samples should be physically "owned" by the populations that the come from or at least considered as such, even when samples are taken to a lab for processing. Details about how the samples should be stored or disposed of, should be discussed with the study population. 
 
@@ -235,7 +235,7 @@ great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
 
 ### Data sovereignty
 
-https://en.wikipedia.org/wiki/Data_sovereignty
+
 
 ### Finding Artifacts
 
