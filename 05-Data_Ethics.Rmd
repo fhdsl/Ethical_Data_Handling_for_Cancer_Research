@@ -46,7 +46,7 @@ Beyond the risk that data breaches pose to research participants, such breaches 
 
 Why else does data protection matter at the individual level?
 
-Manipulated data can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
+If data gets manipulated or curropted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
 
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
@@ -106,6 +106,7 @@ https://projecteuclid.org/journals/annals-of-applied-statistics/volume-3/issue-4
 
 
 4) Data falsification
+
 Although the previous example ultimately led to some discoveries of falsification, the majority of the discovery started with findings of simple mistakes. However, there are many other reported cases of researchers falsifying or modifying their data to improve their results. See [here](https://ori.hhs.gov/education/products/RIandImages/misconduct_cases/findings_of_misconduct.pdf) for examples of misconduct cases identified by the [Office of Research Integrity at the US department of Health and Human Services](https://ori.hhs.gov/).  
 
 
@@ -125,19 +126,44 @@ https://www.tandfonline.com/doi/full/10.1080/08989621003641132
 https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
 
-Targeted testing for specific research use more comfortable for people then broad consent...
 
 4) Improper Data Reuse for Research
 
-A research group at Arizona State University initially collected data from individuals of the Havasupai tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. These are topics that were considered taboo by the tribe. The research participants did not feel that they consented to other research outside the scope of diabetes. This was a very informative case, 
+This section is largely based on an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/) by @garrison_genomic_2013.
 
+A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. The tribe did not want research to be done on these topics, as they could be stigmatizing or considered inappropriate by the tribe. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the tribe. The Tribe also banned all ASU researchers from their reservation. 
 
-ownership should stay in the communities:
+This case pointed out the challenges of informed consent especially when documents are written in languages other than the native language of the participants. In this case the participants signed informed consent documents written in English that said samples would be used for "behavioral/medical problems", yet the tribe recalls that in spoken word, the consent documents were described as indicating that the samples be used for diabetes specifically.
 
-https://docs.google.com/document/d/1UYVnpzSRXn4yXZaQsoaX1ei8eiBRUTABcCb0EFwG_EE/edit
+When the researchers decided to study schizophrenia, they obtained Internal Revew Board (IRB) approval based on the consent documents, and no additional conversations happened with the tribe to ensure that the participants understood and consented to their samples being used for schizophrenia studies.
 
+Another important component of native or tribal populations, is that some tribes consider all Biological materials to be sacred and would like greater transparency about the details of how materials are to be used and would like the opportunity to determine how unused materials should be disposed.
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
+This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations. These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations. Subsequently many tribes were reluctant to participate in research and as many of these concerns continue, some tribes remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, however more discussion is desperately needed to improve both health disparities and justice. 
+
+Possible guidelines could include:
+
+1) To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in discussions about how to work with and consent individuals. More direct participation of these members in the research or IRB processes itself would also be beneficial. 
+
+2) Where possible biological samples should be physically "owned" by the populations that the come from or at least considered as such, even when samples are taken to a lab for processing. Details about how the samples should be stored or disposed of, should be discussed with the study population. 
+
+3) Researchers and IRBs should consider not only the health impacts and security of research participants, but also the potential social and community consequences. To better understand these possible consequences, members of the populations studied should again be directly involved in these discussions.
+  
+3) Researchers and IRBS should consider more about the balance of the possible benefit to researchers and society versus the potential lack of benefit or harm that the research may cause the participants are the communities they come from - research should aim to be more beneficial to those participating. To better understand the needs and possible harmful consequences of research, members of the communities or populations should be involved in discussions.
+
+4) Ambiguity about consent should be reduced as much as possible to ensure that information is provided that is as transparent, culturally responsive, and clear to those who are consented.
+
+5) Participants may need to be contacted again to ensure that consent remains responsive and transparent.
+
+6) More targeted specific data uses may be more comfortable for some populations, and may therefore be worth potential later restriction.
+
+Many research groups have decided to use **Broad Consent** in which only a set of potential future activities are consented to reduce later concerns. However this can still result in discomfort and thus a lack of participation by populations that are concerned about the use of their biological materials. This can ultimately result in even deeper health disparities. 
+
+Overall, it is very important that researchers and research institutions continue to discuss and work with members of the populations they wish to study to create more equitable, just, and culturally responsive consent processes.
+
+One [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/)  by @begay_weaving_2020 about the history of genetic studies of the Diné (or Navajo nation), another population that has faced genetic data misuse, state that the authors: 
+
+> encourage researchers to consider cultural perspectives and traditional knowledge that has the potential to create stronger conclusions and better-informed, ethical, and respectful science.
 
 ## General Ethics Code
 
