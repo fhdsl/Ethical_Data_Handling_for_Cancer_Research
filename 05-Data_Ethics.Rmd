@@ -141,9 +141,14 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/
 
 ## General Ethics Code
 
+maybe go into this: https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/
+
+and this amazing timeline:
+https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf
+
 - informed consent etc. [@commissioner_guide_2020]
 
-Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentially 
+Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality 
 
 1996 Health Insurance Portability and Accountability Act (HIPAA)
  - protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies. 
