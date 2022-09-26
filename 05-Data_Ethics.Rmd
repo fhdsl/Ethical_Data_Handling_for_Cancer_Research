@@ -257,7 +257,11 @@ The meaning of the terminology is likely to evolve over time, however, this indi
 
 In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
 
-https://link.springer.com/article/10.1007/s10805-019-09336-2
+Depending on the nature of the research, the potential for finding incidental findings will vary. The [Secretary’s Advisory Committee on Human Research Protections (SACHRP)](https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html) at the US Department of Health and Human Services [@protections_ohrp_attachment_2017] offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB. 
+
+Often the first suggested step is to determine how likely the research is to yield any actionable incidental findings. Actionable findings are those where the research subject could actually do something to about the finding to improve their health or reduce the risk of health concerns. However, it can be difficult to determine if such a finding will become actionable in the future, particularly when it comes to collecting genomic data. 
+
+To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future. 
 
 
 ### Protection of Vulnerable Populations
