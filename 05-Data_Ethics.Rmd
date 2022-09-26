@@ -46,7 +46,7 @@ Beyond the risk that data breaches pose to research participants, such breaches 
 
 Why else does data protection matter at the individual level?
 
-If data gets manipulated or curropted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
+If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
 
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
@@ -141,7 +141,7 @@ Another important component of native or tribal populations, is that some tribes
 
 This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations.  These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations. 
 
-Due to this case [@after_2010] and other historical disrespectful, neglectful, or harmful research engagments [@garrison_genomic_2019], subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way [@garrison_genomic_2019]. However more work is desperately needed to improve both health disparities and justice. 
+Due to this case [@after_2010] and other historical disrespectful, neglectful, or harmful research engagements [@garrison_genomic_2019], subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way [@garrison_genomic_2019]. However more work is desperately needed to improve both health disparities and justice. 
 
 Possible guidelines could include (based on @garrison_genomic_2019, @garrison_genomic_2013, and the author's thoughts):
 
@@ -241,7 +241,7 @@ We have already described it as a concept of ownership of data, that the people 
 
 A [review](https://journals.sagepub.com/doi/10.1177/2053951720982012) of recent literature by @hummel_data_2021 indicates that data sovereignty is often defined in **many ways** including the ability, rights, or laws surrounding the control, flow, privacy, security, or use of data. The review also suggests that there are therefore several major ways in which data sovereignty can be realized:
 
-1. Self-determination - Promoting, honoring, and respecting the interests, values and culture of those that the data comes from (particularly when it comes to indegnous populations) by allowing for their participation in determining what happens with the data and how it is collected.Strategies should be used to ensure that the data is beneficial and responsive to the needs of those that the data comes from, as well as mindful of the potential consequences of their use and collection.
+1. Self-determination - Promoting, honoring, and respecting the interests, values and culture of those that the data comes from (particularly when it comes to indigenous populations) by allowing for their participation in determining what happens with the data and how it is collected.Strategies should be used to ensure that the data is beneficial and responsive to the needs of those that the data comes from, as well as mindful of the potential consequences of their use and collection.
 
 2. Technical Consideration - IT architecture to ensure that the data is safe and used as intended.
 
