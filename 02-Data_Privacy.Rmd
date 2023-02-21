@@ -33,7 +33,6 @@ PII is also defined by the [US General Services Administration](https://www.gsa.
 
 > "Information that can be used to **distinguish** or **trace** an individual’s identity, either alone or when combined with other personal or identifying information that is linked or linkable to a **specific individual**."
 
-https://dpcld.defense.gov/Portals/49/Documents/Privacy/2011%20DPCLO_Intro_Privacy_Act.pdf
 
 Why is this term defined by the Department of Labor and the US general Services Administration? Because the [Privacy Act of 1974](https://en.wikipedia.org/wiki/Privacy_Act_of_1974) [@privacy_act_2022], is a US federal law that governs the "collection, maintenance, use and dissemination" of personal information. US agencies have access to a large amount of PII and must act in accordance with the Privacy Act to protect this data. 
 
@@ -47,6 +46,27 @@ Why is this term defined by the Department of Labor and the US general Services 
   - Medical record numbers
   - Full face photographs
   - IP addresses
+
+Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, such as social security numbers. Other PII such as age does not necessarily pose as much risk unless combined with other information. 
+
+Thus this information is categorized in two ways as being nonsensitive  which is easy to find and poses little risk and sensitive information which is harder to find, poses higher risk and requires more protection.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_477")
+```
+
+### PII Risk
+
+What is the risk of PII getting into the hands of people it shouldn't? Why was the Protection Act necessary?
+
+PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities. 
+
+In addition, the leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_484")
+```
+
 
  
 ## PHI (protected health information)
@@ -80,6 +100,12 @@ This includes 18 categories:
 - Full face photographic images
 - Other identifying numbers or codes
 
+## PHI is a subset of PII
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "PHI is a subset of PII that pertains to health", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
+```
 
 
 ## What genomic data is protected?
