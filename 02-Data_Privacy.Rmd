@@ -108,20 +108,38 @@ PHI is really a subset of PII. It is personal identifiable information that rela
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
 ```
 
-Thus, Name and email address aren't necessarily PHI, unless it is in the context of medical care or research.
+Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless the are  in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
 
+## PHI Risk
 
-## What genomic data is protected?
+PHI poses an additional risk rather than just typical PII. 
+
+That is becuase the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance. 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition.",out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_676")
+```
+
+## Cancer research data and PHI
+
+Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants. 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data",out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509)
+```
+
+### What genomic data is protected?
+<!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if partcipants are alive or not etc.-->
 
 So what does this mean for the data you handle?
 
-**A not comprehensive list of identifiable and protected information:**   
+**A non-comprehensive list of identifiable and protected information:**   
 
 - Clinical information in metadata
 - Genomic sequences
   - Whole genome sequences
-  - Exome
-  - Whole transcriptome
+  - Exome sequencing
+  - Whole transcriptome sequencing
 - Single nucleotide polymorphisms
 - Geneology information
 
@@ -131,7 +149,18 @@ So what does this mean for the data you handle?
  
  Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
  
- 
+<!-- - Deidentified data -->
+
+<!-- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the data contains large amounts of genomic data, allowing the individuals to be identified then they are no longer safe to share and must be protected. Furthermore, it has been shown that certain deidentified data can be re-identified due to the availability of genomic data in datasets like 23andme, where relatives with unique y chromosome repeats can be used to identify relatives of individuals in studies. -->
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/
+https://pubmed.ncbi.nlm.nih.gov/23329047/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/
+https://www.eff.org/issues/genetic-information-privacy
+https://www.eff.org/issues/law-and-medical-privacy
+https://www.nature.com/articles/d41586-021-00331-5
+
 
 ## How to ensure the privacy of this information
 
