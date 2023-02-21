@@ -9,7 +9,7 @@ ottrpal::set_knitr_image_path()
 Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_17584")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1758")
 ```
 
 Cancer research often involves the collection of information about research participants that is personal. There are two catagories of such information:
@@ -75,9 +75,9 @@ The [U.S. Department of Health & Human Services](https://www.hhs.gov/hipaa/for-p
 
 > ...information including demographic data that relates to:
 
-> the individual’s past, present or future physical or mental health or condition,
+> the individual’s past, present or future **physical** or **mental health** or condition,
 > the provision of health care to the individual, or
-> the past, present, or future payment for the provision of health care to the individual,
+> the past, present, or future **payment** for the provision of health care to the individual
 
 This includes 18 categories:
 
@@ -102,10 +102,13 @@ This includes 18 categories:
 
 ## PHI is a subset of PII
 
+PHI is really a subset of PII. It is personal identifiable information that relates to or could relate to health.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "PHI is a subset of PII that pertains to health", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
 ```
+
+Thus, Name and email address aren't necessarily PHI, unless it is in the context of medical care or research.
 
 
 ## What genomic data is protected?
