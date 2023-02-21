@@ -9,6 +9,7 @@ analytics
 Anil
 AnVIL
 ArrayExpress
+ASU
 AutoRun
 bam
 Baggerly
@@ -43,6 +44,7 @@ De
 de
 De-identification
 de-identification
+Diné
 discoverability
 distinguishability
 DBMI
@@ -154,6 +156,7 @@ SciServer
 SciUIs
 SkyServer
 semiconductive
+SACHRP
 SGE
 SRA
 SSD
