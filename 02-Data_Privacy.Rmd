@@ -8,23 +8,34 @@ ottrpal::set_knitr_image_path()
 
 Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g1016753ce66_0_24")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_17584")
 ```
 
-There are two kinds of information that we will need to be careful to protect:
+Cancer research often involves the collection of information about research participants that is personal. There are two catagories of such information:
 *personal identifiable information (PII)* and *protected health information (PHI)*
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_318")
+```
 
 Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.
 
 ## PII (personal identifiable information)
 
-PII (personal identifiable information) are items that would allow you to identify a person.
+PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
 
 PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppi) as:
 
->“Any representation of information that permits the identity of an individual to whom the information applies to be reasonably inferred by either direct or indirect means.”
+> "Any representation of information that permits the **identity** of an individual to whom the information applies to be reasonably inferred by either **direct** or **indirect** means."
 
+PII is also defined by the [US General Services Administration](https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act) as:
+
+> "Information that can be used to **distinguish** or **trace** an individual’s identity, either alone or when combined with other personal or identifying information that is linked or linkable to a **specific individual**."
+
+https://dpcld.defense.gov/Portals/49/Documents/Privacy/2011%20DPCLO_Intro_Privacy_Act.pdf
+
+Why is this term defined by the Department of Labor and the US general Services Administration? Because the [Privacy Act of 1974](https://en.wikipedia.org/wiki/Privacy_Act_of_1974) [@privacy_act_2022], is a US federal law that governs the "collection, maintenance, use and dissemination" of personal information. US agencies have access to a large amount of PII and must act in accordance with the Privacy Act to protect this data. 
 
 *Examples include (but aren't limited to):*  
   - Name
