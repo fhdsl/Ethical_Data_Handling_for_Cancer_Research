@@ -125,7 +125,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data",out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509)
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509")
 ```
 
 ### What genomic data is protected?
@@ -149,9 +149,11 @@ So what does this mean for the data you handle?
  
  Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
  
-<!-- - Deidentified data -->
+- De-identified data
 
-<!-- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the data contains large amounts of genomic data, allowing the individuals to be identified then they are no longer safe to share and must be protected. Furthermore, it has been shown that certain deidentified data can be re-identified due to the availability of genomic data in datasets like 23andme, where relatives with unique y chromosome repeats can be used to identify relatives of individuals in studies. -->
+<!-- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access). 
+
+It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andme, where relatives with unique genomic features can be used to identify relatives of individuals in studies. The following articles have more extensive information about the current re-identifcation risk of different genomic data types.
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/
 https://pubmed.ncbi.nlm.nih.gov/23329047/
@@ -180,7 +182,7 @@ If data has been summarized over the cohort and there are no identifiers then it
 
 Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use. 
 
-See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a Data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
+See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
 See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.  
 
