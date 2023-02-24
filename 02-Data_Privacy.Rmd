@@ -155,7 +155,7 @@ So what does this mean for the data you handle?
 
 It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andme, where relatives with unique genomic features can be used to identify relatives of individuals in studies. 
 
-The following articles have more extensive information about the current re-identifcation risk of different genomic data types:
+The following articles have more extensive information about the current re-identification risk of different genomic data types:
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/
 https://pubmed.ncbi.nlm.nih.gov/23329047/
@@ -200,7 +200,7 @@ The [Office for Civil Right (OCR)](https://www.hhs.gov/ocr/index.html) of the Un
 
 If you feel that someone is using or sharing data that is in violation of HIPAA compliance, you can file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Typically you should see if you can get the violation to be resolved through local means by contacting research administrators or management. However, you could submit to the OCR. Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
 
-If compliance is not resolved, than the covered entity may have to pay fines.
+If compliance is not resolved, then the covered entity may have to pay fines.
 
 Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of `$`50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to `$`250,000 and may face jail time of up to 10 years [@violations_2018].
 
