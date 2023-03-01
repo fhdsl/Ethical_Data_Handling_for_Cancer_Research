@@ -12,7 +12,7 @@ Cancer research often involves personal health data that requires compliance wit
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1758")
 ```
 
-Cancer research often involves the collection of information about research participants that is personal. There are two catagories of such information:
+Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
 *personal identifiable information (PII)* and *protected health information (PHI)*
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "", out.width="100%"}
@@ -114,7 +114,7 @@ Some PII is always PHI, like health insurance numbers or clinical data such as r
 
 PHI poses an additional risk rather than just typical PII. 
 
-That is becuase the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance. 
+That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance. 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition.",out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_676")
@@ -153,7 +153,7 @@ So what does this mean for the data you handle?
 
  Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access). 
 
-It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andme, where relatives with unique genomic features can be used to identify relatives of individuals in studies. 
+It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies. 
 
 The following articles have more extensive information about the current re-identification risk of different genomic data types:
 
