@@ -252,7 +252,7 @@ Note that newer versions of this process are called Transport Layer Security (TL
 
 #### SSH Secure Shell
 
-SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using  a command line interface instead of a browser. SSH also does not involve certificate.
+SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using a command line interface instead of a browser. SSH also does not involve certificates.
 
 SSH is used for communicating to remote computers which is why it is commonly used at institutions to get access to high powered computing clusters.
 
