@@ -181,9 +181,29 @@ Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiali
 1996 Health Insurance Portability and Accountability Act (HIPAA)
  - protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies. 
  
- Genetic Information Nondiscrimination Act of 2008 (GINA)
+## Genetic Information Nondiscrimination Act of 2008 (GINA)
 
-2009 Health Information Technology for Economic and Clinical  Health (HITECH) Act
+The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against indviduals. 
+This data would be highly dangerous and valuable if in the wrong hands. Health insurance companies are prohibited from obtaining genetic test data and using it to inform their premiums or other healthcare coverage related decisions.
+
+> defines “genetic test” to mean the “analysis of human DNA, RNA, chromosomes, proteins, or metabolites that detects genotypes, mutations, or chromosomal changes.” Genetic tests are used to detect gene variants associated with a specific disease or condition. For example, tests to determine whether an individual carries the genetic variant evidencing a predisposition to breast cancer—whether the individual has the BRCA1 or BRCA2 variant—or to determine whether an individual has a genetic variant associated with hereditary nonpolyposis colorectal cancer are genetic tests.
+
+This means as researchers we need to keep these data secure and hidden. 
+
+Data types protected under GINA include but arent limited to:
+
+- DNA sequencing or genotyping 
+- RNA sequencing that shows genetic variation 
+- Protein sequencing 
+- Blood collection 
+- Any type of biological material that would indicate heredity or any genetic variant 
+
+The data covered by GINA has been highly debated since the rapidly evolving technologies and identification of new risk factors make clear guidelines a moving target.
+For example, thus far RNA-seq data that is summarized and deidentified has been deemed acceptable for public sharing (so long as it has been deidentified), however in the future one could see a scenario in which certain gene expresion patterns could be more solidly determined as indicators of disease. 
+Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly.
+
+
+## Health Information Technology for Economic and Clinical Health (HITECH) Act
 
 https://www.govinfo.gov/app/details/FR-2013-01-25/2013-01073
 
