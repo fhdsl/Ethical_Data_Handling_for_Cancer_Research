@@ -22,12 +22,14 @@ birthdates
 Blavatnik
 Bloomberg
 Bukner
+BRCA
 cBIBOP
 chemosensitivity
 citable
 CFR
 Coombes
 COVID
+colorectal
 cryptographic
 CSUN
 cybercriminal
@@ -38,6 +40,7 @@ databanks
 DataTrail
 Dashlane
 DBIR
+dbGaP
 DDBJ
 decrypt
 De
@@ -125,6 +128,7 @@ NCSA
 NHGRI
 NLP
 Northridge
+nonpolyposis
 n2c2
 OHIF
 omics
@@ -155,6 +159,7 @@ scalability
 SciServer
 SciUIs
 SkyServer
+societally
 semiconductive
 SACHRP
 SGE

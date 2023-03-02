@@ -173,7 +173,7 @@ Healthcare ethics, and by extension medical research ethics can be described in 
 
 ### 1. The pillar of beneficence
 
-This pillar means that healthcare and its research must support the wellbeing of the patients. This includes reducing pain and helping to increase their overall quality of life.
+This pillar means that healthcare and its research must support the well-being of the patients. This includes reducing pain and helping to increase their overall quality of life.
 
 ### 2. The pillar of non-maleficence
 
@@ -215,7 +215,7 @@ The data covered by GINA has been highly debated since the rapidly evolving tech
 For example, thus far RNA-seq data that is summarized and de-identified has been deemed acceptable for public sharing, however in the future one could see a scenario in which certain gene expression patterns could be more solidly determined as indicators of disease.
 Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly.
 
-GINA is critical to the wellbeing of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical.
+GINA is critical to the well-being of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical.
 
 So what does GINA mean in terms of data sharing? The principle of [least privilege](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principal-of-least-privilege) discussed in the previous security chapter still applies.
 
