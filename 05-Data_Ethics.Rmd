@@ -59,6 +59,7 @@ To have an understanding of current theories about how to best deal with our res
 
 Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but **neglectful** research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
 
+
 ### Historical incidences:
 
 Here are a couple of famous historical examples of medical research that was performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
@@ -189,6 +190,12 @@ Equity specifically means that those who are societally disadvantaged should be 
 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Medical Ethics Timeline: Hippocratic oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g15797d1181d_0_0")
+```
+
 
 ## Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality
 
