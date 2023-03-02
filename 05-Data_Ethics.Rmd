@@ -14,30 +14,30 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## What is data ethics?
 
-Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency. 
+Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.
 
 ### Before and after research
 
-Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021]. 
+Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
 
 ### Considerations before
 
 Ethical research should involve consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, non-binary individuals, disabled individuals, and people of certain ethnic backgrounds, and intersections of various demographic factors have been historically left out of clinical trials or when included, their data was inadequately recorded [@clark_increasing_2019]. For example, clinical trials often have questions about sex or gender with limited binary options (overlooking [people without a binary sex](https://en.wikipedia.org/wiki/Intersex) and [non-binary gendered](https://en.wikipedia.org/wiki/Non-binary_gender) individuals) resulting in a lack of collection of important information that could impact clinical outcomes, research results, and communication about results [@chen_approach_2019].
 
-Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004. 
+Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004.
 
 
 ## After Considerations
 
-While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could be caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information (including real-time data) about the subjects we are using, and thus the risk to our subject from the consequences of others **identifying** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020]. 
+While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could be caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information (including real-time data) about the subjects we are using, and thus the risk to our subject from the consequences of others **identifying** the subjects in our studies is much higher than it used to be [@byrd_responsible_2020].
 
 
-Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020]. 
+Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020].
 
 
 Why does it mater that research subjects might be identifiable to others?
 
-In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions). 
+In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions).
 
 However, such information can put these individuals at risk for difficulty with insurance and employment, as well as at risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks based on data collection about the behaviors of research participants [@seh_breaches_2020].  
 
@@ -46,7 +46,7 @@ Beyond the risk that data breaches pose to research participants, such breaches 
 
 Why else does data protection matter at the individual level?
 
-If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020. 
+If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020.
 
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
@@ -61,7 +61,7 @@ Most regulations of biomedical research stems from historical ill treatment of r
 
 ### Historical incidences:
 
-Here are a couple of famous historical examples of medical research that was performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research. 
+Here are a couple of famous historical examples of medical research that was performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
 
 1. [Tuskegee syphilis trial](https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study):
 A study in Tuskegee, Alabama about the outcomes of untreated syphilis in Black males (1932-1972) in which the patients were told they were being treated but were in fact not being treated [@mcvean_40_2019].
@@ -76,23 +76,23 @@ See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-
 
 ### Recent incidences:
 
-With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we saw the creation of databanks and other shared data resources. This resulted in new ethical issues. 
+With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we saw the creation of databanks and other shared data resources. This resulted in new ethical issues.
 
 Here are some examples that exemplify more current data ethics issues:
 
 1) Data Misuse for Marketing
 
-Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting [@kramer_surescripts_2019]. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from [Surescripts](https://surescripts.com/), a prescription and health record data company and providing it in a processed form for Amazon's PillPack (https://www.pillpack.com/), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market [@chiruvella_ethical_2021]. Surescripts then decided to  revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened [@kramer_surescripts_2019]. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated [@kramer_surescripts_2019]. 
+Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting [@kramer_surescripts_2019]. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from [Surescripts](https://surescripts.com/), a prescription and health record data company and providing it in a processed form for Amazon's PillPack (https://www.pillpack.com/), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market [@chiruvella_ethical_2021]. Surescripts then decided to  revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened [@kramer_surescripts_2019]. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated [@kramer_surescripts_2019].
 
 
 2) Data Breaches
 
-[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email address and password hash key for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful. 
+[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email address and password hash key for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
 
 
 3) Data mistakes and neglect
 
-[Keith Baggerly](https://www.projecttier.org/fellowships-and-workshops/weekly-webcast-leaders-research-transparency/importance-reproducibility-high-throughput-biology-case-studies-forensic-bioinformatics/) is a well-known expert in what he calls "Forensic Bioinformatics". He evaluates other studies to see if he can reproduce their work. He has in a few cases found some very important mistakes. Often the mistakes have to do with sample mixups or a shift in a table resulting mislabeled rows or columns. Although such simple mistakes seem minor, Keith has shown that this can result in major consequences. 
+[Keith Baggerly](https://www.projecttier.org/fellowships-and-workshops/weekly-webcast-leaders-research-transparency/importance-reproducibility-high-throughput-biology-case-studies-forensic-bioinformatics/) is a well-known expert in what he calls "Forensic Bioinformatics". He evaluates other studies to see if he can reproduce their work. He has in a few cases found some very important mistakes. Often the mistakes have to do with sample mixups or a shift in a table resulting mislabeled rows or columns. Although such simple mistakes seem minor, Keith has shown that this can result in major consequences.
 
 One rather well-known example is his evaluation (along with Kevin Coombes and Jing Wang) of several now retracted articles (see [here](https://pubmed.ncbi.nlm.nih.gov/17057710/) and  [here](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(07)70345-5/fulltext)) by Anil Potti regarding chemosensitivity of cancer cell lines based on gene expression signatures [@baggerly_deriving_2009]. First the forensic team discovered simple yet very consequential errors (sample case control labels were swapped) in Potti's work.  This lead to further investigations revealing further mistakes, as well as data falsification in several of Potti's articles. Ultimately, the clinical trials that were initiated based on Potti's work were terminated, several of Potti's articles were [retracted](https://retractionwatch.com/2011/01/29/lancet-oncology-retracts-previously-questioned-anil-potti-paper/),  and he was asked to resign from his position. See @national_academies_of_sciences_detailed_2017 for more [information](https://www.ncbi.nlm.nih.gov/books/NBK475955/) about Potti's case as well as 4 other similar cases.
 
@@ -117,7 +117,7 @@ https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090
 
 https://en.wikipedia.org/wiki/Scientific_misconduct
 
-Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): 
+Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
 
 https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf
 
@@ -131,7 +131,7 @@ https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
 This section is largely based on an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/) by @garrison_genomic_2013.
 
-A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. The Tribe did not want research to be done on these topics, as they could be stigmatizing for certain groups. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation. 
+A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about "schizophrenia risk, ethnic migration, and population inbreeding" [@garrison_genomic_2013]. The Tribe did not want research to be done on these topics, as they could be stigmatizing for certain groups. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation.
 
 This case pointed out the challenges of informed consent especially when documents are written in languages other than the native language of the participants. In this case the participants signed informed consent documents written in English that said samples would be used for "behavioral/medical problems", yet in spoken word, the consent documents may have been described as indicating that the samples were to be used for diabetes specifically.
 
@@ -139,18 +139,18 @@ When the researchers decided to study schizophrenia, they obtained Internal Revi
 
 Another important component of native or tribal populations, is that some tribes consider all Biological materials to be sacred and therefore greater transparency about the details of how materials are to be used and greater opportunity to determine how unused materials should be disposed would be very valuable.
 
-This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations.  These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations. 
+This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations.  These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations.
 
-Due to this case [@after_2010] and other historical disrespectful, neglectful, or harmful research engagements [@garrison_genomic_2019], subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way [@garrison_genomic_2019]. However more work is desperately needed to improve both health disparities and justice. 
+Due to this case [@after_2010] and other historical disrespectful, neglectful, or harmful research engagements [@garrison_genomic_2019], subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way [@garrison_genomic_2019]. However more work is desperately needed to improve both health disparities and justice.
 
 Possible guidelines could include (based on @garrison_genomic_2019, @garrison_genomic_2013, and the author's thoughts):
 
-1) To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in the governance of biological data. This concept is called data sovereignty [@garrison_genomic_2019].  Population members should help determine how researchers work with and consent individuals. More direct participation of these members in the research or IRB processes itself is also  beneficial. 
+1) To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in the governance of biological data. This concept is called data sovereignty [@garrison_genomic_2019].  Population members should help determine how researchers work with and consent individuals. More direct participation of these members in the research or IRB processes itself is also  beneficial.
 
-2) Where possible biological samples should be physically "owned" by the populations that the come from or at least considered as such, even when samples are taken to a lab for processing. Details about how the samples should be stored or disposed of, should be discussed with the study population. 
+2) Where possible biological samples should be physically "owned" by the populations that the come from or at least considered as such, even when samples are taken to a lab for processing. Details about how the samples should be stored or disposed of, should be discussed with the study population.
 
 3) Researchers and IRBs should consider not only the health impacts and security of research participants, but also the potential social and community consequences. To better understand these possible consequences, members of the populations studied should again be directly involved in these discussions.
-  
+
 3) Researchers and IRBS should consider more about the balance of the possible benefit to researchers and society versus the potential lack of benefit or harm that the research may cause the participants are the communities they come from - research should aim to be more beneficial to those participating. To better understand the needs and possible harmful consequences of research, members of the communities or populations should be involved in discussions.
 
 4) Ambiguity about consent should be reduced as much as possible to ensure that information is provided that is as transparent, culturally responsive, and clear to those who are consented.
@@ -159,49 +159,61 @@ Possible guidelines could include (based on @garrison_genomic_2019, @garrison_ge
 
 6) More targeted specific data uses may be more comfortable for some populations, and may therefore be worth potential later restriction.
 
-Many research groups have decided to use **Broad Consent** in which only a set of potential future activities are consented to reduce later concerns. However this can still result in discomfort and thus a lack of participation by populations that are concerned about the use of their biological materials. This can ultimately result in even deeper health disparities. 
+Many research groups have decided to use **Broad Consent** in which only a set of potential future activities are consented to reduce later concerns. However this can still result in discomfort and thus a lack of participation by populations that are concerned about the use of their biological materials. This can ultimately result in even deeper health disparities.
 
 Overall, it is very important that researchers and research institutions continue to discuss and work with members of the populations they wish to study to create more equitable, just, and culturally responsive consent processes.
 
-One [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/)  by @begay_weaving_2020 about the history of genetic studies of the Diné (or Navajo nation), another population that has faced genetic data misuse, state that the authors: 
+One [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/)  by @begay_weaving_2020 about the history of genetic studies of the Diné (or Navajo nation), another population that has faced genetic data misuse, state that the authors:
 
 > encourage researchers to consider cultural perspectives and traditional knowledge that has the potential to create stronger conclusions and better-informed, ethical, and respectful science.
 
 ## General Ethics Code
 
-maybe go into this: https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/
+Healthcare ethics, and by extension medical research ethics can be described in four pillars (this discussion from @melvin_medical_2020):
 
-and this amazing timeline:
-https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf
+### 1. The pillar of beneficence
 
-- informed consent etc. [@commissioner_guide_2020]
+This pillar means that healthcare and its research must support the wellbeing of the patients. This includes reducing pain and helping to increase their overall quality of life.
 
-Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality 
+### 2. The pillar of non-maleficence
 
-1996 Health Insurance Portability and Accountability Act (HIPAA)
- - protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies. 
- 
+Harm to patients must be minimized. This includes not causing intentional harm but also minimizing incompetency and accidental harm.
+This means for research studies and treatments, only conducting those where benefits outweigh the risks.
+
+### 3. The pillar of justice
+
+Healthcare must be provided to all equally and equitably regardless of race, gender, sex, socioeconomic class, religion, ethnicity, sexual orientation, age, or any other aspect of an individual's identity.
+Equity specifically means that those who are societally disadvantaged should be even further aided.
+
+### 4. The pillar of autonomy (self-determination)
+
+Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
+This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
+
+## Code of Medical Ethics (1957) - Legal Binding of Patient-Physician Confidentiality
+
+1996 Health Insurance Portability and Accountability Act (HIPAA) protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
+
 ## Genetic Information Nondiscrimination Act of 2008 (GINA)
 
-The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against indviduals. 
+The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals.
 This data would be highly dangerous and valuable if in the wrong hands. Health insurance companies are prohibited from obtaining genetic test data and using it to inform their premiums or other healthcare coverage related decisions.
 
 > defines “genetic test” to mean the “analysis of human DNA, RNA, chromosomes, proteins, or metabolites that detects genotypes, mutations, or chromosomal changes.” Genetic tests are used to detect gene variants associated with a specific disease or condition. For example, tests to determine whether an individual carries the genetic variant evidencing a predisposition to breast cancer—whether the individual has the BRCA1 or BRCA2 variant—or to determine whether an individual has a genetic variant associated with hereditary nonpolyposis colorectal cancer are genetic tests.
 
-This means as researchers we need to keep these data secure and hidden. 
+From [@regulations_2010]
 
-Data types protected under GINA include but arent limited to:
+This means as researchers or clinicians we need to keep these data secure and hidden. Data types protected under GINA include but are not limited to:
 
-- DNA sequencing or genotyping 
-- RNA sequencing that shows genetic variation 
-- Protein sequencing 
-- Blood collection 
-- Any type of biological material that would indicate heredity or any genetic variant 
+- DNA sequencing or genotyping
+- RNA sequencing that shows genetic variation
+- Protein sequencing
+- Blood collection
+- Any type of biological material that would indicate heredity or any genetic variant
 
 The data covered by GINA has been highly debated since the rapidly evolving technologies and identification of new risk factors make clear guidelines a moving target.
-For example, thus far RNA-seq data that is summarized and deidentified has been deemed acceptable for public sharing (so long as it has been deidentified), however in the future one could see a scenario in which certain gene expresion patterns could be more solidly determined as indicators of disease. 
+For example, thus far RNA-seq data that is summarized and de-identified has been deemed acceptable for public sharing, however in the future one could see a scenario in which certain gene expression patterns could be more solidly determined as indicators of disease.
 Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly.
-
 
 ## Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -235,7 +247,7 @@ Although ethical guidelines about this type of consent are evolving as research 
 1) blanket consent - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
 2) broad consent - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
 3) dynamic consent - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
-4) meta consent - Subjects get to choose what type of consent they prefer of the other 3 options. 
+4) meta consent - Subjects get to choose what type of consent they prefer of the other 3 options.
 
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
@@ -255,7 +267,7 @@ great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
 
 ### Data sovereignty
 
-Let's take a slightly deeper dive into what data sovereignty really is. 
+Let's take a slightly deeper dive into what data sovereignty really is.
 
 We have already described it as a concept of ownership of data, that the people who the data comes from determine or at least are highly involved in what happens with that data. This is important in the study of people who have been marginalized and historically mistreated in research or otherwise. However, the term data sovereignty can also be defined more broadly, such as the authority of governments to survey or use data from domestic or foreign sources, a concept that is also of important recent interest [@hummel_data_2021].
 
@@ -265,7 +277,7 @@ A [review](https://journals.sagepub.com/doi/10.1177/2053951720982012) of recent 
 
 2. Technical Consideration - IT architecture to ensure that the data is safe and used as intended.
 
-3.Transparency - People should know when data is being collected about them and what it is being used for. 
+3.Transparency - People should know when data is being collected about them and what it is being used for.
 
 4. Legal  Considerations - Some countries or nations have regulations about what can be done with data particularly when it comes to transmission to other nations.
 
@@ -277,11 +289,11 @@ The meaning of the terminology is likely to evolve over time, however, this indi
 
 In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
 
-Depending on the nature of the research, the potential for finding incidental findings will vary. The [Secretary’s Advisory Committee on Human Research Protections (SACHRP)](https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html) at the US Department of Health and Human Services [@protections_ohrp_attachment_2017] offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB. 
+Depending on the nature of the research, the potential for finding incidental findings will vary. The [Secretary’s Advisory Committee on Human Research Protections (SACHRP)](https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html) at the US Department of Health and Human Services [@protections_ohrp_attachment_2017] offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB.
 
-Often the first suggested step is to determine how likely the research is to yield any actionable incidental findings. Actionable findings are those where the research subject could actually do something to about the finding to improve their health or reduce the risk of health concerns. However, it can be difficult to determine if such a finding will become actionable in the future, particularly when it comes to collecting genomic data. 
+Often the first suggested step is to determine how likely the research is to yield any actionable incidental findings. Actionable findings are those where the research subject could actually do something to about the finding to improve their health or reduce the risk of health concerns. However, it can be difficult to determine if such a finding will become actionable in the future, particularly when it comes to collecting genomic data.
 
-To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future. 
+To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future.
 
 
 ### Protection of Vulnerable Populations
@@ -333,7 +345,7 @@ A research study @davis_causal_2007 investigated closed cases from the Office of
 The following categories of factors were identified among the reports:
 1) Personal and professional stressors
  This included statements about stressors encountered at work and personally such as:
- 
+
  - pressure to produce
  - overworked
  - insufficient time
@@ -355,7 +367,7 @@ These cases described situations in which a researcher felt hesitant to ask for 
 - Inappropriate responsibility
 -  Competition for position
 - Language Barrier
- 
+
 4) Rationalizations
 Justifications that were often offered included:
 - Lack of control over environment
@@ -382,4 +394,3 @@ Choosing Public Good over Science can also be viewed as a personality factor sin
 ### The Researcher
 
 According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, the face many consequences including possible debarment [@davis_causal_2007].
-
