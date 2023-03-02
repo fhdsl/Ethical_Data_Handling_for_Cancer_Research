@@ -215,6 +215,12 @@ The data covered by GINA has been highly debated since the rapidly evolving tech
 For example, thus far RNA-seq data that is summarized and de-identified has been deemed acceptable for public sharing, however in the future one could see a scenario in which certain gene expression patterns could be more solidly determined as indicators of disease.
 Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly.
 
+GINA is critical to the wellbeing of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical.
+
+So what does GINA mean in terms of data sharing? The principle of [least privilege](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principal-of-least-privilege) discussed in the previous security chapter still applies.
+
+For many genetic data types a controlled access database is the appropriate solution to balance data sharing while maintaining the security of these data. One such database is dbGaP. dbGaP holds genetic dataset information but for individuals to gain access, they must apply and explain how their project and access will be of benefit. More details about how these applications for access are [described here](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=GeneralAAInstructions.pdf).
+
 ## Health Information Technology for Economic and Clinical Health (HITECH) Act
 
 https://www.govinfo.gov/app/details/FR-2013-01-25/2013-01073
@@ -222,7 +228,6 @@ https://www.govinfo.gov/app/details/FR-2013-01-25/2013-01073
 Code of Federal Regulations (CFR)- protocol for life cycle for patient records
 
 Higher Education Act of 1965
-
 
 https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research
 
@@ -233,7 +238,6 @@ https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/
 ## Current Ethical Issues
 
 There are several issues that researchers and research participants, and really all individuals engaging in health care face. We will discuss some of these briefly.
-
 
 ### Consent for Data Reuse
 
