@@ -4,7 +4,11 @@ target-audience
 curriculum
 data-privacy
 pii-personal-identifiable-information
+pii-risk
 phi-protected-health-information
+phi-is-a-subset-of-pii
+phi-risk
+cancer-research-data-and-phi
 what-genomic-data-is-protected
 how-to-ensure-the-privacy-of-this-information
 how-is-hipaa-enforced
@@ -30,8 +34,6 @@ ssl-socket-layer
 ssh-secure-shell
 data-erasure
 data-resiliency
-security-in-workflows
-data-protection-tools-for-healthcare
 email-security
 email-encryption
 phishing

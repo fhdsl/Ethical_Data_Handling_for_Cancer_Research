@@ -258,14 +258,9 @@ For example, you might think about having one copy on your password protected la
 However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead the 3 should indicate that there should be 3 additional copies to the original, 2 indicates that there should be copies stored in two different places on a server or two regions in a cloud (where possible), and the 1 indicates that you should have one copy of the data that is closer to where it was originally created just in case something happens with the server or cloud that you are using [@posey_modernizing_2021].  
 
 
-## Security in workflows
-
-
-## Data protection tools for healthcare
-
-redcap
 
 ## Email security
+
 Email can also pose a risk for our data. This can be due to the security risks of actually emailing our data to a colleague or issues related to having our computer hacked by someone through phishing emails.
 
 ### Email Encryption
@@ -276,7 +271,7 @@ However we understand that there are situations where you might need to email da
 
 How do you do this?
 
-If you use Outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date.
+If you use Outlook, there are options to do so currently under the "Draft" menu, by selecting the "Encrypt" option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date. Your institute may have special ways of encrypting emails, so check with your local IT department.
 
 
 ### Phishing
