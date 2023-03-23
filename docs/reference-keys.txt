@@ -30,6 +30,7 @@ safe-harbor
 expert-determination
 limitations
 encryption
+security-protocols
 ssl-socket-layer
 ssh-secure-shell
 data-erasure
