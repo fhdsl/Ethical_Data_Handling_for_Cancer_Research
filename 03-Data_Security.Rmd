@@ -113,7 +113,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ### Cached data (maybe need to move - was going to be stale access)
 
-In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing))  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
+In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing)#)  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
 
 This process is used by the computer processor or CPU called a CPU cache, as well as software, which we will call a software cache. If you are working with data stored on your local computer, then a subset of short-term memory will be used for the cache, rather than requiring the user to access the data from where it is typically stored much further away in long-term memory. This is more efficient because it is located closer to processor and thus allows for requests on that data to happen faster [@memory_caching]. 
 
