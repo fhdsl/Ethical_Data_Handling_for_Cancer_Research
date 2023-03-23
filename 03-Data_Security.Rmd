@@ -113,7 +113,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 
 ### Cached data (maybe need to move - was going to be stale access)
 
-In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing)  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
+In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing))  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
 
 This process is used by the computer processor or CPU called a CPU cache, as well as software, which we will call a software cache. If you are working with data stored on your local computer, then a subset of short-term memory will be used for the cache, rather than requiring the user to access the data from where it is typically stored much further away in long-term memory. This is more efficient because it is located closer to processor and thus allows for requests on that data to happen faster [@memory_caching]. 
 
@@ -216,7 +216,7 @@ Users can get access to the public key to allow them to encrypt the data, while 
 
 Symmetric cryptography on the other hand uses **one** key for encryption and decryption. In systems that use this type of encryption, pairs of users will often be given their own key. The advantage of this system is that decryption is a bit faster, the keys are smaller, and it is generally less expensive to implement. If someone gains access to the key, however they can decrypt data or messages, and encrypt data or messages and appear as if they are the person that owns that key. So often the keys themselves are encrypted [@IBM_encryption].
 
-Since symmetric decryption is faster, it is often used for transferring data or for large datasets.Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/aes-encryption-your-faqs-answered) [@cyware_social_encryption].
+Since symmetric decryption is faster, it is often used for transferring data or for large datasets.Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption) [@cyware_social_encryption].
 
 Asymmetric encryption is regarded to be more secure, common algorithms included [RSA](https://simple.wikipedia.org/wiki/RSA_algorithm) and [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm), and several [PKCS](https://en.wikipedia.org/wiki/PKCS) standards [@cyware_social_encryption].
 
