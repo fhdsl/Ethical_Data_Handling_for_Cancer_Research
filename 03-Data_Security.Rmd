@@ -379,7 +379,7 @@ Sarah Olson
 
 Additionally, be careful logging into websites as well. Make sure that you are indeed at the link you expect - one way to avoid this is to make a bookmark of the sites that you log in to. 
 
-See [here](https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for from the HIPAA journal.
+See [here](https://web.archive.org/web/20220609154035/https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for from the HIPAA journal.
 
 
 
