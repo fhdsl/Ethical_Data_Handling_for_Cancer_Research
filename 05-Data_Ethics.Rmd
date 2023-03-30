@@ -90,6 +90,7 @@ Commercial use of data is yet another possible use of research data. There is on
 
 [MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email address and password hash key for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
 
+See [here](https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/) for other examples of PHI data breaches.
 
 3) Data mistakes and neglect
 
@@ -283,10 +284,6 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 
 
 
-
-https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/Recruitment%20of%20Research%20Participants.pdf
-
-https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/
 
 ## Current Ethical Issues
 
