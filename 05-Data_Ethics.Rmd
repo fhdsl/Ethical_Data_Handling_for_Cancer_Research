@@ -219,9 +219,14 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 
 - Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)
 
-https://www.govinfo.gov/app/details/FR-2013-01-25/2013-01073
+[HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for electronic PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
 
-Code of Federal Regulations (CFR)- protocol for life cycle for patient records
+  1) Privacy Rule - Access should be limited to as few individuals as possible
+  2) Security Rule - Safeguards should be implemented to protecte electronic PHI, including technical means and physical means
+  3) Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI
+
+
+- Code of Federal Regulations (CFR)- protocol for life cycle for patient records
 
 Higher Education Act of 1965
 
