@@ -170,26 +170,64 @@ One [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/)  by @begay_
 
 ## General Ethics Code
 
-Healthcare ethics, and by extension medical research ethics can be described in [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
+Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. 
 
-### 1. The pillar of beneficence
+
+### The [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
+
+1. The pillar of beneficence
 
 This pillar means that healthcare and its research must support the well-being of the patients. This includes reducing pain and helping to increase their overall quality of life.
 
-### 2. The pillar of non-maleficence
+2. The pillar of non-maleficence
 
 Harm to patients must be minimized. This includes not causing intentional harm but also minimizing incompetency and accidental harm.
 This means for research studies and treatments, only conducting those where benefits outweigh the risks.
 
-### 3. The pillar of justice
+3. The pillar of justice
 
 Healthcare must be provided to all equally and equitably regardless of race, gender, sex, socioeconomic class, religion, ethnicity, sexual orientation, age, or any other aspect of an individual's identity.
 Equity specifically means that those who are societally disadvantaged should be even further aided.
 
-### 4. The pillar of autonomy (self-determination)
+4. The pillar of autonomy (self-determination)
 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
+
+### The NIH Clincial Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) (this discussion is from @Principles_2015)
+
+1) Social and clinical value
+
+The value of the study needs to be important enough to justify the discomfort, inconvenience that research participants may experience.
+
+2) Scientific validity
+
+Studies should be designed so as to effectively gain more understanding about the scientific question in consideration. In other words, the efforts of the research participants should not be wasted on a study that is poorly designed and will not add to scientific understanding.
+
+Fair subject selection
+Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason.  Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others. 
+
+Favorable risk-benefit ratio
+
+Risks should be minimized, while benefits should be maximized. Risks are not just physical, but can involve mental, financial, social, or other risks.
+
+Independent review
+
+To reduce conflicts of interest influencing the care of research participants, study plans should be reviewed by others who are trained to consider the ethical implications of such studies.
+
+Informed consent
+
+Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.
+
+Respect for potential and enrolled subjects
+
+Indiviudals should be treated with respect for the entirety of the process including:
+ 
+  - respecting the privacy of their information
+  - respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind
+  - respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed
+  - respecting their welfare and their right to knowledge by letting them know what was learned from the research
+
 
 ## Medical Ethics Timeline
 
@@ -226,11 +264,9 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
   3) Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI
 
 
-- Code of Federal Regulations (CFR)- protocol for life cycle for patient records
 
-Higher Education Act of 1965
 
-https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research
+
 
 https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/Recruitment%20of%20Research%20Participants.pdf
 
