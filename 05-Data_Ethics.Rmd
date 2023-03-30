@@ -217,17 +217,29 @@ To reduce conflicts of interest influencing the care of research participants, s
 
 Informed consent
 
-Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.
+Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated @wikipedia_informed_2023). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.
 
 Respect for potential and enrolled subjects
 
-Indiviudals should be treated with respect for the entirety of the process including:
+Individuals should be treated with respect for the entirety of the process including:
  
   - respecting the privacy of their information
   - respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind
   - respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed
   - respecting their welfare and their right to knowledge by letting them know what was learned from the research
 
+## Concept of Consent
+
+We have already talked about the concept of informed consent. Obtaining consent should also include (based on @IRB_Iowa and @wikipedia_informed_2023 and the author's thoughts):
+
+  - Individuals should not feel pressured and should have adequate time to make the decision.
+  - Individuals should not experience undue influence, be coerced or be manipulated - They should not feel pressured by the individual recruiting, such as a boss or someone else of power or by offers in exchange for participation that would sway the decision.
+  - Individuals should not receive a misleading or overstated presentation of the potential benefits of the study.
+  - Individuals should be made aware of the uncertainty associated with risks and benefits
+  - Individuals should have the capacity to understand the risks and benefits (this involves consideration for language barriers, intellectual capacity, emotional capacity, stress, sleep loss and other forms of physical strain)
+  - Individuals should be able to withdraw consent at anytime 
+  - Individuals should be respected through-out the process including consideration for the cultural values of the recruited populations
+  
 
 ## Medical Ethics Timeline
 
@@ -245,6 +257,10 @@ See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkE
 - Code of Medical Ethics (1957)
 
 Legal Binding of Patient-Physician Confidentiality
+
+- International Covenant on Civil and Political Rights (1966)
+
+The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
 
 - Health Insurance Portability and Accountability Act (HIPAA) (1996)
 
