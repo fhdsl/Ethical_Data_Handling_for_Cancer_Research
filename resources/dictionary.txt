@@ -109,6 +109,7 @@ Klarman
 Kubernettes
 ottrpal
 Leanpub
+linkable
 macOS
 Markua
 mentorship
@@ -195,3 +196,4 @@ XQuartz
 Xsede
 ZENODO
 20th
+23andMe
