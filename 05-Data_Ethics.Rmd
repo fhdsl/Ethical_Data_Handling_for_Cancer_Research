@@ -102,30 +102,15 @@ Keith Baggerly [points out](https://www.nature.com/articles/d41586-018-06903-2) 
 
 Keith points out however, that it is currently difficult for researchers to find the time to deeply investigate the work of others and suggests that perhaps scientists at funding agencies could perform such forensic work to ensure the integrity of our scientific findings [@baggerly_what_2018].
 
-https://academic.oup.com/g3journal/article/5/10/2177/6028939
-https://projecteuclid.org/journals/annals-of-applied-statistics/volume-3/issue-4/Deriving-chemosensitivity-from-cell-lines--Forensic-bioinformatics-and-reproducible/10.1214/09-AOAS291.full
+Another [interesting example] is an investigation by Karl Browman, who is also well-known for his "Forensic Bioinformatics", work  is [a paper](https://academic.oup.com/g3journal/article/5/10/2177/6028939) in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice [@broman_identification_2015]. The authors also created an R package to help correct for such mix-ups. The author's conclude the manuscript as:
 
+>  What is an acceptable error rate in a research study? And what laboratory procedures should be instituted to avoid such errors? There exist procedures to help protect against errors, both for genotypes (e.g., Huijsmans et al. 2007a,b) and for microarrays (Grant et al. 2003; Imbeaud and Auffray 2005; Walter et al. 2010), but they are not always put into practice. However, as the current study indicates, with expression genetic data, one can accommodate a high rate of errors provided that one applies appropriate procedures to detect and correct such errors.
 
+This ultimately suggests that where researchers have two compatible types of data that allow for checking for mix-ups, methods to evaluate and correct for such errors could be very beneficial.  
 
 4) Data falsification
 
 Although the previous example ultimately led to some discoveries of falsification, the majority of the discovery started with findings of simple mistakes. However, there are many other reported cases of researchers falsifying or modifying their data to improve their results. See [here](https://ori.hhs.gov/education/products/RIandImages/misconduct_cases/findings_of_misconduct.pdf) for examples of misconduct cases identified by the [Office of Research Integrity at the US department of Health and Human Services](https://ori.hhs.gov/).  
-
-
-https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf
-
-
-
-
-https://en.wikipedia.org/wiki/Scientific_misconduct
-
-Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
-
-https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf
-
-https://www.tandfonline.com/doi/full/10.1080/08989621003641132
-
-https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
 
 
@@ -393,7 +378,7 @@ interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/g
 
 ## Causes of research misconduct
 
-A research study @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
+A [research study](https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf) by @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
 
 
 The following categories of factors were identified among the reports:
@@ -444,7 +429,20 @@ Choosing Public Good over Science can also be viewed as a personality factor sin
 
 ## Consequences of research misconduct
 
+https://en.wikipedia.org/wiki/Scientific_misconduct
+
+Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
+
+
+https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
+
+
 
 ### The Researcher
 
 According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, the face many consequences including possible debarment [@davis_causal_2007].
+
+## Misconduct prevention
+
+https://www.tandfonline.com/doi/full/10.1080/08989621003641132
+
