@@ -180,7 +180,7 @@ Equity specifically means that those who are societally disadvantaged should be 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
-### The NIH Clincial Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) (this discussion is from @Principles_2015)
+### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) (this discussion is from @Principles_2015)
 
 1) Social and clinical value
 
@@ -262,7 +262,7 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 [HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for electronic PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
 
   1) Privacy Rule - Access should be limited to as few individuals as possible
-  2) Security Rule - Safeguards should be implemented to protecte electronic PHI, including technical means and physical means
+  2) Security Rule - Safeguards should be implemented to protect electronic PHI, including technical means and physical means
   3) Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI
 
 

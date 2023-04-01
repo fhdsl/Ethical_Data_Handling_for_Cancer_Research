@@ -11,6 +11,7 @@ AnVIL
 ArrayExpress
 ASU
 AutoRun
+Auffray
 bam
 Baggerly
 Biostrings
@@ -23,6 +24,7 @@ Blavatnik
 Bloomberg
 Bukner
 BRCA
+Browman
 cBIBOP
 chemosensitivity
 citable
@@ -88,6 +90,7 @@ HPC
 HTAN
 http
 https
+Huijsmans
 JHPCE
 Jing
 IB
