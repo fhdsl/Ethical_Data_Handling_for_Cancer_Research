@@ -60,6 +60,10 @@ data-ethics-history
 historical-incidences
 recent-incidences
 general-ethics-code
+the-four-pillars-this-discussion-is-from-melvin_medical_2020
+the-nih-clinical-center-seven-principles-this-discussion-is-from-principles_2015
+concept-of-consent
+medical-ethics-timeline
 current-ethical-issues
 consent-for-data-reuse
 data-sovereignty
@@ -70,3 +74,4 @@ data-security-and-privacy-in-the-age-of-ai
 causes-of-research-misconduct
 consequences-of-research-misconduct
 the-researcher
+misconduct-prevention
