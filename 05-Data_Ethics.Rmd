@@ -231,7 +231,7 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 ## Medical Ethics Timeline
 
-It is helpful to get a sense of the timing of when society started to consider medical and research practices more carefully from an ethically standpoint. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
+It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
 <!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
 
@@ -290,10 +290,10 @@ Previous management strategies for informed consent originate from research that
 
 Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some current methods for consent as described in @mckeown_consent_2021.
 
-1) blanket consent - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
-2) broad consent - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
-3) dynamic consent - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
-4) meta consent - Subjects get to choose what type of consent they prefer of the other 3 options.
+1) **blanket consent** - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
+2) **broad consent** - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
+3) **dynamic consent** - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
+4) **meta consent** - Subjects get to choose what type of consent they prefer of the other 3 options.
 
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
