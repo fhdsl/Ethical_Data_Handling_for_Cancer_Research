@@ -463,5 +463,6 @@ Not only does misconduct lead to costs associated with a researcher and or insti
 
 ## Misconduct prevention
 
-https://www.tandfonline.com/doi/full/10.1080/08989621003641132
+Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
 
