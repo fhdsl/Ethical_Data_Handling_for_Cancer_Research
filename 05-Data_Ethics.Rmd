@@ -92,6 +92,15 @@ Commercial use of data is yet another possible use of research data. There is on
 
 See [here](https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/) for other examples of PHI data breaches.
 
+Places that report data breaches - based on @@seh_breaches_2020:
+
+1) PRC Database (Consumer data  established in 1992)
+2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
+3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
+4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
+5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
+
+
 3) **Data mistakes and neglect**
 
 
@@ -428,24 +437,29 @@ Choosing Public Good over Science can also be viewed as a personality factor sin
 
 ## Consequences of research misconduct
 
-https://en.wikipedia.org/wiki/Scientific_misconduct
+Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017. 
 
-Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
-
-
-https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
-
-Places that report data breaches - based on @@seh_breaches_2020:
-1) PRC Database (Consumer data  established in 1992)
-2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
-3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
-4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
-5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
-
+<!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
+<!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
+<!-- https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687 -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
 
 ### The Researcher
 
-According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, the face many consequences including possible debarment [@davis_causal_2007].
+According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, they face many consequences including possible debarment, job loss, revoked degrees, revoked awards, and lawsuits .
+
+### The Insitute and Journals
+
+Insititues and Jouranals can also face consequences of research misconduct, as they face reputation loses, which may reduce future opportunties for additional funding or support.
+
+### The Field
+
+Misconduct can lead to false findings that can lead to many other researchers investigating hypotheses that are not founded on true evidence. This can lead to wasted time, effort, and resources.  
+
+### Patients
+
+Not only does misconduct lead to costs associated with a researcher and or institute losing some of their capacity to provide important positive research impacts to future patients, but it also reduces patient trust in research overall. 
 
 ## Misconduct prevention
 
