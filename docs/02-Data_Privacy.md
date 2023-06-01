@@ -19,7 +19,7 @@ Note that these are general definitions and whether something counts as PII or P
 
 PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
 
-PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppii) as:
+PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppi) as:
 
 > "Any representation of information that permits the **identity** of an individual to whom the information applies to be reasonably inferred by either **direct** or **indirect** means."
 

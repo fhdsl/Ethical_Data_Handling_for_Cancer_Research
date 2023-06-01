@@ -25,7 +25,7 @@ Note that these are general definitions and whether something counts as PII or P
 
 PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
 
-PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppii) as:
+PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppi) as:
 
 > "Any representation of information that permits the **identity** of an individual to whom the information applies to be reasonably inferred by either **direct** or **indirect** means."
 
@@ -130,6 +130,31 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ### What genomic data is protected?
 <!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if participants are alive or not etc.-->
+
+<!-- The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals. -->
+<!-- This data would be highly dangerous and valuable if in the wrong hands. Health insurance companies are prohibited from obtaining genetic test data and using it to inform their premiums or other healthcare coverage related decisions. -->
+
+<!-- > defines “genetic test” to mean the “analysis of human DNA, RNA, chromosomes, proteins, or metabolites that detects genotypes, mutations, or chromosomal changes.” Genetic tests are used to detect gene variants associated with a specific disease or condition. For example, tests to determine whether an individual carries the genetic variant evidencing a predisposition to breast cancer—whether the individual has the BRCA1 or BRCA2 variant—or to determine whether an individual has a genetic variant associated with hereditary nonpolyposis colorectal cancer are genetic tests. -->
+
+<!-- From [@regulations_2010] -->
+
+<!-- This means as researchers or clinicians we need to keep these data secure and hidden. Data types protected under GINA include but are not limited to: -->
+
+<!-- - DNA sequencing or genotyping -->
+<!-- - RNA sequencing that shows genetic variation -->
+<!-- - Protein sequencing -->
+<!-- - Blood collection -->
+<!-- - Any type of biological material that would indicate heredity or any genetic variant -->
+
+<!-- The data covered by GINA has been highly debated since the rapidly evolving technologies and identification of new risk factors make clear guidelines a moving target. -->
+<!-- For example, thus far RNA-seq data that is summarized and de-identified has been deemed acceptable for public sharing, however in the future one could see a scenario in which certain gene expression patterns could be more solidly determined as indicators of disease. -->
+<!-- Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly. -->
+
+<!-- GINA is critical to the well-being of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical. -->
+
+<!-- So what does GINA mean in terms of data sharing? The principle of [least privilege](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principal-of-least-privilege) discussed in the previous security chapter still applies. -->
+
+<!-- For many genetic data types a controlled access database is the appropriate solution to balance data sharing while maintaining the security of these data. One such database is dbGaP. dbGaP holds genetic dataset information but for individuals to gain access, they must apply and explain how their project and access will be of benefit. More details about how these applications for access are [described here](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=GeneralAAInstructions.pdf). -->
 
 So what does this mean for the data you handle?
 

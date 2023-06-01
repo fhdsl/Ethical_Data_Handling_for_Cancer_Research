@@ -11,6 +11,7 @@ AnVIL
 ArrayExpress
 ASU
 AutoRun
+Auffray
 bam
 Baggerly
 Biostrings
@@ -22,12 +23,15 @@ birthdates
 Blavatnik
 Bloomberg
 Bukner
+BRCA
+Browman
 cBIBOP
 chemosensitivity
 citable
 CFR
 Coombes
 COVID
+colorectal
 cryptographic
 CSUN
 cybercriminal
@@ -38,6 +42,7 @@ databanks
 DataTrail
 Dashlane
 DBIR
+dbGaP
 DDBJ
 decrypt
 De
@@ -85,6 +90,7 @@ HPC
 HTAN
 http
 https
+Huijsmans
 JHPCE
 Jing
 IB
@@ -126,6 +132,7 @@ NCSA
 NHGRI
 NLP
 Northridge
+nonpolyposis
 n2c2
 OHIF
 omics
@@ -156,6 +163,7 @@ scalability
 SciServer
 SciUIs
 SkyServer
+societally
 semiconductive
 SACHRP
 SGE

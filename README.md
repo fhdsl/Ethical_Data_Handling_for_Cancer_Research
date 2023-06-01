@@ -30,4 +30,4 @@ This course will teach learners to:
 
 If you are encountering any problems with this course, please file a GitHub issue or contact us using [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeYwgP9ZKGRCCkLV2vnMZy9ZLSqXZTUKTFKDVYEy95aXzw2Bg/viewform).
 
-_All materials in this course are licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) and can be repurposed freely with attribution._
+_All materials in this course are licensed [CC-BY](https://tldrlegal.com/license/creative-commons-attribution-(cc)) and can be repurposed freely with attribution._
