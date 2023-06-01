@@ -305,11 +305,11 @@ Although ethical guidelines about this type of consent are evolving as research 
 
 We would like to suggest that updated information should possibly be provided to participants about changes in awareness of potential data uses and changes in awareness of the potential benefit or lack of benefit of the data to society.
 
-New consent issues:https://www.frontiersin.org/articles/10.3389/fgene.2019.01107/full
+<!-- New consent issues:https://www.frontiersin.org/articles/10.3389/fgene.2019.01107/full -->
 
-hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf
+<!-- hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf -->
 
-great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
+<!-- great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/ -->
 
 ### Data sovereignty
 
@@ -342,46 +342,38 @@ Often the first suggested step is to determine how likely the research is to yie
 To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future.
 
 
-### Protection of Vulnerable Populations
+<!-- ### Protection of Vulnerable Populations -->
 
-#### Minors
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237875
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
-### Equity of Health Care
-
-
-### Data Security and Privacy in the Age of AI
-
-avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/
+<!-- #### Minors -->
+<!-- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237875 -->
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic -->
+<!-- ### Equity of Health Care -->
 
 
+<!-- ### Data Security and Privacy in the Age of AI -->
+
+<!-- avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/ -->
 
 
-patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121
+<!-- patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121 -->
 
-HIPAA: https://www.hipaaexams.com/blog/everything-you-need-to-know-about-a-hipaa-violation/#:~:text=Criminal%20Penalties,-These%20penalties%20are&text=They%20can%20be%20as%20follows,for%20up%20to%20five%20years
+<!-- HIPAA: https://www.hipaaexams.com/blog/everything-you-need-to-know-about-a-hipaa-violation/#:~:text=Criminal%20Penalties,-These%20penalties%20are&text=They%20can%20be%20as%20follows,for%20up%20to%20five%20years -->
 
-https://inspiredelearning.com/blog/hipaa-violation-examples/
+<!-- https://inspiredelearning.com/blog/hipaa-violation-examples/ -->
 
-https://www.hhs.gov/hipaa/filing-a-complaint/index.html
+<!-- https://www.hhs.gov/hipaa/filing-a-complaint/index.html -->
 
-bad examples:
+<!-- bad examples: -->
 
-https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-medical-research-3361/
-
-Places that report data breaches - based on @@seh_breaches_2020:
-1) PRC Database (Consumer data  established in 1992)
-2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
-3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
-4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
-5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
-
-maybe talk about federated learning? https://www.nature.com/articles/s41591-021-01614-0
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/
+<!-- https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-medical-research-3361/ -->
 
 
-interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf
+<!-- maybe talk about federated learning? https://www.nature.com/articles/s41591-021-01614-0 -->
+
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/ -->
+
+
+<!-- interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf -->
 
 ## Causes of research misconduct
 
@@ -443,6 +435,12 @@ Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
 
 https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
 
+Places that report data breaches - based on @@seh_breaches_2020:
+1) PRC Database (Consumer data  established in 1992)
+2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
+3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
+4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
+5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
 
 
 ### The Researcher
