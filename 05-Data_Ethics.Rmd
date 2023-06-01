@@ -57,12 +57,12 @@ We will discuss what can be done to reduce the risks of research participants an
 
 To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.
 
-Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but **neglectful** research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
+Most regulations of biomedical research stem from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but **neglectful** research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
 
 
 ### Historical incidences:
 
-Here are a couple of famous historical examples of medical research that was performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
+Here are a couple of famous historical examples of medical research that were performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
 
 1. [Tuskegee syphilis trial](https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study):
 A study in Tuskegee, Alabama about the outcomes of untreated syphilis in Black males (1932-1972) in which the patients were told they were being treated but were in fact not being treated [@mcvean_40_2019].
@@ -88,7 +88,7 @@ Commercial use of data is yet another possible use of research data. There is on
 
 2) Data Breaches
 
-[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email address and password hash key for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
+[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email addresses and password hash keys for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
 
 See [here](https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/) for other examples of PHI data breaches.
 
@@ -103,7 +103,7 @@ Keith Baggerly [points out](https://www.nature.com/articles/d41586-018-06903-2) 
 
 Keith points out however, that it is currently difficult for researchers to find the time to deeply investigate the work of others and suggests that perhaps scientists at funding agencies could perform such forensic work to ensure the integrity of our scientific findings [@baggerly_what_2018].
 
-Another [interesting example] is an investigation by Karl Browman, who is also well-known for his "Forensic Bioinformatics", work  is [a paper](https://academic.oup.com/g3journal/article/5/10/2177/6028939) in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice [@broman_identification_2015]. The authors also created an R package to help correct for such mix-ups. The author's conclude the manuscript as:
+Another interesting example is an investigation by Karl Browman, who is also well-known for his "Forensic Bioinformatics", work  is [a paper](https://academic.oup.com/g3journal/article/5/10/2177/6028939) in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice [@broman_identification_2015]. The authors also created an R package to help correct for such mix-ups. The author's conclude the manuscript as:
 
 >  What is an acceptable error rate in a research study? And what laboratory procedures should be instituted to avoid such errors? There exist procedures to help protect against errors, both for genotypes (e.g., Huijsmans et al. 2007a,b) and for microarrays (Grant et al. 2003; Imbeaud and Auffray 2005; Walter et al. 2010), but they are not always put into practice. However, as the current study indicates, with expression genetic data, one can accommodate a high rate of errors provided that one applies appropriate procedures to detect and correct such errors.
 
