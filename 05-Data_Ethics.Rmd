@@ -180,32 +180,34 @@ Equity specifically means that those who are societally disadvantaged should be 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
-### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) (this discussion is from @Principles_2015)
+### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
-1) Social and clinical value
+This discussion is from @Principles_2015.
+
+1)**Social and clinical value**
 
 The value of the study needs to be important enough to justify the discomfort, inconvenience that research participants may experience.
 
-2) Scientific validity
+2)**Scientific validity**
 
 Studies should be designed so as to effectively gain more understanding about the scientific question in consideration. In other words, the efforts of the research participants should not be wasted on a study that is poorly designed and will not add to scientific understanding.
 
-Fair subject selection
+3)**Fair subject selection**
 Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason.  Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others. 
 
-Favorable risk-benefit ratio
+4)**Favorable risk-benefit ratio**
 
 Risks should be minimized, while benefits should be maximized. Risks are not just physical, but can involve mental, financial, social, or other risks.
 
-Independent review
+5)**Independent review**
 
 To reduce conflicts of interest influencing the care of research participants, study plans should be reviewed by others who are trained to consider the ethical implications of such studies.
 
-Informed consent
+6)**Informed consent**
 
 Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated @wikipedia_informed_2023). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.
 
-Respect for potential and enrolled subjects
+7)**Respect for potential and enrolled subjects**
 
 Individuals should be treated with respect for the entirety of the process including:
  
