@@ -81,18 +81,18 @@ With advances in technology allowing for cheaper and easier production of medica
 
 Here are some examples that exemplify more current data ethics issues:
 
-1) Data Misuse for Marketing
+1) **Data Misuse for Marketing**
 
 Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting [@kramer_surescripts_2019]. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from [Surescripts](https://surescripts.com/), a prescription and health record data company and providing it in a processed form for Amazon's PillPack (https://www.pillpack.com/), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market [@chiruvella_ethical_2021]. Surescripts then decided to  revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened [@kramer_surescripts_2019]. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated [@kramer_surescripts_2019].
 
 
-2) Data Breaches
+2) **Data Breaches**
 
 [MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email addresses and password hash keys for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
 
 See [here](https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/) for other examples of PHI data breaches.
 
-3) Data mistakes and neglect
+3) **Data mistakes and neglect**
 
 
 [Keith Baggerly](https://www.utmb.edu/research/research-at-utmb/utmb-research-day/keith-baggerly) is a well-known expert in what he calls "Forensic Bioinformatics". He evaluates other studies to see if he can reproduce their work. He has in a few cases found some very important mistakes. Often the mistakes have to do with sample mix-ups, such as a shift in a table resulting mislabeled rows or columns. Although such simple mistakes seem minor, Keith has shown that this can result in major consequences. 
@@ -109,13 +109,12 @@ Another interesting example is an investigation by Karl Browman, who is also wel
 
 This ultimately suggests that where researchers have two compatible types of data that allow for checking for mix-ups, methods to evaluate and correct for such errors could be very beneficial.  
 
-4) Data falsification
+4) **Data falsification**
 
 Although the previous example ultimately led to some discoveries of falsification, the majority of the discovery started with findings of simple mistakes. However, there are many other reported cases of researchers falsifying or modifying their data to improve their results. See [here](https://ori.hhs.gov/education/products/RIandImages/misconduct_cases/findings_of_misconduct.pdf) for examples of misconduct cases identified by the [Office of Research Integrity at the US department of Health and Human Services](https://ori.hhs.gov/).  
 
 
-
-4) Improper Data Reuse for Research
+5) **Improper Data Reuse for Research**
 
 This section is largely based on an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/) by @garrison_genomic_2013.
 
