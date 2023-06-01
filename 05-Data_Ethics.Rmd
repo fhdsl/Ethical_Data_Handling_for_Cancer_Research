@@ -231,7 +231,7 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 ## Medical Ethics Timeline
 
-The concept of medical ethics in the Western world dates back all the way to the original [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath) between the 3rd and 5th century BC [@hippocratic_2023]. It established concepts like confidentiality and non-maleficence. This was than established as part of the United States American Medical Association code of ethics in 1874. Here we point out other important dates in the timeline of medical ethics. 
+It is helpful to get a sense of the timing of when society started to consider medical and research practices more carefully from an ethically standpoint. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
 <!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
 
@@ -240,35 +240,40 @@ The concept of medical ethics in the Western world dates back all the way to the
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g15797d1181d_0_0")
 ```
 
-See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.
+See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 
-- Code of Medical Ethics (1957)
+### The Hippocartic Oath (~ 4th centery BC)
 
-Legal Binding of Patient-Physician Confidentiality
+The concept of medical ethics in the Western world dates back all the way to the original [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath) between the 3rd and 5th century BC [@hippocratic_2023]. It established concepts like confidentiality and non-maleficence.
 
-- International Covenant on Civil and Political Rights (1966)
+> " What I may see or hear in the course of the treatment or even outside of the treatment in regard to the life of men, which on no account one must spread abroad, I will keep to myself, holding such things shameful to be spoken about."[@hippocratic_2023]
+
+### American Medical Association Code of Medical Ethics (1847)
+
+The United States [American Medical Association](https://code-medical-ethics.ama-assn.org/) code of ethics was first established in 1874 [@riddick_code_2003]. The next major code publication was in 1957. The code was not law, but it set standards for care. The 1957 code describe the fact that there might be special cases in which confidence might not always be able to be kept. 
+
+See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf) by @higgins_history_1989 and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/) by @moskop_hippocrates_2005 for more about the history of medical ethics codes. 
+
+### International Covenant on Civil and Political Rights (1966)
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
 
-- Health Insurance Portability and Accountability Act (HIPAA) (1996)
+### Health Insurance Portability and Accountability Act (HIPAA) (1996)
 
-Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
+Medical confidentially became law in the United States. Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
 
-- Genetic Information Nondiscrimination Act (GINA) (2008) 
+### Genetic Information Nondiscrimination Act (GINA) (2008) 
 
 The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals.
 
 
-- Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)
+### Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)
 
-[HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for electronic PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
+[HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for **electronic** PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
 
   1) Privacy Rule - Access should be limited to as few individuals as possible
   2) Security Rule - Safeguards should be implemented to protect electronic PHI, including technical means and physical means
   3) Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI
-
-
-
 
 
 
