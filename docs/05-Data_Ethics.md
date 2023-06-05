@@ -53,12 +53,12 @@ We will discuss what can be done to reduce the risks of research participants an
 
 To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.
 
-Most regulations of biomedical research stems from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but **neglectful** research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
+Most regulations of biomedical research stem from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but **neglectful** research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.
 
 
 ### Historical incidences:
 
-Here are a couple of famous historical examples of medical research that was performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
+Here are a couple of famous historical examples of medical research that were performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.
 
 1. [Tuskegee syphilis trial](https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study):
 A study in Tuskegee, Alabama about the outcomes of untreated syphilis in Black males (1932-1972) in which the patients were told they were being treated but were in fact not being treated [@mcvean_40_2019].
@@ -77,18 +77,27 @@ With advances in technology allowing for cheaper and easier production of medica
 
 Here are some examples that exemplify more current data ethics issues:
 
-1) Data Misuse for Marketing
+1) **Data Misuse for Marketing**
 
 Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting [@kramer_surescripts_2019]. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from [Surescripts](https://surescripts.com/), a prescription and health record data company and providing it in a processed form for Amazon's PillPack (https://www.pillpack.com/), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market [@chiruvella_ethical_2021]. Surescripts then decided to  revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened [@kramer_surescripts_2019]. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated [@kramer_surescripts_2019].
 
 
-2) Data Breaches
+2) **Data Breaches**
 
-[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email address and password hash key for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
+[MyHeritage](https://en.wikipedia.org/wiki/MyHeritage) is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email addresses and password hash keys for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user [@myheritage_2018]. This incident however highlights the concern that could happen if the cybercriminal had been more successful.
 
 See [here](https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/) for other examples of PHI data breaches.
 
-3) Data mistakes and neglect
+Places that report data breaches - based on @@seh_breaches_2020:
+
+1) PRC Database (Consumer data  established in 1992)
+2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
+3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
+4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
+5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
+
+
+3) **Data mistakes and neglect**
 
 
 [Keith Baggerly](https://www.utmb.edu/research/research-at-utmb/utmb-research-day/keith-baggerly) is a well-known expert in what he calls "Forensic Bioinformatics". He evaluates other studies to see if he can reproduce their work. He has in a few cases found some very important mistakes. Often the mistakes have to do with sample mix-ups, such as a shift in a table resulting mislabeled rows or columns. Although such simple mistakes seem minor, Keith has shown that this can result in major consequences. 
@@ -99,19 +108,18 @@ Keith Baggerly [points out](https://www.nature.com/articles/d41586-018-06903-2) 
 
 Keith points out however, that it is currently difficult for researchers to find the time to deeply investigate the work of others and suggests that perhaps scientists at funding agencies could perform such forensic work to ensure the integrity of our scientific findings [@baggerly_what_2018].
 
-Another [interesting example] is an investigation by Karl Browman, who is also well-known for his "Forensic Bioinformatics", work  is [a paper](https://academic.oup.com/g3journal/article/5/10/2177/6028939) in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice [@broman_identification_2015]. The authors also created an R package to help correct for such mix-ups. The author's conclude the manuscript as:
+Another interesting example is an investigation by Karl Browman, who is also well-known for his "Forensic Bioinformatics", work  is [a paper](https://academic.oup.com/g3journal/article/5/10/2177/6028939) in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice [@broman_identification_2015]. The authors also created an R package to help correct for such mix-ups. The author's conclude the manuscript as:
 
 >  What is an acceptable error rate in a research study? And what laboratory procedures should be instituted to avoid such errors? There exist procedures to help protect against errors, both for genotypes (e.g., Huijsmans et al. 2007a,b) and for microarrays (Grant et al. 2003; Imbeaud and Auffray 2005; Walter et al. 2010), but they are not always put into practice. However, as the current study indicates, with expression genetic data, one can accommodate a high rate of errors provided that one applies appropriate procedures to detect and correct such errors.
 
 This ultimately suggests that where researchers have two compatible types of data that allow for checking for mix-ups, methods to evaluate and correct for such errors could be very beneficial.  
 
-4) Data falsification
+4) **Data falsification**
 
 Although the previous example ultimately led to some discoveries of falsification, the majority of the discovery started with findings of simple mistakes. However, there are many other reported cases of researchers falsifying or modifying their data to improve their results. See [here](https://ori.hhs.gov/education/products/RIandImages/misconduct_cases/findings_of_misconduct.pdf) for examples of misconduct cases identified by the [Office of Research Integrity at the US department of Health and Human Services](https://ori.hhs.gov/).  
 
 
-
-4) Improper Data Reuse for Research
+5) **Improper Data Reuse for Research**
 
 This section is largely based on an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/) by @garrison_genomic_2013.
 
@@ -177,32 +185,34 @@ Equity specifically means that those who are societally disadvantaged should be 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
-### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) (this discussion is from @Principles_2015)
+### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
-1) Social and clinical value
+This discussion is from @Principles_2015.
+
+1)**Social and clinical value**
 
 The value of the study needs to be important enough to justify the discomfort, inconvenience that research participants may experience.
 
-2) Scientific validity
+2)**Scientific validity**
 
 Studies should be designed so as to effectively gain more understanding about the scientific question in consideration. In other words, the efforts of the research participants should not be wasted on a study that is poorly designed and will not add to scientific understanding.
 
-Fair subject selection
+3)**Fair subject selection**
 Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason.  Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others. 
 
-Favorable risk-benefit ratio
+4)**Favorable risk-benefit ratio**
 
 Risks should be minimized, while benefits should be maximized. Risks are not just physical, but can involve mental, financial, social, or other risks.
 
-Independent review
+5)**Independent review**
 
 To reduce conflicts of interest influencing the care of research participants, study plans should be reviewed by others who are trained to consider the ethical implications of such studies.
 
-Informed consent
+6)**Informed consent**
 
 Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated @wikipedia_informed_2023). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.
 
-Respect for potential and enrolled subjects
+7)**Respect for potential and enrolled subjects**
 
 Individuals should be treated with respect for the entirety of the process including:
  
@@ -226,42 +236,47 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 ## Medical Ethics Timeline
 
-The concept of medical ethics in the Western world dates back all the way to the original [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath) between the 3rd and 5th century BC [@hippocratic_2023]. It established concepts like confidentiality and non-maleficence. This was than established as part of the United States American Medical Association code of ethics in 1874. Here we point out other important dates in the timeline of medical ethics. 
+It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
 <!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
 
 
 <img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" title="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
 
-See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.
+See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 
-- Code of Medical Ethics (1957)
+### The Hippocartic Oath (~ 4th centery BC)
 
-Legal Binding of Patient-Physician Confidentiality
+The concept of medical ethics in the Western world dates back all the way to the original [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath) between the 3rd and 5th century BC [@hippocratic_2023]. It established concepts like confidentiality and non-maleficence.
 
-- International Covenant on Civil and Political Rights (1966)
+> " What I may see or hear in the course of the treatment or even outside of the treatment in regard to the life of men, which on no account one must spread abroad, I will keep to myself, holding such things shameful to be spoken about."[@hippocratic_2023]
+
+### American Medical Association Code of Medical Ethics (1847)
+
+The United States [American Medical Association](https://code-medical-ethics.ama-assn.org/) code of ethics was first established in 1874 [@riddick_code_2003]. The next major code publication was in 1957. The code was not law, but it set standards for care. The 1957 code describe the fact that there might be special cases in which confidence might not always be able to be kept. 
+
+See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf) by @higgins_history_1989 and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/) by @moskop_hippocrates_2005 for more about the history of medical ethics codes. 
+
+### International Covenant on Civil and Political Rights (1966)
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
 
-- Health Insurance Portability and Accountability Act (HIPAA) (1996)
+### Health Insurance Portability and Accountability Act (HIPAA) (1996)
 
-Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
+Medical confidentially became law in the United States. Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
 
-- Genetic Information Nondiscrimination Act (GINA) (2008) 
+### Genetic Information Nondiscrimination Act (GINA) (2008) 
 
 The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals.
 
 
-- Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)
+### Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)
 
-[HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for electronic PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
+[HITECH](https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/) builds on HIPAA to add protections for **electronic** PHI as this became more common practice in health care with three basic new rules [@security_HITECH_2021]:
 
   1) Privacy Rule - Access should be limited to as few individuals as possible
   2) Security Rule - Safeguards should be implemented to protect electronic PHI, including technical means and physical means
   3) Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI
-
-
-
 
 
 
@@ -278,10 +293,10 @@ Previous management strategies for informed consent originate from research that
 
 Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some current methods for consent as described in @mckeown_consent_2021.
 
-1) blanket consent - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
-2) broad consent - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
-3) dynamic consent - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
-4) meta consent - Subjects get to choose what type of consent they prefer of the other 3 options.
+1) **blanket consent** - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.
+2) **broad consent** - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.
+3) **dynamic consent** - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
+4) **meta consent** - Subjects get to choose what type of consent they prefer of the other 3 options.
 
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
@@ -293,11 +308,11 @@ Although ethical guidelines about this type of consent are evolving as research 
 
 We would like to suggest that updated information should possibly be provided to participants about changes in awareness of potential data uses and changes in awareness of the potential benefit or lack of benefit of the data to society.
 
-New consent issues:https://www.frontiersin.org/articles/10.3389/fgene.2019.01107/full
+<!-- New consent issues:https://www.frontiersin.org/articles/10.3389/fgene.2019.01107/full -->
 
-hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf
+<!-- hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf -->
 
-great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/
+<!-- great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/ -->
 
 ### Data sovereignty
 
@@ -330,46 +345,38 @@ Often the first suggested step is to determine how likely the research is to yie
 To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future.
 
 
-### Protection of Vulnerable Populations
+<!-- ### Protection of Vulnerable Populations -->
 
-#### Minors
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237875
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
-### Equity of Health Care
-
-
-### Data Security and Privacy in the Age of AI
-
-avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/
+<!-- #### Minors -->
+<!-- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237875 -->
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic -->
+<!-- ### Equity of Health Care -->
 
 
+<!-- ### Data Security and Privacy in the Age of AI -->
+
+<!-- avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/ -->
 
 
-patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121
+<!-- patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121 -->
 
-HIPAA: https://www.hipaaexams.com/blog/everything-you-need-to-know-about-a-hipaa-violation/#:~:text=Criminal%20Penalties,-These%20penalties%20are&text=They%20can%20be%20as%20follows,for%20up%20to%20five%20years
+<!-- HIPAA: https://www.hipaaexams.com/blog/everything-you-need-to-know-about-a-hipaa-violation/#:~:text=Criminal%20Penalties,-These%20penalties%20are&text=They%20can%20be%20as%20follows,for%20up%20to%20five%20years -->
 
-https://inspiredelearning.com/blog/hipaa-violation-examples/
+<!-- https://inspiredelearning.com/blog/hipaa-violation-examples/ -->
 
-https://www.hhs.gov/hipaa/filing-a-complaint/index.html
+<!-- https://www.hhs.gov/hipaa/filing-a-complaint/index.html -->
 
-bad examples:
+<!-- bad examples: -->
 
-https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-medical-research-3361/
-
-Places that report data breaches - based on @@seh_breaches_2020:
-1) PRC Database (Consumer data  established in 1992)
-2) HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)
-3) Office for Civil Rights Department of Health and Human Services of the USA (OCR) reports (yearly reports on health care data since 2009)
-4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
-5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
-
-maybe talk about federated learning? https://www.nature.com/articles/s41591-021-01614-0
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/
+<!-- https://www.hipaajournal.com/ocr-3-6-million-settlement-feinstein-institute-for-medical-research-3361/ -->
 
 
-interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf
+<!-- maybe talk about federated learning? https://www.nature.com/articles/s41591-021-01614-0 -->
+
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7349636/ -->
+
+
+<!-- interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf -->
 
 ## Causes of research misconduct
 
@@ -424,20 +431,32 @@ Choosing Public Good over Science can also be viewed as a personality factor sin
 
 ## Consequences of research misconduct
 
-https://en.wikipedia.org/wiki/Scientific_misconduct
+Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017. 
 
-Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1):
-
-
-https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687
-
-
+<!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
+<!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
+<!-- https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687 -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
 
 ### The Researcher
 
-According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, the face many consequences including possible debarment [@davis_causal_2007].
+According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, they face many consequences including possible debarment, job loss, revoked degrees, revoked awards, and lawsuits .
+
+### The Institute and Journals
+
+Institutes and Journals can also face consequences of research misconduct, as they face reputation loses, which may reduce future opportunities for additional funding or support.
+
+### The Field
+
+Misconduct can lead to false findings that can lead to many other researchers investigating hypotheses that are not founded on true evidence. This can lead to wasted time, effort, and resources.  
+
+### Patients
+
+Not only does misconduct lead to costs associated with a researcher and or institute losing some of their capacity to provide important positive research impacts to future patients, but it also reduces patient trust in research overall. 
 
 ## Misconduct prevention
 
-https://www.tandfonline.com/doi/full/10.1080/08989621003641132
+Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
 
