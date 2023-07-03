@@ -125,9 +125,9 @@ For more details on how to make data and code reproducible tips, see our [Intro 
 
 ## Health care data sharing tools
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
-Amazon Comprehend
-Healthcare Cost and Utilization Project (HCUP)
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic -->
+<!-- Amazon Comprehend -->
+<!-- Healthcare Cost and Utilization Project (HCUP) -->
 
 ### REDCap (Research Electronic Data Capture)
 
@@ -186,9 +186,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ```
 
 
-6) Security
-
-Scott Carey can help with this section maybe
+<!-- Scott Carey can help with this section maybe -->
 
 <div class = "warning">
 Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.
