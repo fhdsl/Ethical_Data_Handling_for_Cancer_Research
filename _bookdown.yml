@@ -7,7 +7,7 @@ rmd_files: ["index.Rmd",
             "03-Data_Security.Rmd",
             "04-Data_Sharing.Rmd",
             "05-Data_Ethics.Rmd",
-            "06-Current_Data_Ethics.Rmd",
+            "06-Current_Data_Concerns.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes

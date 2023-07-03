@@ -4,7 +4,7 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Data Ethics
+# Current Data Concerns
 
 Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.
 
