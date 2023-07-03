@@ -6,7 +6,7 @@
 
 In this chapter we will discuss the importance of data sharing, best practices for data sharing, places where you can store your data, as well as methods to share data in contexts in which you might have thought sharing was not possible! 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
 
 ## Data sharing is important!
 
@@ -113,9 +113,9 @@ For more details on how to make data and code reproducible tips, see our [Intro 
 
 ## Health care data sharing tools
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic
-Amazon Comprehend
-Healthcare Cost and Utilization Project (HCUP)
+<!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic -->
+<!-- Amazon Comprehend -->
+<!-- Healthcare Cost and Utilization Project (HCUP) -->
 
 ### REDCap (Research Electronic Data Capture)
 
@@ -166,9 +166,7 @@ You can protect your data from accidentally being modified by locking specific d
 <img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" title="Later project steps in REDCap can lock all data from being modified." alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
 
 
-6) Security
-
-Scott Carey can help with this section maybe
+<!-- Scott Carey can help with this section maybe -->
 
 <div class = "warning">
 Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.

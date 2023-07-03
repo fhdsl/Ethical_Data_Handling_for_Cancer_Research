@@ -1,6 +1,7 @@
 introduction
 motivation
 target-audience
+topics-covered
 curriculum
 data-privacy
 pii-personal-identifiable-information
