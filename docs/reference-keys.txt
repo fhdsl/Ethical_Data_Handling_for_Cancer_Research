@@ -59,7 +59,6 @@ considerations-before
 after-considerations
 data-ethics-history
 historical-incidences
-recent-incidences
 general-ethics-code
 the-four-pillars-this-discussion-is-from-melvin_medical_2020
 the-nih-clinical-center-seven-principles
@@ -71,10 +70,6 @@ international-covenant-on-civil-and-political-rights-1966
 health-insurance-portability-and-accountability-act-hipaa-1996
 genetic-information-nondiscrimination-act-gina-2008
 health-information-technology-for-economic-and-clinical-health-hitech-act-2009
-current-ethical-issues
-consent-for-data-reuse
-data-sovereignty
-finding-artifacts
 causes-of-research-misconduct
 consequences-of-research-misconduct
 the-researcher
@@ -82,3 +77,14 @@ the-institute-and-journals
 the-field
 patients
 misconduct-prevention
+current-data-concerns
+current-ethical-issues
+consent-for-data-reuse
+data-sovereignty
+finding-artifacts
+recent-incidences
+data-misuse-for-marketing
+data-breaches
+data-mistakes-and-neglect
+data-falsification
+improper-data-reuse-for-research
