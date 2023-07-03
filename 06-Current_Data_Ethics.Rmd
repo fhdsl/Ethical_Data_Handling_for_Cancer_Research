@@ -6,10 +6,10 @@ ottrpal::set_knitr_image_path()
 
 # Data Ethics
 
-Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
+Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Describe the general considerations for data ethics, 2. Recognize where these considerations come from in the history of research, 3. Understand what the current ethical dilemmas are in the current climate of biomedical research 4. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. ", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g11ef3a2f2bf_0_4")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g256fece0af0_0_184")
 ```
 
 
