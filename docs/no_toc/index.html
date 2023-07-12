@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Ethical Data Handling for Cancer Research</title>
+  <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Ethical Data Handling for Cancer Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ethical Data Handling for Cancer Research" />
+  
+  <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+
+
+<meta name="date" content="2023-07-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+
+<link rel="next" href="introduction.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#topics-covered"><i class="fa fa-check"></i><b>1.3</b> Topics Covered</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>2.5.1</b> What genomic data is protected?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-security.html"><a href="data-security.html#data-security-strategies"><i class="fa fa-check"></i><b>3.1</b> Data Security Strategies</a></li>
+<li class="chapter" data-level="3.2" data-path="data-security.html"><a href="data-security.html#data-access"><i class="fa fa-check"></i><b>3.2</b> Data access</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-security.html"><a href="data-security.html#authentication"><i class="fa fa-check"></i><b>3.2.1</b> Authentication</a></li>
+<li class="chapter" data-level="3.2.2" data-path="data-security.html"><a href="data-security.html#authorization"><i class="fa fa-check"></i><b>3.2.2</b> Authorization</a></li>
+<li class="chapter" data-level="3.2.3" data-path="data-security.html"><a href="data-security.html#permissions"><i class="fa fa-check"></i><b>3.2.3</b> Permissions</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data-security.html"><a href="data-security.html#wifi"><i class="fa fa-check"></i><b>3.2.4</b> WiFi</a></li>
+<li class="chapter" data-level="3.2.5" data-path="data-security.html"><a href="data-security.html#passwords"><i class="fa fa-check"></i><b>3.2.5</b> Passwords</a></li>
+<li class="chapter" data-level="3.2.6" data-path="data-security.html"><a href="data-security.html#cached-data-maybe-need-to-move---was-going-to-be-stale-access"><i class="fa fa-check"></i><b>3.2.6</b> Cached data (maybe need to move - was going to be stale access)</a></li>
+<li class="chapter" data-level="3.2.7" data-path="data-security.html"><a href="data-security.html#external-drives"><i class="fa fa-check"></i><b>3.2.7</b> External drives</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-security.html"><a href="data-security.html#data-masking"><i class="fa fa-check"></i><b>3.3</b> Data masking</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-security.html"><a href="data-security.html#de-identification"><i class="fa fa-check"></i><b>3.3.1</b> De-identification</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-security.html"><a href="data-security.html#encryption"><i class="fa fa-check"></i><b>3.3.2</b> Encryption</a></li>
+<li class="chapter" data-level="3.3.3" data-path="data-security.html"><a href="data-security.html#security-protocols"><i class="fa fa-check"></i><b>3.3.3</b> Security Protocols</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="data-security.html"><a href="data-security.html#data-erasure"><i class="fa fa-check"></i><b>3.4</b> Data erasure</a></li>
+<li class="chapter" data-level="3.5" data-path="data-security.html"><a href="data-security.html#data-resiliency"><i class="fa fa-check"></i><b>3.5</b> Data resiliency</a></li>
+<li class="chapter" data-level="3.6" data-path="data-security.html"><a href="data-security.html#email-security"><i class="fa fa-check"></i><b>3.6</b> Email security</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="data-security.html"><a href="data-security.html#email-encryption"><i class="fa fa-check"></i><b>3.6.1</b> Email Encryption</a></li>
+<li class="chapter" data-level="3.6.2" data-path="data-security.html"><a href="data-security.html#phishing"><i class="fa fa-check"></i><b>3.6.2</b> Phishing</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-ethics.html"><a href="data-ethics.html#what-is-data-ethics"><i class="fa fa-check"></i><b>5.1</b> What is data ethics?</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
+<li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocartic-oath-4th-centery-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocartic Oath (~ 4th centery BC)</a></li>
+<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
+<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+</ul></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#current-ethical-issues"><i class="fa fa-check"></i><b>6.1</b> Current Ethical Issues</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#consent-for-data-reuse"><i class="fa fa-check"></i><b>6.1.1</b> Consent for Data Reuse</a></li>
+<li class="chapter" data-level="6.1.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-sovereignty"><i class="fa fa-check"></i><b>6.1.2</b> Data sovereignty</a></li>
+<li class="chapter" data-level="6.1.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#finding-artifacts"><i class="fa fa-check"></i><b>6.1.3</b> Finding Artifacts</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#recent-incidences"><i class="fa fa-check"></i><b>6.2</b> Recent Incidences</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-misuse-for-marketing"><i class="fa fa-check"></i><b>6.2.1</b> Data Misuse for Marketing</a></li>
+<li class="chapter" data-level="6.2.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-breaches"><i class="fa fa-check"></i><b>6.2.2</b> Data Breaches</a></li>
+<li class="chapter" data-level="6.2.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-mistakes-and-neglect"><i class="fa fa-check"></i><b>6.2.3</b> Data mistakes and neglect</a></li>
+<li class="chapter" data-level="6.2.4" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-falsification"><i class="fa fa-check"></i><b>6.2.4</b> Data falsification</a></li>
+<li class="chapter" data-level="6.2.5" data-path="current-data-concerns.html"><a href="current-data-concerns.html#improper-data-reuse-for-research"><i class="fa fa-check"></i><b>6.2.5</b> Improper Data Reuse for Research</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ethical Data Handling for Cancer Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M46HS28719"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-M46HS28719');
+  </script>
+      
+  </body>
+  </html>
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="header">
+<h1 class="title">Ethical Data Handling for Cancer Research</h1>
+<p class="date"><em>2023-07-12</em></p>
+</div>
+<div id="about-this-course" class="section level1 unnumbered">
+<h1>About this course</h1>
+<p>This course is part of a series of courses for the <a href="https://itcr.cancer.gov/">Informatics Technology for Cancer Research (ITCR)</a> called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN) which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant: <a href="https://www.cancer.gov/">National Cancer Institute (NCI)</a> UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at <a href="www.itcrtraining.org">www.itcrtraining.org</a> for more information. Except where otherwise indicated, the contents of this course are available for use under the Creative Commons Attribution 4.0 license. You are free to adapt and share the work, but you must give appropriate credit, provide a link to the license, and indicate if changes were made. Sample attribution: Data Management for Cancer Research by Johns Hopkins Data Science Lab (CC-BY 4.0). You can download the illustrations by clicking <a href="https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit?usp=sharing">here</a>.</p>
+
+</div>
+<hr>
+<center>
+  <div class="footer">
+      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
+      <br>
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

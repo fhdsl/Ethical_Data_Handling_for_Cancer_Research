@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Data Privacy | Ethical Data Handling for Cancer Research</title>
+  <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Data Privacy | Ethical Data Handling for Cancer Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Data Privacy | Ethical Data Handling for Cancer Research" />
+  
+  <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+
+
+<meta name="date" content="2023-07-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="data-security.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#topics-covered"><i class="fa fa-check"></i><b>1.3</b> Topics Covered</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>2.5.1</b> What genomic data is protected?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-security.html"><a href="data-security.html#data-security-strategies"><i class="fa fa-check"></i><b>3.1</b> Data Security Strategies</a></li>
+<li class="chapter" data-level="3.2" data-path="data-security.html"><a href="data-security.html#data-access"><i class="fa fa-check"></i><b>3.2</b> Data access</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-security.html"><a href="data-security.html#authentication"><i class="fa fa-check"></i><b>3.2.1</b> Authentication</a></li>
+<li class="chapter" data-level="3.2.2" data-path="data-security.html"><a href="data-security.html#authorization"><i class="fa fa-check"></i><b>3.2.2</b> Authorization</a></li>
+<li class="chapter" data-level="3.2.3" data-path="data-security.html"><a href="data-security.html#permissions"><i class="fa fa-check"></i><b>3.2.3</b> Permissions</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data-security.html"><a href="data-security.html#wifi"><i class="fa fa-check"></i><b>3.2.4</b> WiFi</a></li>
+<li class="chapter" data-level="3.2.5" data-path="data-security.html"><a href="data-security.html#passwords"><i class="fa fa-check"></i><b>3.2.5</b> Passwords</a></li>
+<li class="chapter" data-level="3.2.6" data-path="data-security.html"><a href="data-security.html#cached-data-maybe-need-to-move---was-going-to-be-stale-access"><i class="fa fa-check"></i><b>3.2.6</b> Cached data (maybe need to move - was going to be stale access)</a></li>
+<li class="chapter" data-level="3.2.7" data-path="data-security.html"><a href="data-security.html#external-drives"><i class="fa fa-check"></i><b>3.2.7</b> External drives</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-security.html"><a href="data-security.html#data-masking"><i class="fa fa-check"></i><b>3.3</b> Data masking</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-security.html"><a href="data-security.html#de-identification"><i class="fa fa-check"></i><b>3.3.1</b> De-identification</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-security.html"><a href="data-security.html#encryption"><i class="fa fa-check"></i><b>3.3.2</b> Encryption</a></li>
+<li class="chapter" data-level="3.3.3" data-path="data-security.html"><a href="data-security.html#security-protocols"><i class="fa fa-check"></i><b>3.3.3</b> Security Protocols</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="data-security.html"><a href="data-security.html#data-erasure"><i class="fa fa-check"></i><b>3.4</b> Data erasure</a></li>
+<li class="chapter" data-level="3.5" data-path="data-security.html"><a href="data-security.html#data-resiliency"><i class="fa fa-check"></i><b>3.5</b> Data resiliency</a></li>
+<li class="chapter" data-level="3.6" data-path="data-security.html"><a href="data-security.html#email-security"><i class="fa fa-check"></i><b>3.6</b> Email security</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="data-security.html"><a href="data-security.html#email-encryption"><i class="fa fa-check"></i><b>3.6.1</b> Email Encryption</a></li>
+<li class="chapter" data-level="3.6.2" data-path="data-security.html"><a href="data-security.html#phishing"><i class="fa fa-check"></i><b>3.6.2</b> Phishing</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-ethics.html"><a href="data-ethics.html#what-is-data-ethics"><i class="fa fa-check"></i><b>5.1</b> What is data ethics?</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
+<li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocartic-oath-4th-centery-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocartic Oath (~ 4th centery BC)</a></li>
+<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
+<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+</ul></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#current-ethical-issues"><i class="fa fa-check"></i><b>6.1</b> Current Ethical Issues</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#consent-for-data-reuse"><i class="fa fa-check"></i><b>6.1.1</b> Consent for Data Reuse</a></li>
+<li class="chapter" data-level="6.1.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-sovereignty"><i class="fa fa-check"></i><b>6.1.2</b> Data sovereignty</a></li>
+<li class="chapter" data-level="6.1.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#finding-artifacts"><i class="fa fa-check"></i><b>6.1.3</b> Finding Artifacts</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#recent-incidences"><i class="fa fa-check"></i><b>6.2</b> Recent Incidences</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-misuse-for-marketing"><i class="fa fa-check"></i><b>6.2.1</b> Data Misuse for Marketing</a></li>
+<li class="chapter" data-level="6.2.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-breaches"><i class="fa fa-check"></i><b>6.2.2</b> Data Breaches</a></li>
+<li class="chapter" data-level="6.2.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-mistakes-and-neglect"><i class="fa fa-check"></i><b>6.2.3</b> Data mistakes and neglect</a></li>
+<li class="chapter" data-level="6.2.4" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-falsification"><i class="fa fa-check"></i><b>6.2.4</b> Data falsification</a></li>
+<li class="chapter" data-level="6.2.5" data-path="current-data-concerns.html"><a href="current-data-concerns.html#improper-data-reuse-for-research"><i class="fa fa-check"></i><b>6.2.5</b> Improper Data Reuse for Research</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ethical Data Handling for Cancer Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M46HS28719"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-M46HS28719');
+  </script>
+      
+  </body>
+  </html>
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="data-privacy" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Data Privacy</h1>
+<p>Cancer research often involves personal health data that requires compliance with <a href="https://searchhealthit.techtarget.com/definition/HIPAA">Health Insurance Portability and Accountability Act (HIPAA)</a> regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1758.png" title="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" alt="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" width="100%" style="display: block; margin: auto;" /></p>
+<p>Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
+<em>personal identifiable information (PII)</em> and <em>protected health information (PHI)</em></p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_318.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.</p>
+<div id="pii-personal-identifiable-information" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> PII (personal identifiable information)</h2>
+<p>PII (personal identifiable information) are aspects of a person that could allow you to identify a person.</p>
+<p>PII is defined by the <a href="https://www.dol.gov/general/ppii">US Department of Labor</a> as:</p>
+<blockquote>
+<p>“Any representation of information that permits the <strong>identity</strong> of an individual to whom the information applies to be reasonably inferred by either <strong>direct</strong> or <strong>indirect</strong> means.”</p>
+</blockquote>
+<p>PII is also defined by the <a href="https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act">US General Services Administration</a> as:</p>
+<blockquote>
+<p>“Information that can be used to <strong>distinguish</strong> or <strong>trace</strong> an individual’s identity, either alone or when combined with other personal or identifying information that is linked or linkable to a <strong>specific individual</strong>.”</p>
+</blockquote>
+<p>Why is this term defined by the Department of Labor and the US general Services Administration? Because the <a href="https://en.wikipedia.org/wiki/Privacy_Act_of_1974">Privacy Act of 1974</a> <span class="citation">(<a href="#ref-privacy_act_2022" role="doc-biblioref"><span>“Privacy <span>Act</span> of 1974”</span> 2022</a>)</span>, is a US federal law that governs the “collection, maintenance, use and dissemination” of personal information. US agencies have access to a large amount of PII and must act in accordance with the Privacy Act to protect this data.</p>
+<p><em>Examples include (but aren’t limited to):</em><br />
+- Name
+- Telephone number
+- Address
+- Social security number
+- Age
+- Driver’s licenses
+- Medical record numbers
+- Full face photographs
+- IP addresses</p>
+<p>Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, such as social security numbers. Other PII such as age does not necessarily pose as much risk unless combined with other information.</p>
+<p>Thus this information is categorized in two ways as being nonsensitive which is easy to find and poses little risk and sensitive information which is harder to find, poses higher risk and requires more protection.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_477.png" title="There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find" alt="There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find" width="100%" style="display: block; margin: auto;" /></p>
+<div id="pii-risk" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> PII Risk</h3>
+<p>What is the risk of PII getting into the hands of people it shouldn’t? Why was the Protection Act necessary?</p>
+<p>PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences <span class="citation">(<a href="#ref-dinardi_14_2022" role="doc-biblioref">DiNardi 2022</a>)</span>, as criminals can get loans and credit card in other people’s names, as well as commit crimes under the guise of other people’s identities. This can result in reputation loss and loss of opportunities.</p>
+<p>In addition, the leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_484.png" title="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" alt="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="phi-protected-health-information" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> PHI (protected health information)</h2>
+<p>The <a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">U.S. Department of Health &amp; Human Services</a> describes protected health information (PHI) as:</p>
+<blockquote>
+<p>…information including demographic data that relates to:</p>
+</blockquote>
+<blockquote>
+<p>the individual’s past, present or future <strong>physical</strong> or <strong>mental health</strong> or condition,
+the provision of health care to the individual, or
+the past, present, or future <strong>payment</strong> for the provision of health care to the individual</p>
+</blockquote>
+<p>This includes 18 categories:</p>
+<ul>
+<li>Patient names<br />
+</li>
+<li>Geographical elements (such as a street address, city, county, or zip code)</li>
+<li>Dates related to the health or identity of individuals (including birthdates, date of admission, date of discharge, date of death, or exact age of a patient older than 89)</li>
+<li>Telephone numbers</li>
+<li>Fax numbers</li>
+<li>Email addresses</li>
+<li>Social security numbers</li>
+<li>Medical record numbers</li>
+<li>Health insurance beneficiary numbers</li>
+<li>Account numbers</li>
+<li>Certificate/license numbers</li>
+<li>Vehicle identifiers</li>
+<li>Device attributes or serial numbers</li>
+<li>Digital identifiers, such as website URLs</li>
+<li>IP addresses</li>
+<li>Biometric elements, including finger, retinal, and voiceprints</li>
+<li>Full face photographic images</li>
+<li>Other identifying numbers or codes</li>
+</ul>
+</div>
+<div id="phi-is-a-subset-of-pii" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> PHI is a subset of PII</h2>
+<p>PHI is really a subset of PII. It is personal identifiable information that relates to or could relate to health.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_497.png" title="PHI is a subset of PII that pertains to health" alt="PHI is a subset of PII that pertains to health" width="100%" style="display: block; margin: auto;" /></p>
+<p>Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren’t necessarily PHI, unless the are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to distinguish the identity of people in the study.</p>
+</div>
+<div id="phi-risk" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> PHI Risk</h2>
+<p>PHI poses an additional risk rather than just typical PII.</p>
+<p>That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_676.png" title="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." alt="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="cancer-research-data-and-phi" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Cancer research data and PHI</h2>
+<p>Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants.</p>
+<p><img src="resources/images/02-Data_Privacy_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_509.png" title="Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data" alt="Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data" width="100%" style="display: block; margin: auto;" /></p>
+<div id="what-genomic-data-is-protected" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> What genomic data is protected?</h3>
+<!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if participants are alive or not etc.-->
+<!-- The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals. -->
+<!-- This data would be highly dangerous and valuable if in the wrong hands. Health insurance companies are prohibited from obtaining genetic test data and using it to inform their premiums or other healthcare coverage related decisions. -->
+<!-- > defines “genetic test” to mean the “analysis of human DNA, RNA, chromosomes, proteins, or metabolites that detects genotypes, mutations, or chromosomal changes.” Genetic tests are used to detect gene variants associated with a specific disease or condition. For example, tests to determine whether an individual carries the genetic variant evidencing a predisposition to breast cancer—whether the individual has the BRCA1 or BRCA2 variant—or to determine whether an individual has a genetic variant associated with hereditary nonpolyposis colorectal cancer are genetic tests. -->
+<!-- From [@regulations_2010] -->
+<!-- This means as researchers or clinicians we need to keep these data secure and hidden. Data types protected under GINA include but are not limited to: -->
+<!-- - DNA sequencing or genotyping -->
+<!-- - RNA sequencing that shows genetic variation -->
+<!-- - Protein sequencing -->
+<!-- - Blood collection -->
+<!-- - Any type of biological material that would indicate heredity or any genetic variant -->
+<!-- The data covered by GINA has been highly debated since the rapidly evolving technologies and identification of new risk factors make clear guidelines a moving target. -->
+<!-- For example, thus far RNA-seq data that is summarized and de-identified has been deemed acceptable for public sharing, however in the future one could see a scenario in which certain gene expression patterns could be more solidly determined as indicators of disease. -->
+<!-- Under the spirit of the law then, these patterns should also be safely hidden from employers or health insurance companies who could use the information unfairly. -->
+<!-- GINA is critical to the well-being of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical. -->
+<!-- So what does GINA mean in terms of data sharing? The principle of [least privilege](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principal-of-least-privilege) discussed in the previous security chapter still applies. -->
+<!-- For many genetic data types a controlled access database is the appropriate solution to balance data sharing while maintaining the security of these data. One such database is dbGaP. dbGaP holds genetic dataset information but for individuals to gain access, they must apply and explain how their project and access will be of benefit. More details about how these applications for access are [described here](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=GeneralAAInstructions.pdf). -->
+<p>So what does this mean for the data you handle?</p>
+<p><strong>A non-comprehensive list of identifiable and protected information:</strong></p>
+<ul>
+<li>Clinical information in metadata</li>
+<li>Genomic sequences
+<ul>
+<li>Whole genome sequences</li>
+<li>Exome sequencing</li>
+<li>Whole transcriptome sequencing</li>
+</ul></li>
+<li>Single nucleotide polymorphisms</li>
+<li>Geneology information</li>
+</ul>
+<p><strong>What is not protected and generally is safe:</strong></p>
+<ul>
+<li>Summarized cohort data</li>
+</ul>
+<p>Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.</p>
+<ul>
+<li>De-identified data</li>
+</ul>
+<p>Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access).</p>
+<p>It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies.</p>
+<p>The following articles have more extensive information about the current re-identification risk of different genomic data types:</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/23329047/" class="uri">https://pubmed.ncbi.nlm.nih.gov/23329047/</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/</a>
+<a href="https://www.eff.org/issues/genetic-information-privacy" class="uri">https://www.eff.org/issues/genetic-information-privacy</a>
+<a href="https://www.eff.org/issues/law-and-medical-privacy" class="uri">https://www.eff.org/issues/law-and-medical-privacy</a>
+<a href="https://www.nature.com/articles/d41586-021-00331-5" class="uri">https://www.nature.com/articles/d41586-021-00331-5</a></p>
+</div>
+</div>
+<div id="how-to-ensure-the-privacy-of-this-information" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> How to ensure the privacy of this information</h2>
+<p>Your institution will have guidance regarding how to keep this information private and protected but in general there are 4 main strategies we will summarize here:</p>
+<ol style="list-style-type: decimal">
+<li>As few eyes as possible</li>
+</ol>
+<p>The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle the data.
+Make sure the data is stored in a place that only these few people who are allowed have access to it. If you aren’t sure who has access to a place – don’t put the data there!</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Aggressively de-identify the shared data</li>
+</ol>
+<p>Before results or data are shared or published, it is aggressively de-identified. We will talk more about what this is in the next chapter.
+If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Consider a data use agreement</li>
+</ol>
+<p>Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. <strong>Finally if you need to share data that is not fully de-identified, than a data use agreement is required.</strong> Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.</p>
+<p>See <a href="https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf">here</a> and <a href="https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf">here</a> for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.</p>
+<p>See <a href="https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf">here</a> for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Err on the side of caution!</li>
+</ol>
+<p>If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possibly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.</p>
+<p>If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository!</p>
+</div>
+<div id="how-is-hipaa-enforced" class="section level2" number="2.7">
+<h2><span class="header-section-number">2.7</span> How is HIPAA enforced?</h2>
+<p>The <a href="https://www.hhs.gov/ocr/index.html">Office for Civil Right (OCR)</a> of the United States Department of Health and Human Services is in charge of enforcing HIPAA compliance.</p>
+<p>If you feel that someone is using or sharing data that is in violation of HIPAA compliance, you can file a complaint online using the <a href="https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf">OCR compliant portal</a>. Typically you should see if you can get the violation to be resolved through local means by contacting research administrators or management. However, you could submit to the OCR. Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.</p>
+<p>If compliance is not resolved, then the covered entity may have to pay fines.</p>
+<p>Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of <code>$</code>50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to <code>$</code>250,000 and may face jail time of up to 10 years <span class="citation">(<a href="#ref-violations_2018" role="doc-biblioref">eLearning 2018</a>)</span>.</p>
+<div id="common-violations" class="section level3" number="2.7.1">
+<h3><span class="header-section-number">2.7.1</span> Common Violations</h3>
+<p>Common violations of HIPAA taken from <span class="citation">eLearning (<a href="#ref-violations_2018" role="doc-biblioref">2018</a>)</span> are:</p>
+<ol style="list-style-type: decimal">
+<li>A lack of encryption</li>
+</ol>
+<p>If your email or data transfer is intercepted it is important to keep your data safe! We will talk more about how to do this in the next chapter.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Computer hacking or phishing</li>
+</ol>
+<p>If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. The data security practices that we will describe in the next chapter will help avoid this.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Unauthorized Access</li>
+</ol>
+<p>Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore leaving your laptop open to PHI data in public or even at home can pose a risk from people who walk by.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Loss or Theft of Devices</li>
+</ol>
+<p>If your laptop are external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next. Again the measures in the next chapter will help to avoid this potential issue.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Improper Disposal of data or devices</li>
+</ol>
+<p>Sometimes there are remnants of your data still on your device!</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Unsecured access to data</li>
+</ol>
+<p>Accessing your data form an unsecured WIFI network can also make the data vulnerable.</p>
+<p>See <a href="https://privacyruleandresearch.nih.gov/faq.asp">here</a> for more information about HIPAA and research.</p>
+<p>In the next chapter, we will talk about measures that you can do to avoid these violations.</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-dinardi_14_2022" class="csl-entry">
+DiNardi, Gaetano. 2022. <span>“14 <span>Dangers</span> of <span>Identity</span> <span>Theft</span> <span>With</span> <span>Serious</span> <span>Consequences</span> <span></span> <span>Aura</span>.”</span> <a href="https://www.aura.com/learn/dangers-of-identity-theft">https://www.aura.com/learn/dangers-of-identity-theft</a>.
+</div>
+<div id="ref-violations_2018" class="csl-entry">
+eLearning, Inspired. 2018. <span>“Most <span>Common</span> <span>HIPAA</span> <span>Violations</span> <span>With</span> <span>Examples</span>.”</span> <em>Inspired eLearning</em>. <a href="https://inspiredelearning.com/blog/hipaa-violation-examples/">https://inspiredelearning.com/blog/hipaa-violation-examples/</a>.
+</div>
+<div id="ref-privacy_act_2022" class="csl-entry">
+<span>“Privacy <span>Act</span> of 1974.”</span> 2022. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Privacy_Act_of_1974&amp;oldid=1107883305">https://en.wikipedia.org/w/index.php?title=Privacy_Act_of_1974&amp;oldid=1107883305</a>.
+</div>
+</div>
+<hr>
+<center>
+  <div class="footer">
+      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
+      <br>
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-security.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

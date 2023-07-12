@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Data Ethics | Ethical Data Handling for Cancer Research</title>
+  <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Data Ethics | Ethical Data Handling for Cancer Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Data Ethics | Ethical Data Handling for Cancer Research" />
+  
+  <meta name="twitter:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
+  
+
+
+
+<meta name="date" content="2023-07-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="data-sharing.html"/>
+<link rel="next" href="current-data-concerns.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.2</b> Target Audience</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#topics-covered"><i class="fa fa-check"></i><b>1.3</b> Topics Covered</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>2.5.1</b> What genomic data is protected?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-security.html"><a href="data-security.html#data-security-strategies"><i class="fa fa-check"></i><b>3.1</b> Data Security Strategies</a></li>
+<li class="chapter" data-level="3.2" data-path="data-security.html"><a href="data-security.html#data-access"><i class="fa fa-check"></i><b>3.2</b> Data access</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-security.html"><a href="data-security.html#authentication"><i class="fa fa-check"></i><b>3.2.1</b> Authentication</a></li>
+<li class="chapter" data-level="3.2.2" data-path="data-security.html"><a href="data-security.html#authorization"><i class="fa fa-check"></i><b>3.2.2</b> Authorization</a></li>
+<li class="chapter" data-level="3.2.3" data-path="data-security.html"><a href="data-security.html#permissions"><i class="fa fa-check"></i><b>3.2.3</b> Permissions</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data-security.html"><a href="data-security.html#wifi"><i class="fa fa-check"></i><b>3.2.4</b> WiFi</a></li>
+<li class="chapter" data-level="3.2.5" data-path="data-security.html"><a href="data-security.html#passwords"><i class="fa fa-check"></i><b>3.2.5</b> Passwords</a></li>
+<li class="chapter" data-level="3.2.6" data-path="data-security.html"><a href="data-security.html#cached-data-maybe-need-to-move---was-going-to-be-stale-access"><i class="fa fa-check"></i><b>3.2.6</b> Cached data (maybe need to move - was going to be stale access)</a></li>
+<li class="chapter" data-level="3.2.7" data-path="data-security.html"><a href="data-security.html#external-drives"><i class="fa fa-check"></i><b>3.2.7</b> External drives</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-security.html"><a href="data-security.html#data-masking"><i class="fa fa-check"></i><b>3.3</b> Data masking</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-security.html"><a href="data-security.html#de-identification"><i class="fa fa-check"></i><b>3.3.1</b> De-identification</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-security.html"><a href="data-security.html#encryption"><i class="fa fa-check"></i><b>3.3.2</b> Encryption</a></li>
+<li class="chapter" data-level="3.3.3" data-path="data-security.html"><a href="data-security.html#security-protocols"><i class="fa fa-check"></i><b>3.3.3</b> Security Protocols</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="data-security.html"><a href="data-security.html#data-erasure"><i class="fa fa-check"></i><b>3.4</b> Data erasure</a></li>
+<li class="chapter" data-level="3.5" data-path="data-security.html"><a href="data-security.html#data-resiliency"><i class="fa fa-check"></i><b>3.5</b> Data resiliency</a></li>
+<li class="chapter" data-level="3.6" data-path="data-security.html"><a href="data-security.html#email-security"><i class="fa fa-check"></i><b>3.6</b> Email security</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="data-security.html"><a href="data-security.html#email-encryption"><i class="fa fa-check"></i><b>3.6.1</b> Email Encryption</a></li>
+<li class="chapter" data-level="3.6.2" data-path="data-security.html"><a href="data-security.html#phishing"><i class="fa fa-check"></i><b>3.6.2</b> Phishing</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-ethics.html"><a href="data-ethics.html#what-is-data-ethics"><i class="fa fa-check"></i><b>5.1</b> What is data ethics?</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
+<li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocartic-oath-4th-centery-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocartic Oath (~ 4th centery BC)</a></li>
+<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
+<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+</ul></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#current-ethical-issues"><i class="fa fa-check"></i><b>6.1</b> Current Ethical Issues</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#consent-for-data-reuse"><i class="fa fa-check"></i><b>6.1.1</b> Consent for Data Reuse</a></li>
+<li class="chapter" data-level="6.1.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-sovereignty"><i class="fa fa-check"></i><b>6.1.2</b> Data sovereignty</a></li>
+<li class="chapter" data-level="6.1.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#finding-artifacts"><i class="fa fa-check"></i><b>6.1.3</b> Finding Artifacts</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#recent-incidences"><i class="fa fa-check"></i><b>6.2</b> Recent Incidences</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-misuse-for-marketing"><i class="fa fa-check"></i><b>6.2.1</b> Data Misuse for Marketing</a></li>
+<li class="chapter" data-level="6.2.2" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-breaches"><i class="fa fa-check"></i><b>6.2.2</b> Data Breaches</a></li>
+<li class="chapter" data-level="6.2.3" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-mistakes-and-neglect"><i class="fa fa-check"></i><b>6.2.3</b> Data mistakes and neglect</a></li>
+<li class="chapter" data-level="6.2.4" data-path="current-data-concerns.html"><a href="current-data-concerns.html#data-falsification"><i class="fa fa-check"></i><b>6.2.4</b> Data falsification</a></li>
+<li class="chapter" data-level="6.2.5" data-path="current-data-concerns.html"><a href="current-data-concerns.html#improper-data-reuse-for-research"><i class="fa fa-check"></i><b>6.2.5</b> Improper Data Reuse for Research</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/jhudsl/DaSL_Course_Template_Bookdown" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+<a href="http://jhudatascience.org/"><img src="https://jhudatascience.org/images/dasl.png" style=" width: 80%; filter: grayscale(100%); padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ethical Data Handling for Cancer Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <html>
+  
+  <head>
+  <title>Title</title>
+  </head>
+  
+  <body>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M46HS28719"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-M46HS28719');
+  </script>
+      
+  </body>
+  </html>
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="data-ethics" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Data Ethics</h1>
+<p>Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.</p>
+<p><img src="resources/images/05-Data_Ethics_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" title="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" /></p>
+<div id="what-is-data-ethics" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> What is data ethics?</h2>
+<p>Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research. However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.</p>
+<div id="before-and-after-research" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Before and after research</h3>
+<p>Data ethics requires thoughtfulness <em>both</em> throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future <span class="citation">(<a href="#ref-lipworth_ethics_2017" role="doc-biblioref">Lipworth, Mason, and Kerridge 2017</a>; <a href="#ref-teoli_informatics_2021" role="doc-biblioref">Teoli and Ghassemzadeh 2021</a>)</span>.</p>
+</div>
+<div id="considerations-before" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Considerations before</h3>
+<p>Ethical research should involve consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, non-binary individuals, disabled individuals, and people of certain ethnic backgrounds, and intersections of various demographic factors have been historically left out of clinical trials or when included, their data was inadequately recorded <span class="citation">(<a href="#ref-clark_increasing_2019" role="doc-biblioref">Clark et al. 2019</a>)</span>. For example, clinical trials often have questions about sex or gender with limited binary options (overlooking <a href="https://en.wikipedia.org/wiki/Intersex">people without a binary sex</a> and <a href="https://en.wikipedia.org/wiki/Non-binary_gender">non-binary gendered</a> individuals) resulting in a lack of collection of important information that could impact clinical outcomes, research results, and communication about results <span class="citation">(<a href="#ref-chen_approach_2019" role="doc-biblioref">Chen et al. 2019</a>)</span>.</p>
+<p>Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see <span class="citation">Farmer (<a href="#ref-Farmer_2004" role="doc-biblioref">2004</a>)</span>.</p>
+</div>
+</div>
+<div id="after-considerations" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> After Considerations</h2>
+<p>While data sharing can result in wonderful opportunities for secondary analysis, we need to also consider some of the harm that could be caused by sharing our data and make sure that we do it mindfully. With more advanced forms of genomic and imaging technology, and increased use of data from our phones we have much more information (including real-time data) about the subjects we are using, and thus the risk to our subject from the consequences of others <strong>identifying</strong> the subjects in our studies is much higher than it used to be <span class="citation">(<a href="#ref-byrd_responsible_2020" role="doc-biblioref">Byrd et al. 2020</a>)</span>.</p>
+<p>Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification <span class="citation">(<a href="#ref-byrd_responsible_2020" role="doc-biblioref">Byrd et al. 2020</a>)</span>.</p>
+<p>Why does it mater that research subjects might be identifiable to others?</p>
+<p>In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions).</p>
+<p>However, such information can put these individuals at risk for difficulty with insurance and employment, as well as at risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks based on data collection about the behaviors of research participants <span class="citation">(<a href="#ref-seh_breaches_2020" role="doc-biblioref">Seh et al. 2020</a>)</span>.</p>
+<p>Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised.</p>
+<p>Why else does data protection matter at the individual level?</p>
+<p>If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more <span class="citation">Seh et al. (<a href="#ref-seh_breaches_2020" role="doc-biblioref">2020</a>)</span>.</p>
+<p>We will discuss what can be done to reduce the risks of research participants and others from your research.</p>
+</div>
+<div id="data-ethics-history" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Data ethics history</h2>
+<p>To have an understanding of current theories about how to best deal with our research ethic conundrums it is helpful to be aware of the history of biomedical research in general.</p>
+<p>Most regulations of biomedical research stem from historical ill treatment of research participants. This has taken many forms from outright ill intent, to much more well-intended but <strong>neglectful</strong> research practices often due to a lack of awareness of the potential consequences. This has been especially difficult more recently as our potential to create and share data has dramatically expanded.</p>
+<div id="historical-incidences" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Historical incidences:</h3>
+<p>Here are a couple of famous historical examples of medical research that were performed in a harmful manner. These incidences have shaped policy about ethical research, in terms of advocacy for informed consent (more on that in the next section), as well as recognition for the role of social injustice in research.</p>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study">Tuskegee syphilis trial</a>:
+A study in Tuskegee, Alabama about the outcomes of untreated syphilis in Black males (1932-1972) in which the patients were told they were being treated but were in fact not being treated <span class="citation">(<a href="#ref-mcvean_40_2019" role="doc-biblioref">McVean 2019</a>)</span>.</p></li>
+<li><p><a href="https://www.nature.com/articles/d41586-020-02494-z">Henrietta Lacks and HeLa Cells</a>:
+In 1951, a patient named Henrietta Lacks was treated for cervical cancer at Johns Hopkins. Her cancerous cells turned out to be uniquely capable of surviving and reproducing and have been used widely in research for decades for many discoveries. Her family did not receive money from the companies that profited from her cells, and for decades her family was often not asked for consent as doctors and scientists revealed her name and medical records publicly (<span class="citation"><span>“Henrietta <span>Lacks</span>: Science Must Right a Historical Wrong”</span> (<a href="#ref-noauthor_henrietta_2020" role="doc-biblioref">2020</a>)</span>).</p></li>
+</ol>
+<p>See <a href="https://jhudatascience.org/Informatics_Research_Leadership/promoting-diversity-equity-and-inclusion.html#historical-injustice">here</a> for additional examples.</p>
+</div>
+</div>
+<div id="general-ethics-code" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> General Ethics Code</h2>
+<p>Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles.</p>
+<div id="the-four-pillars-this-discussion-is-from-melvin_medical_2020" class="section level3" number="5.4.1">
+<h3><span class="header-section-number">5.4.1</span> The <a href="https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/">four pillars</a> (this discussion is from <span class="citation">Melvin (<a href="#ref-melvin_medical_2020" role="doc-biblioref">2020</a>)</span>):</h3>
+<ol style="list-style-type: decimal">
+<li>The pillar of beneficence</li>
+</ol>
+<p>This pillar means that healthcare and its research must support the well-being of the patients. This includes reducing pain and helping to increase their overall quality of life.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>The pillar of non-maleficence</li>
+</ol>
+<p>Harm to patients must be minimized. This includes not causing intentional harm but also minimizing incompetency and accidental harm.
+This means for research studies and treatments, only conducting those where benefits outweigh the risks.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>The pillar of justice</li>
+</ol>
+<p>Healthcare must be provided to all equally and equitably regardless of race, gender, sex, socioeconomic class, religion, ethnicity, sexual orientation, age, or any other aspect of an individual’s identity.
+Equity specifically means that those who are societally disadvantaged should be even further aided.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>The pillar of autonomy (self-determination)</li>
+</ol>
+<p>Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
+This is otherwise includes informed consent <span class="citation">(<a href="#ref-commissioner_guide_2020" role="doc-biblioref">Commissioner 2020</a>)</span>, which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.</p>
+</div>
+<div id="the-nih-clinical-center-seven-principles" class="section level3" number="5.4.2">
+<h3><span class="header-section-number">5.4.2</span> The NIH Clinical Center <a href="https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research">Seven Principles</a></h3>
+<p>This discussion is from <span class="citation"><span>“Guiding <span>Principles</span> for <span>Ethical</span> <span>Research</span>”</span> (<a href="#ref-Principles_2015" role="doc-biblioref">2015</a>)</span>.</p>
+<p>1)<strong>Social and clinical value</strong></p>
+<p>The value of the study needs to be important enough to justify the discomfort, inconvenience that research participants may experience.</p>
+<p>2)<strong>Scientific validity</strong></p>
+<p>Studies should be designed so as to effectively gain more understanding about the scientific question in consideration. In other words, the efforts of the research participants should not be wasted on a study that is poorly designed and will not add to scientific understanding.</p>
+<p>3)<strong>Fair subject selection</strong>
+Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason. Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others.</p>
+<p>4)<strong>Favorable risk-benefit ratio</strong></p>
+<p>Risks should be minimized, while benefits should be maximized. Risks are not just physical, but can involve mental, financial, social, or other risks.</p>
+<p>5)<strong>Independent review</strong></p>
+<p>To reduce conflicts of interest influencing the care of research participants, study plans should be reviewed by others who are trained to consider the ethical implications of such studies.</p>
+<p>6)<strong>Informed consent</strong></p>
+<p>Individuals should voluntarily decide if they wish to participate (where possible - some exceptions include very young children or those who are incapacitated <span class="citation"><span>“Informed Consent”</span> (<a href="#ref-wikipedia_informed_2023" role="doc-biblioref">2023</a>)</span>). Participants should be informed about the risks (and potential uncertainty around those risks). This must be done in a way in which the individual can actually understand the information, for example it should be in a language that the individual understands. The information needs to be accurate and individuals should not feel coerced to participate.</p>
+<p>7)<strong>Respect for potential and enrolled subjects</strong></p>
+<p>Individuals should be treated with respect for the entirety of the process including:</p>
+<ul>
+<li>respecting the privacy of their information</li>
+<li>respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind</li>
+<li>respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed</li>
+<li>respecting their welfare and their right to knowledge by letting them know what was learned from the research</li>
+</ul>
+</div>
+</div>
+<div id="concept-of-consent" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Concept of Consent</h2>
+<p>We have already talked about the concept of informed consent. Obtaining consent should also include (based on <span class="citation"><span>“<span>IOWA STATE UNIVERSITY</span> <span>Institutional Review Board</span><span>Recruitment of Research Participants</span>”</span> (<a href="#ref-IRB_Iowa" role="doc-biblioref">2015</a>)</span> and <span class="citation"><span>“Informed Consent”</span> (<a href="#ref-wikipedia_informed_2023" role="doc-biblioref">2023</a>)</span> and the author’s thoughts):</p>
+<ul>
+<li>Individuals should not feel pressured and should have adequate time to make the decision.</li>
+<li>Individuals should not experience undue influence, be coerced or be manipulated - They should not feel pressured by the individual recruiting, such as a boss or someone else of power or by offers in exchange for participation that would sway the decision.</li>
+<li>Individuals should not receive a misleading or overstated presentation of the potential benefits of the study.</li>
+<li>Individuals should be made aware of the uncertainty associated with risks and benefits</li>
+<li>Individuals should have the capacity to understand the risks and benefits (this involves consideration for language barriers, intellectual capacity, emotional capacity, stress, sleep loss and other forms of physical strain)</li>
+<li>Individuals should be able to withdraw consent at anytime</li>
+<li>Individuals should be respected through-out the process including consideration for the cultural values of the recruited populations</li>
+</ul>
+</div>
+<div id="medical-ethics-timeline" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Medical Ethics Timeline</h2>
+<p>It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.</p>
+<!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
+<p><img src="resources/images/05-Data_Ethics_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" title="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" /></p>
+<p>See <a href="https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf">here</a> for a more in-depth timeline.</p>
+<div id="the-hippocartic-oath-4th-centery-bc" class="section level3" number="5.6.1">
+<h3><span class="header-section-number">5.6.1</span> The Hippocartic Oath (~ 4th centery BC)</h3>
+<p>The concept of medical ethics in the Western world dates back all the way to the original <a href="https://en.wikipedia.org/wiki/Hippocratic_Oath">Hippocratic Oath</a> between the 3rd and 5th century BC <span class="citation">(<a href="#ref-hippocratic_2023" role="doc-biblioref"><span>“Hippocratic <span>Oath</span>”</span> 2023</a>)</span>. It established concepts like confidentiality and non-maleficence.</p>
+<blockquote>
+<p>” What I may see or hear in the course of the treatment or even outside of the treatment in regard to the life of men, which on no account one must spread abroad, I will keep to myself, holding such things shameful to be spoken about.”<span class="citation">(<a href="#ref-hippocratic_2023" role="doc-biblioref"><span>“Hippocratic <span>Oath</span>”</span> 2023</a>)</span></p>
+</blockquote>
+</div>
+<div id="american-medical-association-code-of-medical-ethics-1847" class="section level3" number="5.6.2">
+<h3><span class="header-section-number">5.6.2</span> American Medical Association Code of Medical Ethics (1847)</h3>
+<p>The United States <a href="https://code-medical-ethics.ama-assn.org/">American Medical Association</a> code of ethics was first established in 1874 <span class="citation">(<a href="#ref-riddick_code_2003" role="doc-biblioref"><strong>riddick_code_2003?</strong></a>)</span>. The next major code publication was in 1957. The code was not law, but it set standards for care. The 1957 code describe the fact that there might be special cases in which confidence might not always be able to be kept.</p>
+<p>See <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf">here</a> by <span class="citation">(<a href="#ref-higgins_history_1989" role="doc-biblioref"><strong>higgins_history_1989?</strong></a>)</span> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/">here</a> by <span class="citation">(<a href="#ref-moskop_hippocrates_2005" role="doc-biblioref"><strong>moskop_hippocrates_2005?</strong></a>)</span> for more about the history of medical ethics codes.</p>
+</div>
+<div id="international-covenant-on-civil-and-political-rights-1966" class="section level3" number="5.6.3">
+<h3><span class="header-section-number">5.6.3</span> International Covenant on Civil and Political Rights (1966)</h3>
+<p>The United Nations adopted the concept of “free consent” (similar to informed consent) into international law <span class="citation">(<a href="#ref-wikipedia_informed_2023" role="doc-biblioref"><span>“Informed Consent”</span> 2023</a>)</span>.</p>
+</div>
+<div id="health-insurance-portability-and-accountability-act-hipaa-1996" class="section level3" number="5.6.4">
+<h3><span class="header-section-number">5.6.4</span> Health Insurance Portability and Accountability Act (HIPAA) (1996)</h3>
+<p>Medical confidentially became law in the United States. Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.</p>
+</div>
+<div id="genetic-information-nondiscrimination-act-gina-2008" class="section level3" number="5.6.5">
+<h3><span class="header-section-number">5.6.5</span> Genetic Information Nondiscrimination Act (GINA) (2008)</h3>
+<p>The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals.</p>
+</div>
+<div id="health-information-technology-for-economic-and-clinical-health-hitech-act-2009" class="section level3" number="5.6.6">
+<h3><span class="header-section-number">5.6.6</span> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</h3>
+<p><a href="https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/">HITECH</a> builds on HIPAA to add protections for <strong>electronic</strong> PHI as this became more common practice in health care with three basic new rules <span class="citation">(<a href="#ref-security_HITECH_2021" role="doc-biblioref">Security 2021</a>)</span>:</p>
+<ol style="list-style-type: decimal">
+<li>Privacy Rule - Access should be limited to as few individuals as possible</li>
+<li>Security Rule - Safeguards should be implemented to protect electronic PHI, including technical means and physical means</li>
+<li>Breach Notification - Individuals should be notified in a timely manner about breaches that may have involved their PHI</li>
+</ol>
+</div>
+</div>
+<div id="causes-of-research-misconduct" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Causes of research misconduct</h2>
+<p>A <a href="https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf">research study</a> by <span class="citation">Davis, Riske-Morris, and Diaz (<a href="#ref-davis_causal_2007" role="doc-biblioref">2007</a>)</span> investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.</p>
+<p>The following categories of factors were identified among the reports:
+1) Personal and professional stressors
+This included statements about stressors encountered at work and personally such as:</p>
+<ul>
+<li>pressure to produce</li>
+<li>overworked</li>
+<li>insufficient time</li>
+<li>mental health issues</li>
+<li>overcommitted</li>
+<li>lack of support</li>
+<li>stress</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Organizational climate factors
+This included statements of factors such as:</li>
+</ol>
+<ul>
+<li>insufficient mentoring/supervision</li>
+<li>poor communication/coordination</li>
+<li>substandard lab procedures</li>
+<li>lost stolen data</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Job Insecurities
+These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.</li>
+</ol>
+<ul>
+<li>Inappropriate responsibility</li>
+<li>Competition for position</li>
+<li>Language Barrier</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Rationalizations
+Justifications that were often offered included:</li>
+</ol>
+<ul>
+<li>Lack of control over environment</li>
+<li>jumping to the gun to disseminate findings</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Personal Inhibitions
+Difficult job/task
+Frustrations</p></li>
+<li><p>Another category of Rationalizations</p></li>
+</ol>
+<p>Fear, Apathy/Dislike, Restoring Equity, Avoiding Degradation by Others, and Slippery Slope</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Personality traits</li>
+</ol>
+<p>Impatience, Amnesia, Laziness, Character Flaw, and Personal Need for Recognition
+Choosing Public Good over Science can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.</p>
+</div>
+<div id="consequences-of-research-misconduct" class="section level2" number="5.8">
+<h2><span class="header-section-number">5.8</span> Consequences of research misconduct</h2>
+<p>Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on <span class="citation">Davis, Riske-Morris, and Diaz (<a href="#ref-davis_causal_2007" role="doc-biblioref">2007</a>)</span> and <span class="citation">(<a href="#ref-national_academies_of_sciences_incidence_2017" role="doc-biblioref"><strong>national_academies_of_sciences_incidence_2017?</strong></a>)</span>.</p>
+<!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
+<!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
+<!-- https://journals.sagepub.com/doi/pdf/10.1177/1745691612460687 -->
+<!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
+<div id="the-researcher" class="section level3" number="5.8.1">
+<h3><span class="header-section-number">5.8.1</span> The Researcher</h3>
+<p>According to a study of misconduct cases in the Office of Research Integrity (ORI), the investigator is always the accused and are scrutinized by their institution and federal agencies. If found guilty, they face many consequences including possible debarment, job loss, revoked degrees, revoked awards, and lawsuits .</p>
+</div>
+<div id="the-institute-and-journals" class="section level3" number="5.8.2">
+<h3><span class="header-section-number">5.8.2</span> The Institute and Journals</h3>
+<p>Institutes and Journals can also face consequences of research misconduct, as they face reputation loses, which may reduce future opportunities for additional funding or support.</p>
+</div>
+<div id="the-field" class="section level3" number="5.8.3">
+<h3><span class="header-section-number">5.8.3</span> The Field</h3>
+<p>Misconduct can lead to false findings that can lead to many other researchers investigating hypotheses that are not founded on true evidence. This can lead to wasted time, effort, and resources.</p>
+</div>
+<div id="patients" class="section level3" number="5.8.4">
+<h3><span class="header-section-number">5.8.4</span> Patients</h3>
+<p>Not only does misconduct lead to costs associated with a researcher and or institute losing some of their capacity to provide important positive research impacts to future patients, but it also reduces patient trust in research overall.</p>
+</div>
+</div>
+<div id="misconduct-prevention" class="section level2" number="5.9">
+<h2><span class="header-section-number">5.9</span> Misconduct prevention</h2>
+<p>Several models have been proposed to reduce misconduct <span class="citation">(<a href="#ref-mousavi_review_2020" role="doc-biblioref"><strong>mousavi_review_2020?</strong></a>; <a href="#ref-kumar_theoretical_2010" role="doc-biblioref"><strong>kumar_theoretical_2010?</strong></a>)</span>. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. <strong>It is suggested that the quality of research be prioritized over quantity.</strong> This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.</p>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-byrd_responsible_2020" class="csl-entry">
+Byrd, James Brian, Anna C. Greene, Deepashree Venkatesh Prasad, Xiaoqian Jiang, and Casey S. Greene. 2020. <span>“Responsible, Practical Genomic Data Sharing That Accelerates Research.”</span> <em>Nature Reviews Genetics</em> 21 (10): 615–29. <a href="https://doi.org/10.1038/s41576-020-0257-5">https://doi.org/10.1038/s41576-020-0257-5</a>.
+</div>
+<div id="ref-chen_approach_2019" class="csl-entry">
+Chen, Boyu, Hao Jin, Zhiwen Yang, Yingying Qu, Heng Weng, and Tianyong Hao. 2019. <span>“An Approach for Transgender Population Information Extraction and Summarization from Clinical Trial Text.”</span> <em>BMC Medical Informatics and Decision Making</em> 19 (Suppl 2). <a href="https://doi.org/10.1186/s12911-019-0768-1">https://doi.org/10.1186/s12911-019-0768-1</a>.
+</div>
+<div id="ref-clark_increasing_2019" class="csl-entry">
+Clark, Luther T., Laurence Watkins, Ileana L. Piña, Mary Elmer, Ola Akinboboye, Millicent Gorham, Brenda Jamerson, et al. 2019. <span>“Increasing <span>Diversity</span> in <span>Clinical</span> <span>Trials</span>: <span>Overcoming</span> <span>Critical</span> <span>Barriers</span>.”</span> <em>Current Problems in Cardiology</em> 44 (5): 148–72. <a href="https://doi.org/10.1016/j.cpcardiol.2018.11.002">https://doi.org/10.1016/j.cpcardiol.2018.11.002</a>.
+</div>
+<div id="ref-commissioner_guide_2020" class="csl-entry">
+Commissioner, Office of the. 2020. <span>“A <span>Guide</span> to <span>Informed</span> <span>Consent</span>.”</span> <em>U.S. Food and Drug Administration</em>. <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guide-informed-consent">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guide-informed-consent</a>.
+</div>
+<div id="ref-davis_causal_2007" class="csl-entry">
+Davis, Mark S., Michelle Riske-Morris, and Sebastian R. Diaz. 2007. <span>“Causal <span>Factors</span> <span>Implicated</span> in <span>Research</span> <span>Misconduct</span>: <span>Evidence</span> from <span>ORI</span> <span>Case</span> <span>Files</span>.”</span> <em>Science and Engineering Ethics</em> 13 (4): 395–414. <a href="https://doi.org/10.1007/s11948-007-9045-2">https://doi.org/10.1007/s11948-007-9045-2</a>.
+</div>
+<div id="ref-Farmer_2004" class="csl-entry">
+Farmer, Paul. 2004. <em>Pathologies of Power: Health, Human Rights, and the New War on the Poor</em>. University of California Press. <a href="https://doi.org/doi:10.1525/9780520931473">https://doi.org/doi:10.1525/9780520931473</a>.
+</div>
+<div id="ref-Principles_2015" class="csl-entry">
+<span>“Guiding <span>Principles</span> for <span>Ethical</span> <span>Research</span>.”</span> 2015. <em>National Institutes of Health (NIH)</em>. <a href="https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research">https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research</a>.
+</div>
+<div id="ref-noauthor_henrietta_2020" class="csl-entry">
+<span>“Henrietta <span>Lacks</span>: Science Must Right a Historical Wrong.”</span> 2020. <em>Nature</em> 585 (7823): 7–7. <a href="https://doi.org/10.1038/d41586-020-02494-z">https://doi.org/10.1038/d41586-020-02494-z</a>.
+</div>
+<div id="ref-hippocratic_2023" class="csl-entry">
+<span>“Hippocratic <span>Oath</span>.”</span> 2023. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Hippocratic_Oath&amp;oldid=1145959645">https://en.wikipedia.org/w/index.php?title=Hippocratic_Oath&amp;oldid=1145959645</a>.
+</div>
+<div id="ref-wikipedia_informed_2023" class="csl-entry">
+<span>“Informed Consent.”</span> 2023. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Informed_consent&amp;oldid=1147352914">https://en.wikipedia.org/w/index.php?title=Informed_consent&amp;oldid=1147352914</a>.
+</div>
+<div id="ref-IRB_Iowa" class="csl-entry">
+<span>“<span>IOWA STATE UNIVERSITY</span> <span>Institutional Review Board</span><span>Recruitment of Research Participants</span>.”</span> 2015. <a href="https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/Recruitment%20of%20Research%20Participants.pdf">https://www.compliance.iastate.edu/sites/default/files/imported/irb/guide/docs/Recruitment%20of%20Research%20Participants.pdf</a>.
+</div>
+<div id="ref-lipworth_ethics_2017" class="csl-entry">
+Lipworth, Wendy, Paul H. Mason, and Ian Kerridge. 2017. <span>“Ethics and <span>Epistemology</span> of <span>Big</span> <span>Data</span>.”</span> <em>Journal of Bioethical Inquiry</em> 14 (4): 485–88. <a href="https://doi.org/10.1007/s11673-017-9815-8">https://doi.org/10.1007/s11673-017-9815-8</a>.
+</div>
+<div id="ref-mcvean_40_2019" class="csl-entry">
+McVean, Ada. 2019. <span>“40 <span>Years</span> of <span>Human</span> <span>Experimentation</span> in <span>America</span>: <span>The</span> <span>Tuskegee</span> <span>Study</span>.”</span> <em>Office for Science and Society</em>. <a href="https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study">https://www.mcgill.ca/oss/article/history/40-years-human-experimentation-america-tuskegee-study</a>.
+</div>
+<div id="ref-melvin_medical_2020" class="csl-entry">
+Melvin, Holly. 2020. <span>“Medical <span>Ethics</span>: <span>Ethical</span> <span>Dilemmas</span> in <span>Healthcare</span>.”</span> <em>Education Projects Group</em>. <a href="https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/">https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/</a>.
+</div>
+<div id="ref-security_HITECH_2021" class="csl-entry">
+Security, R. S. I. 2021. <span>“Major <span>Components</span> of the <span>HITECH</span> <span>Act</span>: <span>What</span> <span>You</span> <span>Should</span> <span>Know</span>.”</span> <em>RSI Security</em>. <a href="https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/">https://blog.rsisecurity.com/major-components-of-the-hitech-act-what-you-should-know/</a>.
+</div>
+<div id="ref-seh_breaches_2020" class="csl-entry">
+Seh, Adil Hussain, Mohammad Zarour, Mamdouh Alenezi, Amal Krishna Sarkar, Alka Agrawal, Rajeev Kumar, and Raees Ahmad Khan. 2020. <span>“Healthcare <span>Data</span> <span>Breaches</span>: <span>Insights</span> and <span>Implications</span>.”</span> <em>Healthcare</em> 8 (2): 133. <a href="https://doi.org/10.3390/healthcare8020133">https://doi.org/10.3390/healthcare8020133</a>.
+</div>
+<div id="ref-teoli_informatics_2021" class="csl-entry">
+Teoli, Dac, and Sassan Ghassemzadeh. 2021. <em>Informatics <span>Ethics</span></em>. StatPearls Publishing. <a href="https://www.ncbi.nlm.nih.gov/books/NBK538512/">https://www.ncbi.nlm.nih.gov/books/NBK538512/</a>.
+</div>
+</div>
+<hr>
+<center>
+  <div class="footer">
+      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
+      <br>
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-sharing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="current-data-concerns.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
