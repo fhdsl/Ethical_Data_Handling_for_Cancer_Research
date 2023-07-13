@@ -28,9 +28,10 @@ PII is also defined by the [US General Services Administration](https://www.gsa.
 > "Information that can be used to **distinguish** or **trace** an individual’s identity, either alone or when combined with other personal or identifying information that is linked or linkable to a **specific individual**."
 
 
-Why is this term defined by the Department of Labor and the US general Services Administration? Because the [Privacy Act of 1974](https://en.wikipedia.org/wiki/Privacy_Act_of_1974) [@privacy_act_2022], is a US federal law that governs the "collection, maintenance, use and dissemination" of personal information. US agencies have access to a large amount of PII and must act in accordance with the Privacy Act to protect this data. 
+Why is this term defined by the Department of Labor and the US general Services Administration? Because the [Privacy Act of 1974](https://en.wikipedia.org/wiki/Privacy_Act_of_1974) [@privacy_act_2022], is a US federal law that governs the "collection, maintenance, use and dissemination" of personal information. US agencies have access to a large amount of PII and must act in accordance with the Privacy Act to protect this data.
 
 *Examples include (but aren't limited to):*  
+
   - Name
   - Telephone number
   - Address
@@ -41,7 +42,8 @@ Why is this term defined by the Department of Labor and the US general Services 
   - Full face photographs
   - IP addresses
 
-Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, such as social security numbers. Other PII such as age does not necessarily pose as much risk unless combined with other information. 
+
+Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, such as social security numbers. Other PII such as age does not necessarily pose as much risk unless combined with other information.
 
 Thus this information is categorized in two ways as being nonsensitive  which is easy to find and poses little risk and sensitive information which is harder to find, poses higher risk and requires more protection.
 
@@ -51,14 +53,14 @@ Thus this information is categorized in two ways as being nonsensitive  which is
 
 What is the risk of PII getting into the hands of people it shouldn't? Why was the Protection Act necessary?
 
-PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities. 
+PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
 In addition, the leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes.
 
 <img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_484.png" title="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" alt="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" width="100%" style="display: block; margin: auto;" />
 
 
- 
+
 ## PHI (protected health information)
 
 The [U.S. Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html) describes protected health information (PHI) as:
@@ -100,15 +102,15 @@ Some PII is always PHI, like health insurance numbers or clinical data such as r
 
 ## PHI Risk
 
-PHI poses an additional risk rather than just typical PII. 
+PHI poses an additional risk rather than just typical PII.
 
-That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance. 
+That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance.
 
 <img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_676.png" title="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." alt="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." width="100%" style="display: block; margin: auto;" />
 
 ## Cancer research data and PHI
 
-Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants. 
+Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants.
 
 <img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_509.png" title="Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data" alt="Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data" width="100%" style="display: block; margin: auto;" />
 
@@ -155,14 +157,14 @@ So what does this mean for the data you handle?
 **What is not protected and generally is safe:**   
 
 - Summarized cohort data
- 
+
  Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
- 
+
 - De-identified data
 
- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access). 
+ Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access).
 
-It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies. 
+It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies.
 
 The following articles have more extensive information about the current re-identification risk of different genomic data types:
 
@@ -191,7 +193,7 @@ If data has been summarized over the cohort and there are no identifiers then it
 
 3. Consider a data use agreement
 
-Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use. 
+Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.
 
 See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
@@ -201,7 +203,7 @@ See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Ca
 
 If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possibly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.
 
-If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository! 
+If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository!
 
 ## How is HIPAA enforced?
 
@@ -213,7 +215,7 @@ If compliance is not resolved, then the covered entity may have to pay fines.
 
 Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of `$`50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to `$`250,000 and may face jail time of up to 10 years [@violations_2018].
 
-### Common Violations 
+### Common Violations
 
 Common violations of HIPAA taken from @violations_2018 are:
 
@@ -223,7 +225,7 @@ If your email or data transfer is intercepted it is important to keep your data 
 
 2) Computer hacking or phishing
 
-If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. The data security practices that we will describe in the next chapter will help avoid this. 
+If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. The data security practices that we will describe in the next chapter will help avoid this.
 
 3) Unauthorized Access
 
@@ -239,7 +241,7 @@ Sometimes there are remnants of your data still on your device!
 
 6) Unsecured access to data
 
-Accessing your data form an unsecured WIFI network can also make the data vulnerable. 
+Accessing your data form an unsecured WIFI network can also make the data vulnerable.
 
 See [here](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
 
