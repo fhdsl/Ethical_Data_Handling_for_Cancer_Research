@@ -204,10 +204,9 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 
 A [research study](https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf) by @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
 
-A variety of reasons emerged that included:
+A variety of reasons emerged that the researchers described including:
 
 1) Personal and professional stressors
-This included statements of factors such as:
 
  - pressure to produce
  - overworked
@@ -218,7 +217,6 @@ This included statements of factors such as:
  - stress
 
 2) Organizational climate factors
-This included statements of factors such as:
 
 - insufficient mentoring/supervision
 - poor communication/coordination
@@ -226,6 +224,7 @@ This included statements of factors such as:
 - lost stolen data
 
 3) Job Insecurities
+
 These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.
 
 - Inappropriate responsibility
@@ -233,7 +232,6 @@ These cases described situations in which a researcher felt hesitant to ask for 
 - Language Barrier
 
 4) Rationalizations
-Justifications that were often offered included:
 
 - Lack of control over environment
 - Disseminating findings too quickly
