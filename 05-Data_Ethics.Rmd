@@ -228,11 +228,15 @@ This included statements of factors such as:
 3) Job Insecurities
 These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.
 
+- Inappropriate responsibility
+- Competition for position
+- Language Barrier
+
 4) Rationalizations
 Justifications that were often offered included:
 
 - Lack of control over environment
-- jumping to the gun to disseminate findings
+- Disseminating findings too quickly
 
 5) Personal Inhibitions
 
@@ -248,6 +252,7 @@ Justifications that were often offered included:
 7) Personality traits
 
 - Impatience
+- Laziness
 - Personal Need for Recognition
 
 The article states that pressures to do public good can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
