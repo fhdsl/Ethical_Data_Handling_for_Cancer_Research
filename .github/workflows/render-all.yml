@@ -148,7 +148,6 @@ jobs:
 
           # Make new screenshots
           chapt_urls=$(Rscript --vanilla scripts/make_screenshots.R \
-            --base_url https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/ \
             --git_pat ${{ secrets.GH_PAT }} \
             --repo $GITHUB_REPOSITORY \
             --output_dir resources/chapt_screen_images)
