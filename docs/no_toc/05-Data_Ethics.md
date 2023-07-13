@@ -74,7 +74,7 @@ See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-
 
 ## General Ethics Code
 
-Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. 
+Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles.
 
 
 ### The [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
@@ -111,7 +111,7 @@ The value of the study needs to be important enough to justify the discomfort, i
 Studies should be designed so as to effectively gain more understanding about the scientific question in consideration. In other words, the efforts of the research participants should not be wasted on a study that is poorly designed and will not add to scientific understanding.
 
 3)**Fair subject selection**
-Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason.  Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others. 
+Participants for studies should be selected based on the scientific question. Groups of people should not be excluded without a good reason.  Participants should benefit from the understanding that the study should gain. In other words participants should not accept risk for only the benefit of others.
 
 4)**Favorable risk-benefit ratio**
 
@@ -128,7 +128,7 @@ Individuals should voluntarily decide if they wish to participate (where possibl
 7)**Respect for potential and enrolled subjects**
 
 Individuals should be treated with respect for the entirety of the process including:
- 
+
   - respecting the privacy of their information
   - respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind
   - respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed
@@ -143,9 +143,9 @@ We have already talked about the concept of informed consent. Obtaining consent 
   - Individuals should not receive a misleading or overstated presentation of the potential benefits of the study.
   - Individuals should be made aware of the uncertainty associated with risks and benefits
   - Individuals should have the capacity to understand the risks and benefits (this involves consideration for language barriers, intellectual capacity, emotional capacity, stress, sleep loss and other forms of physical strain)
-  - Individuals should be able to withdraw consent at anytime 
+  - Individuals should be able to withdraw consent at anytime
   - Individuals should be respected through-out the process including consideration for the cultural values of the recruited populations
-  
+
 
 ## Medical Ethics Timeline
 
@@ -166,7 +166,7 @@ The concept of medical ethics in the Western world dates back all the way to the
 
 ### American Medical Association Code of Medical Ethics (1847)
 
-The United States [American Medical Association](https://code-medical-ethics.ama-assn.org/) code of ethics was first established in 1874 [@riddick_code_2003]. The next major code publication was in 1957. The code was not law, but it set standards for care. The 1957 code describe the fact that there might be special cases in which confidence might not always be able to be kept. 
+The United States [American Medical Association](https://code-medical-ethics.ama-assn.org/) code of ethics was first established in 1874 [@riddick_code_2003]. The next major code publication was in 1957. The code was not law, but it set standards for care. The 1957 code describe the fact that there might be special cases in which confidence might not always be able to be kept.
 
 See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf) by @higgins_history_1989 and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/) by @moskop_hippocrates_2005 for more about the history of medical ethics codes. 
 
@@ -178,7 +178,7 @@ The United Nations adopted the concept of "free consent" (similar to informed co
 
 Medical confidentially became law in the United States. Protected health information and identifiable health information must not be shared with anyone outside of certain covered entities without consent. Covered entities include: clinicians, insurance companies, and health care government agencies.
 
-### Genetic Information Nondiscrimination Act (GINA) (2008) 
+### Genetic Information Nondiscrimination Act (GINA) (2008)
 
 The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals.
 
@@ -198,10 +198,9 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 
 A [research study](https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf) by @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
 
+A variety of reasons emerged that the researchers described including:
 
-The following categories of factors were identified among the reports:
 1) Personal and professional stressors
- This included statements about stressors encountered at work and personally such as:
 
  - pressure to produce
  - overworked
@@ -212,7 +211,6 @@ The following categories of factors were identified among the reports:
  - stress
 
 2) Organizational climate factors
-This included statements of factors such as:
 
 - insufficient mentoring/supervision
 - poor communication/coordination
@@ -220,34 +218,41 @@ This included statements of factors such as:
 - lost stolen data
 
 3) Job Insecurities
+
 These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.
+
 - Inappropriate responsibility
--  Competition for position
+- Competition for position
 - Language Barrier
 
 4) Rationalizations
-Justifications that were often offered included:
+
 - Lack of control over environment
-- jumping to the gun to disseminate findings
+- Disseminating findings too quickly
 
 5) Personal Inhibitions
-Difficult job/task
-Frustrations
+
+- Difficult job/task
+- Frustrations
 
 6) Another category of Rationalizations
 
-Fear, Apathy/Dislike, Restoring Equity, Avoiding Degradation by Others, and Slippery Slope
+- Fear
+- Apathy/Dislike
 
 7) Personality traits
 
+- Impatience
+- Laziness
+- Personal Need for Recognition
 
-Impatience, Amnesia, Laziness, Character Flaw, and Personal Need for Recognition
-Choosing Public Good over Science can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
+The article states that pressures to do public good can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
 
+While personality traits were identified, the above reasons suggest that if researchers have more support to recognize and overcome stressors and are motivated to do quality research instead of attempting to obtain metrics for promotion, perhaps some of these reasons can be mitigated.
 
 ## Consequences of research misconduct
 
-Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017. 
+Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017.
 
 <!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
 <!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
@@ -269,10 +274,8 @@ Misconduct can lead to false findings that can lead to many other researchers in
 
 ### Patients
 
-Not only does misconduct lead to costs associated with a researcher and or institute losing some of their capacity to provide important positive research impacts to future patients, but it also reduces patient trust in research overall. 
+Not only does misconduct lead to costs associated with a researcher and or institute losing some of their capacity to provide important positive research impacts to future patients, but it also reduces patient trust in research overall.
 
 ## Misconduct prevention
 
 Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
-
-
