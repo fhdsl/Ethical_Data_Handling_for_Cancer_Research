@@ -204,10 +204,10 @@ The Genetic Information Nondiscrimination Act prohibits employers and health ins
 
 A [research study](https://www.thphys.uni-heidelberg.de/~stamatescu/DIDEPG/SEMPE/SEE/see13_35046090.pdf) by @davis_causal_2007 investigated closed cases from the Office of Research Integrity (ORI), using statements from the reports to evaluate reasons why researchers sometimes do not perform research responsibly.
 
+A variety of reasons emerged that included:
 
-The following categories of factors were identified among the reports:
 1) Personal and professional stressors
- This included statements about stressors encountered at work and personally such as:
+This included statements of factors such as:
 
  - pressure to produce
  - overworked
@@ -227,29 +227,32 @@ This included statements of factors such as:
 
 3) Job Insecurities
 These cases described situations in which a researcher felt hesitant to ask for help due to a perception of job insecurity.
-- Inappropriate responsibility
--  Competition for position
-- Language Barrier
 
 4) Rationalizations
 Justifications that were often offered included:
+
 - Lack of control over environment
 - jumping to the gun to disseminate findings
 
 5) Personal Inhibitions
-Difficult job/task
-Frustrations
+
+- Difficult job/task
+- Frustrations
 
 6) Another category of Rationalizations
 
-Fear, Apathy/Dislike, Restoring Equity, Avoiding Degradation by Others, and Slippery Slope
+- Fear
+- Apathy/Dislike
+- Restoring Equity, Avoiding Degradation by Others, and Slippery Slope
 
 7) Personality traits
 
+- Impatience
+- Personal Need for Recognition
 
-Impatience, Amnesia, Laziness, Character Flaw, and Personal Need for Recognition
-Choosing Public Good over Science can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
+The article states that pressures to do public good can also be viewed as a personality factor since it seems indicative of dogma that can compromise the integrity of the scientific process, thus resulting in research misconduct.
 
+While personality traits were identified, the above reasons suggest that if researchers have more support and are motivated to do quality research instead of attempting to obtain metrics for promotion, perhaps some of these reasons can be mitigated.
 
 ## Consequences of research misconduct
 
