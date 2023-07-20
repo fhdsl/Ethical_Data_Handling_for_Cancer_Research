@@ -262,3 +262,16 @@ Accessing your data form an unsecured WIFI network can also make the data vulner
 See [here](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
 
 In the next chapter, we will talk about measures that you can do to avoid these violations.
+
+## Summary
+
+In conclusion, we covered the following concepts in this chapter:
+
+- Cancer research often involves personal health data, requiring compliance with HIPAA regulations.
+- There are two categories of personal information: Personal Identifiable Information (PII) and Protected Health Information (PHI).
+- PII is information that potentially allows for the identification of an individual
+- PHI is a subset of PII that pertains to an individual's health, including medical records, health insurance numbers, etc.
+- PII and PHI pose risks, including identity theft, safety risks, and potential discrimination in employment or insurance.
+- Certain genomic and clinical data may pose higher risks for identification, requiring more protection in cancer research.
+- Strategies to ensure data privacy and compliance with HIPAA: limit access, aggressive de-identification, data use agreements, and seeking guidance.
+- HIPAA is enforced by the Office for Civil Rights, with penalties for violations, including fines and corrective actions. Common violations include lack of encryption, hacking, unauthorized access, loss/theft of devices, improper disposal, and unsecured access to data.
