@@ -265,7 +265,7 @@ In the next chapter, we will talk about measures that you can do to avoid these 
 
 ## Summary
 
-In conclusion, we covered the following concepts in this chapter:
+In summary, we covered the following concepts in this chapter:
 
 - Cancer research often involves personal health data, requiring compliance with HIPAA regulations.
 - There are two categories of personal information: Personal Identifiable Information (PII) and Protected Health Information (PHI).
