@@ -199,4 +199,13 @@ One [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/)  by @begay_
 
 > encourage researchers to consider cultural perspectives and traditional knowledge that has the potential to create stronger conclusions and better-informed, ethical, and respectful science.
 
+## Summary
+
+In summary, we covered the following concepts:
+
+- The field of data ethics is rapidly evolving as technology continues to evolve. Previous strategies for consent are not always appropriate in today's age of data sharing, where some de-identified data can possibly be re-identified in the future.
+- There are challenges with obtaining appropriate consent for data that may be reused in ways that are not initially envisioned. Various consent strategies exist with trade-offs. Participants need to be informed of the limitations and uncertainty of future data uses. 
+- Data soveignty can be defined as the concept that the people who the data comes from determine or at least are highly involved in what happens with that data. However the meaning of data sovereignty is still evolving.
+- There are many cases of data breaches, mistakes, and even falsification in research. Forensic bioinformatics aims to verify if published research is correct. Simple data mistakes in biomedical research can have dramatic consequences. It is important that researchers let the public know as soon as they are aware of any mistakes. 
+- Some cases reveal harm from sharing data in ways that research participants did not truly consent to, especially for vulnerable populations. A focus on preserving sovereignty, evaluating benefit vs. harm, and being cultural responsive can help mitigate possible harm.
 
