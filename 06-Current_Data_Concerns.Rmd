@@ -31,6 +31,14 @@ Although ethical guidelines about this type of consent are evolving as research 
 3) **dynamic consent** - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
 4) **meta consent** - Subjects get to choose what type of consent they prefer of the other 3 options.
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "An image of blanket and broad consent. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1047")
+```
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "An image of dynamic and meta consent. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1047")
+```
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
 

@@ -15,7 +15,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
 *personal identifiable information (PII)* and *protected health information (PHI)*
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Research often involves collecting personal information about people who participate in research.Personal Identifiable Information (PII) and Protected Health Information (PHI)", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_318")
 ```
 
@@ -126,11 +126,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data",out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identification than most imaging data",out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509")
 ```
 
-### What genomic data is protected?
+<!-- ### What genomic data is protected? -->
 <!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if participants are alive or not etc.-->
 
 <!-- The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals. -->
