@@ -248,7 +248,7 @@ Data is masked and kept secure by different protocols. Two that are quite common
 
 Where SSL is for moving data from a website to a server, SSH is for making connections to execute commands on remote computers.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet. SSL is best suited for securely transferring critical data like in credit cards and banking. SSL protects against DNS spoofing, data manipulation, IP source routing, data sniffing during transmission etc. SSH protect against identity theft and man-in-the-middle (MiTM) attacks.", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet.", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g2134f5bcd65_0_0")
 ```
 
