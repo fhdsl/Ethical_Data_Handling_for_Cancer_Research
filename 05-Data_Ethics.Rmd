@@ -285,3 +285,15 @@ Not only does misconduct lead to costs associated with a researcher and or insti
 ## Misconduct prevention
 
 Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
+## Summary
+
+In summary, we have covered the following concepts in this chapter:
+
+- Data ethics involves the ethical collection, storage, sharing and use of data to minimize harm and maximize benefits to research participants and society.
+- Data ethics considerations should happen both before and after research is conducted. Researchers need to consider how their data could be misused after publication.
+- Historical examples of unethical research highlight the need for data ethics principles, like informed consent and respect for research participants. Examples include the Tuskegee Syphilis Study and the case of Henrietta Lacks.
+- Key principles of data ethics include: beneficence, non-maleficence, justice, autonomy and informed consent.
+- Medical ethics has evolved over time with milestones like the Hippocratic Oath, AMA code of ethics, Nuremberg Code and establishment of laws like HIPAA, GINA and HITECH.
+- Research misconduct can happen due to personal, organizational and job related factors. It can negatively impact researchers, institutes, research fields, patients and public trust.
+- Misconduct prevention involves prioritizing research quality over quantity and reducing pressures that promote misconduct. Providing mentoring, supervision and support can also help prevent misconduct.
