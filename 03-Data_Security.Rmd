@@ -398,3 +398,31 @@ Additionally, be careful logging into websites as well. Make sure that you are i
 
 See [here](https://web.archive.org/web/20220609154035/https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png) for recommendations on what to look out for from the HIPAA journal.
 
+
+
+## Summary
+
+In conclusion, we covered the following concepts:
+
+- Authentication is the process of verifying the identity of users and servers in a communication. Users provide their credentials (username and password), while servers present certificates to confirm their identity.
+- Authorization is the process of ensuring that someone has permission to access a file or computing resource in a particular way. 
+- In Unix-like systems, files have permissions for three types of users: owner, group users, and other users. These permissions include read, write, and execute privileges, and they are represented by letters (r, w, x) in file listings.
+- Principal of Least Privilege: This principle states that users should only have access to data or resources necessary to complete their tasks. Unnecessary access should be avoided, and privileges should be revoked when no longer needed.
+- It is crucial to use secure WiFi networks and avoid public ones whenever possible. If necessary, use a Virtual Private Network (VPN) to enhance security while using public networks.
+- Strong passwords should be used, preferably in the form of sentences with symbols and numbers. Password managers like Keychain, Dashlane, or other services can help securely store passwords.
+- Computers use caching to store recent data for faster access. Clearing caches regularly is essential to avoid security risks and potential exposure of sensitive data.
+- USB drives can pose security risks due to portability, malware, and memory issues. It's best to use reputable drives, enable encryption, disable AutoRun software, and remove the drive when not in use.
+- Data masking obscures sensitive data to protect privacy. De-identification and encryption are common methods. De-identification removes identifiers, while encryption encodes data to prevent unauthorized access.
+- Encryption involves encoding data with keys to protect it from unauthorized access. Asymmetric encryption uses two keys (public and private), while symmetric encryption uses one key for both encryption and decryption.
+- SSL (Secure Socket Layer) and SSH (Secure Shell) are protocols that establish secure connections and encrypt data. SSL is commonly used for websites, while SSH is used to connect to remote computers.
+- When files are deleted, the data remains on storage hardware, posing a security risk. Software-based data erasure methods overwrite the data, ensuring it cannot be recovered, allowing hardware to be reused securely.
+- To ensure data resiliency, follow the 3-2-1 backup rule, which suggests that you have at least 3 copies, using 2 formats, and at least one different location. For those using shared computing resources, this should be updated a bit.
+- Avoid sharing sensitive data through email whenever possible.Use shared computing platforms, especially if HIPAA compliance is needed. When emailing PHI or PII, use a secure network and encrypted email. Be cautious of phishing attempts:
+
+  - Beware of emails from unrecognized senders.
+  - Check the sender's email address for legitimacy.
+  - Be cautious of links and verify with the sender through other means.
+  - Be wary of similar-looking emails or cloned messages.
+  - Exercise caution with email attachments from unknown sources.
+  - Never give personal credentials or sensitive information via email.
+  - Watch out for urgent and alarming requests.
