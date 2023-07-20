@@ -160,6 +160,12 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ### De-identification
 
 Data de-identification is the process of removing any values that could be personally identifiable. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1215")
+```
+
+
 Re-identification is the process of determining the identity of such individuals based on data [@de-identification_2022]. Typically an ID number is assigned to each individual to allow for re-identification.
 
 The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should ***not*** be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) which is a condensed representation of an individual's data (including identifiable information) to a standard ID length.  Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked (but are not intended for re-identification), which can be helpful for longitudinal studies [@hipaa_regulations]. See [here](https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368) for additional information about HIPAA de-identification regulations.
