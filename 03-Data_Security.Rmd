@@ -402,7 +402,7 @@ See [here](https://web.archive.org/web/20220609154035/https://www.hipaajournal.c
 
 ## Summary
 
-In conclusion, we covered the following concepts:
+In summary, we covered the following concepts in this chapter:
 
 - Authentication is the process of verifying the identity of users and servers in a communication. Users provide their credentials (username and password), while servers present certificates to confirm their identity.
 - Authorization is the process of ensuring that someone has permission to access a file or computing resource in a particular way. 
