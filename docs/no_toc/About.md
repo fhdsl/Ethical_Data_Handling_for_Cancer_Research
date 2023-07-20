@@ -16,6 +16,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor|[Carrie Wright](https://carriewright11.github.io)|
+|Content Contributors|[Candace Savonen](https://www.cansavvy.com/) (sections of Data Sharing, Data Security, Data Ethics, and quizzes)|
 |Content Editors/Reviewers|[Candace Savonen](https://www.cansavvy.com/), [Jeff Leek](https://jtleek.com/)|
 |Content Directors| [Jeff Leek](https://jtleek.com/)|
 |Content Consultant (General)| [Elana Fertig](https://fertiglab.com/)|
