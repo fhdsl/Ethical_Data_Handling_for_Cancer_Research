@@ -102,6 +102,11 @@ Equity specifically means that those who are societally disadvantaged should be 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_5")
+```
+
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
 This discussion is from @Principles_2015.
