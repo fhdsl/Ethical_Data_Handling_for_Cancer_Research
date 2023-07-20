@@ -198,16 +198,11 @@ Keep in mind that your institution likely has their own guidelines for how to us
 
 ## Summary
 
-In conclusion, in this chapter we covered the following concepts:
+In summary, in this chapter we covered the following concepts:
 
 - Data sharing is important for advancing scientific understanding, transparency, and maximizing the value of your data.
-
 - There are many data repositories where you can store and share your data, including general repositories like Dryad and Figshare, and repositories specific to certain data types like genomics or imaging data.
-
 - When sharing data, be sure to organize and document your data well with things like a README file, consistent naming conventions, and metadata. Follow reproducibility practices whenever possible. 
-
-
 - Tools like REDCap can help manage clinical data while ensuring security, privacy, and reproducibility through features like role-based access controls, data auditing, and locking data after collection. 
-
 - Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don't reveal aspects of the the data in code. Your local IRB may be able to help you learn how to do so. 
 
