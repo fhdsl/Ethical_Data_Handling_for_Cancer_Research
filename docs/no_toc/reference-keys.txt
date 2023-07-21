@@ -10,10 +10,10 @@ phi-protected-health-information
 phi-is-a-subset-of-pii
 phi-risk
 cancer-research-data-and-phi
-what-genomic-data-is-protected
 how-to-ensure-the-privacy-of-this-information
 how-is-hipaa-enforced
 common-violations
+summary
 data-security
 data-security-strategies
 data-access
@@ -39,6 +39,7 @@ data-resiliency
 email-security
 email-encryption
 phishing
+summary-1
 data-sharing
 data-sharing-is-important
 data-repositories
@@ -52,6 +53,7 @@ make-your-project-reproducible
 have-someone-else-review-your-code-and-data
 health-care-data-sharing-tools
 redcap-research-electronic-data-capture
+summary-2
 data-ethics
 what-is-data-ethics
 before-and-after-research
@@ -64,7 +66,7 @@ the-four-pillars-this-discussion-is-from-melvin_medical_2020
 the-nih-clinical-center-seven-principles
 concept-of-consent
 medical-ethics-timeline
-the-hippocartic-oath-4th-centery-bc
+the-hippocratic-oath-4th-century-bc
 american-medical-association-code-of-medical-ethics-1847
 international-covenant-on-civil-and-political-rights-1966
 health-insurance-portability-and-accountability-act-hipaa-1996
@@ -77,6 +79,7 @@ the-institute-and-journals
 the-field
 patients
 misconduct-prevention
+summary-3
 current-data-concerns
 current-ethical-issues
 consent-for-data-reuse
@@ -88,3 +91,4 @@ data-breaches
 data-mistakes-and-neglect
 data-falsification
 improper-data-reuse-for-research
+summary-4
