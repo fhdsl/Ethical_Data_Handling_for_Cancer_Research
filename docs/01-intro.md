@@ -25,6 +25,11 @@ This course is intended for researchers (including postdocs and students) with l
 
 ## Curriculum 
 
-The course will cover the key underlying principles and concepts in data management. It will also cover data security, data privacy, IRB and data access requests, and the ethics of good data management. 
+The course will cover  key underlying principles and concepts in ethical data handling. 
 
 <img src="resources/images/01-intro_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gf5f8818810_1_5.png" title="Overall Course Learning Objectives. This course will demonstrate how to: 1.Recognize and work with data that requires extra privacy protection, 2.Implement best practices for data security, 3.Share data safely and securely in a variety of contexts, 4. Apply ethical consideration in data management workflows" alt="Overall Course Learning Objectives. This course will demonstrate how to: 1.Recognize and work with data that requires extra privacy protection, 2.Implement best practices for data security, 3.Share data safely and securely in a variety of contexts, 4. Apply ethical consideration in data management workflows" width="100%" style="display: block; margin: auto;" />
+
+It will also cover how best practices for data security, data privacy, and data sharing are critical for responsible data management.
+
+<img src="resources/images/01-intro_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_0.png" title="Ethical data practices include: Sharing data safely and openly to help further the research field. Keeping sensitive data private and hidden in order to protect patients from harm. Securing data so it is not exposed and cannot be manipulated or found by others who are not permitted to access it." alt="Ethical data practices include: Sharing data safely and openly to help further the research field. Keeping sensitive data private and hidden in order to protect patients from harm. Securing data so it is not exposed and cannot be manipulated or found by others who are not permitted to access it." width="100%" style="display: block; margin: auto;" />
+
