@@ -16,6 +16,7 @@ bam
 Baggerly
 Biostrings
 bioethical
+bioinformatics
 Bioinformatics
 BIPOC
 Biometric

@@ -102,6 +102,11 @@ Equity specifically means that those who are societally disadvantaged should be 
 Patients need to make their own decisions about their health. They should be equipped with all information about their health but then respected and supported in their decision.
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_5")
+```
+
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
 This discussion is from @Principles_2015.
@@ -164,7 +169,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 
-### The Hippocartic Oath (~ 4th centery BC)
+### The Hippocratic Oath (~ 4th century BC)
 
 The concept of medical ethics in the Western world dates back all the way to the original [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath) between the 3rd and 5th century BC [@hippocratic_2023]. It established concepts like confidentiality and non-maleficence.
 
@@ -285,3 +290,15 @@ Not only does misconduct lead to costs associated with a researcher and or insti
 ## Misconduct prevention
 
 Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
+## Summary
+
+In summary, we have covered the following concepts in this chapter:
+
+- Data ethics involves the ethical collection, storage, sharing and use of data to minimize harm and maximize benefits to research participants and society.
+- Data ethics considerations should happen both before and after research is conducted. Researchers need to consider how their data could be misused after publication.
+- Historical examples of unethical research highlight the need for data ethics principles, like informed consent and respect for research participants. Examples include the Tuskegee Syphilis Study and the case of Henrietta Lacks.
+- Key principles of data ethics include: beneficence, non-maleficence, justice, autonomy and informed consent.
+- Medical ethics has evolved over time with milestones like the Hippocratic Oath, AMA code of ethics, Nuremberg Code and establishment of laws like HIPAA, GINA and HITECH.
+- Research misconduct can happen due to personal, organizational and job related factors. It can negatively impact researchers, institutes, research fields, patients and public trust.
+- Misconduct prevention involves prioritizing research quality over quantity and reducing pressures that promote misconduct. Providing mentoring, supervision and support can also help prevent misconduct.
