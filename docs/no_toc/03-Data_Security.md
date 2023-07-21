@@ -41,9 +41,9 @@ These letters indicate the users ability to perform tasks for each file called f
 
 In unix or unix-like systems, there are three types of users:
 
-1) Owner (sometimes called user) - This is the person that created the file by default
-2) Group users - groups can be created to more easily give the correct permissions for various files for a similar group of users.
-3) Other users - This is any other user who might come into access with the file
+1) Owner (sometimes called user) - This is the person that created the file by default.
+2) Group users - Groups can be created to more easily give the correct permissions for various files for a similar group of users.
+3) Other users - This is any other user who might come into access with the file.
 
 
 
@@ -99,7 +99,7 @@ If you have a Mac, you could consider storing it in your [Keychain](https://supp
 
 <img src="resources/images/03-Data_Security_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
 
-### Cached data (maybe need to move - was going to be stale access)
+### Cached data
 
 In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing)#)  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
 
