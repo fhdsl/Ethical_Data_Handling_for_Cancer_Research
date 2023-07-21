@@ -13,7 +13,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ```
 
 Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
-*personal identifiable information (PII)* and *protected health information (PHI)*
+*personal identifiable information (PII)* and *protected health information (PHI)*.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Research often involves collecting personal information about people who participate in research.Personal Identifiable Information (PII) and Protected Health Information (PHI)", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_318")

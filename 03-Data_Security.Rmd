@@ -49,9 +49,9 @@ These letters indicate the users ability to perform tasks for each file called f
 
 In unix or unix-like systems, there are three types of users:
 
-1) Owner (sometimes called user) - This is the person that created the file by default
-2) Group users - groups can be created to more easily give the correct permissions for various files for a similar group of users.
-3) Other users - This is any other user who might come into access with the file
+1) Owner (sometimes called user) - This is the person that created the file by default.
+2) Group users - Groups can be created to more easily give the correct permissions for various files for a similar group of users.
+3) Other users - This is any other user who might come into access with the file.
 
 
 
@@ -111,7 +111,7 @@ If you have a Mac, you could consider storing it in your [Keychain](https://supp
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.g10e2895be5b_58_54")
 ```
 
-### Cached data (maybe need to move - was going to be stale access)
+### Cached data
 
 In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a [cache](https://en.wikipedia.org/wiki/Cache_(computing)#)  [@wikipedia_cache_2022]. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.
 
