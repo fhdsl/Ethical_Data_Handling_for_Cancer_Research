@@ -23,7 +23,7 @@ permissions
 the-principal-of-least-privilege
 wifi
 passwords
-cached-data-maybe-need-to-move---was-going-to-be-stale-access
+cached-data
 external-drives
 data-masking
 de-identification
