@@ -27,15 +27,19 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Candace Savonen](https://www.cansavvy.com/)|
 |**Technical**||
 |Course Publishing Engineer|[Carrie Wright](https://carriewright11.github.io/)|
-|Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/) [Ava Hoffman]|
 |Publishing Maintenance Engineer|[Candace Savonen](https://www.cansavvy.com/)|
 |Technical Publishing Stylists|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
 |Package Developers ([ottrpal](https://github.com/jhudsl/ottrpal))|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
 |**Art and Design**||
 |Illustrator|[Carrie Wright](https://carriewright11.github.io)|
 |**Funding**||
-|Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) UE5 CA254170|
-|Funding Staff| Emily Voeglein, Fallon Bachman|
+|Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) [UE5 CA254170](https://grantome.com/grant/NIH/UE5-CA254170-01)|
+|Funding Staff| [Sandra Ormbrek], [Shasta Nicholson] |
+
+[Ava Hoffman]: https://www.avahoffman.com/
+[Sandra Ormbrek]: https://hutchdatascience.org/ourteam/
+[Shasta Nicholson]: https://www.linkedin.com/in/shastanicholson/
 
 &nbsp;
 
@@ -51,7 +55,7 @@ These credits are based on our [course contributors table guidelines](https://gi
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-07-20                  
+##  date     2023-07-21                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            
