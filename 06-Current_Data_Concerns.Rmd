@@ -37,7 +37,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "An image of dynamic and meta consent. ", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1047")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1053")
 ```
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
