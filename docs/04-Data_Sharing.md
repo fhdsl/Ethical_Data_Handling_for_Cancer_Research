@@ -6,7 +6,7 @@
 
 In this chapter we will discuss the importance of data sharing, best practices for data sharing, places where you can store your data, as well as methods to share data in contexts in which you might have thought sharing was not possible! 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" title="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" />
 
 ## Data sharing is important!
 
