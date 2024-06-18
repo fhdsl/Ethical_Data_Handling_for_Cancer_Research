@@ -1,6 +1,6 @@
-book_filename: "Course_Name"
+book_filename: "Ethical Data Handling for Cancer Research"
 chapter_name: "Chapter "
-repo: https://github.com/jhudsl/Data_Management
+repo: https://github.com/jhudsl/Ethical_Data_Handling_for_Cancer_Research
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-Data_Privacy.Rmd",
