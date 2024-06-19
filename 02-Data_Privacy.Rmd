@@ -178,7 +178,7 @@ So what does this mean for the data you handle?
 
 - De-identified data
 
- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access).
+Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access).
 
 It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies.
 
