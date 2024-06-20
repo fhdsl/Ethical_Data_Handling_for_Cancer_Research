@@ -6,7 +6,7 @@
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" title="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
+![](resources/images/05-Data_Ethics_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png){width=100%}
 
 ## What is data ethics?
 
@@ -99,7 +99,7 @@ Patients need to make their own decisions about their health. They should be equ
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png" title="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " alt="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " width="100%" style="display: block; margin: auto;" />
+![](resources/images/05-Data_Ethics_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png){width=100%}
 
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
@@ -157,7 +157,7 @@ It is helpful to get a sense of the timing when society established ethical medi
 <!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" title="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
+![](resources/images/05-Data_Ethics_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png){width=100%}
 
 See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 

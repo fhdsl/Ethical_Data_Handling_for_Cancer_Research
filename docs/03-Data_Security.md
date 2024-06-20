@@ -7,7 +7,7 @@
 
 In this chapter we will discuss best practices for keeping your data safe and secure.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png){width=100%}
 
 Data security involves protecting your data from human error, as well as from cybercriminals. Precious data needs to be protected from being corrupted (rendered unusable), being deleted, being misused, and being leaked to the public when the data is sensitive or private (as is the case with much of our clinical data)[@IBM_data_security].
 
@@ -15,7 +15,7 @@ Data security involves protecting your data from human error, as well as from cy
 
 There a several major strategies to achieve data security. We will cover the following 4 major categories, in part according to @IBM_data_security.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" title="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png){width=100%}
 
 ## Data access
 
@@ -32,7 +32,7 @@ Authorization is the process of verifying that a client has permission to access
 
 If you use the command line, you may have noticed that files are sometimes listed with letters like so:
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" title="File permission example showing that there are 10-11 letters listed before other file information." alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png){width=100%}
 
 
 These letters indicate the users ability to perform tasks for each file called file system permissions.
@@ -56,7 +56,7 @@ There are generally 3 types of permissions:
 
 
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" title="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png){width=100%}
 
 Values for permission follow a standard form:
 
@@ -97,7 +97,7 @@ Don't share your password and keep it safe!
 
 If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png){width=100%}
 
 ### Cached data
 
@@ -141,13 +141,13 @@ If you really need to use a drive that is questionable, check out this [article]
 
 Encryption is actually just one of the more complex methods of a larger concept called data masking for protecting sensitive data. There are other methods for obscuring parts of the data besides the complexity of encryption, such as the following:
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" title="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png){width=100%}
 
 ### De-identification
 
 Data de-identification is the process of removing any values that could be personally identifiable. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" title="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png){width=100%}
 
 
 Re-identification is the process of determining the identity of such individuals based on data [@de-identification_2022]. Typically an ID number is assigned to each individual to allow for re-identification.
@@ -190,7 +190,7 @@ In some cases removing protected information can result in data loss that could 
 For Expert Determination, there is no specific degree requirement or training to be considered an "expert", however typically they are individuals with a statistical background. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.  
 
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" title="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png){width=100%}
 
 
 There is also no  standard single method to assess re-identification risk. Instead there are a set of methods that follow major principles of risk assessment. They are based on the ability to reproduce the data values for the individual, the availability of identifiable data values from other sources, and the uniqueness or distinguishability of the data values. However, whatever methods are used, the expert is required to document this and make it available to the OCR if they request it.
@@ -220,6 +220,11 @@ Asymmetric encryption is regarded to be more secure, common algorithms included 
 These algorithms involve mathematical operations to encrypt the data. See this video for a simplified explanation and a suggestion for a video series if you want to learn more about how these encryption algorithms work:
 
 
+
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
 <iframe src="https://www.youtube.com/embed/ZPXVSJnDA_A?start=459" width="100%" height="400px"></iframe>
 
 ### Security Protocols
@@ -228,7 +233,7 @@ Data is masked and kept secure by different protocols. Two that are quite common
 
 Where SSL is for moving data from a website to a server, SSH is for making connections to execute commands on remote computers.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" title="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png){width=100%}
 
 #### SSL Socket Layer
 
@@ -257,7 +262,7 @@ SSH works like this[@sshprotocol]:
 3. With this key a channel between the user's computer and the remote computer cluster can be opened.
 4. Now the user can login to the remote computer's operating system.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" title="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" />
+![](resources/images/03-Data_Security_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png){width=100%}
 
 For more about SSH and SSL:
 
