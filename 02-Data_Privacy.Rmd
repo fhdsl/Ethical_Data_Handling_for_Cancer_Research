@@ -19,7 +19,7 @@ Cancer research often involves the collection of information about research part
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_318")
 ```
 
-Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.
+Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis by an expert such as an Internal Review Board (IRB) member or compliance officer.
 
 ## PII (personal identifiable information)
 
