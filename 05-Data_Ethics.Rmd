@@ -14,11 +14,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## What is data ethics?
 
-Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.
+Data ethics involves the consideration of:
+
+- data collection
+- data maintenance
+- data security
+- data privacy
+- data sharing
+
+It also involves mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. 
+
+Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.
 
 ### Before and after research
 
-Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
+Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. 
+
+Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
 
 ### Considerations before
 
