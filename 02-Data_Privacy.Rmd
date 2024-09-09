@@ -21,6 +21,18 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis by an expert such as an Internal Review Board (IRB) member or compliance officer.
 
+
+## Privacy vs Security
+
+So what exactly is privacy? There are a couple of major ways to think about this.
+
+The first is keeping other individuals from finding information about others from a legal stand point. In other words, there are legal restrictions like HIPAA to help protect the rights of individuals, by keeping others from accessing information about them. 
+
+Beyond what is required by law, which may vary depending on what country you perform research in, there are ethical guidelines that define beyond legal ramifications, why someone should protect the privacy of data. In other words, the legal system defines what we have to do, while ethics defines what we should do.
+
+Data privacy has a close relationship with data security. Both are concerned with keeping the data from being accessed by those who should not have access. Security is however more concerned with the **actual process** of protecting the data from unauthorized people, as well as protecting the data from other forms of damage, while privacy is more concerned with who can access the data and use the data how [@bambauer_privacy_2013].
+
+
 ## PII (personal identifiable information)
 
 PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
