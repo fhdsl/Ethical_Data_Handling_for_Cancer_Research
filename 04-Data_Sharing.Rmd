@@ -46,6 +46,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_1_37")
 ```
 
+4. It also provides more opportunties for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.
+
 ## Benefits of data sharing
 
 In addition to these benefits to yourself, data sharing has other far reaching benefits. It can help support faster advances in science and medicine, by reducing the need to collect new data, which reduces costs, time and effort, including the effort and burden that is required to collect data on or from patients.
@@ -65,7 +67,7 @@ The best way to share your data is by putting it somewhere that others can downl
 
 Below are some of the standard repositories for data you should consider.
 
-**For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).**
+**For a longer list of repositories, we also advise consulting this Guide on data repositories](https://www.nature.com/sdata/policies/repositories) published by Nature.**
 
 ### Genomic Data Repositories
 
@@ -149,17 +151,17 @@ For more details on how to make data and code reproducible tips, see our [Intro 
 
 [REDCap](https://www.project-redcap.org/) is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a [conference](https://i2b2transmart.org/redcapcon2022/) dedicated to it. 
 
-REDCap allows for multi-institutional work, as well as compliance with HIPAA, [21 CFR Part 11](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11) for data for the FDA, [FISMA](https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act) for government data, HIPAA, and [GDPR](https://gdpr-info.eu/) for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research [@redcap_2022]. 
+REDCap  is a platform that allows for multi-institutional work and is compliant with multiple regulations including HIPAA, [21 CFR Part 11](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11) (FDA data), [FISMA](https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act) (government data), and [GDPR](https://gdpr-info.eu/) (data for the European Union). It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research [@redcap_2022]. 
 
 You can find out more about how to use REDCap at the [REDCap website](https://projectredcap.org/) which includes instructional [videos](https://projectredcap.org/resources/videos/) and other resources. 
 
-There are several things to keep in mind when using REDCap from an ethical standpoint.
+There are several things to keep in mind when using REDCap to ensure that data privacy and security are protected.
 
 1) Roles
 
-REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
+REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, according to the Principal of Least Privilege, it is a good idea to restrict access to the smallest number of individuals necessary. 
 
-You can modify these roles using the `User Rights` menu.
+You can modify roles using the `User Rights` menu.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "REDCap User Rights Menu", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_17")
@@ -171,7 +173,7 @@ This will first show you who has what role on the project and their rights. You 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g133b14b2804_28_22")
 ```
 
-These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
+Roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
 2) Reports
 
@@ -220,5 +222,5 @@ In summary, in this chapter we covered the following concepts:
 - There are many data repositories where you can store and share your data, including general repositories like Data Dryad and FigShare, and repositories specific to certain data types like genomics or imaging data.
 - When sharing data, be sure to organize and document your data well with things like a README file, consistent naming conventions, and metadata. Follow reproducibility practices whenever possible. 
 - Tools like REDCap can help manage clinical data while ensuring security, privacy, and reproducibility through features like role-based access controls, data auditing, and locking data after collection. 
-- Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don't reveal aspects of the the data in code. Your local IRB may be able to help you learn how to do so. 
+- Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don't reveal aspects of the data in the code. Your local IRB may be able to help you learn how to do so. 
 
