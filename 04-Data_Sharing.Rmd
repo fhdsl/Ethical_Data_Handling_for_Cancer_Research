@@ -88,11 +88,12 @@ The journal you submit to may have a recommendation of one over another. If not,
 - [CyVerse Data Commons Repository](https://cyverse.org/data-commons)
 - [Data Dryad](https://datadryad.org/stash)
 - [FigShare](https://help.figshare.com/article/how-to-upload-and-publish-your-data)
-- [ZENODO](https://help.zenodo.org/)
+- [Zenodo](https://help.zenodo.org/)
+- [GitHub](https://github.com/)
 
 ### Small datasets
 
-Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.
+Data sets that are small or have an atypical format can be published as supplementary files as a part of a manuscript.
 
 ## Data Submission tips
 
@@ -108,12 +109,12 @@ To make your data truly shared, you need to take the time to make sure it is wel
 There are two files you should make sure to include to help describe and organize your data project:
 
 - [A main README file](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes) that orients others to what is included in your data.
-- A metadata file that samples that are included, how they are connected, and when appropriate following privacy ethics, describes clinical features.
+- A metadata file that describes what data are included, how they are connected.
   - [Standards for genomic metadata](https://genestack.com/assets/pdfs/The%20importance%20of%20metadata%20in%20genomics%20and%20the%20FAIR%20principles%20ebook.pdf)
 
 ### Use consistent and clear names
 
-- Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes in detail your samples in a way that is clear without any prior knowledge of the project.
+- Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes your samples in a way that is clear to those who might not have any prior knowledge of the project.
 - Sample and data IDs should keep with standard formatting otherwise known in the field.
 - Features names should avoid using genomic coordinates as these may change with new genome versions.
 
@@ -124,9 +125,11 @@ Reproducible projects are able to be re-run by others to obtain the same results
 **The main requirements for a reproducible project are:**
 
 - The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
-- The code can be freely obtained from GitHub (or another similar repository).
-- The software versions used to obtain the results are made clear by documentation or providing a Docker container.
+- The code can be freely obtained from [GitHub](https://github.com/) (or another similar repository).
+- The software versions used to obtain the results are made clear by documentation or providing a [Docker](https://www.docker.com/) container (more advanced option).
 - The code and data are well described and organized with a system that is consistent.
+
+Check out our [introductory](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) and [advanced](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html) courses about reproducibility for more information.
 
 ### Have someone else review your code and data!
 
