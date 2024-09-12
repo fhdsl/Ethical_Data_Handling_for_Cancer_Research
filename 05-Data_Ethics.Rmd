@@ -231,6 +231,10 @@ It outlines that research subjects welfare is the priority, that they have a rig
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
 
+### Beecher's Ethics and clinical research (1966)
+
+In 1966, Henry Beecher published an article called ["Ethics and clinical research"](https://www.scielosp.org/pdf/bwho/2001.v79n4/367-372/en), outlining serious ethical issues in biomedical research at the time. This encouraged the creation of additional guidelines [@beecher_ethics_1966; @stark_unintended_2016]. 
+
 ### The Belmont Report (1979)
 
 The [Belmont Report](https://www.hhs.gov/ohrp/sites/default/files/the-belmont-report-508c_FINAL.pdf) was written to describe guidelines for human subjects in biomedical and behavioral research. The report aims to provide a general framework for ethical consideration of research. It states that:
