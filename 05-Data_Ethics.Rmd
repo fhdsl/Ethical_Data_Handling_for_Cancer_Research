@@ -96,7 +96,7 @@ See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-
 
 ## Principles of Bioethics
 
-Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. In the wake of medical and scientific abuses during WWII and beyond, several ethical prinicples and codes emerged.  The Belmont Report (1979) defines the core bioethical pillars that drive ethical analysis in healthcare and research even today.
+Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. In the wake of medical and scientific abuses during WWII and beyond, several ethical principles and codes emerged.  The Belmont Report (1979) defines the core bioethical pillars that drive ethical analysis in healthcare and research even today.
 
 
 ### The [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
@@ -223,7 +223,7 @@ See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00
 
 ### Declaration of Helsinki (1964)
 
-The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognised ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principals for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
+The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognized ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principals for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
 
 It outlines that research subjects welfare is the priority, that they have a right to self determination and the right to informed consent. Risks and benefits should be carefully considered and research should be discontinued if risks are determined to be to high [@wma_1964].
 
