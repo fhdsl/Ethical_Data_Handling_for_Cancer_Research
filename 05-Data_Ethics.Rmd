@@ -63,7 +63,11 @@ If data gets manipulated or corrupted, this can result in false research finding
 
 If patients are concerned that information will be used against them, there is some evidence that they are less likely to be forthcoming and honest with their providers. This poses concerns for data quality as well as trust in clinicians and health systems [@nong_discrimination_2022].
 
+Perpetuation of inequity is often cyclical. Considerations before research shape our options after research. For example, if people are excluded from the research process, data models are more likely to be biased against those populations.
+
 We will discuss what can be done to reduce the risks of research participants and others from your research.
+
+
 
 
 
@@ -90,9 +94,9 @@ See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-
 
 
 
-## General Ethics Code
+## Principles of Bioethics
 
-Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles.
+Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. In the wake of medical and scientific abuses during WWII and beyond, several ethical prinicples and codes emerged.  The Belmont Report (1979) defines the core bioethical pillars that drive ethical analysis in healthcare and research even today.
 
 
 ### The [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
@@ -123,7 +127,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
-This discussion is from @Principles_2015.
+The NIH published its @Principles_2015, which stem from the four pillars described above to provide a framework for ensuring the protection of people who volunteer for clinical research.
+
 
 1)**Social and clinical value**
 
@@ -156,10 +161,30 @@ Individuals should be treated with respect for the entirety of the process inclu
   - respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind
   - respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed
   - respecting their welfare and their right to knowledge by letting them know what was learned from the research
+  
+## Ethical Principles for Data
+
+These guidelines are also very useful for ensuring inclusive, transparent, open, and respectful data management practices:
+
+- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care), which largely focus on the self-determination of indigenous people and the usage of their data, as well as consideration for the impact and purpose of data: 
+
+  - **C** stands for: Collective Benefit
+  - **A** stands for: Authority to Control
+  - **R** stands for: Responsibility 
+  - **E** stands for: Ethics
+  
+- [FAIR Principles](https://www.go-fair.org/fair-principles/) aim to promote open data sharing:
+
+  - **F** stands for: Findable
+  - **A** stands for: Accessible
+  - **I** stands for: Interoperable
+  - **R** stands for: Reusable
+  
+It is encouraged to consider both the CARE and FAIR principles together. 
 
 ## Concept of Consent
 
-We have already talked about the concept of informed consent. Obtaining consent should also include (based on @IRB_Iowa and @wikipedia_informed_2023 and the author's thoughts):
+We have already talked about the concept of informed consent. Obtaining consent should also include the following elements (based on @IRB_Iowa and @wikipedia_informed_2023 and the author's thoughts):
 
   - Individuals should not feel pressured and should have adequate time to make the decision.
   - Individuals should not experience undue influence, be coerced or be manipulated - They should not feel pressured by the individual recruiting, such as a boss or someone else of power or by offers in exchange for participation that would sway the decision.
@@ -168,6 +193,7 @@ We have already talked about the concept of informed consent. Obtaining consent 
   - Individuals should have the capacity to understand the risks and benefits (this involves consideration for language barriers, intellectual capacity, emotional capacity, stress, sleep loss and other forms of physical strain)
   - Individuals should be able to withdraw consent at anytime
   - Individuals should be respected through-out the process including consideration for the cultural values of the recruited populations
+  - Consent forms and processes should be reviewed by people with diverse expertise, such as understanding of ethics, equity, and patients and community experience
 
 
 ## Medical Ethics Timeline
@@ -198,6 +224,49 @@ See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00
 ### International Covenant on Civil and Political Rights (1966)
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
+
+### The Belmont Report (1979)
+
+The [Belmont Report](https://www.hhs.gov/ohrp/sites/default/files/the-belmont-report-508c_FINAL.pdf) was written to describe guidelines for human subjects in biomedical and behavioral research. The report aims to provide a general framework for ethical consideration of research. It states that:
+
+> These principles cannot always be applied so as to resolve beyond dispute particular ethical problems. The objective is to provide an analytical framework that will guide the resolution of ethical problems arising from research involving human subjects [@belmont_1979].
+
+Here we briefly describe some of the major aspects of the report [@belmont_1979].
+
+There are 3 ethical principals defined:
+
+1) Respect for Persons
+
+People should be allowed autonomy to use their judgement to make decisions for themselves. Those that cannot make all decisions for themselves, such as children or those who are incapacitated should be protected. 
+
+2) Beneficence
+
+Harm to human subjects should be minimized and benefits should be maximized.
+
+3) Justice
+
+Benefits and burdens of research should be distributed equally.
+
+> Justice demands both that these not provide advantages only to those who can afford them and that such research should not unduly involve persons from groups unlikely to be among the beneficiaries of subsequent applications of the research [@belmont_1979]
+
+The application of these principals should involve the following:
+
+1) Informed Consent
+
+Consent should involve: information, comprehension, and voluntariness.
+
+2) Assessment of Risks and Benefits
+
+Potential risks and benefits should be thoroughly evaluated, including if human subjects are truly necessary.
+
+> Benefits and risks must be "balanced" and shown to be "in a favorable ratio." [@belmont_1979]
+
+3) Selection of Subjects
+
+There must be fair procedures and outcomes in the selection of research subjects. Less burdened individuals should be called upon first to take on research burdens.
+
+Individuals who might be in conditions where they might be utilized for research more readily (such as those who are incarcerated or institutionalized), should be protected. 
+
 
 ### Health Insurance Portability and Accountability Act (HIPAA) (1996)
 
