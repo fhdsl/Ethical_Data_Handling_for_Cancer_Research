@@ -46,7 +46,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_1_37")
 ```
 
-4. It also provides more opportunties for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.
+4. It also provides more opportunities for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.
 
 ## Benefits of data sharing
 

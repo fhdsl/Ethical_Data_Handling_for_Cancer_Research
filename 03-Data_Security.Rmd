@@ -138,7 +138,7 @@ There are a few major reasons why external drives, especially flash and USB driv
 
 There are several strategies you can take to avoid these issues, if you must use such a drive [@drives_CISA_2019, @durken_how_2021]:
 
-- Never use a drive that you find randomly. Ieally only use drives you get from a reputable manufacturer. Even drives at conferences could pose a security risk.
+- Never use a drive that you find randomly. Ideally only use drives you get from a reputable manufacturer. Even drives at conferences could pose a security risk.
 - Use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive).
 - Disable AutoRun software which allows drives to automatically be opened. See [here](https://www.lifewire.com/disable-autorun-on-a-pc-153344) for how to do this. Note that this is mostly an issue for Windows computers.
 - Remove the drive when not in use (it improves the life of the drive and therefore protects data on the drive from disappearing or getting damaged).
