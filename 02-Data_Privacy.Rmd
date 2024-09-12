@@ -187,7 +187,7 @@ So what does this mean for the data you handle?
 
 - Summarized cohort data
 
- Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
+ Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions. There can also be exceptions to the assumption of safety and/or anonymity when cohort data involves specific groups of people.
 
 - De-identified data
 
