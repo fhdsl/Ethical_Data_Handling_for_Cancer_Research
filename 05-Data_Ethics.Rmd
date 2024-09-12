@@ -221,6 +221,12 @@ The United States [American Medical Association](https://code-medical-ethics.ama
 
 See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf) by @higgins_history_1989 and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/) by @moskop_hippocrates_2005 for more about the history of medical ethics codes. 
 
+### Declaration of Helsinki (1964)
+
+The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognised ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principals for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
+
+It outlines that research subjects welfare is the priority, that they have a right to self determination and the right to informed consent. Risks and benefits should be carefully considered and research should be discontinued if risks are determined to be to high [@wma_1964].
+
 ### International Covenant on Civil and Political Rights (1966)
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
@@ -346,7 +352,7 @@ While personality traits were identified, the above reasons suggest that if rese
 
 ## Consequences of research misconduct
 
-Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017.
+Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_2017.
 
 <!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
 <!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
