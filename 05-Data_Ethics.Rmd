@@ -24,7 +24,8 @@ Data ethics involves the consideration of:
 
 It also involves mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. 
 
-Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.
+Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, particularly with respect to new types of data and new technologies, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency. Health care and research ethics can also be helpful in evaluating practices for data management and use. 
+
 
 ### Before and after research
 
@@ -36,7 +37,7 @@ Researchers need to consider both how their work will resolve unanswered questio
 
 Ethical research should involve consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, non-binary individuals, disabled individuals, and people of certain ethnic backgrounds, and intersections of various demographic factors have been historically left out of clinical trials or when included, their data was inadequately recorded [@clark_increasing_2019]. For example, clinical trials often have questions about sex or gender with limited binary options (overlooking [people without a binary sex](https://en.wikipedia.org/wiki/Intersex) and [non-binary gendered](https://en.wikipedia.org/wiki/Non-binary_gender) individuals) resulting in a lack of collection of important information that could impact clinical outcomes, research results, and communication about results [@chen_approach_2019].
 
-Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004.
+Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism, and other societal aspects have influenced bioethical and therefore data ethics practices, see @Farmer_2004.
 
 
 ## After Considerations
@@ -53,13 +54,14 @@ In some cases open awareness about patients with certain types of cancers or dis
 
 However, such information can put these individuals at risk for difficulty with insurance and employment, as well as at risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks based on data collection about the behaviors of research participants [@seh_breaches_2020].  
 
-Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised.
+Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised. Transparency and/or informed consent are discussed below as ways to mitigate these risks. 
 
 
 Why else does data protection matter at the individual level?
 
 If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020.
 
+If patients are concerned that information will be used against them, there is some evidence that they are less likely to be forthcoming and honest with their providers. This poses concerns for data quality as well as trust in clinicians and health systems [@nong_discrimination_2022].
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
 
