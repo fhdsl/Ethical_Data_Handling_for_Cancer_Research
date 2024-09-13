@@ -226,11 +226,11 @@ The process involves encoding or scrambling the data in a nonrandom format (we c
 
 There are different methods for encrypting data. One common method is called asymmetric, which involves **two** keys, a **public key** and a **private key** [@IBM_encryption]. This method is also sometimes simply called **public key**.
 
-Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. This method is also called public-key encryption [@IBM_encryption].
+Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. [@IBM_encryption].
 
 Symmetric cryptography on the other hand uses **one** key for encryption and decryption. In systems that use this type of encryption, pairs of users will often be given their own key. The advantage of this system is that decryption is a bit faster, the keys are smaller, and it is generally less expensive to implement. If someone gains access to the key, however they can decrypt data or messages, and encrypt data or messages and appear as if they are the person that owns that key. So often the keys themselves are encrypted [@IBM_encryption].
 
-Since symmetric decryption is faster, it is often used for transferring data or for large datasets.Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption) [@cyware_social_encryption].
+Since symmetric decryption is faster, it is often used for transferring data or for large datasets. Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption) [@cyware_social_encryption].
 
 Asymmetric encryption is regarded to be more secure, common algorithms included [RSA](https://simple.wikipedia.org/wiki/RSA_algorithm) and [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm), and several [PKCS](https://en.wikipedia.org/wiki/PKCS) standards [@cyware_social_encryption].
 
