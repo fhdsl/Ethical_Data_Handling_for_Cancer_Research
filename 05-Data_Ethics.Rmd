@@ -17,21 +17,31 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 Data ethics involves the consideration of:
 
 - data collection
-- data maintenance
 - data security
 - data privacy
+- data maintenance
 - data sharing
 
 It also involves mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. 
 
-Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, particularly with respect to new types of data and new technologies, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency. Health care and research ethics can also be helpful in evaluating practices for data management and use. 
+Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, particularly with respect to new types of data and new technologies, and many topics are still under debate especially when it comes to cutting edge research.  
+
+However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, and transparency. Health care and research ethics can also be helpful in evaluating practices for data management and use. 
 
 
 ### Before and after research
 
 Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. 
 
-Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
+Researchers need to consider how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Research requires ethical considerations before and after research. Beforehand one should consider how to reduce risks but enhance benefits for research participants and society, if the planned samples will be inclusive, if the data collection on those samples will be inclusive, and will the data be managed in a safe and private way. Afterwards, one should consider if people will be able to re-identify research participants, if the might be able to in the future and what that might mean for those patients, and if and how others might misuse the data, code or findings. ", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g3001a067199_0_0")
+```
+
+
+
 
 ### Considerations before
 
@@ -48,7 +58,7 @@ While data sharing can result in wonderful opportunities for secondary analysis,
 Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020].
 
 
-Why does it mater that research subjects might be identifiable to others?
+### Why does it mater that research subjects might be identifiable to others?
 
 In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions).
 
@@ -57,7 +67,7 @@ However, such information can put these individuals at risk for difficulty with 
 Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised. Transparency and/or informed consent are discussed below as ways to mitigate these risks. 
 
 
-Why else does data protection matter at the individual level?
+### Why else does data protection matter at the individual level?
 
 If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020.
 
