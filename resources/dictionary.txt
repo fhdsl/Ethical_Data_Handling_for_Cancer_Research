@@ -75,6 +75,7 @@ fastq
 FedRAMP
 Fertig
 FigShare
+Findable
 FireCloud
 FISMA
 funders
@@ -106,6 +107,7 @@ IBM
 Imbeaud
 impactful
 inclusivity
+Interoperable
 iPlant
 IRB
 itcrtraining
@@ -148,6 +150,7 @@ omics
 OpenBEL
 ORI
 overcommitted
+patients’
 PII
 PillPack
 PKCS
@@ -198,14 +201,18 @@ Unsplash
 useable
 Vick
 voiceprints
+voluntariness
 VPN
 Wheelan
+WMA
 workspaces
 WUFlux
 www
 XNAT
 XQuartz
 Xsede
-ZENODO
+Zenodo
 20th
 23andMe
+
+
