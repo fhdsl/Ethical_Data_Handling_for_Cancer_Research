@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Data Security | Ethical Data Handling for Cancer Research</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Data Security | Ethical Data Handling for Cancer Research" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-06-18" />
+<meta name="date" content="2024-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="data-privacy.html"/>
 <link rel="next" href="data-sharing.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -104,20 +107,21 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#privacy-vs-security"><i class="fa fa-check"></i><b>2.1</b> Privacy vs Security</a></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.2</b> PII (personal identifiable information)</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+<li class="chapter" data-level="2.2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.2.1</b> PII Risk</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
-<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
-<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
-<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a></li>
-<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
-<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.3</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.4</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.5</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.6</b> Cancer research data and PHI</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.7</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.8</b> How is HIPAA enforced?</a>
 <ul>
-<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+<li class="chapter" data-level="2.8.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.8.1</b> Common Violations</a></li>
 </ul></li>
-<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.8</b> Summary</a></li>
+<li class="chapter" data-level="2.9" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.9</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
 <ul>
@@ -150,24 +154,25 @@ div.csl-indent {
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
-<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#benefits-of-data-sharing"><i class="fa fa-check"></i><b>4.2</b> Benefits of data sharing</a></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.3</b> Data repositories</a>
 <ul>
-<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
-<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
-<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
-<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.3.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.3.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.3.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.3.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.3.4</b> Small datasets</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.4</b> Data Submission tips</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
-<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
-<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.4.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.4.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.4.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.4.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.4.3</b> Have someone else review your code and data!</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.5</b> Health care data sharing tools</a>
 <ul>
-<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+<li class="chapter" data-level="4.5.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.5.1</b> REDCap (Research Electronic Data Capture)</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.5</b> Summary</a></li>
+<li class="chapter" data-level="4.6" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.6</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
 <ul>
@@ -176,36 +181,44 @@ div.csl-indent {
 <li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
 <li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="data-ethics.html"><a href="data-ethics.html#why-does-it-mater-that-research-subjects-might-be-identifiable-to-others"><i class="fa fa-check"></i><b>5.2.1</b> Why does it mater that research subjects might be identifiable to others?</a></li>
+<li class="chapter" data-level="5.2.2" data-path="data-ethics.html"><a href="data-ethics.html#why-else-does-data-protection-matter-at-the-individual-level"><i class="fa fa-check"></i><b>5.2.2</b> Why else does data protection matter at the individual level?</a></li>
+</ul></li>
 <li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
 <ul>
 <li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#principles-of-bioethics"><i class="fa fa-check"></i><b>5.4</b> Principles of Bioethics</a>
 <ul>
-<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
-<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The four pillars (this discussion is from <span class="citation">Melvin (2020)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center Seven Principles</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
-<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#ethical-principles-for-data"><i class="fa fa-check"></i><b>5.5</b> Ethical Principles for Data</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.6</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.7</b> Medical Ethics Timeline</a>
 <ul>
-<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
-<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
-<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
-<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
-<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
-<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+<li class="chapter" data-level="5.7.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.7.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
+<li class="chapter" data-level="5.7.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.7.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.7.3" data-path="data-ethics.html"><a href="data-ethics.html#declaration-of-helsinki-1964"><i class="fa fa-check"></i><b>5.7.3</b> Declaration of Helsinki (1964)</a></li>
+<li class="chapter" data-level="5.7.4" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.7.4</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.7.5" data-path="data-ethics.html"><a href="data-ethics.html#beechers-ethics-and-clinical-research-1966"><i class="fa fa-check"></i><b>5.7.5</b> Beecher’s Ethics and clinical research (1966)</a></li>
+<li class="chapter" data-level="5.7.6" data-path="data-ethics.html"><a href="data-ethics.html#the-belmont-report-1979"><i class="fa fa-check"></i><b>5.7.6</b> The Belmont Report (1979)</a></li>
+<li class="chapter" data-level="5.7.7" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.7.7</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.7.8" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.7.8</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.7.9" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.7.9</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
 </ul></li>
-<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
-<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.9</b> Consequences of research misconduct</a>
 <ul>
-<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
-<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
-<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
-<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+<li class="chapter" data-level="5.9.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.9.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.9.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.9.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.9.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.9.3</b> The Field</a></li>
+<li class="chapter" data-level="5.9.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.9.4</b> Patients</a></li>
 </ul></li>
-<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
-<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.10</b> Summary</a></li>
+<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.10</b> Misconduct prevention</a></li>
+<li class="chapter" data-level="5.11" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.11</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
 <ul>
@@ -282,30 +295,30 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="data-security" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Data Security</h1>
+<div id="data-security" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Data Security<a href="data-security.html#data-security" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In this chapter we will discuss best practices for keeping your data safe and secure.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
-<p>Data security involves protecting your data from human error, as well as from cybercriminals. Precious data needs to be protected from being corrupted (rendered unusable), being deleted, being misused, and being leaked to the public when the data is sensitive or private (as is the case with much of our clinical data)<span class="citation">(<a href="#ref-IBM_data_security" role="doc-biblioref"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> n.d.</a>)</span>.</p>
-<div id="data-security-strategies" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Data Security Strategies</h2>
-<p>There a several major strategies to achieve data security. We will cover the following 4 major categories, in part according to <span class="citation"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> (<a href="#ref-IBM_data_security" role="doc-biblioref">n.d.</a>)</span>.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" title="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
+<p>Data security involves protecting your data from human error, as well as from cybercriminals. Precious data needs to be protected from being corrupted (rendered unusable), being deleted, being misused, and being leaked to the public when the data is sensitive or private (as is the case with much of our clinical data)<span class="citation">(<a href="#ref-IBM_data_security"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> n.d.</a>)</span>.</p>
+<div id="data-security-strategies" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Data Security Strategies<a href="data-security.html#data-security-strategies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There a several major strategies to achieve data security. We will cover the following 4 major categories, in part according to <span class="citation"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> (<a href="#ref-IBM_data_security">n.d.</a>)</span>.</p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="data-access" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Data access</h2>
-<div id="authentication" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Authentication</h3>
-<p>Authentication is the process of verifying identification. This goes both ways when a user attempts to use a server. Servers will check that a user (client) is who they claim to be and that they are authorized to access the information on the server. The user’s computer (client) will also check that the server is what it claims to be. Typically users will use a user name and password for the server to confirm identity, however your computer often checks a certificate from the server to confirm it’s identity <span class="citation">(<a href="#ref-authentication" role="doc-biblioref"><span>“Understanding <span>Authentication</span>, <span>Authorization</span>, and <span>Encryption</span> : <span>TechWeb</span> : <span>Boston</span> <span>University</span>”</span> n.d.</a>)</span>.</p>
+<div id="data-access" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Data access<a href="data-security.html#data-access" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="authentication" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Authentication<a href="data-security.html#authentication" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Authentication is the process of verifying identification. This goes both ways when a user attempts to use a server. Servers will check that a user (client) is who they claim to be and that they are authorized to access the information on the server. The user’s computer (client) will also check that the server is what it claims to be. Typically users will use a user name and password for the server to confirm identity, however your computer often checks a certificate from the server to confirm it’s identity <span class="citation">(<a href="#ref-authentication"><span>“Understanding <span>Authentication</span>, <span>Authorization</span>, and <span>Encryption</span> : <span>TechWeb</span> : <span>Boston</span> <span>University</span>”</span> n.d.</a>)</span>.</p>
 </div>
-<div id="authorization" class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Authorization</h3>
-<p>Authorization is the process of verifying that a client has permission to access a file or computing resource in a particular way, which leads us to permissions <span class="citation">(<a href="#ref-authentication" role="doc-biblioref"><span>“Understanding <span>Authentication</span>, <span>Authorization</span>, and <span>Encryption</span> : <span>TechWeb</span> : <span>Boston</span> <span>University</span>”</span> n.d.</a>)</span>.</p>
+<div id="authorization" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Authorization<a href="data-security.html#authorization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Authorization is the process of verifying that a client has permission to access a file or computing resource in a particular way, which leads us to permissions <span class="citation">(<a href="#ref-authentication"><span>“Understanding <span>Authentication</span>, <span>Authorization</span>, and <span>Encryption</span> : <span>TechWeb</span> : <span>Boston</span> <span>University</span>”</span> n.d.</a>)</span>.</p>
 </div>
-<div id="permissions" class="section level3" number="3.2.3">
-<h3><span class="header-section-number">3.2.3</span> Permissions</h3>
+<div id="permissions" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Permissions<a href="data-security.html#permissions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you use the command line, you may have noticed that files are sometimes listed with letters like so:</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" title="File permission example showing that there are 10-11 letters listed before other file information." alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" /></p>
 <p>These letters indicate the users ability to perform tasks for each file called file system permissions.</p>
 <p>In unix or unix-like systems, there are three types of users:</p>
 <ol style="list-style-type: decimal">
@@ -319,123 +332,122 @@ div.csl-indent {
 <li><strong>write (w)</strong> - the user can modify the file, or the user can create or delete files in the case of a directory (or folder)</li>
 <li><strong>execute (x)</strong> - the user can execute a file - this allows the operating system to run the file, for example a user could run a script, or the user can search among files in the case of a directory (or folder)</li>
 </ol>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" title="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" /></p>
 <p>Values for permission follow a standard form:</p>
 <ul>
 <li>The first value indicates information about the <a href="https://en.wikipedia.org/wiki/Unix_file_types">file type</a>, if it is a regular file it is often just a <code>-</code>. This does not indicate any information about permissions. If it is a link to a file located somewhere else it is indicated with an <code>l</code>.</li>
 <li>The next 3 values indicate what the owner of the file can do. They are always listed in the order of read, write, and execute permissions.</li>
 <li>The next three values indicate what the group members can do (again with the order listed above).</li>
-<li>the final three values indicate what other users can do (again with the order listed above) <span class="citation">(<a href="#ref-file-system_2021" role="doc-biblioref"><span>“File-System Permissions”</span> 2021</a>)</span>.</li>
+<li>the final three values indicate what other users can do (again with the order listed above) <span class="citation">(<a href="#ref-file-system_2021"><span>“File-System Permissions”</span> 2021</a>)</span>.</li>
 </ul>
 <p>Sometimes you will see an <code>@</code> or <code>+</code> symbol at the end, which indicates that there are additional attributes about the file that you can use a command like <code>ls-al@ filename</code> to get the information, or additional security information about the file, which you can obtain using a command like <code>ls -le filename</code> or <code>getfacl filename</code>. The command that you should use depends on your operating system.</p>
 <p>In the above image we see <code>-rwxr-xr-x</code> for one of the files.</p>
 <p>The <code>-</code> at the beginning indicates that the file is a regular file, the next 3 values of <code>rwx</code> indicate that the owner has read, write, and execute permissions, the <code>r-x</code> indicates that the group has read and execute permissions but not write, and the last <code>r-x</code> indicate that the other users also have only read and execute permissions.</p>
-<p>There are commands to modify file permissions. If you are using a Unix-like system, you can modify permissions with the <code>chmod</code> command, which stands for “change mode” <span class="citation">(<a href="#ref-chmod" role="doc-biblioref"><span>“Manage File Permissions on <span>Unix</span>-Like Systems”</span> n.d.</a>)</span>.</p>
-<div id="the-principal-of-least-privilege" class="section level4" number="3.2.3.1">
-<h4><span class="header-section-number">3.2.3.1</span> The principal of least privilege</h4>
+<p>There are commands to modify file permissions. If you are using a Unix-like system, you can modify permissions with the <code>chmod</code> command, which stands for “change mode” <span class="citation">(<a href="#ref-chmod"><span>“Manage File Permissions on <span>Unix</span>-Like Systems”</span> n.d.</a>)</span>.</p>
+<div id="the-principal-of-least-privilege" class="section level4 hasAnchor" number="3.2.3.1">
+<h4><span class="header-section-number">3.2.3.1</span> The principal of least privilege<a href="data-security.html#the-principal-of-least-privilege" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The principal of least privilege (PoLP) also called the principal of least authority specifies that users should only have access to the data or resources necessary to complete a task.</p>
-<p>If someone does not need access to perform work, they should not be given access. Furthermore, if someone is given access to perform a task and they complete that task, access should then be removed from that person. Additionally, if someone only needs to read a file, then they do not need access to modify the file. In this case a user can have read permissions but not write permissions. Ultimately this type of management leads to the least number of users having access to read or alter protected or sensitive data at a given time <span class="citation">(<a href="#ref-CISA_Least_Privilege" role="doc-biblioref"><span>“Least <span>Privilege</span> <span></span> <span>CISA</span>”</span> n.d.</a>; <a href="#ref-Wikipedia_principle" role="doc-biblioref"><span>“Wikipedia: Principle of Least Privilege”</span> 2021</a>)</span>.</p>
+<p>If someone does not need access to perform work, they should not be given access. Furthermore, if someone is given access to perform a task and they complete that task, access should then be removed from that person. Additionally, if someone only needs to read a file, then they do not need access to modify the file. In this case a user can have read permissions but not write permissions. Ultimately this type of management leads to the least number of users having access to read or alter protected or sensitive data at a given time <span class="citation">(<a href="#ref-CISA_Least_Privilege"><span>“Least <span>Privilege</span> <span></span> <span>CISA</span>”</span> n.d.</a>; <a href="#ref-Wikipedia_principle"><span>“Wikipedia: Principle of Least Privilege”</span> 2021</a>)</span>.</p>
 <p>As an example of this in practice: If a postdoc is working on a project with sensitive data, and the PI does not need to see the raw data to collaborate on the project, then the PI should not have access to the data.</p>
 </div>
 </div>
-<div id="wifi" class="section level3" number="3.2.4">
-<h3><span class="header-section-number">3.2.4</span> WiFi</h3>
-<p>Make sure you also only access secure WiFi networks. One way to ensure this is is to avoid using public WiFi networks. If you must use a public WiFi network, consider using a <a href="https://en.wikipedia.org/wiki/Virtual_private_network">virtual private network (VPN)</a> for added security. Here is an <a href="https://www.wired.com/story/best-vpn/">article</a> about different VPN options <span class="citation">(<a href="#ref-gilbertson_4_2021" role="doc-biblioref">Gilbertson 2021</a>)</span>.</p>
+<div id="wifi" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> WiFi<a href="data-security.html#wifi" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Make sure you also only access secure WiFi networks. One way to ensure this is is to avoid using public WiFi networks. If you must use a public WiFi network, consider using a <a href="https://en.wikipedia.org/wiki/Virtual_private_network">virtual private network (VPN)</a> for added security. Here is an <a href="https://www.wired.com/story/best-vpn/">article</a> about different VPN options <span class="citation">(<a href="#ref-gilbertson_4_2021">Gilbertson 2021</a>)</span>.</p>
 </div>
-<div id="passwords" class="section level3" number="3.2.5">
-<h3><span class="header-section-number">3.2.5</span> Passwords</h3>
-<p>Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers <span class="citation">(<a href="#ref-passwords" role="doc-biblioref"><span>“Guidelines for <span>Strong</span> <span>Passwords</span> · <span>Information</span> <span>Technology</span> <span>Services</span> · <span>Lafayette</span> <span>College</span>”</span> n.d.</a>)</span>.</p>
+<div id="passwords" class="section level3 hasAnchor" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> Passwords<a href="data-security.html#passwords" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Passwords need to be effective. This means they should be hard to guess by people who should not have them. Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers <span class="citation">(<a href="#ref-passwords"><span>“Guidelines for <span>Strong</span> <span>Passwords</span> · <span>Information</span> <span>Technology</span> <span>Services</span> · <span>Lafayette</span> <span>College</span>”</span> n.d.</a>)</span>.</p>
 <p>Don’t share your password and keep it safe!</p>
-<p>If you have a Mac, you could consider storing it in your <a href="https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac">Keychain</a>, alternatively if you have a different type of computer or don’t like the Mac Keychain, consider <a href="https://www.dashlane.com/">Dashlane</a> or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
+<p>We highly suggest you consider a password manager to keep your passwords extra safe and secure. If you have a Mac, you could consider storing it in your <a href="https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac">Keychain</a>, alternatively if you have a different type of computer or don’t like the Mac Keychain, consider <a href="https://www.dashlane.com/">Dashlane</a> or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.</p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="cached-data" class="section level3" number="3.2.6">
-<h3><span class="header-section-number">3.2.6</span> Cached data</h3>
-<p>In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a <a href="https://en.wikipedia.org/wiki/Cache_(computing)#">cache</a> <span class="citation">(<a href="#ref-wikipedia_cache_2022" role="doc-biblioref"><span>“Cache (Computing)”</span> 2022</a>)</span>. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.</p>
-<p>This process is used by the computer processor or CPU called a CPU cache, as well as software, which we will call a software cache. If you are working with data stored on your local computer, then a subset of short-term memory will be used for the cache, rather than requiring the user to access the data from where it is typically stored much further away in long-term memory. This is more efficient because it is located closer to processor and thus allows for requests on that data to happen faster <span class="citation">(<a href="#ref-memory_caching" role="doc-biblioref"><span>“Memory <span>Caching</span>”</span> n.d.</a>)</span>.</p>
+<div id="cached-data" class="section level3 hasAnchor" number="3.2.6">
+<h3><span class="header-section-number">3.2.6</span> Cached data<a href="data-security.html#cached-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In addition to storing data where you might expect, your computer also sometimes stores your data temporarily using something called a <a href="https://en.wikipedia.org/wiki/Cache_(computing)#">cache</a> <span class="citation">(<a href="#ref-wikipedia_cache_2022"><span>“Cache (Computing)”</span> 2022</a>)</span>. A cache is basically a small storage of your recent use of data. This allows you to access the data that you have been using more quickly next time you want to do something with it.</p>
+<p>This process is used by the computer processor or CPU called a CPU cache, as well as software, which we will call a software cache. If you are working with data stored on your local computer, then a subset of short-term memory will be used for the cache, rather than requiring the user to access the data from where it is typically stored much further away in long-term memory. This is more efficient because it is located closer to processor and thus allows for requests on that data to happen faster <span class="citation">(<a href="#ref-memory_caching"><span>“Memory <span>Caching</span>”</span> n.d.</a>)</span>.</p>
 <p>This general process is also used for accessing data on servers or websites. For servers, a cache is often stored on the server side, while often for websites, a cache is stored locally on the user’s computer in the long-term memory so that when users access the site again, access will be faster. Web browser caches can store your browsing history, cookies (a unique ID for the website to identify the user), as well as sensitive data.</p>
-<p>Although this makes your work faster, caching poses some security risk. They provide additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches <span class="citation">(<a href="#ref-caching_security" role="doc-biblioref"><span>“What Is a <span>Cache</span>? <span></span> <span>UpGuard</span>”</span> n.d.</a>)</span>.</p>
-<p>In the case of a CPU or software cache, this can be important in case your laptop gets stolen, or if you decide to sell your laptop. The easiest way to clear such a cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power <span class="citation">(<a href="#ref-caching_security" role="doc-biblioref"><span>“What Is a <span>Cache</span>? <span></span> <span>UpGuard</span>”</span> n.d.</a>)</span>. Note that it can take a few minutes for such memory to disappear.</p>
-<p>See <a href="https://www.upguard.com/blog/cache">here</a> for instructions on how to clear browser caches. It’s a good idea to clear your browser cache relatively often, and possibly more often if you access sensitive data on your computer regularly.</p>
+<p>Although this makes your work faster, caching poses some security risk. Caching provides additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches <span class="citation">(<a href="#ref-caching_security"><span>“What Is a <span>Cache</span>? <span></span> <span>UpGuard</span>”</span> n.d.</a>)</span>.</p>
+<p>In the case of a CPU or software cache, security concerns are heightened if your laptop gets stolen, lost, or if you decide to sell your laptop. The easiest way to clear a CPU or software cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power <span class="citation">(<a href="#ref-caching_security"><span>“What Is a <span>Cache</span>? <span></span> <span>UpGuard</span>”</span> n.d.</a>)</span>. Note that it can take a few minutes for such memory to disappear.</p>
+<p>See <a href="https://www.upguard.com/blog/cache">here</a> for instructions on how to clear browser caches. It’s a good idea to clear your browser cache relatively often (ideally before anytime you take your computer out where it could be stolen or lost), and possibly more often if you access sensitive data on your computer regularly.</p>
 </div>
-<div id="external-drives" class="section level3" number="3.2.7">
-<h3><span class="header-section-number">3.2.7</span> External drives</h3>
+<div id="external-drives" class="section level3 hasAnchor" number="3.2.7">
+<h3><span class="header-section-number">3.2.7</span> External drives<a href="data-security.html#external-drives" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are a few major reasons why external drives, especially flash and USB drives (also called thumb drives) pose a security risk.</p>
 <ul>
 <li>they are small and especially portable and thus easily taken or lost</li>
 <li>often these drives can contain malware that gets installed on your computer when you plug it into your computer</li>
 <li>the memory sometimes fails and gets damaged or corrupted</li>
 </ul>
-<p>There are several strategies you can take to avoid these issues, if you must use such a drive <span class="citation">Durken (<a href="#ref-durken_how_2021" role="doc-biblioref">2021</a>)</span>:</p>
+<p>There are several strategies you can take to avoid these issues, if you must use such a drive <span class="citation">Durken (<a href="#ref-durken_how_2021">2021</a>)</span>:</p>
 <ul>
-<li>never use a drive that you find randomly, ideally only use drives you get from a reputable manufacturer, even drives at conferences could pose a security risk</li>
-<li>use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive)</li>
-<li>disable AutoRun software which allows drives to automatically be opened. See <a href="https://www.lifewire.com/disable-autorun-on-a-pc-153344">here</a> for how to do this. Note that this is mostly an issue for Windows computers.</li>
-<li>remove the drive when not in use (it improves the life of the drive)</li>
-<li>keep all your software up to date to get important security updates</li>
-<li>editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer</li>
+<li>Never use a drive that you find randomly. Ideally only use drives you get from a reputable manufacturer. Even drives at conferences could pose a security risk.</li>
+<li>Use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive).</li>
+<li>Disable AutoRun software which allows drives to automatically be opened. See <a href="https://www.lifewire.com/disable-autorun-on-a-pc-153344">here</a> for how to do this. Note that this is mostly an issue for Windows computers.</li>
+<li>Remove the drive when not in use (it improves the life of the drive and therefore protects data on the drive from disappearing or getting damaged).</li>
+<li>Keep all your software up to date to get important security updates.</li>
+<li>Editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer.</li>
 </ul>
 <p>If you really need to use a drive that is questionable, check out this <a href="https://www.popsci.com/safely-open-USB-flash-drive/">article</a> for practices to <em>more</em> safely open such a drive.</p>
 </div>
 </div>
-<div id="data-masking" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Data masking</h2>
-<p>Encryption is actually just one of the more complex methods of a larger concept called data masking for protecting sensitive data. There are other methods for obscuring parts of the data besides the complexity of encryption, such as the following:</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" title="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" /></p>
-<div id="de-identification" class="section level3" number="3.3.1">
-<h3><span class="header-section-number">3.3.1</span> De-identification</h3>
-<p>Data de-identification is the process of removing any values that could be personally identifiable. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" title="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" /></p>
-<p>Re-identification is the process of determining the identity of such individuals based on data <span class="citation">(<a href="#ref-de-identification_2022" role="doc-biblioref"><span>“De-Identification”</span> 2022</a>)</span>. Typically an ID number is assigned to each individual to allow for re-identification.</p>
-<p>The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should <strong><em>not</em></strong> be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">cryptographic hash function</a> which is a condensed representation of an individual’s data (including identifiable information) to a standard ID length. Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked (but are not intended for re-identification), which can be helpful for longitudinal studies <span class="citation">(<a href="#ref-hipaa_regulations" role="doc-biblioref"><span>“<span>HIPAA</span> <span>Privacy</span> <span>Regulations</span>: <span>Other</span> <span>Requirements</span> <span>Relating</span> to <span>Uses</span> and <span>Disclosures</span> of <span>Protected</span> <span>Health</span> <span>Information</span>: <span>Re</span>-<span>Identification</span> - § 164.514(c)”</span> n.d.</a>)</span>. See <a href="https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368">here</a> for additional information about HIPAA de-identification regulations.</p>
-<p>While somewhat useful for protecting the identity of those included in data, de-identification is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary.</p>
+<div id="data-masking" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Data masking<a href="data-security.html#data-masking" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Data masking refers to several several methods for protecting sensitive data. One example you might be familiar with is encryption. Encryption is a relatively complex method of data masking. There are other methods for obscuring parts of the data that are less complex, such as simply removing pieces of information, showing only parts of data values or shuffling the data.</p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" /></p>
+<div id="de-identification" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> De-identification<a href="data-security.html#de-identification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data de-identification is the process of removing any values that could be used to identify an individual. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.</p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" /></p>
+<p>Re-identification is the process of determining the identity of such individuals based on data <span class="citation">(<a href="#ref-de-identification_2022"><span>“De-Identification”</span> 2022</a>)</span>. Typically an ID number is assigned to each individual to allow for re-identification.</p>
+<p>The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should <strong><em>not</em></strong> be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">cryptographic hash function</a> which is a condensed representation of an individual’s data (including identifiable information) to a standard ID length. Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked, which can be helpful for longitudinal studies <span class="citation">(<a href="#ref-hipaa_regulations"><span>“<span>HIPAA</span> <span>Privacy</span> <span>Regulations</span>: <span>Other</span> <span>Requirements</span> <span>Relating</span> to <span>Uses</span> and <span>Disclosures</span> of <span>Protected</span> <span>Health</span> <span>Information</span>: <span>Re</span>-<span>Identification</span> - § 164.514(c)”</span> n.d.</a>)</span>. Hash function IDs are not intended for re-identification. See <a href="https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368">here</a> for additional information about HIPAA de-identification regulations.</p>
+<p>While somewhat useful for protecting the identity of those included in data, de-identification alone is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary.</p>
 <p>The HIPAA Privacy Rule specifies two methods or standards for de-identification: Safe Harbor and Expert Determination.</p>
 <div class="warning">
 <p>While it is possible to de-identify your data yourself, unless you are an expert, we suggest that you seek out an expert to help you instead. There are nuances regarding privacy that you may miss without ample experience.</p>
 </div>
-<div id="safe-harbor" class="section level4" number="3.3.1.1">
-<h4><span class="header-section-number">3.3.1.1</span> Safe harbor</h4>
-<p>This method is the more extreme of the two and results in more loss of data.
-A list of 18 standard identifiers must be removed from the data. These are the same 18 PHI categories of identifiers that we described in the last chapter, including name, IP addresses, etc <span class="citation">(<a href="#ref-rights_ocr_guidance_2012" role="doc-biblioref">Rights (OCR) 2012</a>)</span>. Additional rules are required as well. For example zip codes may remain in the data if they are shortened to the initial 3 digits and meet certain population threshold criteria. Dates can only remain at the year level, with extra protection for individuals over 89 years of age. However other abbreviations, such as name initials are not permitted.</p>
+<div id="safe-harbor" class="section level4 hasAnchor" number="3.3.1.1">
+<h4><span class="header-section-number">3.3.1.1</span> Safe harbor<a href="data-security.html#safe-harbor" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>The safe harbor method is the more extreme of the two and results in more loss of data.
+A list of 18 standard identifiers must be removed from the data. These are the same 18 PHI categories of identifiers that we described in the last chapter, including name, IP addresses, etc <span class="citation">(<a href="#ref-rights_ocr_guidance_2012">Rights (OCR) 2012</a>)</span>. Additional rules are required as well, see <a href="https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html#safeharborguidance">here</a>. For example zip codes may remain in the data if they are shortened to the initial 3 digits and meet certain population threshold criteria. Dates can only remain at the year level, with extra protection for individuals over 89 years of age. However other abbreviations, such as name initials are not permitted.</p>
 </div>
-<div id="expert-determination" class="section level4" number="3.3.1.2">
-<h4><span class="header-section-number">3.3.1.2</span> Expert Determination</h4>
-<p>This method attempts to preserve more of the original data, and data is removed based on the risk of re-identification. As the name describes, an expert evaluates the risk for re-identification of the various values within the data including what the risk might be with if the data were to be combined with other data sources. Ultimately data is removed until there is only a very small risk of someone being able to re-identify the individuals with data values among the dataset. The expert records what methods they used an the analysis that they did to determine the risk.</p>
+<div id="expert-determination" class="section level4 hasAnchor" number="3.3.1.2">
+<h4><span class="header-section-number">3.3.1.2</span> Expert Determination<a href="data-security.html#expert-determination" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>The Expert Determination method attempts to preserve more of the original data, and data is removed based on the risk of re-identification. As the name describes, an expert evaluates the risk for re-identification of the various values within the data including what the risk might be with if the data were to be combined with other data sources. Ultimately data is removed until there is only a very small risk of someone being able to re-identify the individuals with data values among the dataset. The expert records what methods they used and the analysis that they did to determine the risk.</p>
 <p>There is no standardized single way to mitigate risk, but again a set of methods. These typically involve slight modifications to the data called <strong>perturbation</strong>, coding certain values called <strong>generalization</strong> or removal of data called <strong>suppression</strong>. These can occur at the feature level, such as all ages, at the individual level, such as removal of one individual, or at the value level, such as one data value for one individual.</p>
 <p>An example of perturbation could be the modification of age by up to 5 years.
 An example of generalization would be that all individuals over a certain age could be given the same age group value. As example of suppression at the feature level, one could remove all names. As example of suppression at the individual level, in some cases there are individuals who are themselves very distinguishable due to some extreme attribute about themselves and may need to be removed due to the uniquely high risk of identification. If there is just one aspect about these individuals, than that value for the individual can be removed instead of removing the individual from the data entirely.</p>
 </div>
-<div id="limitations" class="section level4" number="3.3.1.3">
-<h4><span class="header-section-number">3.3.1.3</span> Limitations</h4>
+<div id="limitations" class="section level4 hasAnchor" number="3.3.1.3">
+<h4><span class="header-section-number">3.3.1.3</span> Limitations<a href="data-security.html#limitations" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>In some cases removing protected information can result in data loss that could impede research initiatives. However, generally the limitations of de-identification are the risks that they pose for re-identification.</p>
-<p>For Expert Determination, there is no specific degree requirement or training to be considered an “expert”, however typically they are individuals with a statistical background. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" title="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" /></p>
+<p>For the Safe Harbor method, de-identification based on 18 PHI categories does not necessarily protect from re-identification, particularly given the ubiquity of large data sets. Even though it is the more stringent method, Safe Harbor has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.</p>
+<p>For the Expert Determination method, the determination of risk of re-identification is subjective. There is no specific degree requirement or training to be considered an “expert”, however typically they are individuals with a statistical background and people who have had experience in making risk determinations. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.</p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" /></p>
 <p>There is also no standard single method to assess re-identification risk. Instead there are a set of methods that follow major principles of risk assessment. They are based on the ability to reproduce the data values for the individual, the availability of identifiable data values from other sources, and the uniqueness or distinguishability of the data values. However, whatever methods are used, the expert is required to document this and make it available to the OCR if they request it.</p>
-<p>Even safe harbor which is a more stringent method, has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.</p>
 </div>
 </div>
-<div id="encryption" class="section level3" number="3.3.2">
-<h3><span class="header-section-number">3.3.2</span> Encryption</h3>
+<div id="encryption" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Encryption<a href="data-security.html#encryption" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Encryption is one of the most well-known methods for keeping data safe. It is used as a last method in case unauthorized users can access to data, and it is also used to protect data when transferring it.</p>
-<p>The process involves encoding or scrambling the data in a nonrandom format (we call this form of the data <strong>encrypted</strong>) that given the right instructions, a computer can reformat into the original form in a process called <strong>decryption</strong>. The instructions called the <strong>key</strong> are kept safe like a password and depending on the type of encryption, it can require quite a lot of computational power to decrypt the data. This protects the data because if a cybercriminal accesses the data or if the data is somehow made public when it shouldn’t be, it will not be easily interpreted <span class="citation">(<a href="#ref-Forcepoint_2018" role="doc-biblioref"><span>“What Is <span>Data</span> <span>Encryption</span>?”</span> 2018</a>)</span>.</p>
-<p>There are different methods for encrypting data. One common method is called asymmetric, which involves <strong>two</strong> keys, a <strong>public key</strong> and a <strong>private key</strong> <span class="citation">(<a href="#ref-IBM_encryption" role="doc-biblioref"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>. This method is also sometimes simply called <strong>public key</strong>.</p>
-<p>Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. This method is also called public-key encryption <span class="citation">(<a href="#ref-IBM_encryption" role="doc-biblioref"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>.</p>
-<p>Symmetric cryptography on the other hand uses <strong>one</strong> key for encryption and decryption. In systems that use this type of encryption, pairs of users will often be given their own key. The advantage of this system is that decryption is a bit faster, the keys are smaller, and it is generally less expensive to implement. If someone gains access to the key, however they can decrypt data or messages, and encrypt data or messages and appear as if they are the person that owns that key. So often the keys themselves are encrypted <span class="citation">(<a href="#ref-IBM_encryption" role="doc-biblioref"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>.</p>
-<p>Since symmetric decryption is faster, it is often used for transferring data or for large datasets.Common symmetric algorithms are <a href="https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption">AES-128, AES-192, and AES-256</a> <span class="citation">(<a href="#ref-cyware_social_encryption" role="doc-biblioref">Daniel, n.d.</a>)</span>.</p>
-<p>Asymmetric encryption is regarded to be more secure, common algorithms included <a href="https://simple.wikipedia.org/wiki/RSA_algorithm">RSA</a> and <a href="https://en.wikipedia.org/wiki/Digital_Signature_Algorithm">DSA</a>, and several <a href="https://en.wikipedia.org/wiki/PKCS">PKCS</a> standards <span class="citation">(<a href="#ref-cyware_social_encryption" role="doc-biblioref">Daniel, n.d.</a>)</span>.</p>
+<p>The process involves encoding or scrambling the data in a nonrandom format (we call this form of the data <strong>encrypted</strong>) that given the right instructions, a computer can reformat into the original form in a process called <strong>decryption</strong>. The instructions called the <strong>key</strong> are kept safe like a password and depending on the type of encryption, it can require quite a lot of computational power to decrypt the data. This protects the data because if a cybercriminal accesses the data or if the data is somehow made public when it shouldn’t be, it will not be easily interpreted <span class="citation">(<a href="#ref-Forcepoint_2018"><span>“What Is <span>Data</span> <span>Encryption</span>?”</span> 2018</a>)</span>.</p>
+<p>There are different methods for encrypting data. One common method is called asymmetric, which involves <strong>two</strong> keys, a <strong>public key</strong> and a <strong>private key</strong> <span class="citation">(<a href="#ref-IBM_encryption"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>. This method is also sometimes simply called <strong>public key</strong>.</p>
+<p>Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. <span class="citation">(<a href="#ref-IBM_encryption"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>.</p>
+<p>Symmetric cryptography on the other hand uses <strong>one</strong> key for encryption and decryption. In systems that use this type of encryption, pairs of users will often be given their own key. The advantage of this system is that decryption is a bit faster, the keys are smaller, and it is generally less expensive to implement. If someone gains access to the key, however they can decrypt data or messages, and encrypt data or messages and appear as if they are the person that owns that key. So often the keys themselves are encrypted <span class="citation">(<a href="#ref-IBM_encryption"><span>“What Is Encryption? <span>Data</span> Encryption Defined”</span> n.d.</a>)</span>.</p>
+<p>Since symmetric decryption is faster, it is often used for transferring data or for large datasets. Common symmetric algorithms are <a href="https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption">AES-128, AES-192, and AES-256</a> <span class="citation">(<a href="#ref-cyware_social_encryption">Daniel, n.d.</a>)</span>.</p>
+<p>Asymmetric encryption is regarded to be more secure, common algorithms included <a href="https://simple.wikipedia.org/wiki/RSA_algorithm">RSA</a> and <a href="https://en.wikipedia.org/wiki/Digital_Signature_Algorithm">DSA</a>, and several <a href="https://en.wikipedia.org/wiki/PKCS">PKCS</a> standards <span class="citation">(<a href="#ref-cyware_social_encryption">Daniel, n.d.</a>)</span>.</p>
 <p>These algorithms involve mathematical operations to encrypt the data. See this video for a simplified explanation and a suggestion for a video series if you want to learn more about how these encryption algorithms work:</p>
-<iframe src="https://www.youtube.com/embed/ZPXVSJnDA_A?start=459" width="100%" height="400px">
+<iframe src="https://www.youtube.com/embed/ZPXVSJnDA_A?start=459" width="100%" height="400px" data-external="1">
 </iframe>
 </div>
-<div id="security-protocols" class="section level3" number="3.3.3">
-<h3><span class="header-section-number">3.3.3</span> Security Protocols</h3>
+<div id="security-protocols" class="section level3 hasAnchor" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Security Protocols<a href="data-security.html#security-protocols" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Data is masked and kept secure by different protocols. Two that are quite common and sometimes get confused are SSH (Secure Shell) and SSL (Socket Layer). Both create secure connections and encrypt data to keep it safe. What differs between these protocols is the destination of the connections being made.</p>
 <p>Where SSL is for moving data from a website to a server, SSH is for making connections to execute commands on remote computers.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" title="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" /></p>
-<div id="ssl-socket-layer" class="section level4" number="3.3.3.1">
-<h4><span class="header-section-number">3.3.3.1</span> SSL Socket Layer</h4>
+<div id="ssl-socket-layer" class="section level4 hasAnchor" number="3.3.3.1">
+<h4><span class="header-section-number">3.3.3.1</span> SSL Socket Layer<a href="data-security.html#ssl-socket-layer" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>This is what the s in http<em>s</em> is for. This indicates that data from the server is using a form of encryption and that the website server has a special SSL certificate from a trusted certificate authority that verified that the server can be trusted. There is actually a lot happening behind the scenes!</p>
-<p>According to <span class="citation"><span>“What <span>Is</span> <span>SSL</span> (<span>Secure</span> <span>Sockets</span> <span>Layer</span>)? <span></span> <span>What</span> Is an <span>SSL</span> <span>Certificate</span>? <span></span> <span>DigiCert</span>”</span> (<a href="#ref-digicert" role="doc-biblioref">n.d.</a>)</span> this involves the following steps:</p>
+<p>According to <span class="citation"><span>“What <span>Is</span> <span>SSL</span> (<span>Secure</span> <span>Sockets</span> <span>Layer</span>)? <span></span> <span>What</span> Is an <span>SSL</span> <span>Certificate</span>? <span></span> <span>DigiCert</span>”</span> (<a href="#ref-digicert">n.d.</a>)</span> this involves the following steps:</p>
 <ol style="list-style-type: decimal">
 <li>A web browser (like chrome) connects to a web server (website) that is secured with SSL (it starts with https instead of http). The browser asks the server to identify itself.</li>
 <li>The server sends a copy of the SSL certificate and the public key.</li>
@@ -445,18 +457,19 @@ An example of generalization would be that all individuals over a certain age co
 </ol>
 <p>Note that newer versions of this process are called Transport Layer Security (TLS).</p>
 </div>
-<div id="ssh-secure-shell" class="section level4" number="3.3.3.2">
-<h4><span class="header-section-number">3.3.3.2</span> SSH Secure Shell</h4>
-<p>SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using a command line interface instead of a browser. SSH also does not involve certificates.</p>
+<div id="ssh-secure-shell" class="section level4 hasAnchor" number="3.3.3.2">
+<h4><span class="header-section-number">3.3.3.2</span> SSH Secure Shell<a href="data-security.html#ssh-secure-shell" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using a command line interface instead of a browser. SSH does not involve certificates.</p>
 <p>SSH is used for communicating to remote computers which is why it is commonly used at institutions to get access to high powered computing clusters.</p>
-<p>SSH works like this<span class="citation">(<a href="#ref-sshprotocol" role="doc-biblioref"><span>“SSH Protocol – Secure Remote Login and File Transfer,”</span> n.d.</a>)</span>:</p>
+<p>SSH works like this<span class="citation">(<a href="#ref-sshprotocol"><span>“SSH Protocol – Secure Remote Login and File Transfer,”</span> n.d.</a>)</span>:</p>
 <ol style="list-style-type: decimal">
 <li>The user initiates a connection by submitting a command to contact the server</li>
 <li>The server returns a key</li>
 <li>With this key a channel between the user’s computer and the remote computer cluster can be opened.</li>
 <li>Now the user can login to the remote computer’s operating system.</li>
 </ol>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" title="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" /></p>
 <p>For more about SSH and SSL:</p>
 <ul>
 <li><a href="https://sectigostore.com/blog/ssh-vs-ssl-exploring-the-similarities-and-differences/">SSH and SSL exploring the similarities and differences</a></li>
@@ -465,47 +478,52 @@ An example of generalization would be that all individuals over a certain age co
 </div>
 </div>
 </div>
-<div id="data-erasure" class="section level2" number="3.4">
-<h2><span class="header-section-number">3.4</span> Data erasure</h2>
-<p>It turns out that when you delete a file (even after emptying the trash), it isn’t as “deleted” as you might think. This is because when a file is deleted, the data for that file actually stays on the storage hardware, and it’s simply the computer’s ability to find the data that is hindered. However, there is software that can help people recover data on storage hardware. This can be a great security issue, as sensitive data can remain on people’s hardware when they get a new computer or stop using particular data on a server.</p>
-<p>One method to ensure that the deleted data is really eliminated is to physically destroy the hardware that it was stored on. However, this isn’t always necessary, as there are methods using software. This option is great because the hardware can be reused without allowing future users potential access to your data. As you might imagine, this is the preferred method for erasing data on shared computing resources like servers <span class="citation">(<a href="#ref-Holland_2020" role="doc-biblioref">Tilly Holland 2020</a>)</span>. These methods erase the data by overwriting the data with random digital information <span class="citation">(<a href="#ref-wikipedia_erasure_2021" role="doc-biblioref"><span>“Data Erasure”</span> 2021</a>)</span>.</p>
+<div id="data-erasure" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Data erasure<a href="data-security.html#data-erasure" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Erasing data (data erasure) is not as easy as it may seem. It turns out that when you delete a file (even after emptying the trash), it isn’t as “deleted” as you might think. This is because when a file is deleted, the data for that file actually stays on the storage hardware, and it’s simply the computer’s ability to find the data that is hindered. However, there is software that can help people recover data on storage hardware. This can be a great security issue, as sensitive data can remain on people’s hardware when they get a new computer or stop using particular data on a server.</p>
+<p>One method to ensure that the deleted data is really eliminated is to physically destroy the hardware that it was stored on. Alternatively, there are methods using software. Software methods are often optimal because the hardware can be reused without allowing future users potential access to your data. As you might imagine, software methods are preferred for erasing data on shared computing resources like servers <span class="citation">(<a href="#ref-Holland_2020">Tilly Holland 2020</a>)</span>. These methods erase the data by overwriting the data with random digital information <span class="citation">(<a href="#ref-wikipedia_erasure_2021"><span>“Data Erasure”</span> 2021</a>)</span>.</p>
 </div>
-<div id="data-resiliency" class="section level2" number="3.5">
-<h2><span class="header-section-number">3.5</span> Data resiliency</h2>
-<p>If you are working with precious data directly on your laptop, in case something happens to a computer, it’s a good idea to think about storing the data with multiple locations.</p>
+<div id="data-resiliency" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Data resiliency<a href="data-security.html#data-resiliency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>If you are working with precious data directly on your laptop, in case something happens to a computer, it’s a good idea to think about storing the data with multiple locations in case something happens to a computer</p>
 <blockquote>
-<p>The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.<span class="citation">(<a href="#ref-durken_how_2021" role="doc-biblioref">Durken 2021</a>)</span></p>
+<p>The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.<span class="citation">(<a href="#ref-durken_how_2021">Durken 2021</a>)</span></p>
 </blockquote>
 <p>For example, you might think about having one copy on your password protected laptop, one encrypted and zipped copy on your password protected external drive at home, and another encrypted copy on your password protected external drive in your office.</p>
-<p>However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead the 3 should indicate that there should be 3 additional copies to the original, 2 indicates that there should be copies stored in two different places on a server or two regions in a cloud (where possible), and the 1 indicates that you should have one copy of the data that is closer to where it was originally created just in case something happens with the server or cloud that you are using <span class="citation">(<a href="#ref-posey_modernizing_2021" role="doc-biblioref">Posey 2021</a>)</span>.</p>
+<p>However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead there should be:</p>
+<ul>
+<li>3 additional copies of the data in addition to the original</li>
+<li>2 different places on a server or 2 regions in a cloud (where possible) where the data is stored</li>
+<li>1 copy of the data should be stored closer to where it was originally created just in case something happens with the server or cloud that you are using <span class="citation">(<a href="#ref-posey_modernizing_2021">Posey 2021</a>)</span>.</li>
+</ul>
 </div>
-<div id="email-security" class="section level2" number="3.6">
-<h2><span class="header-section-number">3.6</span> Email security</h2>
+<div id="email-security" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Email security<a href="data-security.html#email-security" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Email can also pose a risk for our data. This can be due to the security risks of actually emailing our data to a colleague or issues related to having our computer hacked by someone through phishing emails.</p>
-<div id="email-encryption" class="section level3" number="3.6.1">
-<h3><span class="header-section-number">3.6.1</span> Email Encryption</h3>
+<div id="email-encryption" class="section level3 hasAnchor" number="3.6.1">
+<h3><span class="header-section-number">3.6.1</span> Email Encryption<a href="data-security.html#email-encryption" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If possible we would suggest that you avoid sharing data through email, and instead share data through other means, such as a shared computing platform, especially if you have data that requires HIPAA compliance and you have identified a platform to work on that is HIPAA compliant. Please see our <a href="https://jhudatascience.org/Computing_for_Cancer_Informatics/">computing course</a> for more information about this.</p>
 <p>However we understand that there are situations where you might need to email data. If your data has any PHI or PII, we suggest that you only send such emails using a secure network and using an encrypted email.</p>
 <p>How do you do this?</p>
 <p>If you use Outlook, there are options to do so currently under the “Draft” menu, by selecting the “Encrypt” option. Gmail also supports encrypted emails. Be sure to Google how if this course becomes out-of-date. Your institute may have special ways of encrypting emails, so check with your local IT department.</p>
 </div>
-<div id="phishing" class="section level3" number="3.6.2">
-<h3><span class="header-section-number">3.6.2</span> Phishing</h3>
-<p>You likely have heard from your IT department at your institute about being careful about <a href="https://en.wikipedia.org/wiki/Phishing">phishing</a>. If you are working with PII or PHI, then you need to be extra vigilant. Phishing emails are emails in which someone tries to get you to click on a link or to respond with credential information in order to hack your computer or gain access to sensitive data. <strong>Spear phishing</strong> occurs when someone poses as an individual, often someone who is more senior at the institution (this is specifically called <strong>whaling</strong>), to gain information from others <span class="citation">(<a href="#ref-phishing_2022" role="doc-biblioref"><span>“Phishing”</span> 2022</a>)</span>. Criminals are getting more sophisticated in their attempts, making it more difficult to avoid.</p>
+<div id="phishing" class="section level3 hasAnchor" number="3.6.2">
+<h3><span class="header-section-number">3.6.2</span> Phishing<a href="data-security.html#phishing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>You likely have heard from your IT department at your institute about being careful about <a href="https://en.wikipedia.org/wiki/Phishing">phishing</a>. If you are working with PII or PHI, then you need to be extra vigilant. Phishing emails are emails in which someone tries to get you to click on a link or to respond with credential information in order to hack your computer or gain access to sensitive data. <strong>Spear phishing</strong> occurs when someone poses as an individual, often someone who is more senior at the institution (this is specifically called <strong>whaling</strong>), to gain information from others <span class="citation">(<a href="#ref-phishing_2022"><span>“Phishing”</span> 2022</a>)</span>. Criminals are getting more sophisticated in their attempts, making it more difficult to avoid.</p>
 <p>Here are some things to look out for:</p>
 <ol style="list-style-type: decimal">
 <li>Be very weary about emails from unrecognized senders!</li>
 </ol>
 <p>You can look up the sender to verify if the person is who you expect. If the email looks suspicious but still potentially real, you could contact the individual on linked-in or elsewhere to verify if the person actually contacted you. If their email does not match their name this is also extra suspicious. For example, if you get an email signed by George and the email is <code>Peter125@network.org</code>, this could very well be a phishing attempt.</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Check the senders email.</li>
+<li>Check the sender’s email.</li>
 </ol>
 <p>Make sure that the email address from the sender looks like what you recognize. If you know the sender and they send you an email with an unusual email address, be careful. You can send them an email to their typical address to verify if it is really them. For example if your boss Karen, sends you an email from <code>kit345@TSU.edu</code> or <code>titan@hotmail.com</code> and typically her email is <code>karenw3@TSU.edu</code>, you should be suspicious.</p>
 <ol start="3" style="list-style-type: decimal">
 <li>Watch out for links.</li>
 </ol>
 <p>Avoid clicking on links in emails as much as possible! If you know that your colleague is sending you a link and you see it right away, that is probably trustworthy, but if your admin sends you a link out of the blue, you should be careful. If you must click a link, first make sure that the link looks like what you would expect. Second, send a follow-up communication using another method (phone, slack, different email address), or email a different colleague that you know works with the individual to make sure the individual actually sent the link instead of a hacker. Make sure that you don’t get the phone number or other information to validate if the individual really sent you the email from the suspicious email itself.</p>
-<p>An example of these types of phishing methods is if your colleague hasn’t told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. Keep in mind that phishing criminals can make the emails look very legitimate!</p>
+<p>An example of these types of phishing methods is if your colleague hasn’t told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. <strong>Keep in mind that phishing criminals can make the emails look very legitimate!</strong></p>
 <p>Here is a <a href="https://www.csun.edu/it/phishing-examples">real example</a> of a such a phishing email from California State University Northridge:</p>
 <div class="email">
 <p>From: xxxxx, xxxxx&lt; &gt;
@@ -519,7 +537,7 @@ Subject: Action Required | Returning to Campus Guide for Employees Training</p>
 <ol start="4" style="list-style-type: decimal">
 <li>Be especially careful of links from two similar emails.</li>
 </ol>
-<p><strong>Clone phishing</strong> is a sophisticated method in which a legitimate email may be maliciously changed and resent to recipients claiming that there was a necessary change. Be especially careful in such situations where you receive nearly duplicate emails with links and reach out to those who sent it to make sure that a repeated email was really from them <span class="citation">(<a href="#ref-phishing_2022" role="doc-biblioref"><span>“Phishing”</span> 2022</a>)</span>.</p>
+<p><strong>Clone phishing</strong> is a sophisticated method in which a legitimate email may be maliciously changed and resent to recipients claiming that there was a necessary change. Be especially careful in such situations where you receive nearly duplicate emails with links and reach out to those who sent it to make sure that a repeated email was really from them <span class="citation">(<a href="#ref-phishing_2022"><span>“Phishing”</span> 2022</a>)</span>.</p>
 <ol start="5" style="list-style-type: decimal">
 <li>Be careful about attachments!</li>
 </ol>
@@ -552,9 +570,9 @@ Subject: Action Required | Returning to Campus Guide for Employees Training</p>
 <p>See <a href="https://web.archive.org/web/20220609154035/https://www.hipaajournal.com/wp-content/uploads/2015/10/how-to-spot-a-phishing-email-hipaajournal.png">here</a> for recommendations on what to look out for from the HIPAA journal.</p>
 </div>
 </div>
-<div id="summary-1" class="section level2" number="3.7">
-<h2><span class="header-section-number">3.7</span> Summary</h2>
-<p>In summary, we covered the following concepts in this chapter:</p>
+<div id="summary-1" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> Summary<a href="data-security.html#summary-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In summary, we covered issues related to data security in this chapter. We presented the following concepts:</p>
 <ul>
 <li><p>Authentication is the process of verifying the identity of users and servers in a communication. Users provide their credentials (username and password), while servers present certificates to confirm their identity.</p></li>
 <li><p>Authorization is the process of ensuring that someone has permission to access a file or computing resource in a particular way.</p></li>
@@ -563,8 +581,8 @@ Subject: Action Required | Returning to Campus Guide for Employees Training</p>
 <li><p>It is crucial to use secure WiFi networks and avoid public ones whenever possible. If necessary, use a Virtual Private Network (VPN) to enhance security while using public networks.</p></li>
 <li><p>Strong passwords should be used, preferably in the form of sentences with symbols and numbers. Password managers like Keychain, Dashlane, or other services can help securely store passwords.</p></li>
 <li><p>Computers use caching to store recent data for faster access. Clearing caches regularly is essential to avoid security risks and potential exposure of sensitive data.</p></li>
-<li><p>USB drives can pose security risks due to portability, malware, and memory issues. It’s best to use reputable drives, enable encryption, disable AutoRun software, and remove the drive when not in use.</p></li>
-<li><p>Data masking obscures sensitive data to protect privacy. De-identification and encryption are common methods. De-identification removes identifiers, while encryption encodes data to prevent unauthorized access.</p></li>
+<li><p>USB drives can pose security risks due to portability, malware, and memory issues. It’s best to use reputable drives, enable encryption, disable AutoRun software, and remove the drive when not in use.
+-Data masking obscures sensitive data to protect privacy. De-identification and encryption are common methods. De-identification removes identifiers, usually using the Safe Harbor or Expert Determination method. Encryption encodes data to prevent unauthorized access.</p></li>
 <li><p>Encryption involves encoding data with keys to protect it from unauthorized access. Asymmetric encryption uses two keys (public and private), while symmetric encryption uses one key for both encryption and decryption.</p></li>
 <li><p>SSL (Secure Socket Layer) and SSH (Secure Shell) are protocols that establish secure connections and encrypt data. SSL is commonly used for websites, while SSH is used to connect to remote computers.</p></li>
 <li><p>When files are deleted, the data remains on storage hardware, posing a security risk. Software-based data erasure methods overwrite the data, ensuring it cannot be recovered, allowing hardware to be reused securely.</p></li>
@@ -583,7 +601,7 @@ Subject: Action Required | Returning to Campus Guide for Employees Training</p>
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-wikipedia_cache_2022" class="csl-entry">
 <span>“Cache (Computing).”</span> 2022. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Cache_(computing)&amp;oldid=1084000712">https://en.wikipedia.org/w/index.php?title=Cache_(computing)&amp;oldid=1084000712</a>.
@@ -660,11 +678,16 @@ Tilly Holland. 2020. <span>“What’s the Difference Between Data Deletion and 
 </div>
 <hr>
 <center>
+<div class="container">
+  <iframe class="responsive-iframe" src="https://c-savonen.shinyapps.io/widget-survey/?course_name=ethical_data" style="width: 400px; height: 220px; overflow: auto;"></iframe>
+</div>
+  </div>
+</center>
+
+<hr>
+<center>
   <div class="footer">
-      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
-      <br>
       All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
-      <br>
       All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
   </div>
 </center>

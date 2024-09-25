@@ -7,7 +7,7 @@
 
 In this chapter we will discuss best practices for keeping your data safe and secure.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" title="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" />
 
 Data security involves protecting your data from human error, as well as from cybercriminals. Precious data needs to be protected from being corrupted (rendered unusable), being deleted, being misused, and being leaked to the public when the data is sensitive or private (as is the case with much of our clinical data)[@IBM_data_security].
 
@@ -15,7 +15,7 @@ Data security involves protecting your data from human error, as well as from cy
 
 There a several major strategies to achieve data security. We will cover the following 4 major categories, in part according to @IBM_data_security.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" title="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" />
 
 ## Data access
 
@@ -32,7 +32,7 @@ Authorization is the process of verifying that a client has permission to access
 
 If you use the command line, you may have noticed that files are sometimes listed with letters like so:
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" title="File permission example showing that there are 10-11 letters listed before other file information." alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" />
 
 
 These letters indicate the users ability to perform tasks for each file called file system permissions.
@@ -56,7 +56,7 @@ There are generally 3 types of permissions:
 
 
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" title="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" />
 
 Values for permission follow a standard form:
 
@@ -91,13 +91,13 @@ Make sure you also only access secure WiFi networks. One way to ensure this is i
 
 ### Passwords
 
-Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
+Passwords need to be effective. This means they should be hard to guess by people who should not have them. Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
 
 Don't share your password and keep it safe!
 
-If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.
+We highly suggest you consider a password manager to keep your passwords extra safe and secure. If you have a Mac, you could consider storing it in your [Keychain](https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac), alternatively if you have a different type of computer or don't like the Mac Keychain, consider [Dashlane](https://www.dashlane.com/) or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" title="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" />
 
 ### Cached data
 
@@ -109,11 +109,11 @@ This process is used by the computer processor or CPU called a CPU cache, as wel
 This general process is also used for accessing data on servers or websites. For servers, a cache is often stored on the server side, while often for websites, a cache is stored locally on the user's computer in the long-term memory so that when users access the site again, access will be faster. Web browser caches can store your browsing history, cookies (a unique ID for the website to identify the user), as well as sensitive data.
 
 
-Although this makes your work faster, caching poses some security risk. They provide additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches [@caching_security].
+Although this makes your work faster, caching poses some security risk. Caching provides additional locations where hackers could access your sensitive data. Furthermore, the data in caches are often not encrypted, making such data more vulnerable. One way to avoid the security risk associated with your cached data, is clearing your caches [@caching_security].
 
-In the case of a CPU or software cache, this can be important in case your laptop gets stolen, or if you decide to sell your laptop. The easiest way to clear such a cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power [@caching_security]. Note that it can take a few minutes for such memory to disappear.
+In the case of a CPU or software cache, security concerns are heightened if your laptop gets stolen, lost, or if you decide to sell your laptop. The easiest way to clear a CPU or software cache is to simply shutdown your computer. If you have taken our computing course, you will learn that data stored in short-term memory (like RAM) requires electricity, and it will disappear when your computer is no longer connected to power [@caching_security]. Note that it can take a few minutes for such memory to disappear.
 
-See [here](https://www.upguard.com/blog/cache) for instructions on how to clear browser caches. It's a good idea to clear your browser cache relatively often, and possibly more often if you access sensitive data on your computer regularly.
+See [here](https://www.upguard.com/blog/cache) for instructions on how to clear browser caches. It's a good idea to clear your browser cache relatively often (ideally before anytime you take your computer out where it could be stolen or lost), and possibly more often if you access sensitive data on your computer regularly.
 
 ### External drives
 
@@ -126,12 +126,12 @@ There are a few major reasons why external drives, especially flash and USB driv
 
 There are several strategies you can take to avoid these issues, if you must use such a drive [@drives_CISA_2019, @durken_how_2021]:
 
-- never use a drive that you find randomly, ideally only use drives you get from a reputable manufacturer, even drives at conferences could pose a security risk
-- use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive)
-- disable AutoRun software which allows drives to automatically be opened. See [here](https://www.lifewire.com/disable-autorun-on-a-pc-153344) for how to do this. Note that this is mostly an issue for Windows computers.
-- remove the drive when not in use (it improves the life of the drive)
-- keep all your software up to date to get important security updates
-- editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer
+- Never use a drive that you find randomly. Ideally only use drives you get from a reputable manufacturer. Even drives at conferences could pose a security risk.
+- Use drives that have encryption (either buy drives that already have it, which is recommended or add encryption to your drive).
+- Disable AutoRun software which allows drives to automatically be opened. See [here](https://www.lifewire.com/disable-autorun-on-a-pc-153344) for how to do this. Note that this is mostly an issue for Windows computers.
+- Remove the drive when not in use (it improves the life of the drive and therefore protects data on the drive from disappearing or getting damaged).
+- Keep all your software up to date to get important security updates.
+- Editing files directly on the drive can limit the life span of the drive, instead simply copy paste files back and forth from your computer.
 
 
 If you really need to use a drive that is questionable, check out this [article](https://www.popsci.com/safely-open-USB-flash-drive/) for practices to *more* safely open such a drive.
@@ -139,22 +139,23 @@ If you really need to use a drive that is questionable, check out this [article]
 
 ## Data masking
 
-Encryption is actually just one of the more complex methods of a larger concept called data masking for protecting sensitive data. There are other methods for obscuring parts of the data besides the complexity of encryption, such as the following:
+Data masking refers to several several methods for protecting sensitive data. One example you might be familiar with is encryption. Encryption is a relatively complex method of data masking. There are other methods for obscuring parts of the data that are less complex, such as simply removing pieces of information, showing only parts of data values or shuffling the data.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" title="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" />
+
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" />
 
 ### De-identification
 
-Data de-identification is the process of removing any values that could be personally identifiable. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.
+Data de-identification is the process of removing any values that could be used to identify an individual. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" title="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" />
 
 
 Re-identification is the process of determining the identity of such individuals based on data [@de-identification_2022]. Typically an ID number is assigned to each individual to allow for re-identification.
 
-The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should ***not*** be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) which is a condensed representation of an individual's data (including identifiable information) to a standard ID length.  Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked (but are not intended for re-identification), which can be helpful for longitudinal studies [@hipaa_regulations]. See [here](https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368) for additional information about HIPAA de-identification regulations.
+The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should ***not*** be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) which is a condensed representation of an individual's data (including identifiable information) to a standard ID length.  Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked, which can be helpful for longitudinal studies [@hipaa_regulations]. Hash function IDs are not intended for re-identification. See [here](https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368) for additional information about HIPAA de-identification regulations.
 
-While somewhat useful for protecting the identity of those included in data, de-identification is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary.
+While somewhat useful for protecting the identity of those included in data, de-identification alone is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary.
 
 The HIPAA Privacy Rule specifies two methods or standards for de-identification: Safe Harbor and Expert Determination.
 
@@ -166,14 +167,14 @@ While it is possible to de-identify your data yourself, unless you are an expert
 
 #### Safe harbor
 
-This method is the more extreme of the two and results in more loss of data.
-A list of 18 standard identifiers must be removed from the data. These are the same 18 PHI categories of identifiers that we described in the last chapter, including name, IP addresses, etc [@rights_ocr_guidance_2012]. Additional rules are required as well. For example zip codes may remain in the data if they are shortened to the initial 3 digits and meet certain population threshold criteria. Dates can only remain at the year level, with extra protection for individuals over 89 years of age. However other abbreviations, such as name initials are not permitted.
+The safe harbor method is the more extreme of the two and results in more loss of data.
+A list of 18 standard identifiers must be removed from the data. These are the same 18 PHI categories of identifiers that we described in the last chapter, including name, IP addresses, etc [@rights_ocr_guidance_2012]. Additional rules are required as well, see [here](https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html#safeharborguidance). For example zip codes may remain in the data if they are shortened to the initial 3 digits and meet certain population threshold criteria. Dates can only remain at the year level, with extra protection for individuals over 89 years of age. However other abbreviations, such as name initials are not permitted.
 
 
 
 #### Expert Determination
 
-This method attempts to preserve more of the original data, and data is removed based on the risk of re-identification. As the name describes, an expert evaluates the risk for re-identification of the various values within the data including what the risk might be with if the data were to be combined with other data sources.  Ultimately data is removed until there is only a very small risk of someone being able to re-identify the individuals with data values among the dataset. The expert records what methods they used an the analysis that they did to determine the risk.
+The Expert Determination method attempts to preserve more of the original data, and data is removed based on the risk of re-identification. As the name describes, an expert evaluates the risk for re-identification of the various values within the data including what the risk might be with if the data were to be combined with other data sources.  Ultimately data is removed until there is only a very small risk of someone being able to re-identify the individuals with data values among the dataset. The expert records what methods they used and the analysis that they did to determine the risk.
 
 
 
@@ -187,17 +188,16 @@ An example of generalization would be that all individuals over a certain age co
 
 In some cases removing protected information can result in data loss that could impede research initiatives. However, generally the limitations of de-identification are the risks that they pose for re-identification.
 
-For Expert Determination, there is no specific degree requirement or training to be considered an "expert", however typically they are individuals with a statistical background. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.  
+For the Safe Harbor method, de-identification based on 18 PHI categories does not necessarily protect from re-identification, particularly given the ubiquity of large data sets. Even though it is the more stringent method, Safe Harbor has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.
+
+For the Expert Determination method, the determination of risk of re-identification is subjective. There is no specific degree requirement or training to be considered an "expert", however typically they are individuals with a statistical background and people who have had experience in making risk determinations. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.  
 
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" title="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" />
 
 
 There is also no  standard single method to assess re-identification risk. Instead there are a set of methods that follow major principles of risk assessment. They are based on the ability to reproduce the data values for the individual, the availability of identifiable data values from other sources, and the uniqueness or distinguishability of the data values. However, whatever methods are used, the expert is required to document this and make it available to the OCR if they request it.
 
-
-
-Even safe harbor which is a more stringent method, has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.
 
 ### Encryption
 
@@ -208,11 +208,11 @@ The process involves encoding or scrambling the data in a nonrandom format (we c
 
 There are different methods for encrypting data. One common method is called asymmetric, which involves **two** keys, a **public key** and a **private key** [@IBM_encryption]. This method is also sometimes simply called **public key**.
 
-Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. This method is also called public-key encryption [@IBM_encryption].
+Users can get access to the public key to allow them to encrypt the data, while the private key remains private and is used to decrypt the data. [@IBM_encryption].
 
 Symmetric cryptography on the other hand uses **one** key for encryption and decryption. In systems that use this type of encryption, pairs of users will often be given their own key. The advantage of this system is that decryption is a bit faster, the keys are smaller, and it is generally less expensive to implement. If someone gains access to the key, however they can decrypt data or messages, and encrypt data or messages and appear as if they are the person that owns that key. So often the keys themselves are encrypted [@IBM_encryption].
 
-Since symmetric decryption is faster, it is often used for transferring data or for large datasets.Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption) [@cyware_social_encryption].
+Since symmetric decryption is faster, it is often used for transferring data or for large datasets. Common symmetric algorithms are [AES-128, AES-192, and AES-256](https://www.trentonsystems.com/blog/symmetric-vs-asymmetric-encryption) [@cyware_social_encryption].
 
 Asymmetric encryption is regarded to be more secure, common algorithms included [RSA](https://simple.wikipedia.org/wiki/RSA_algorithm) and [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm), and several [PKCS](https://en.wikipedia.org/wiki/PKCS) standards [@cyware_social_encryption].
 
@@ -220,7 +220,7 @@ Asymmetric encryption is regarded to be more secure, common algorithms included 
 These algorithms involve mathematical operations to encrypt the data. See this video for a simplified explanation and a suggestion for a video series if you want to learn more about how these encryption algorithms work:
 
 
-<iframe src="https://www.youtube.com/embed/ZPXVSJnDA_A?start=459" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/ZPXVSJnDA_A?start=459" width="100%" height="400px" data-external="1"></iframe>
 
 ### Security Protocols
 
@@ -228,7 +228,7 @@ Data is masked and kept secure by different protocols. Two that are quite common
 
 Where SSL is for moving data from a website to a server, SSH is for making connections to execute commands on remote computers.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" title="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" />
+
 
 #### SSL Socket Layer
 
@@ -244,9 +244,11 @@ According to @digicert this involves the following steps:
 
 Note that newer versions of this process are called Transport Layer Security (TLS).
 
+
+
 #### SSH Secure Shell
 
-SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using a command line interface instead of a browser. SSH also does not involve certificates.
+SSH (secure shell) is also a process for securely transmitting files from one computer to another using encryption. However, in this case it can be done using a command line interface instead of a browser. SSH does not involve certificates.
 
 SSH is used for communicating to remote computers which is why it is commonly used at institutions to get access to high powered computing clusters.
 
@@ -257,7 +259,9 @@ SSH works like this[@sshprotocol]:
 3. With this key a channel between the user's computer and the remote computer cluster can be opened.
 4. Now the user can login to the remote computer's operating system.
 
-<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" title="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" />
+
+<img src="resources/images/03-Data_Security_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" />
 
 For more about SSH and SSL:
 
@@ -266,20 +270,24 @@ For more about SSH and SSL:
 
 ## Data erasure
 
-It turns out that when you delete a file (even after emptying the trash), it  isn't as "deleted" as you might think. This is because when a file is deleted, the data for that file actually stays on the storage hardware, and it's simply the computer's ability to find the data that is hindered. However, there is software that can help people recover data on storage hardware. This can be a great security issue, as sensitive data can remain on people's hardware when they get a new computer or stop using particular data on a server.  
+Erasing data (data erasure) is not as easy as it may seem. It turns out that when you delete a file (even after emptying the trash), it  isn't as "deleted" as you might think. This is because when a file is deleted, the data for that file actually stays on the storage hardware, and it's simply the computer's ability to find the data that is hindered. However, there is software that can help people recover data on storage hardware. This can be a great security issue, as sensitive data can remain on people's hardware when they get a new computer or stop using particular data on a server.  
 
-One method to ensure that the deleted data is really eliminated is to physically destroy the hardware that it was stored on. However, this isn't always necessary, as there are methods using software. This option is great because the hardware can be reused without allowing future users potential access to your data. As you might imagine, this is the preferred method for erasing data on shared computing resources like servers [@Holland_2020]. These methods erase the data by overwriting the data with random digital information [@wikipedia_erasure_2021].
+One method to ensure that the deleted data is really eliminated is to physically destroy the hardware that it was stored on. Alternatively, there are methods using software. Software methods are often optimal because the hardware can be reused without allowing future users potential access to your data. As you might imagine, software methods are preferred for erasing data on shared computing resources like servers [@Holland_2020]. These methods erase the data by overwriting the data with random digital information [@wikipedia_erasure_2021].
 
 ## Data resiliency
 
-If you are working with precious data directly on your laptop, in case something happens to a computer, it's a good idea to think about storing the data with multiple locations.
+If you are working with precious data directly on your laptop, in case something happens to a computer, it’s a good idea to think about storing the data with multiple locations in case something happens to a computer
 
 > The traditional 3-2-1 backup rule recommends that you keep at least three copies of your data, two different copies stored on separate formats and at least one additional copy at an offsite location.[@durken_how_2021]
 
 For example, you might think about having one copy on your password protected laptop, one encrypted and zipped copy on your password protected external drive at home, and another encrypted copy on your password protected external drive in your office.
 
 
-However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead the 3 should indicate that there should be 3 additional copies to the original, 2 indicates that there should be copies stored in two different places on a server or two regions in a cloud (where possible), and the 1 indicates that you should have one copy of the data that is closer to where it was originally created just in case something happens with the server or cloud that you are using [@posey_modernizing_2021].  
+However, in the age of cloud computing and servers, this rule needs to be updated a bit. It has been suggested that if you make use of remote computing options, instead there should be: 
+ 
+  - 3 additional copies of the data in addition to the original 
+  - 2 different places on a server or 2 regions in a cloud (where possible) where the data is stored
+  - 1 copy of the data should be stored closer to where it was originally created just in case something happens with the server or cloud that you are using [@posey_modernizing_2021].  
 
 
 
@@ -308,7 +316,7 @@ Here are some things to look out for:
 
 You can look up the sender to verify if the person is who you expect. If the email looks suspicious but still potentially real, you could contact the individual on linked-in or elsewhere to verify if the person actually contacted you. If their email does not match their name this is also extra suspicious. For example, if you get an email signed by George and the email is `Peter125@network.org`, this could very well be a phishing attempt.
 
-2) Check the senders email.
+2) Check the sender's email.
 
 Make sure that the email address from the sender looks like what you recognize. If you know the sender and they send you an email with an unusual email address, be  careful. You can send them an email to their typical address to verify if it is really them. For example if your boss Karen, sends you an email from `kit345@TSU.edu` or `titan@hotmail.com` and typically her email is `karenw3@TSU.edu`, you should be suspicious.
 
@@ -316,7 +324,7 @@ Make sure that the email address from the sender looks like what you recognize. 
 
 Avoid clicking on links in emails as much as possible! If you know that your colleague is sending you a link and you see it right away, that is probably trustworthy, but if your admin sends you a link out of the blue, you should be careful. If you must click a link, first make sure that the link looks like what you would expect. Second, send a follow-up communication using another method (phone, slack, different email address), or email a different colleague that you know works with the individual to make sure the individual actually sent the link instead of a hacker.  Make sure that you don't get the phone number or other information to validate if the individual really sent you the email from the suspicious email itself.
 
-An example of these types of phishing methods is if your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. Keep in mind that phishing criminals can make the emails look very legitimate!
+An example of these types of phishing methods is if your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. **Keep in mind that phishing criminals can make the emails look very legitimate!**
 
 Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
 
@@ -394,7 +402,7 @@ See [here](https://web.archive.org/web/20220609154035/https://www.hipaajournal.c
 
 ## Summary
 
-In summary, we covered the following concepts in this chapter:
+In summary, we covered issues related to data security in this chapter. We presented the following concepts:
 
 - Authentication is the process of verifying the identity of users and servers in a communication. Users provide their credentials (username and password), while servers present certificates to confirm their identity.
 - Authorization is the process of ensuring that someone has permission to access a file or computing resource in a particular way. 
@@ -404,7 +412,7 @@ In summary, we covered the following concepts in this chapter:
 - Strong passwords should be used, preferably in the form of sentences with symbols and numbers. Password managers like Keychain, Dashlane, or other services can help securely store passwords.
 - Computers use caching to store recent data for faster access. Clearing caches regularly is essential to avoid security risks and potential exposure of sensitive data.
 - USB drives can pose security risks due to portability, malware, and memory issues. It's best to use reputable drives, enable encryption, disable AutoRun software, and remove the drive when not in use.
-- Data masking obscures sensitive data to protect privacy. De-identification and encryption are common methods. De-identification removes identifiers, while encryption encodes data to prevent unauthorized access.
+-Data masking obscures sensitive data to protect privacy. De-identification and encryption are common methods. De-identification removes identifiers, usually using the Safe Harbor or Expert Determination method. Encryption encodes data to prevent unauthorized access.
 - Encryption involves encoding data with keys to protect it from unauthorized access. Asymmetric encryption uses two keys (public and private), while symmetric encryption uses one key for both encryption and decryption.
 - SSL (Secure Socket Layer) and SSH (Secure Shell) are protocols that establish secure connections and encrypt data. SSL is commonly used for websites, while SSH is used to connect to remote computers.
 - When files are deleted, the data remains on storage hardware, posing a security risk. Software-based data erasure methods overwrite the data, ensuring it cannot be recovered, allowing hardware to be reused securely.

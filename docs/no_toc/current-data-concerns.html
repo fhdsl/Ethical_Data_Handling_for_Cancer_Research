@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Current Data Concerns | Ethical Data Handling for Cancer Research</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Current Data Concerns | Ethical Data Handling for Cancer Research" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-06-18" />
+<meta name="date" content="2024-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="data-ethics.html"/>
 <link rel="next" href="about-the-authors.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -104,20 +107,21 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#privacy-vs-security"><i class="fa fa-check"></i><b>2.1</b> Privacy vs Security</a></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.2</b> PII (personal identifiable information)</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+<li class="chapter" data-level="2.2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.2.1</b> PII Risk</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
-<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
-<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
-<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a></li>
-<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
-<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.3</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.4</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.5</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.6</b> Cancer research data and PHI</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.7</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.8</b> How is HIPAA enforced?</a>
 <ul>
-<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+<li class="chapter" data-level="2.8.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.8.1</b> Common Violations</a></li>
 </ul></li>
-<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.8</b> Summary</a></li>
+<li class="chapter" data-level="2.9" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.9</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
 <ul>
@@ -150,24 +154,25 @@ div.csl-indent {
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
-<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#benefits-of-data-sharing"><i class="fa fa-check"></i><b>4.2</b> Benefits of data sharing</a></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.3</b> Data repositories</a>
 <ul>
-<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
-<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
-<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
-<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.3.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.3.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.3.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.3.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.3.4</b> Small datasets</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.4</b> Data Submission tips</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
-<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
-<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.4.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.4.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.4.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.4.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.4.3</b> Have someone else review your code and data!</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.5</b> Health care data sharing tools</a>
 <ul>
-<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+<li class="chapter" data-level="4.5.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.5.1</b> REDCap (Research Electronic Data Capture)</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.5</b> Summary</a></li>
+<li class="chapter" data-level="4.6" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.6</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
 <ul>
@@ -176,36 +181,44 @@ div.csl-indent {
 <li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
 <li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="data-ethics.html"><a href="data-ethics.html#why-does-it-mater-that-research-subjects-might-be-identifiable-to-others"><i class="fa fa-check"></i><b>5.2.1</b> Why does it mater that research subjects might be identifiable to others?</a></li>
+<li class="chapter" data-level="5.2.2" data-path="data-ethics.html"><a href="data-ethics.html#why-else-does-data-protection-matter-at-the-individual-level"><i class="fa fa-check"></i><b>5.2.2</b> Why else does data protection matter at the individual level?</a></li>
+</ul></li>
 <li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
 <ul>
 <li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#principles-of-bioethics"><i class="fa fa-check"></i><b>5.4</b> Principles of Bioethics</a>
 <ul>
-<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
-<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The four pillars (this discussion is from <span class="citation">Melvin (2020)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center Seven Principles</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
-<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#ethical-principles-for-data"><i class="fa fa-check"></i><b>5.5</b> Ethical Principles for Data</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.6</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.7</b> Medical Ethics Timeline</a>
 <ul>
-<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
-<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
-<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
-<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
-<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
-<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+<li class="chapter" data-level="5.7.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.7.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
+<li class="chapter" data-level="5.7.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.7.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.7.3" data-path="data-ethics.html"><a href="data-ethics.html#declaration-of-helsinki-1964"><i class="fa fa-check"></i><b>5.7.3</b> Declaration of Helsinki (1964)</a></li>
+<li class="chapter" data-level="5.7.4" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.7.4</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.7.5" data-path="data-ethics.html"><a href="data-ethics.html#beechers-ethics-and-clinical-research-1966"><i class="fa fa-check"></i><b>5.7.5</b> Beecher’s Ethics and clinical research (1966)</a></li>
+<li class="chapter" data-level="5.7.6" data-path="data-ethics.html"><a href="data-ethics.html#the-belmont-report-1979"><i class="fa fa-check"></i><b>5.7.6</b> The Belmont Report (1979)</a></li>
+<li class="chapter" data-level="5.7.7" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.7.7</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.7.8" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.7.8</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.7.9" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.7.9</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
 </ul></li>
-<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
-<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.9</b> Consequences of research misconduct</a>
 <ul>
-<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
-<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
-<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
-<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+<li class="chapter" data-level="5.9.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.9.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.9.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.9.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.9.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.9.3</b> The Field</a></li>
+<li class="chapter" data-level="5.9.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.9.4</b> Patients</a></li>
 </ul></li>
-<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
-<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.10</b> Summary</a></li>
+<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.10</b> Misconduct prevention</a></li>
+<li class="chapter" data-level="5.11" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.11</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
 <ul>
@@ -282,27 +295,33 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="current-data-concerns" class="section level1" number="6">
-<h1><span class="header-section-number">Chapter 6</span> Current Data Concerns</h1>
+<div id="current-data-concerns" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Current Data Concerns<a href="current-data-concerns.html#current-data-concerns" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.</p>
-<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" title="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " alt="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" /></p>
-<div id="current-ethical-issues" class="section level2" number="6.1">
-<h2><span class="header-section-number">6.1</span> Current Ethical Issues</h2>
-<p>There are several issues that researchers and research participants, and really all individuals engaging in health care face. We will discuss some of these briefly.</p>
-<div id="consent-for-data-reuse" class="section level3" number="6.1.1">
-<h3><span class="header-section-number">6.1.1</span> Consent for Data Reuse</h3>
+<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" /></p>
+<div id="current-ethical-issues" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Current Ethical Issues<a href="current-data-concerns.html#current-ethical-issues" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are several current issues that researchers and research participants, and really all individuals engaging in health care face. We are facing new and bigger ethical issues in data due to:</p>
+<ul>
+<li>Increasing practice of reusing data (and in ways that are new), which means consent processes cannot fully describe risks and benefits</li>
+<li>Large scale data collection which sometimes doesn’t involve consent, often this is done by companies for other reasons (for example, to create an AI tool that can distinguish images, a company may by coincidence also collect images of faces)</li>
+<li>New data sharing technologies provides increasing opportunities for security failures</li>
+</ul>
+<p>We will discuss some of these new issues briefly.</p>
+<div id="consent-for-data-reuse" class="section level3 hasAnchor" number="6.1.1">
+<h3><span class="header-section-number">6.1.1</span> Consent for Data Reuse<a href="current-data-concerns.html#consent-for-data-reuse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>One major current ethical issue that we face now, is the consequences of the reuse of shared data. As we have described, there are major benefits of sharing data. It can allow researchers to really maximize their efforts. However, there are also negative potential consequences as well. Furthermore, it is still unclear what is exactly possible with our data, for both good and bad uses, as technology continues to advance.</p>
 <p>Previous management strategies for informed consent originate from research that predates the large scale data sharing that we now use today. In those cases, informed consent was a bit more straight forward to achieve. Now that data is often reused more often, it is often less obvious how data will be used for research purposes in the future, thus it is less obvious how to inform potential research participants what participation really means. Ideally we want to protect participants and family, while also maximizing the research potential of useful data. So how do we do this?</p>
-<p>Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some current methods for consent as described in <span class="citation">McKeown et al. (<a href="#ref-mckeown_consent_2021" role="doc-biblioref">2021</a>)</span>.</p>
+<p>Although ethical guidelines about this type of consent are evolving as research and technology evolve, here are some current methods for consent as described in <span class="citation">McKeown et al. (<a href="#ref-mckeown_consent_2021">2021</a>)</span>.</p>
 <ol style="list-style-type: decimal">
 <li><strong>blanket consent</strong> - Subjects agree that their data can be used for any purpose that the data holder agrees is reasonable.</li>
 <li><strong>broad consent</strong> - Subjects agree that their data can be used for a set of specified purposes. This is more protective but also restricts some uses of data.</li>
 <li><strong>dynamic consent</strong> - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.</li>
 <li><strong>meta consent</strong> - Subjects get to choose what type of consent they prefer of the other 3 options.</li>
 </ol>
-<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" title="An image of blanket and broad consent. " alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" title="An image of dynamic and meta consent. " alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" /></p>
-<p><span class="citation">McKeown et al. (<a href="#ref-mckeown_consent_2021" role="doc-biblioref">2021</a>)</span> suggests that we also need to be mindful of the following:</p>
+<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/06-Current_Data_Concerns_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" /></p>
+<p><span class="citation">McKeown et al. (<a href="#ref-mckeown_consent_2021">2021</a>)</span> suggests that we also need to be mindful of the following:</p>
 <ol style="list-style-type: decimal">
 <li>Participants should be educated about the uncertainty of the possible future uses of the data.</li>
 <li>Participants should be able to withdraw their consent for reasons that have been identified as being reasonable. (This creates many more ethical considerations.)</li>
@@ -314,11 +333,11 @@ div.csl-indent {
 <!-- hmm or how it is described here:https://www.nature.com/articles/s41576-020-0257-5.pdf -->
 <!-- great clinical resource: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943495/ -->
 </div>
-<div id="data-sovereignty" class="section level3" number="6.1.2">
-<h3><span class="header-section-number">6.1.2</span> Data sovereignty</h3>
+<div id="data-sovereignty" class="section level3 hasAnchor" number="6.1.2">
+<h3><span class="header-section-number">6.1.2</span> Data sovereignty<a href="current-data-concerns.html#data-sovereignty" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s take a slightly deeper dive into what data sovereignty really is.</p>
-<p>We have already described it as a concept of ownership of data, that the people who the data comes from determine or at least are highly involved in what happens with that data. This is important in the study of people who have been marginalized and historically mistreated in research or otherwise. However, the term data sovereignty can also be defined more broadly, such as the authority of governments to survey or use data from domestic or foreign sources, a concept that is also of important recent interest <span class="citation">(<a href="#ref-hummel_data_2021" role="doc-biblioref">Hummel et al. 2021</a>)</span>.</p>
-<p>A <a href="https://journals.sagepub.com/doi/10.1177/2053951720982012">review</a> of recent literature by <span class="citation">Hummel et al. (<a href="#ref-hummel_data_2021" role="doc-biblioref">2021</a>)</span> indicates that data sovereignty is often defined in <strong>many ways</strong> including the ability, rights, or laws surrounding the control, flow, privacy, security, or use of data. The review also suggests that there are therefore several major ways in which data sovereignty can be realized:</p>
+<p>We have already described it as a concept of ownership of data, that the people who the data comes from determine or at least are highly involved in what happens with that data. This is important in the study of people who have been marginalized and historically mistreated in research or otherwise. However, the term data sovereignty can also be defined more broadly, such as the authority of governments to survey or use data from domestic or foreign sources, a concept that is also of important recent interest <span class="citation">(<a href="#ref-hummel_data_2021">Hummel et al. 2021</a>)</span>.</p>
+<p>A <a href="https://journals.sagepub.com/doi/10.1177/2053951720982012">review</a> of recent literature by <span class="citation">Hummel et al. (<a href="#ref-hummel_data_2021">2021</a>)</span> indicates that data sovereignty is often defined in <strong>many ways</strong> including the ability, rights, or laws surrounding the control, flow, privacy, security, or use of data. The review also suggests that there are therefore several major ways in which data sovereignty can be realized:</p>
 <ol style="list-style-type: decimal">
 <li><p>Self-determination - Promoting, honoring, and respecting the interests, values and culture of those that the data comes from (particularly when it comes to indigenous populations) by allowing for their participation in determining what happens with the data and how it is collected.Strategies should be used to ensure that the data is beneficial and responsive to the needs of those that the data comes from, as well as mindful of the potential consequences of their use and collection.</p></li>
 <li><p>Technical Consideration - IT architecture to ensure that the data is safe and used as intended.</p></li>
@@ -327,13 +346,13 @@ div.csl-indent {
 <ol start="4" style="list-style-type: decimal">
 <li>Legal Considerations - Some countries or nations have regulations about what can be done with data particularly when it comes to transmission to other nations.</li>
 </ol>
-<p>The authors of the review <span class="citation">(<a href="#ref-hummel_data_2021" role="doc-biblioref">Hummel et al. 2021</a>)</span> caution that the inconsistency with which data sovereignty is defined could lead to negative consequences if efforts are not made to define the term when it is used. For example, if someone’s concept of data sovereignty is strictly of a technical definition, then important aspects related to transparency or self-determination may be overlooked. They note that Indigenous data sovereignty or data sovereignty as it pertains to indigenous populations, is more more clearly defined, and could be used as a model for other uses of the term in other contexts.</p>
+<p>The authors of the review <span class="citation">(<a href="#ref-hummel_data_2021">Hummel et al. 2021</a>)</span> caution that the inconsistency with which data sovereignty is defined could lead to negative consequences if efforts are not made to define the term when it is used. For example, if someone’s concept of data sovereignty is strictly of a technical definition, then important aspects related to transparency or self-determination may be overlooked. They note that Indigenous data sovereignty or data sovereignty as it pertains to indigenous populations, is more more clearly defined, and could be used as a model for other uses of the term in other contexts. Also see the <a href="https://www.gida-global.org/care">CARE Principles for Indigenous Data Governance</a>, as previously described in the last chapter, for more information about methods to protect data sovereignty for indigenous populations.</p>
 <p>The meaning of the terminology is likely to evolve over time, however, this indicates the complexity of data handling ethics that we are currently encountering and will continue to encounter.</p>
 </div>
-<div id="finding-artifacts" class="section level3" number="6.1.3">
-<h3><span class="header-section-number">6.1.3</span> Finding Artifacts</h3>
-<p>In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.</p>
-<p>Depending on the nature of the research, the potential for finding incidental findings will vary. The <a href="https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html">Secretary’s Advisory Committee on Human Research Protections (SACHRP)</a> at the US Department of Health and Human Services <span class="citation">(<a href="#ref-protections_ohrp_attachment_2017" role="doc-biblioref">Protections (OHRP) 2017</a>)</span> offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB.</p>
+<div id="finding-artifacts" class="section level3 hasAnchor" number="6.1.3">
+<h3><span class="header-section-number">6.1.3</span> Finding Artifacts<a href="current-data-concerns.html#finding-artifacts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In some cases researchers will have “incidental findings,” outside of the scope of the intended research. These incidental findings reveal aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of whether those individuals should be informed about these findings.</p>
+<p>Depending on the nature of the research, the potential for finding incidental findings will vary. The <a href="https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html">Secretary’s Advisory Committee on Human Research Protections (SACHRP)</a> at the US Department of Health and Human Services <span class="citation">(<a href="#ref-protections_ohrp_attachment_2017">Protections (OHRP) 2017</a>)</span> offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB.</p>
 <p>Often the first suggested step is to determine how likely the research is to yield any actionable incidental findings. Actionable findings are those where the research subject could actually do something to about the finding to improve their health or reduce the risk of health concerns. However, it can be difficult to determine if such a finding will become actionable in the future, particularly when it comes to collecting genomic data.</p>
 <p>To be more mindful of future consequences, researchers could also ask their research participants if they would want to know about incidental findings if they were to become actionable in the future.</p>
 <!-- ### Protection of Vulnerable Populations -->
@@ -354,19 +373,20 @@ div.csl-indent {
 <!-- interesting resource!https://ctep.cancer.gov/branches/ctmb/clinicalTrials/docs/good_clinical_practices.pdf -->
 </div>
 </div>
-<div id="recent-incidences" class="section level2" number="6.2">
-<h2><span class="header-section-number">6.2</span> Recent Incidences</h2>
-<p>With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we saw the creation of databanks and other shared data resources. This resulted in new ethical issues.</p>
+<div id="recent-incidences" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Recent Incidences<a href="current-data-concerns.html#recent-incidences" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we have seen the creation of databanks and other shared data resources. This has resulted in new ethical issues.</p>
 <p>Here are some examples that exemplify more current data ethics issues:</p>
-<div id="data-misuse-for-marketing" class="section level3" number="6.2.1">
-<h3><span class="header-section-number">6.2.1</span> Data Misuse for Marketing</h3>
-<p>Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting <span class="citation">(<a href="#ref-kramer_surescripts_2019" role="doc-biblioref">Kramer 2019</a>)</span>. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from <a href="https://surescripts.com/">Surescripts</a>, a prescription and health record data company and providing it in a processed form for Amazon’s PillPack (<a href="https://www.pillpack.com/" class="uri">https://www.pillpack.com/</a>), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market <span class="citation">(<a href="#ref-chiruvella_ethical_2021" role="doc-biblioref">Chiruvella and Guddati 2021</a>)</span>. Surescripts then decided to revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened <span class="citation">(<a href="#ref-kramer_surescripts_2019" role="doc-biblioref">Kramer 2019</a>)</span>. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated <span class="citation">(<a href="#ref-kramer_surescripts_2019" role="doc-biblioref">Kramer 2019</a>)</span>.</p>
+<div id="data-misuse-for-marketing" class="section level3 hasAnchor" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> Data Misuse for Marketing<a href="current-data-concerns.html#data-misuse-for-marketing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting <span class="citation">(<a href="#ref-kramer_surescripts_2019">Kramer 2019</a>)</span>. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from <a href="https://surescripts.com/">Surescripts</a>, a prescription and health record data company and providing it in a processed form for Amazon’s PillPack (<a href="https://www.pillpack.com/" class="uri">https://www.pillpack.com/</a>), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market <span class="citation">(<a href="#ref-chiruvella_ethical_2021">Chiruvella and Guddati 2021</a>)</span>. Surescripts then decided to revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened <span class="citation">(<a href="#ref-kramer_surescripts_2019">Kramer 2019</a>)</span>. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated <span class="citation">(<a href="#ref-kramer_surescripts_2019">Kramer 2019</a>)</span>.</p>
+<p>Consent forms are now required to disclose the potential for commercialization of products, and institutions navigate relationships with commercial companies in different ways.</p>
 </div>
-<div id="data-breaches" class="section level3" number="6.2.2">
-<h3><span class="header-section-number">6.2.2</span> Data Breaches</h3>
-<p><a href="https://en.wikipedia.org/wiki/MyHeritage">MyHeritage</a> is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email addresses and password hash keys for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user <span class="citation">(<a href="#ref-myheritage_2018" role="doc-biblioref"><span>“<span>MyHeritage</span> <span>Statement</span> <span>About</span> a <span>Cybersecurity</span> <span>Incident</span>”</span> 2018</a>)</span>. This incident however highlights the concern that could happen if the cybercriminal had been more successful.</p>
+<div id="data-breaches" class="section level3 hasAnchor" number="6.2.2">
+<h3><span class="header-section-number">6.2.2</span> Data Breaches<a href="current-data-concerns.html#data-breaches" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><a href="https://en.wikipedia.org/wiki/MyHeritage">MyHeritage</a> is a genetic testing company based in Israel that provides ancestry information to customers. In 2018, a security incident occurred in which an unauthorized user somehow acquired access to email addresses and password hash keys for over 92 million users. Although this was a very large data breach in terms of the number of users impacted, they believe that none of the genetic data actually got leaked to this unauthorized user <span class="citation">(<a href="#ref-myheritage_2018"><span>“<span>MyHeritage</span> <span>Statement</span> <span>About</span> a <span>Cybersecurity</span> <span>Incident</span>”</span> 2018</a>)</span>. This incident however highlights the concern that could happen if the cybercriminal had been more successful.</p>
 <p>See <a href="https://www.hipaajournal.com/largest-healthcare-data-breaches-of-2021/">here</a> for other examples of PHI data breaches.</p>
-<p>Places that report data breaches - based on @<span class="citation">Seh et al. (<a href="#ref-seh_breaches_2020" role="doc-biblioref">2020</a>)</span>:</p>
+<p>Places that report data breaches - based on @<span class="citation">Seh et al. (<a href="#ref-seh_breaches_2020">2020</a>)</span>:</p>
 <ol style="list-style-type: decimal">
 <li>PRC Database (Consumer data established in 1992)</li>
 <li>HIPAA Journal (Examples of violations of HIPAA compliance and guides to avoid violation, established in 2009)</li>
@@ -374,35 +394,36 @@ div.csl-indent {
 <li>Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)</li>
 <li>Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)</li>
 </ol>
+<p>The Department of Health and Human Services now requires reporting of data breaches to affected individuals. Breaches of over 500 people need to be notified publicly. See <a href="https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html">here</a> for more information.</p>
 </div>
-<div id="data-mistakes-and-neglect" class="section level3" number="6.2.3">
-<h3><span class="header-section-number">6.2.3</span> Data mistakes and neglect</h3>
+<div id="data-mistakes-and-neglect" class="section level3 hasAnchor" number="6.2.3">
+<h3><span class="header-section-number">6.2.3</span> Data mistakes and neglect<a href="current-data-concerns.html#data-mistakes-and-neglect" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="https://www.utmb.edu/research/research-at-utmb/utmb-research-day/keith-baggerly">Keith Baggerly</a> is a well-known expert in what he calls “Forensic Bioinformatics”. He evaluates other studies to see if he can reproduce their work. He has in a few cases found some very important mistakes. Often the mistakes have to do with sample mix-ups, such as a shift in a table resulting mislabeled rows or columns. Although such simple mistakes seem minor, Keith has shown that this can result in major consequences.</p>
-<p>One rather well-known example is his evaluation (along with Kevin Coombes and Jing Wang) of several now retracted articles (see <a href="https://pubmed.ncbi.nlm.nih.gov/17057710/">here</a> and <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(07)70345-5/fulltext">here</a>) by Anil Potti regarding chemosensitivity of cancer cell lines based on gene expression signatures <span class="citation">(<a href="#ref-baggerly_deriving_2009" role="doc-biblioref">K. A. Baggerly and Coombes 2009</a>)</span>. First the forensic team discovered simple yet very consequential errors (sample case control labels were swapped) in Potti’s work. This lead to further investigations revealing further mistakes, as well as data falsification in several of Potti’s articles. Ultimately, the clinical trials that were initiated based on Potti’s work were terminated, several of Potti’s articles were <a href="https://retractionwatch.com/2011/01/29/lancet-oncology-retracts-previously-questioned-anil-potti-paper/">retracted</a>, and he was asked to resign from his position. See <span class="citation">National Academies of Sciences et al. (<a href="#ref-national_academies_of_sciences_detailed_2017" role="doc-biblioref">2017</a>)</span> for more <a href="https://www.ncbi.nlm.nih.gov/books/NBK475955/">information</a> about Potti’s case as well as 4 other similar cases.</p>
+<p>One rather well-known example is his evaluation (along with Kevin Coombes and Jing Wang) of several now retracted articles (see <a href="https://pubmed.ncbi.nlm.nih.gov/17057710/">here</a> and <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(07)70345-5/fulltext">here</a>) by Anil Potti regarding chemosensitivity of cancer cell lines based on gene expression signatures <span class="citation">(<a href="#ref-baggerly_deriving_2009">K. A. Baggerly and Coombes 2009</a>)</span>. First the forensic team discovered simple yet very consequential errors (sample case control labels were swapped) in Potti’s work. This lead to further investigations revealing further mistakes, as well as data falsification in several of Potti’s articles. Ultimately, the clinical trials that were initiated based on Potti’s work were terminated, several of Potti’s articles were <a href="https://retractionwatch.com/2011/01/29/lancet-oncology-retracts-previously-questioned-anil-potti-paper/">retracted</a>, and he was asked to resign from his position. See <span class="citation">(<a href="#ref-national_academies_of_sciences_detailed_2017"><strong>national_academies_of_sciences_detailed_2017?</strong></a>)</span> for more <a href="https://www.ncbi.nlm.nih.gov/books/NBK475955/">information</a> about Potti’s case as well as 4 other similar cases.</p>
 <p>Keith Baggerly <a href="https://www.nature.com/articles/d41586-018-06903-2">points out</a> that simple errors do not need to lead to dramatic consequences and encourages investigators to be transparent in reporting their mistakes as early as possible. A good example of an investigator owning up to a mistake is that of Bob Carpenter, see <a href="https://lingpipe-blog.com/2009/09/15/retraction-only-1-precision-at-99-9-recall-for-biocreative-gene-chunks/">here</a> due to some “buggy evaluation code” as he states <a href="https://statmodeling.stat.columbia.edu/2010/10/21/forensic_bioinf/">here</a>. While pressures often make us feel a need to be perfect. To err is to be human, and taking responsibility for our research mistakes should become acceptable, common practice, and revered by the research field at large.</p>
-<p>Keith points out however, that it is currently difficult for researchers to find the time to deeply investigate the work of others and suggests that perhaps scientists at funding agencies could perform such forensic work to ensure the integrity of our scientific findings <span class="citation">(<a href="#ref-baggerly_what_2018" role="doc-biblioref">K. Baggerly 2018</a>)</span>.</p>
-<p>Another interesting example is an investigation by Karl Browman, who is also well-known for his “Forensic Bioinformatics”, work is <a href="https://academic.oup.com/g3journal/article/5/10/2177/6028939">a paper</a> in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice <span class="citation">(<a href="#ref-broman_identification_2015" role="doc-biblioref">Broman et al. 2015</a>)</span>. The authors also created an R package to help correct for such mix-ups. The author’s conclude the manuscript as:</p>
+<p>Keith points out however, that it is currently difficult for researchers to find the time to deeply investigate the work of others and suggests that perhaps scientists at funding agencies could perform such forensic work to ensure the integrity of our scientific findings <span class="citation">(<a href="#ref-baggerly_what_2018">K. Baggerly 2018</a>)</span>.</p>
+<p>Another interesting example is an investigation by Karl Browman, who is also well-known for his “Forensic Bioinformatics”, work is <a href="https://academic.oup.com/g3journal/article/5/10/2177/6028939">a paper</a> in which Karl and his colleagues evaluated sample mix-ups in a dataset with both genotype and expression data for 500 mice. The data for the mice did not meet similarity expectations across the two types of data for 18% of the mice <span class="citation">(<a href="#ref-broman_identification_2015">Broman et al. 2015</a>)</span>. The authors also created an R package to help correct for such mix-ups. The author’s conclude the manuscript as:</p>
 <blockquote>
 <p>What is an acceptable error rate in a research study? And what laboratory procedures should be instituted to avoid such errors? There exist procedures to help protect against errors, both for genotypes (e.g., Huijsmans et al. 2007a,b) and for microarrays (Grant et al. 2003; Imbeaud and Auffray 2005; Walter et al. 2010), but they are not always put into practice. However, as the current study indicates, with expression genetic data, one can accommodate a high rate of errors provided that one applies appropriate procedures to detect and correct such errors.</p>
 </blockquote>
 <p>This ultimately suggests that where researchers have two compatible types of data that allow for checking for mix-ups, methods to evaluate and correct for such errors could be very beneficial.</p>
 </div>
-<div id="data-falsification" class="section level3" number="6.2.4">
-<h3><span class="header-section-number">6.2.4</span> Data falsification</h3>
+<div id="data-falsification" class="section level3 hasAnchor" number="6.2.4">
+<h3><span class="header-section-number">6.2.4</span> Data falsification<a href="current-data-concerns.html#data-falsification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Although the previous example ultimately led to some discoveries of falsification, the majority of the discovery started with findings of simple mistakes. However, there are many other reported cases of researchers falsifying or modifying their data to improve their results. See <a href="https://ori.hhs.gov/education/products/RIandImages/misconduct_cases/findings_of_misconduct.pdf">here</a> for examples of misconduct cases identified by the <a href="https://ori.hhs.gov/">Office of Research Integrity at the US department of Health and Human Services</a>.</p>
 </div>
-<div id="improper-data-reuse-for-research" class="section level3" number="6.2.5">
-<h3><span class="header-section-number">6.2.5</span> Improper Data Reuse for Research</h3>
-<p>This section is largely based on an <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/">article</a> by <span class="citation">Garrison (<a href="#ref-garrison_genomic_2013" role="doc-biblioref">2013</a>)</span>.</p>
-<p>A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about “schizophrenia risk, ethnic migration, and population inbreeding” <span class="citation">(<a href="#ref-garrison_genomic_2013" role="doc-biblioref">Garrison 2013</a>)</span>. The Tribe did not want research to be done on these topics, as they could be stigmatizing for certain groups. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation.</p>
+<div id="improper-data-reuse-for-research" class="section level3 hasAnchor" number="6.2.5">
+<h3><span class="header-section-number">6.2.5</span> Improper Data Reuse for Research<a href="current-data-concerns.html#improper-data-reuse-for-research" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>This section is largely based on an <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310710/">article</a> by <span class="citation">Garrison (<a href="#ref-garrison_genomic_2013">2013</a>)</span>.</p>
+<p>A research group at Arizona State University (ASU) initially collected DNA data from individuals of the Havasupai Tribe to study risk for type 2 diabetes in 1989. These samples were then later used for other genetic studies, including studies about “schizophrenia risk, ethnic migration, and population inbreeding” <span class="citation">(<a href="#ref-garrison_genomic_2013">Garrison 2013</a>)</span>. The Tribe did not want research to be done on these topics, as they could be stigmatizing for certain groups. The research participants did not feel that they consented to other research outside the scope of diabetes and this ultimately led the Tribe to file a lawsuit in 2004 against the researchers and the ASU board of regents. No ruling was made as there was a procedural error leading to the case being dismissed, however a settlement was reached, giving monetary compensation and then return of the genetic samples back to the Tribe. The Tribe also banned all ASU researchers from their reservation.</p>
 <p>This case pointed out the challenges of informed consent especially when documents are written in languages other than the native language of the participants. In this case the participants signed informed consent documents written in English that said samples would be used for “behavioral/medical problems”, yet in spoken word, the consent documents may have been described as indicating that the samples were to be used for diabetes specifically.</p>
 <p>When the researchers decided to study schizophrenia, they obtained Internal Review Board (IRB) approval based on the consent documents, and no additional conversations happened with the Tribe to ensure that the participants understood and consented to the samples being used for other types of studies.</p>
 <p>Another important component of native or tribal populations, is that some tribes consider all Biological materials to be sacred and therefore greater transparency about the details of how materials are to be used and greater opportunity to determine how unused materials should be disposed would be very valuable.</p>
 <p>This was a very informative case in terms of pointing out many overlooked concerns in data ownership, particularly of vulnerable populations. These concerns include a lack of consideration about the balance of benefit to researchers and others relative to the potential harm or lack of benefit to the research participants and a lack of clarity about how to properly consent populations.</p>
-<p>Due to this case <span class="citation">(<a href="#ref-after_2010" role="doc-biblioref"><span>“After <span>Havasupai</span> Litigation, <span>Native</span> <span>Americans</span> Wary of Genetic Research”</span> 2010</a>)</span> and other historical disrespectful, neglectful, or harmful research engagements <span class="citation">(<a href="#ref-garrison_genomic_2019" role="doc-biblioref">Garrison et al. 2019</a>)</span>, subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way <span class="citation">(<a href="#ref-garrison_genomic_2019" role="doc-biblioref">Garrison et al. 2019</a>)</span>. However more work is desperately needed to improve both health disparities and justice.</p>
-<p>Possible guidelines could include (based on <span class="citation">Garrison et al. (<a href="#ref-garrison_genomic_2019" role="doc-biblioref">2019</a>)</span>, <span class="citation">Garrison (<a href="#ref-garrison_genomic_2013" role="doc-biblioref">2013</a>)</span>, and the author’s thoughts):</p>
+<p>Due to this case <span class="citation">(<a href="#ref-after_2010"><span>“After <span>Havasupai</span> Litigation, <span>Native</span> <span>Americans</span> Wary of Genetic Research”</span> 2010</a>)</span> and other historical disrespectful, neglectful, or harmful research engagements <span class="citation">(<a href="#ref-garrison_genomic_2019">Garrison et al. 2019</a>)</span>, subsequently many tribes became reluctant to participate in research. As many of these concerns continue, many remain justifiably reluctant. Over time this has more recently resulted in discussions about how research can be more respectful, transparent, and culturally responsive with equity and justice as the priority, with Indigenous, Tribal or Native scholars leading the way <span class="citation">(<a href="#ref-garrison_genomic_2019">Garrison et al. 2019</a>)</span>. However more work is desperately needed to improve both health disparities and justice.</p>
+<p>Possible guidelines could include (based on <span class="citation">Garrison et al. (<a href="#ref-garrison_genomic_2019">2019</a>)</span>, <span class="citation">Garrison (<a href="#ref-garrison_genomic_2013">2013</a>)</span>, and the author’s thoughts):</p>
 <ol style="list-style-type: decimal">
-<li><p>To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in the governance of biological data. This concept is called data sovereignty <span class="citation">(<a href="#ref-garrison_genomic_2019" role="doc-biblioref">Garrison et al. 2019</a>)</span>. Population members should help determine how researchers work with and consent individuals. More direct participation of these members in the research or IRB processes itself is also beneficial.</p></li>
+<li><p>To better understand the needs and concerns of the populations to be studied, members of those populations and communities should be directly involved in the governance of biological data. This concept is called data sovereignty <span class="citation">(<a href="#ref-garrison_genomic_2019">Garrison et al. 2019</a>)</span>. Population members should help determine how researchers work with and consent individuals. More direct participation of these members in the research or IRB processes itself is also beneficial.</p></li>
 <li><p>Where possible biological samples should be physically “owned” by the populations that the come from or at least considered as such, even when samples are taken to a lab for processing. Details about how the samples should be stored or disposed of, should be discussed with the study population.</p></li>
 <li><p>Researchers and IRBs should consider not only the health impacts and security of research participants, but also the potential social and community consequences. To better understand these possible consequences, members of the populations studied should again be directly involved in these discussions.</p></li>
 <li><p>Researchers and IRBS should consider more about the balance of the possible benefit to researchers and society versus the potential lack of benefit or harm that the research may cause the participants are the communities they come from - research should aim to be more beneficial to those participating. To better understand the needs and possible harmful consequences of research, members of the communities or populations should be involved in discussions.</p></li>
@@ -412,14 +433,14 @@ div.csl-indent {
 </ol>
 <p>Many research groups have decided to use <strong>Broad Consent</strong> in which only a set of potential future activities are consented to reduce later concerns. However this can still result in discomfort and thus a lack of participation by populations that are concerned about the use of their biological materials. This can ultimately result in even deeper health disparities.</p>
 <p>Overall, it is very important that researchers and research institutions continue to discuss and work with members of the populations they wish to study to create more equitable, just, and culturally responsive consent processes.</p>
-<p>One <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/">article</a> by <span class="citation">Begay et al. (<a href="#ref-begay_weaving_2020" role="doc-biblioref">2020</a>)</span> about the history of genetic studies of the Diné (or Navajo nation), another population that has faced genetic data misuse, state that the authors:</p>
+<p>One <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7895446/">article</a> by <span class="citation">Begay et al. (<a href="#ref-begay_weaving_2020">2020</a>)</span> about the history of genetic studies of the Diné (or Navajo nation), another population that has faced genetic data misuse, state that the authors:</p>
 <blockquote>
 <p>encourage researchers to consider cultural perspectives and traditional knowledge that has the potential to create stronger conclusions and better-informed, ethical, and respectful science.</p>
 </blockquote>
 </div>
 </div>
-<div id="summary-4" class="section level2" number="6.3">
-<h2><span class="header-section-number">6.3</span> Summary</h2>
+<div id="summary-4" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Summary<a href="current-data-concerns.html#summary-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In summary, we covered the following concepts:</p>
 <ul>
 <li>The field of data ethics is rapidly evolving as technology continues to evolve. Previous strategies for consent are not always appropriate in today’s age of data sharing, where some de-identified data can possibly be re-identified in the future.</li>
@@ -431,7 +452,7 @@ div.csl-indent {
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-after_2010" class="csl-entry">
 <span>“After <span>Havasupai</span> Litigation, <span>Native</span> <span>Americans</span> Wary of Genetic Research.”</span> 2010. <em>American Journal of Medical Genetics Part A</em> 152A (7): fm ix–. <a href="https://doi.org/10.1002/ajmg.a.33592">https://doi.org/10.1002/ajmg.a.33592</a>.
@@ -469,9 +490,6 @@ McKeown, Alex, Miranda Mourby, Paul Harrison, Sophie Walker, Mark Sheehan, and I
 <div id="ref-myheritage_2018" class="csl-entry">
 <span>“<span>MyHeritage</span> <span>Statement</span> <span>About</span> a <span>Cybersecurity</span> <span>Incident</span>.”</span> 2018. <em>MyHeritage Blog</em>. <a href="https://blog.myheritage.com/2018/06/myheritage-statement-about-a-cybersecurity-incident/">https://blog.myheritage.com/2018/06/myheritage-statement-about-a-cybersecurity-incident/</a>.
 </div>
-<div id="ref-national_academies_of_sciences_detailed_2017" class="csl-entry">
-National Academies of Sciences, Engineering, Policy and Global Affairs, Engineering Committee on Science, and Committee on Responsible Science. 2017. <em>Detailed <span>Case</span> <span>Histories</span></em>. National Academies Press (US). <a href="https://www.ncbi.nlm.nih.gov/books/NBK475955/">https://www.ncbi.nlm.nih.gov/books/NBK475955/</a>.
-</div>
 <div id="ref-protections_ohrp_attachment_2017" class="csl-entry">
 Protections (OHRP), Office for Human Research. 2017. <span>“Attachment <span>F</span> - <span>Recommendations</span> on <span>Reporting</span> <span>Incidental</span> <span>Findings</span>.”</span> Text. <em>HHS.gov</em>. <a href="https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html">https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html</a>.
 </div>
@@ -481,11 +499,16 @@ Seh, Adil Hussain, Mohammad Zarour, Mamdouh Alenezi, Amal Krishna Sarkar, Alka A
 </div>
 <hr>
 <center>
+<div class="container">
+  <iframe class="responsive-iframe" src="https://c-savonen.shinyapps.io/widget-survey/?course_name=ethical_data" style="width: 400px; height: 220px; overflow: auto;"></iframe>
+</div>
+  </div>
+</center>
+
+<hr>
+<center>
   <div class="footer">
-      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
-      <br>
       All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
-      <br>
       All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
   </div>
 </center>

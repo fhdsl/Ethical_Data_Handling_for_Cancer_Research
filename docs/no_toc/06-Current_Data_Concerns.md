@@ -6,17 +6,22 @@
 
 Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" title="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " alt="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
 
 
 ## Current Ethical Issues
 
-There are several issues that researchers and research participants, and really all individuals engaging in health care face. We will discuss some of these briefly.
+There are several current issues that researchers and research participants, and really all individuals engaging in health care face. We are facing new and bigger ethical issues in data due to:
+
+- Increasing practice of reusing data (and in ways that are new), which means consent processes cannot fully describe risks and benefits
+- Large scale data collection which sometimes doesn't involve consent, often this is done by companies for other reasons (for example, to create an AI tool that can distinguish images, a company may by coincidence also collect images of faces)
+- New data sharing technologies provides increasing opportunities for security failures
+
+We will discuss some of these new issues briefly.
 
 ### Consent for Data Reuse
 
 One major current ethical issue that we face now, is the consequences of the reuse of shared data. As we have described, there are major benefits of sharing data. It can allow researchers to really maximize their efforts. However, there are also negative potential consequences as well. Furthermore, it is still unclear what is exactly possible with our data, for both good and bad uses, as technology continues to advance.
-
 
 Previous management strategies for informed consent originate from research that predates the large scale data sharing that we now use today. In those cases, informed consent was a bit more straight forward to achieve. Now that data is often reused more often, it is often less obvious how data will be used for research purposes in the future, thus it is less obvious how to inform potential research participants what participation really means. Ideally we want to protect participants and family, while also maximizing the research potential of useful data. So how do we do this?
 
@@ -27,10 +32,10 @@ Although ethical guidelines about this type of consent are evolving as research 
 3) **dynamic consent** - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
 4) **meta consent** - Subjects get to choose what type of consent they prefer of the other 3 options.
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" title="An image of blanket and broad consent. " alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" />
 
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" title="An image of dynamic and meta consent. " alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" />
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
 
@@ -63,13 +68,13 @@ A [review](https://journals.sagepub.com/doi/10.1177/2053951720982012) of recent 
 
 4. Legal  Considerations - Some countries or nations have regulations about what can be done with data particularly when it comes to transmission to other nations.
 
-The authors of the review [@hummel_data_2021] caution that the inconsistency with which data sovereignty is defined could lead to negative consequences if efforts are not made to define the term when it is used. For example, if someone's concept of data sovereignty is strictly of a technical definition, then important aspects related to transparency or self-determination may be overlooked. They note that Indigenous data sovereignty or data sovereignty as it pertains to indigenous populations, is more more clearly defined, and could be used as a model for other uses of the term in other contexts.
+The authors of the review [@hummel_data_2021] caution that the inconsistency with which data sovereignty is defined could lead to negative consequences if efforts are not made to define the term when it is used. For example, if someone's concept of data sovereignty is strictly of a technical definition, then important aspects related to transparency or self-determination may be overlooked. They note that Indigenous data sovereignty or data sovereignty as it pertains to indigenous populations, is more more clearly defined, and could be used as a model for other uses of the term in other contexts. Also see the [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care), as previously described in the last chapter, for more information about methods to protect data sovereignty for indigenous populations. 
 
 The meaning of the terminology is likely to evolve over time, however, this indicates the complexity of data handling ethics that we are currently encountering and will continue to encounter.
 
 ### Finding Artifacts
 
-In some cases researchers will determine aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of if those individuals should be informed about these findings.
+In some cases researchers will have “incidental findings,” outside of the scope of the intended research. These incidental findings reveal aspects about the potential health or genetic risk of an individual as an artifact of performing other research. This leads to the question of whether those individuals should be informed about these findings.
 
 Depending on the nature of the research, the potential for finding incidental findings will vary. The [Secretary’s Advisory Committee on Human Research Protections (SACHRP)](https://www.hhs.gov/ohrp/sachrp-committee/recommendations/attachment-f-august-2-2017/index.html) at the US Department of Health and Human Services [@protections_ohrp_attachment_2017] offers guidelines about this topic. Furthermore, if the research requires FDA regulations, than there is more defined guidance and requirements about incidental findings. Yet, for other forms of research, the determination will occur mostly with the institutional IRB.
 
@@ -113,7 +118,7 @@ To be more mindful of future consequences, researchers could also ask their rese
 
 ## Recent Incidences
 
-With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we saw the creation of databanks and other shared data resources. This resulted in new ethical issues.
+With advances in technology allowing for cheaper and easier production of medical datasets more than ever before, we have seen the creation of databanks and other shared data resources. This has resulted in new ethical issues.
 
 Here are some examples that exemplify more current data ethics issues:
 
@@ -121,6 +126,7 @@ Here are some examples that exemplify more current data ethics issues:
 
 Commercial use of data is yet another possible use of research data. There is one example in which such a situation may have occurred, although there sources about the incident are conflicting [@kramer_surescripts_2019]. ReMy Health is a data analytics company that processes raw patient prescription and insurance data and provides this data to other companies. It was using data from [Surescripts](https://surescripts.com/), a prescription and health record data company and providing it in a processed form for Amazon's PillPack (https://www.pillpack.com/), a prescription delivery service. ReMy Health or one of its customers was accused of providing unauthorized access of prescription and patient health insurance information, which was believed to be for pharmaceutical companies for marketing decisions about what medications to market [@chiruvella_ethical_2021]. Surescripts then decided to  revoke access for ReMy health to their data, thus hindering access to PillPack. However, Surescripts who made the allegations against ReMy Health has also had complaints of being threatening toward other companies, so it is a bit unclear exactly what happened [@kramer_surescripts_2019]. However, ultimately this resulted in a difficult situation for patients to receive their prescriptions and illustrates how data breaches or misuse by a single party when the data is utilized by multiple parties can get complicated [@kramer_surescripts_2019].
 
+Consent forms are now required to disclose the potential for commercialization of products, and institutions navigate relationships with commercial companies in different ways. 
 
 ### Data Breaches
 
@@ -136,6 +142,8 @@ Places that report data breaches - based on @@seh_breaches_2020:
 4) Ponemon Institute Reports (Data privacy and security issues and policies, established in 2002)
 5) Verizon-DBIR (yearly investigations by Verizon Enterprises, established in 2008)
 
+
+The Department of Health and Human Services now requires reporting of data breaches to affected individuals. Breaches of over 500 people need to be notified publicly. See [here](https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html) for more information. 
 
 ### Data mistakes and neglect
 
