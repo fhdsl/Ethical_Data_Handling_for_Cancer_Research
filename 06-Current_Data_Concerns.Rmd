@@ -68,13 +68,13 @@ We have already described it as a concept of ownership of data, that the people 
 
 A [review](https://journals.sagepub.com/doi/10.1177/2053951720982012) of recent literature by @hummel_data_2021 indicates that data sovereignty is often defined in **many ways** including the ability, rights, or laws surrounding the control, flow, privacy, security, or use of data. The review also suggests that there are therefore several major ways in which data sovereignty can be realized:
 
-1. Self-determination - Promoting, honoring, and respecting the interests, values and culture of those that the data comes from (particularly when it comes to indigenous populations) by allowing for their participation in determining what happens with the data and how it is collected.Strategies should be used to ensure that the data is beneficial and responsive to the needs of those that the data comes from, as well as mindful of the potential consequences of their use and collection.
+1. **Self-determination** - Promoting, honoring, and respecting the interests, values and culture of those that the data comes from (particularly when it comes to indigenous populations) by allowing for their participation in determining what happens with the data and how it is collected. Strategies should be used to ensure that the data is beneficial and responsive to the needs of those that the data comes from, as well as mindful of the potential consequences of their use and collection.
 
-2. Technical Consideration - IT architecture to ensure that the data is safe and used as intended.
+2. **Technical Consideration** - IT architecture to ensure that the data is safe and used as intended.
 
-3.Transparency - People should know when data is being collected about them and what it is being used for.
+3. **Transparency** - People should know when data is being collected about them and what it is being used for.
 
-4. Legal  Considerations - Some countries or nations have regulations about what can be done with data particularly when it comes to transmission to other nations.
+4. **Legal Considerations** - Some countries or nations have regulations about what can be done with data particularly when it comes to transmission to other nations.
 
 The authors of the review [@hummel_data_2021] caution that the inconsistency with which data sovereignty is defined could lead to negative consequences if efforts are not made to define the term when it is used. For example, if someone's concept of data sovereignty is strictly of a technical definition, then important aspects related to transparency or self-determination may be overlooked. They note that Indigenous data sovereignty or data sovereignty as it pertains to indigenous populations, is more more clearly defined, and could be used as a model for other uses of the term in other contexts. Also see the [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care), as previously described in the last chapter, for more information about methods to protect data sovereignty for indigenous populations. 
 
