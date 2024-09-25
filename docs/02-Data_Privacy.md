@@ -6,14 +6,26 @@
 
 Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1758.png" title="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" alt="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1758.png" alt="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" width="100%" style="display: block; margin: auto;" />
 
 Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
 *personal identifiable information (PII)* and *protected health information (PHI)*.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_318.png" title="Research often involves collecting personal information about people who participate in research.Personal Identifiable Information (PII) and Protected Health Information (PHI)" alt="Research often involves collecting personal information about people who participate in research.Personal Identifiable Information (PII) and Protected Health Information (PHI)" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_318.png" alt="Research often involves collecting personal information about people who participate in research.Personal Identifiable Information (PII) and Protected Health Information (PHI)" width="100%" style="display: block; margin: auto;" />
 
-Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis.
+Note that these are general definitions and whether something counts as PII or PHI has to be evaluated in a case-by-case basis by an expert such as an Internal Review Board (IRB) member or compliance officer.
+
+
+## Privacy vs Security
+
+So what exactly is privacy? There are a couple of major ways to think about this.
+
+The first is keeping other individuals from finding information about others from a legal stand point. In other words, there are legal restrictions like HIPAA to help protect the rights of individuals, by keeping others from accessing information about them. 
+
+Beyond what is required by law, which may vary depending on what country you perform research in, there are ethical guidelines that define beyond legal ramifications, why someone should protect the privacy of data. In other words, the legal system defines what we have to do, while ethics defines what we should do.
+
+Data privacy has a close relationship with data security. Both are concerned with keeping the data from being accessed by those who should not have access. Security is however more concerned with the **actual process** of protecting the data from unauthorized people, as well as protecting the data from other forms of damage, while privacy is more concerned with who can access the data and use the data how [@bambauer_privacy_2013].
+
 
 ## PII (personal identifiable information)
 
@@ -47,7 +59,7 @@ Some PII as in the examples above can pose significant risk to individuals if ot
 
 Thus this information is categorized in two ways as being nonsensitive  which is easy to find and poses little risk and sensitive information which is harder to find, poses higher risk and requires more protection.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_477.png" title="There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find" alt="There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_477.png" alt="There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find" width="100%" style="display: block; margin: auto;" />
 
 ### PII Risk
 
@@ -55,9 +67,9 @@ What is the risk of PII getting into the hands of people it shouldn't? Why was t
 
 PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
-In addition, the leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes.
+A leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes. In addition, a leak of PII might breach patients’ trust in an organization's ability to keep their data safe and therefore may be less interested in engaging with the organization.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_484.png" title="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" alt="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_484.png" alt="PII risk involves identity theft: creation of financial documents in someone else's name or criminal activity in someone else's name and safety risk: specific individuals can be found" width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -96,7 +108,7 @@ This includes 18 categories:
 
 PHI is really a subset of PII. It is personal identifiable information that relates to or could relate to health.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_497.png" title="PHI is a subset of PII that pertains to health" alt="PHI is a subset of PII that pertains to health" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_497.png" alt="PHI is a subset of PII that pertains to health" width="100%" style="display: block; margin: auto;" />
 
 Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless the are  in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
 
@@ -104,15 +116,16 @@ Some PII is always PHI, like health insurance numbers or clinical data such as r
 
 PHI poses an additional risk rather than just typical PII.
 
-That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance.
+That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance. This is particularly an issue if conditions are not known by others or the condition is stigmatizing.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_676.png" title="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." alt="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." width="100%" style="display: block; margin: auto;" />
+
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_676.png" alt="PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition." width="100%" style="display: block; margin: auto;" />
 
 ## Cancer research data and PHI
 
 Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants.
 
-<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_509.png" title="Genomics and Clinical data currently typically pose a higher risk for identification than most imaging data" alt="Genomics and Clinical data currently typically pose a higher risk for identification than most imaging data" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_509.png" alt="Genomics and Clinical data currently typically pose a higher risk for identification than most imaging data" width="100%" style="display: block; margin: auto;" />
 
 <!-- ### What genomic data is protected? -->
 <!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if participants are alive or not etc.-->
@@ -158,7 +171,7 @@ So what does this mean for the data you handle?
 
 - Summarized cohort data
 
- Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
+ Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions. There can also be exceptions to the assumption of safety and/or anonymity when cohort data involves specific groups of people.
 
 - De-identified data
 
@@ -214,6 +227,10 @@ If you feel that someone is using or sharing data that is in violation of HIPAA 
 If compliance is not resolved, then the covered entity may have to pay fines.
 
 Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of `$`50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to `$`250,000 and may face jail time of up to 10 years [@violations_2018].
+
+If it is deemed that a breach has occurred, the organization responsible for the breach is required to let affected individuals know. See [here](https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html) for more information.
+
+
 
 ### Common Violations
 

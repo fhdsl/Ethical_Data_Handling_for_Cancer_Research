@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Data Sharing | Ethical Data Handling for Cancer Research</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Data Sharing | Ethical Data Handling for Cancer Research" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-06-18" />
+<meta name="date" content="2024-09-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="data-security.html"/>
 <link rel="next" href="data-ethics.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
 div.csl-bib-body { }
@@ -104,20 +107,21 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="2" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>2</b> Data Privacy</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.1</b> PII (personal identifiable information)</a>
+<li class="chapter" data-level="2.1" data-path="data-privacy.html"><a href="data-privacy.html#privacy-vs-security"><i class="fa fa-check"></i><b>2.1</b> Privacy vs Security</a></li>
+<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>2.2</b> PII (personal identifiable information)</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.1.1</b> PII Risk</a></li>
+<li class="chapter" data-level="2.2.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>2.2.1</b> PII Risk</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.2</b> PHI (protected health information)</a></li>
-<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.3</b> PHI is a subset of PII</a></li>
-<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.4</b> PHI Risk</a></li>
-<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.5</b> Cancer research data and PHI</a></li>
-<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.6</b> How to ensure the privacy of this information</a></li>
-<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.7</b> How is HIPAA enforced?</a>
+<li class="chapter" data-level="2.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>2.3</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="2.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>2.4</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="2.5" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>2.5</b> PHI Risk</a></li>
+<li class="chapter" data-level="2.6" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>2.6</b> Cancer research data and PHI</a></li>
+<li class="chapter" data-level="2.7" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>2.7</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>2.8</b> How is HIPAA enforced?</a>
 <ul>
-<li class="chapter" data-level="2.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.7.1</b> Common Violations</a></li>
+<li class="chapter" data-level="2.8.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>2.8.1</b> Common Violations</a></li>
 </ul></li>
-<li class="chapter" data-level="2.8" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.8</b> Summary</a></li>
+<li class="chapter" data-level="2.9" data-path="data-privacy.html"><a href="data-privacy.html#summary"><i class="fa fa-check"></i><b>2.9</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>3</b> Data Security</a>
 <ul>
@@ -150,24 +154,25 @@ div.csl-indent {
 <li class="chapter" data-level="4" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>4</b> Data Sharing</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-sharing.html"><a href="data-sharing.html#data-sharing-is-important"><i class="fa fa-check"></i><b>4.1</b> Data sharing is important!</a></li>
-<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.2</b> Data repositories</a>
+<li class="chapter" data-level="4.2" data-path="data-sharing.html"><a href="data-sharing.html#benefits-of-data-sharing"><i class="fa fa-check"></i><b>4.2</b> Benefits of data sharing</a></li>
+<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-repositories"><i class="fa fa-check"></i><b>4.3</b> Data repositories</a>
 <ul>
-<li class="chapter" data-level="4.2.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.2.1</b> Genomic Data Repositories</a></li>
-<li class="chapter" data-level="4.2.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.2.2</b> Imaging data repositories</a></li>
-<li class="chapter" data-level="4.2.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.2.3</b> Repositories for journal articles</a></li>
-<li class="chapter" data-level="4.2.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.2.4</b> Small datasets</a></li>
+<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#genomic-data-repositories"><i class="fa fa-check"></i><b>4.3.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#imaging-data-repositories"><i class="fa fa-check"></i><b>4.3.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>4.3.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="4.3.4" data-path="data-sharing.html"><a href="data-sharing.html#small-datasets"><i class="fa fa-check"></i><b>4.3.4</b> Small datasets</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.3</b> Data Submission tips</a>
+<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#data-submission-tips"><i class="fa fa-check"></i><b>4.4</b> Data Submission tips</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.3.1</b> Use consistent and clear names</a></li>
-<li class="chapter" data-level="4.3.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.3.2</b> Make your project reproducible</a></li>
-<li class="chapter" data-level="4.3.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.3.3</b> Have someone else review your code and data!</a></li>
+<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>4.4.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="4.4.2" data-path="data-sharing.html"><a href="data-sharing.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>4.4.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="4.4.3" data-path="data-sharing.html"><a href="data-sharing.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>4.4.3</b> Have someone else review your code and data!</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.4</b> Health care data sharing tools</a>
+<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>4.5</b> Health care data sharing tools</a>
 <ul>
-<li class="chapter" data-level="4.4.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.4.1</b> REDCap (Research Electronic Data Capture)</a></li>
+<li class="chapter" data-level="4.5.1" data-path="data-sharing.html"><a href="data-sharing.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>4.5.1</b> REDCap (Research Electronic Data Capture)</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.5</b> Summary</a></li>
+<li class="chapter" data-level="4.6" data-path="data-sharing.html"><a href="data-sharing.html#summary-2"><i class="fa fa-check"></i><b>4.6</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="data-ethics.html"><a href="data-ethics.html"><i class="fa fa-check"></i><b>5</b> Data Ethics</a>
 <ul>
@@ -176,36 +181,44 @@ div.csl-indent {
 <li class="chapter" data-level="5.1.1" data-path="data-ethics.html"><a href="data-ethics.html#before-and-after-research"><i class="fa fa-check"></i><b>5.1.1</b> Before and after research</a></li>
 <li class="chapter" data-level="5.1.2" data-path="data-ethics.html"><a href="data-ethics.html#considerations-before"><i class="fa fa-check"></i><b>5.1.2</b> Considerations before</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a></li>
+<li class="chapter" data-level="5.2" data-path="data-ethics.html"><a href="data-ethics.html#after-considerations"><i class="fa fa-check"></i><b>5.2</b> After Considerations</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="data-ethics.html"><a href="data-ethics.html#why-does-it-mater-that-research-subjects-might-be-identifiable-to-others"><i class="fa fa-check"></i><b>5.2.1</b> Why does it mater that research subjects might be identifiable to others?</a></li>
+<li class="chapter" data-level="5.2.2" data-path="data-ethics.html"><a href="data-ethics.html#why-else-does-data-protection-matter-at-the-individual-level"><i class="fa fa-check"></i><b>5.2.2</b> Why else does data protection matter at the individual level?</a></li>
+</ul></li>
 <li class="chapter" data-level="5.3" data-path="data-ethics.html"><a href="data-ethics.html#data-ethics-history"><i class="fa fa-check"></i><b>5.3</b> Data ethics history</a>
 <ul>
 <li class="chapter" data-level="5.3.1" data-path="data-ethics.html"><a href="data-ethics.html#historical-incidences"><i class="fa fa-check"></i><b>5.3.1</b> Historical incidences:</a></li>
 </ul></li>
-<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#general-ethics-code"><i class="fa fa-check"></i><b>5.4</b> General Ethics Code</a>
+<li class="chapter" data-level="5.4" data-path="data-ethics.html"><a href="data-ethics.html#principles-of-bioethics"><i class="fa fa-check"></i><b>5.4</b> Principles of Bioethics</a>
 <ul>
-<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The <span>four pillars</span> (this discussion is from <span class="citation">Melvin (<span>2020</span>)</span>):</a></li>
-<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center <span>Seven Principles</span></a></li>
+<li class="chapter" data-level="5.4.1" data-path="data-ethics.html"><a href="data-ethics.html#the-four-pillars-this-discussion-is-from-melvin_medical_2020"><i class="fa fa-check"></i><b>5.4.1</b> The four pillars (this discussion is from <span class="citation">Melvin (2020)</span>):</a></li>
+<li class="chapter" data-level="5.4.2" data-path="data-ethics.html"><a href="data-ethics.html#the-nih-clinical-center-seven-principles"><i class="fa fa-check"></i><b>5.4.2</b> The NIH Clinical Center Seven Principles</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.5</b> Concept of Consent</a></li>
-<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.6</b> Medical Ethics Timeline</a>
+<li class="chapter" data-level="5.5" data-path="data-ethics.html"><a href="data-ethics.html#ethical-principles-for-data"><i class="fa fa-check"></i><b>5.5</b> Ethical Principles for Data</a></li>
+<li class="chapter" data-level="5.6" data-path="data-ethics.html"><a href="data-ethics.html#concept-of-consent"><i class="fa fa-check"></i><b>5.6</b> Concept of Consent</a></li>
+<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#medical-ethics-timeline"><i class="fa fa-check"></i><b>5.7</b> Medical Ethics Timeline</a>
 <ul>
-<li class="chapter" data-level="5.6.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.6.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
-<li class="chapter" data-level="5.6.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.6.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
-<li class="chapter" data-level="5.6.3" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.6.3</b> International Covenant on Civil and Political Rights (1966)</a></li>
-<li class="chapter" data-level="5.6.4" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.6.4</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
-<li class="chapter" data-level="5.6.5" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.6.5</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
-<li class="chapter" data-level="5.6.6" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.6.6</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
+<li class="chapter" data-level="5.7.1" data-path="data-ethics.html"><a href="data-ethics.html#the-hippocratic-oath-4th-century-bc"><i class="fa fa-check"></i><b>5.7.1</b> The Hippocratic Oath (~ 4th century BC)</a></li>
+<li class="chapter" data-level="5.7.2" data-path="data-ethics.html"><a href="data-ethics.html#american-medical-association-code-of-medical-ethics-1847"><i class="fa fa-check"></i><b>5.7.2</b> American Medical Association Code of Medical Ethics (1847)</a></li>
+<li class="chapter" data-level="5.7.3" data-path="data-ethics.html"><a href="data-ethics.html#declaration-of-helsinki-1964"><i class="fa fa-check"></i><b>5.7.3</b> Declaration of Helsinki (1964)</a></li>
+<li class="chapter" data-level="5.7.4" data-path="data-ethics.html"><a href="data-ethics.html#international-covenant-on-civil-and-political-rights-1966"><i class="fa fa-check"></i><b>5.7.4</b> International Covenant on Civil and Political Rights (1966)</a></li>
+<li class="chapter" data-level="5.7.5" data-path="data-ethics.html"><a href="data-ethics.html#beechers-ethics-and-clinical-research-1966"><i class="fa fa-check"></i><b>5.7.5</b> Beecher’s Ethics and clinical research (1966)</a></li>
+<li class="chapter" data-level="5.7.6" data-path="data-ethics.html"><a href="data-ethics.html#the-belmont-report-1979"><i class="fa fa-check"></i><b>5.7.6</b> The Belmont Report (1979)</a></li>
+<li class="chapter" data-level="5.7.7" data-path="data-ethics.html"><a href="data-ethics.html#health-insurance-portability-and-accountability-act-hipaa-1996"><i class="fa fa-check"></i><b>5.7.7</b> Health Insurance Portability and Accountability Act (HIPAA) (1996)</a></li>
+<li class="chapter" data-level="5.7.8" data-path="data-ethics.html"><a href="data-ethics.html#genetic-information-nondiscrimination-act-gina-2008"><i class="fa fa-check"></i><b>5.7.8</b> Genetic Information Nondiscrimination Act (GINA) (2008)</a></li>
+<li class="chapter" data-level="5.7.9" data-path="data-ethics.html"><a href="data-ethics.html#health-information-technology-for-economic-and-clinical-health-hitech-act-2009"><i class="fa fa-check"></i><b>5.7.9</b> Health Information Technology for Economic and Clinical Health (HITECH) Act (2009)</a></li>
 </ul></li>
-<li class="chapter" data-level="5.7" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.7</b> Causes of research misconduct</a></li>
-<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Consequences of research misconduct</a>
+<li class="chapter" data-level="5.8" data-path="data-ethics.html"><a href="data-ethics.html#causes-of-research-misconduct"><i class="fa fa-check"></i><b>5.8</b> Causes of research misconduct</a></li>
+<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#consequences-of-research-misconduct"><i class="fa fa-check"></i><b>5.9</b> Consequences of research misconduct</a>
 <ul>
-<li class="chapter" data-level="5.8.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.8.1</b> The Researcher</a></li>
-<li class="chapter" data-level="5.8.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.8.2</b> The Institute and Journals</a></li>
-<li class="chapter" data-level="5.8.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.8.3</b> The Field</a></li>
-<li class="chapter" data-level="5.8.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.8.4</b> Patients</a></li>
+<li class="chapter" data-level="5.9.1" data-path="data-ethics.html"><a href="data-ethics.html#the-researcher"><i class="fa fa-check"></i><b>5.9.1</b> The Researcher</a></li>
+<li class="chapter" data-level="5.9.2" data-path="data-ethics.html"><a href="data-ethics.html#the-institute-and-journals"><i class="fa fa-check"></i><b>5.9.2</b> The Institute and Journals</a></li>
+<li class="chapter" data-level="5.9.3" data-path="data-ethics.html"><a href="data-ethics.html#the-field"><i class="fa fa-check"></i><b>5.9.3</b> The Field</a></li>
+<li class="chapter" data-level="5.9.4" data-path="data-ethics.html"><a href="data-ethics.html#patients"><i class="fa fa-check"></i><b>5.9.4</b> Patients</a></li>
 </ul></li>
-<li class="chapter" data-level="5.9" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.9</b> Misconduct prevention</a></li>
-<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.10</b> Summary</a></li>
+<li class="chapter" data-level="5.10" data-path="data-ethics.html"><a href="data-ethics.html#misconduct-prevention"><i class="fa fa-check"></i><b>5.10</b> Misconduct prevention</a></li>
+<li class="chapter" data-level="5.11" data-path="data-ethics.html"><a href="data-ethics.html#summary-3"><i class="fa fa-check"></i><b>5.11</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="current-data-concerns.html"><a href="current-data-concerns.html"><i class="fa fa-check"></i><b>6</b> Current Data Concerns</a>
 <ul>
@@ -282,12 +295,12 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/itcr_main_image.png">
 </div>
-<div id="data-sharing" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Data Sharing</h1>
+<div id="data-sharing" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Data Sharing<a href="data-sharing.html#data-sharing" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In this chapter we will discuss the importance of data sharing, best practices for data sharing, places where you can store your data, as well as methods to share data in contexts in which you might have thought sharing was not possible!</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" title="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" /></p>
-<div id="data-sharing-is-important" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Data sharing is important!</h2>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" /></p>
+<div id="data-sharing-is-important" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Data sharing is important!<a href="data-sharing.html#data-sharing-is-important" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data.</p>
 <p>This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">here</a>.</p>
 <p>See this <a href="https://hutchdatascience.org/NIH_Data_Sharing/">course</a> for more information about how to comply with this policy.</p>
@@ -297,25 +310,35 @@ div.csl-indent {
 <p>There’s so many excellent reasons to put your data in a repository whether or not a journal requires it:</p>
 <p><strong>Sharing your data…</strong></p>
 <ol style="list-style-type: decimal">
-<li>Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing <span class="citation">(<a href="#ref-colavizza_citation_2020" role="doc-biblioref">Colavizza et al. 2020</a>)</span>.</li>
+<li>Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing <span class="citation">(<a href="#ref-colavizza_citation_2020">Colavizza et al. 2020</a>)</span>.</li>
 </ol>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" title="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Helps your relieve your own workload so your email inbox isn’t loaded by requests you probably don’t have time to respond to.</li>
 </ol>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" title="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.</li>
 </ol>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" title="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>It also provides more opportunities for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.</li>
+</ol>
 </div>
-<div id="data-repositories" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Data repositories</h2>
+<div id="benefits-of-data-sharing" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Benefits of data sharing<a href="data-sharing.html#benefits-of-data-sharing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In addition to these benefits to yourself, data sharing has other far reaching benefits. It can help support faster advances in science and medicine, by reducing the need to collect new data, which reduces costs, time and effort, including the effort and burden that is required to collect data on or from patients.</p>
+<p>It also helps support researchers at institutes that do not have as many resources to collect data.</p>
+<p>Ultimately it can also therefore help patients benefit from research faster, as faster advances can be made through more efficient research.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2fddd2b0ce1_0_0.png" alt="Data Sharing can also help with costs related to collecting data, reduces the time and effort to collect new data, including the burden on patients, it allows research to be more efficient, the same data can be used for multiple studies, which is especially helpful if combining different kinds of data and researchers don't necessarily have to ability to collect each kind of data, it supports researchers at insitutions that have less resources, and it helps patients get the benefits of research faster.’" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="data-repositories" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Data repositories<a href="data-sharing.html#data-repositories" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The best way to share your data is by putting it somewhere that others can download it (and it can be kept private when necessary). There’s many repositories out there that handle this for you.</p>
 <p>Below are some of the standard repositories for data you should consider.</p>
-<p><strong>For a longer list of repositories, we also advise consulting this <a href="https://www.nature.com/sdata/policies/repositories">Nature guidance on data repositories</a>.</strong></p>
-<div id="genomic-data-repositories" class="section level3" number="4.2.1">
-<h3><span class="header-section-number">4.2.1</span> Genomic Data Repositories</h3>
+<p><strong>For a longer list of repositories, we also advise consulting this Guide on data repositories](<a href="https://www.nature.com/sdata/policies/repositories" class="uri">https://www.nature.com/sdata/policies/repositories</a>) published by Nature.</strong></p>
+<div id="genomic-data-repositories" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Genomic Data Repositories<a href="data-sharing.html#genomic-data-repositories" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><a href="https://www.ncbi.nlm.nih.gov/">National Center for Biotechnology Information (NCBI)</a>
 <ul>
@@ -326,95 +349,97 @@ div.csl-indent {
 <li><a href="https://www.ddbj.nig.ac.jp/ddbj/submission-e.html">International Nucleotide Sequence Databases—DNA Data Bank of Japan (DDBJ)</a></li>
 </ul>
 </div>
-<div id="imaging-data-repositories" class="section level3" number="4.2.2">
-<h3><span class="header-section-number">4.2.2</span> Imaging data repositories</h3>
+<div id="imaging-data-repositories" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Imaging data repositories<a href="data-sharing.html#imaging-data-repositories" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><a href="https://idr.openmicroscopy.org/">Imaging data resource</a></li>
 <li><a href="https://www.cancerimagingarchive.net/primary-data/">Cancer imaging archive</a></li>
 </ul>
 </div>
-<div id="repositories-for-journal-articles" class="section level3" number="4.2.3">
-<h3><span class="header-section-number">4.2.3</span> Repositories for journal articles</h3>
+<div id="repositories-for-journal-articles" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Repositories for journal articles<a href="data-sharing.html#repositories-for-journal-articles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>For manuscripts or large datasets that are of atypical format, using one of these repositories is a good idea.
 The journal you submit to may have a recommendation of one over another. If not, you might end up having a preference.</p>
 <ul>
 <li><a href="https://cyverse.org/data-commons">CyVerse Data Commons Repository</a></li>
 <li><a href="https://datadryad.org/stash">Data Dryad</a></li>
 <li><a href="https://help.figshare.com/article/how-to-upload-and-publish-your-data">FigShare</a></li>
-<li><a href="https://help.zenodo.org/">ZENODO</a></li>
+<li><a href="https://help.zenodo.org/">Zenodo</a></li>
+<li><a href="https://github.com/">GitHub</a></li>
 </ul>
 </div>
-<div id="small-datasets" class="section level3" number="4.2.4">
-<h3><span class="header-section-number">4.2.4</span> Small datasets</h3>
-<p>Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.</p>
+<div id="small-datasets" class="section level3 hasAnchor" number="4.3.4">
+<h3><span class="header-section-number">4.3.4</span> Small datasets<a href="data-sharing.html#small-datasets" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data sets that are small or have an atypical format can be published as supplementary files as a part of a manuscript.</p>
 </div>
 </div>
-<div id="data-submission-tips" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Data Submission tips</h2>
+<div id="data-submission-tips" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Data Submission tips<a href="data-sharing.html#data-submission-tips" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Uploading a dataset to a data repository is a great step toward sharing your data! But, the dataset uploaded is unclear and unusable it might as well not been uploaded in the first place.</p>
 <p>Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" title="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" /></p>
 <p>To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
 There are two files you should make sure to include to help describe and organize your data project:</p>
 <ul>
 <li><a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes">A main README file</a> that orients others to what is included in your data.</li>
-<li>A metadata file that samples that are included, how they are connected, and when appropriate following privacy ethics, describes clinical features.
+<li>A metadata file that describes what data are included, how they are connected.
 <ul>
 <li><a href="https://genestack.com/assets/pdfs/The%20importance%20of%20metadata%20in%20genomics%20and%20the%20FAIR%20principles%20ebook.pdf">Standards for genomic metadata</a></li>
 </ul></li>
 </ul>
-<div id="use-consistent-and-clear-names" class="section level3" number="4.3.1">
-<h3><span class="header-section-number">4.3.1</span> Use consistent and clear names</h3>
+<div id="use-consistent-and-clear-names" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Use consistent and clear names<a href="data-sharing.html#use-consistent-and-clear-names" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes in detail your samples in a way that is clear without any prior knowledge of the project.</li>
+<li>Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes your samples in a way that is clear to those who might not have any prior knowledge of the project.</li>
 <li>Sample and data IDs should keep with standard formatting otherwise known in the field.</li>
 <li>Features names should avoid using genomic coordinates as these may change with new genome versions.</li>
 </ul>
 </div>
-<div id="make-your-project-reproducible" class="section level3" number="4.3.2">
-<h3><span class="header-section-number">4.3.2</span> Make your project reproducible</h3>
+<div id="make-your-project-reproducible" class="section level3 hasAnchor" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> Make your project reproducible<a href="data-sharing.html#make-your-project-reproducible" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Reproducible projects are able to be re-run by others to obtain the same results.</p>
 <p><strong>The main requirements for a reproducible project are:</strong></p>
 <ul>
 <li>The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).</li>
-<li>The code can be freely obtained from GitHub (or another similar repository).</li>
-<li>The software versions used to obtain the results are made clear by documentation or providing a Docker container.</li>
+<li>The code can be freely obtained from <a href="https://github.com/">GitHub</a> (or another similar repository).</li>
+<li>The software versions used to obtain the results are made clear by documentation or providing a <a href="https://www.docker.com/">Docker</a> container (more advanced option).</li>
 <li>The code and data are well described and organized with a system that is consistent.</li>
 </ul>
+<p>Check out our <a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html">introductory</a> and <a href="https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html">advanced</a> courses about reproducibility for more information.</p>
 </div>
-<div id="have-someone-else-review-your-code-and-data" class="section level3" number="4.3.3">
-<h3><span class="header-section-number">4.3.3</span> Have someone else review your code and data!</h3>
+<div id="have-someone-else-review-your-code-and-data" class="section level3 hasAnchor" number="4.4.3">
+<h3><span class="header-section-number">4.4.3</span> Have someone else review your code and data!<a href="data-sharing.html#have-someone-else-review-your-code-and-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The best way to find out if your data are useable by others is to have someone else look it over!
 There are so many little details that go into your data and projects. Those details can easily lead to typos and errors upon data submission and also can lead to confusion when others (or your future self) are attempting to use that data.The best way to test if your data project is usable is to have someone else (who has not prepared the data) is able to make sense of it.</p>
 <p>For more details on how to make data and code reproducible tips, see our <a href="https://www.itcrtraining.org/courses#h.ugabyqq1bigx">Intro to Reproducibility</a> course.</p>
 </div>
 </div>
-<div id="health-care-data-sharing-tools" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> Health care data sharing tools</h2>
+<div id="health-care-data-sharing-tools" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Health care data sharing tools<a href="data-sharing.html#health-care-data-sharing-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <!-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8178732/?report=classic -->
 <!-- Amazon Comprehend -->
 <!-- Healthcare Cost and Utilization Project (HCUP) -->
-<div id="redcap-research-electronic-data-capture" class="section level3" number="4.4.1">
-<h3><span class="header-section-number">4.4.1</span> REDCap (Research Electronic Data Capture)</h3>
+<div id="redcap-research-electronic-data-capture" class="section level3 hasAnchor" number="4.5.1">
+<h3><span class="header-section-number">4.5.1</span> REDCap (Research Electronic Data Capture)<a href="data-sharing.html#redcap-research-electronic-data-capture" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><a href="https://www.project-redcap.org/">REDCap</a> is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a <a href="https://i2b2transmart.org/redcapcon2022/">conference</a> dedicated to it.</p>
-<p>REDCap allows for multi-institutional work, as well as compliance with HIPAA, <a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11">21 CFR Part 11</a> for data for the FDA, <a href="https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act">FISMA</a> for government data, HIPAA, and <a href="https://gdpr-info.eu/">GDPR</a> for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research <span class="citation">(<a href="#ref-redcap_2022" role="doc-biblioref"><span>“<span>REDCap</span>”</span> 2022</a>)</span>.</p>
+<p>REDCap is a platform that allows for multi-institutional work and is compliant with multiple regulations including HIPAA, <a href="https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11">21 CFR Part 11</a> (FDA data), <a href="https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act">FISMA</a> (government data), and <a href="https://gdpr-info.eu/">GDPR</a> (data for the European Union). It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research <span class="citation">(<a href="#ref-redcap_2022"><span>“<span>REDCap</span>”</span> 2022</a>)</span>.</p>
 <p>You can find out more about how to use REDCap at the <a href="https://projectredcap.org/">REDCap website</a> which includes instructional <a href="https://projectredcap.org/resources/videos/">videos</a> and other resources.</p>
-<p>There are several things to keep in mind when using REDCap from an ethical standpoint.</p>
+<p>There are several things to keep in mind when using REDCap to ensure that data privacy and security are protected.</p>
 <ol style="list-style-type: decimal">
 <li>Roles</li>
 </ol>
-<p>REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, it is a good idea to restrict access to the smallest number of individuals necessary.</p>
-<p>You can modify these roles using the <code>User Rights</code> menu.</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" title="REDCap User Rights Menu" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" /></p>
+<p>REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, according to the Principal of Least Privilege, it is a good idea to restrict access to the smallest number of individuals necessary.</p>
+<p>You can modify roles using the <code>User Rights</code> menu.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" /></p>
 <p>This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" title="Menu items within the User Rights menu on REDcap" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" /></p>
-<p>These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.</p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" /></p>
+<p>Roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Reports</li>
 </ol>
 <p>Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on <a href="https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification">de-identification</a> to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.</p>
 <p>For example, you might remove the dates from the following report:</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" title="REDCap reports can be modified to remove identifiable information." alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Auditing</li>
 </ol>
@@ -427,27 +452,27 @@ There are so many little details that go into your data and projects. Those deta
 <li>Data can be locked</li>
 </ol>
 <p>You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified.</p>
-<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" title="Later project steps in REDCap can lock all data from being modified." alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="resources/images/04-Data_Sharing_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" /></p>
 <!-- Scott Carey can help with this section maybe -->
 <div class="warning">
 <p>Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.</p>
 </div>
 </div>
 </div>
-<div id="summary-2" class="section level2" number="4.5">
-<h2><span class="header-section-number">4.5</span> Summary</h2>
+<div id="summary-2" class="section level2 hasAnchor" number="4.6">
+<h2><span class="header-section-number">4.6</span> Summary<a href="data-sharing.html#summary-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In summary, in this chapter we covered the following concepts:</p>
 <ul>
 <li>Data sharing is important for advancing scientific understanding, transparency, and maximizing the value of your data.</li>
 <li>There are many data repositories where you can store and share your data, including general repositories like Data Dryad and FigShare, and repositories specific to certain data types like genomics or imaging data.</li>
 <li>When sharing data, be sure to organize and document your data well with things like a README file, consistent naming conventions, and metadata. Follow reproducibility practices whenever possible.</li>
 <li>Tools like REDCap can help manage clinical data while ensuring security, privacy, and reproducibility through features like role-based access controls, data auditing, and locking data after collection.</li>
-<li>Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don’t reveal aspects of the the data in code. Your local IRB may be able to help you learn how to do so.</li>
+<li>Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don’t reveal aspects of the data in the code. Your local IRB may be able to help you learn how to do so.</li>
 </ul>
 
 </div>
 </div>
-<h3>References</h3>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-colavizza_citation_2020" class="csl-entry">
 Colavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Barbara McGillivray. 2020. <span>“The Citation Advantage of Linking Publications to Research Data.”</span> <em>PLOS ONE</em> 15 (4): e0230416. <a href="https://doi.org/10.1371/journal.pone.0230416">https://doi.org/10.1371/journal.pone.0230416</a>.
@@ -458,11 +483,16 @@ Colavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Bar
 </div>
 <hr>
 <center>
+<div class="container">
+  <iframe class="responsive-iframe" src="https://c-savonen.shinyapps.io/widget-survey/?course_name=ethical_data" style="width: 400px; height: 220px; overflow: auto;"></iframe>
+</div>
+  </div>
+</center>
+
+<hr>
+<center>
   <div class="footer">
-      Please provide any feedback with <a href="https://forms.gle/hc8Xt3Y2Znjb6M4Y7">This form!</a> We appreciate your thoughts.
-      <br>
       All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
-      <br>
       All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
   </div>
 </center>

@@ -6,7 +6,7 @@
 
 In this chapter we will discuss the importance of data sharing, best practices for data sharing, places where you can store your data, as well as methods to share data in contexts in which you might have thought sharing was not possible! 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" title="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" />
 
 ## Data sharing is important!
 
@@ -26,15 +26,28 @@ There's so many excellent reasons to put your data in a repository whether or no
 
 1. Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing [@colavizza_citation_2020].
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" title="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" />
 
 2. Helps your relieve your own workload so your email inbox isn't loaded by requests you probably don't have time to respond to.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" title="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" />
 
 3. Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" title="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" />
+
+4. It also provides more opportunities for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.
+
+## Benefits of data sharing
+
+In addition to these benefits to yourself, data sharing has other far reaching benefits. It can help support faster advances in science and medicine, by reducing the need to collect new data, which reduces costs, time and effort, including the effort and burden that is required to collect data on or from patients.
+
+It also helps support researchers at institutes that do not have as many resources to collect data. 
+
+Ultimately it can also therefore help patients benefit from research faster, as faster advances can be made through more efficient research.
+
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2fddd2b0ce1_0_0.png" alt="Data Sharing can also help with costs related to collecting data, reduces the time and effort to collect new data, including the burden on patients, it allows research to be more efficient, the same data can be used for multiple studies, which is especially helpful if combining different kinds of data and researchers don't necessarily have to ability to collect each kind of data, it supports researchers at insitutions that have less resources, and it helps patients get the benefits of research faster.’" width="100%" style="display: block; margin: auto;" />
+
 
 ## Data repositories
 
@@ -42,7 +55,7 @@ The best way to share your data is by putting it somewhere that others can downl
 
 Below are some of the standard repositories for data you should consider.
 
-**For a longer list of repositories, we also advise consulting this [Nature guidance on data repositories](https://www.nature.com/sdata/policies/repositories).**
+**For a longer list of repositories, we also advise consulting this Guide on data repositories](https://www.nature.com/sdata/policies/repositories) published by Nature.**
 
 ### Genomic Data Repositories
 
@@ -65,11 +78,12 @@ The journal you submit to may have a recommendation of one over another. If not,
 - [CyVerse Data Commons Repository](https://cyverse.org/data-commons)
 - [Data Dryad](https://datadryad.org/stash)
 - [FigShare](https://help.figshare.com/article/how-to-upload-and-publish-your-data)
-- [ZENODO](https://help.zenodo.org/)
+- [Zenodo](https://help.zenodo.org/)
+- [GitHub](https://github.com/)
 
 ### Small datasets
 
-Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.
+Data sets that are small or have an atypical format can be published as supplementary files as a part of a manuscript.
 
 ## Data Submission tips
 
@@ -77,18 +91,18 @@ Uploading a dataset to a data repository is a great step toward sharing your dat
 
 Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" title="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
 
 To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
 There are two files you should make sure to include to help describe and organize your data project:
 
 - [A main README file](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes) that orients others to what is included in your data.
-- A metadata file that samples that are included, how they are connected, and when appropriate following privacy ethics, describes clinical features.
+- A metadata file that describes what data are included, how they are connected.
   - [Standards for genomic metadata](https://genestack.com/assets/pdfs/The%20importance%20of%20metadata%20in%20genomics%20and%20the%20FAIR%20principles%20ebook.pdf)
 
 ### Use consistent and clear names
 
-- Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes in detail your samples in a way that is clear without any prior knowledge of the project.
+- Make sure that sample and data IDs used are consistent across the project - make sure to include a metadata file that describes your samples in a way that is clear to those who might not have any prior knowledge of the project.
 - Sample and data IDs should keep with standard formatting otherwise known in the field.
 - Features names should avoid using genomic coordinates as these may change with new genome versions.
 
@@ -99,9 +113,11 @@ Reproducible projects are able to be re-run by others to obtain the same results
 **The main requirements for a reproducible project are:**
 
 - The data can be freely obtained from a repository (this maybe summarized data for the purposes of data privacy).
-- The code can be freely obtained from GitHub (or another similar repository).
-- The software versions used to obtain the results are made clear by documentation or providing a Docker container.
+- The code can be freely obtained from [GitHub](https://github.com/) (or another similar repository).
+- The software versions used to obtain the results are made clear by documentation or providing a [Docker](https://www.docker.com/) container (more advanced option).
 - The code and data are well described and organized with a system that is consistent.
+
+Check out our [introductory](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/introduction.html) and [advanced](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/introduction.html) courses about reproducibility for more information.
 
 ### Have someone else review your code and data!
 
@@ -121,25 +137,25 @@ For more details on how to make data and code reproducible tips, see our [Intro 
 
 [REDCap](https://www.project-redcap.org/) is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a [conference](https://i2b2transmart.org/redcapcon2022/) dedicated to it. 
 
-REDCap allows for multi-institutional work, as well as compliance with HIPAA, [21 CFR Part 11](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11) for data for the FDA, [FISMA](https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act) for government data, HIPAA, and [GDPR](https://gdpr-info.eu/) for data for the European Union. It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research [@redcap_2022]. 
+REDCap  is a platform that allows for multi-institutional work and is compliant with multiple regulations including HIPAA, [21 CFR Part 11](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11) (FDA data), [FISMA](https://www.techtarget.com/searchsecurity/definition/Federal-Information-Security-Management-Act) (government data), and [GDPR](https://gdpr-info.eu/) (data for the European Union). It was developed by a team at Vanderbilt University in 2004. It is not open-source, however it is free to use for non-commercial research [@redcap_2022]. 
 
 You can find out more about how to use REDCap at the [REDCap website](https://projectredcap.org/) which includes instructional [videos](https://projectredcap.org/resources/videos/) and other resources. 
 
-There are several things to keep in mind when using REDCap from an ethical standpoint.
+There are several things to keep in mind when using REDCap to ensure that data privacy and security are protected.
 
 1) Roles
 
-REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, it is a good idea to restrict access to the smallest number of individuals necessary. 
+REDCap allows for various roles to be established for users on a project. Thus access to certain data and tasks can be restricted to certain individuals. As described previously, according to the Principal of Least Privilege, it is a good idea to restrict access to the smallest number of individuals necessary. 
 
-You can modify these roles using the `User Rights` menu.
+You can modify roles using the `User Rights` menu.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" title="REDCap User Rights Menu" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
 
 This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" title="Menu items within the User Rights menu on REDcap" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
 
-These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
+Roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
 2) Reports
 
@@ -147,7 +163,7 @@ Reports that are exported can be customized to only show data that should be sha
 
 For example, you might remove the dates from the following report:
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" title="REDCap reports can be modified to remove identifiable information." alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
 
 
 3) Auditing
@@ -163,7 +179,7 @@ If your instruments are too long, this can result in accidentally sharing data t
 You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified. 
 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" title="Later project steps in REDCap can lock all data from being modified." alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
 
 
 <!-- Scott Carey can help with this section maybe -->
@@ -184,5 +200,5 @@ In summary, in this chapter we covered the following concepts:
 - There are many data repositories where you can store and share your data, including general repositories like Data Dryad and FigShare, and repositories specific to certain data types like genomics or imaging data.
 - When sharing data, be sure to organize and document your data well with things like a README file, consistent naming conventions, and metadata. Follow reproducibility practices whenever possible. 
 - Tools like REDCap can help manage clinical data while ensuring security, privacy, and reproducibility through features like role-based access controls, data auditing, and locking data after collection. 
-- Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don't reveal aspects of the the data in code. Your local IRB may be able to help you learn how to do so. 
+- Checking with your IRB first before sharing data, sharing code, or using new tools can help ensure that data is shared and accessed responsibly. Ideally such plans should be reviewed by your IRB before you begin a study. It is often possible to safely publicly share the code used to analyze protected data, as long as you don't reveal aspects of the data in the code. Your local IRB may be able to help you learn how to do so. 
 

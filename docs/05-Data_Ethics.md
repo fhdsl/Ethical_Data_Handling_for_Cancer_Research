@@ -6,21 +6,42 @@
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" title="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
 
 ## What is data ethics?
 
-Data ethics involves the consideration of data collection, maintenance, security, privacy, and sharing, and mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, and many topics are still under debate especially when it comes to cutting edge research.  However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, data security, and transparency.
+Data ethics involves the consideration of:
+
+- data collection
+- data security
+- data privacy
+- data maintenance
+- data sharing
+
+It also involves mindfulness about how our research can ultimately impact (or not impact as the case may be for research that lacks inclusivity and equity) research participants and other individuals. 
+
+Importantly, we do not yet have established societal norms or protocols for every aspect of medical research, particularly with respect to new types of data and new technologies, and many topics are still under debate especially when it comes to cutting edge research.  
+
+However, general principles of ethics can be helpful and involve practices for research integrity, consideration for social justice, and transparency. Health care and research ethics can also be helpful in evaluating practices for data management and use. 
+
 
 ### Before and after research
 
-Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. Researchers need to consider both how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
+Data ethics requires thoughtfulness *both* throughout the planning and research process to produce research that benefits society and does as little harm as possible, as well as mindfulness for what happens after the research is complete and published. 
+
+Researchers need to consider how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
+
+
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g3001a067199_0_0.png" alt="Research requires ethical considerations before and after research. Beforehand one should consider how to reduce risks but enhance benefits for research participants and society, if the planned samples will be inclusive, if the data collection on those samples will be inclusive, and will the data be managed in a safe and private way. Afterwards, one should consider if people will be able to re-identify research participants, if the might be able to in the future and what that might mean for those patients, and if and how others might misuse the data, code or findings. " width="100%" style="display: block; margin: auto;" />
+
+
+
 
 ### Considerations before
 
 Ethical research should involve consideration of how data should be collected, so that certain individuals are not left out of reaping the benefits of important research. For example, women, non-binary individuals, disabled individuals, and people of certain ethnic backgrounds, and intersections of various demographic factors have been historically left out of clinical trials or when included, their data was inadequately recorded [@clark_increasing_2019]. For example, clinical trials often have questions about sex or gender with limited binary options (overlooking [people without a binary sex](https://en.wikipedia.org/wiki/Intersex) and [non-binary gendered](https://en.wikipedia.org/wiki/Non-binary_gender) individuals) resulting in a lack of collection of important information that could impact clinical outcomes, research results, and communication about results [@chen_approach_2019].
 
-Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism and other societal aspects have influence bioethical and therefore data ethics practices, see @Farmer_2004.
+Beyond this, even basic studies have historically often neglected to evaluate female animal models which can provide a greater understanding of how the research may successfully translate to more individuals. Yet another example is the historical lack of diversity in genomic reference datasets. To learn more about how social injustice, sexism, and other societal aspects have influenced bioethical and therefore data ethics practices, see @Farmer_2004.
 
 
 ## After Considerations
@@ -31,21 +52,30 @@ While data sharing can result in wonderful opportunities for secondary analysis,
 Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020].
 
 
-Why does it mater that research subjects might be identifiable to others?
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestsions for sharing different types of data, with public access to anyone for model organism data and images of internal tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
+
+
+
+### Why does it mater that research subjects might be identifiable to others?
 
 In some cases open awareness about patients with certain types of cancers or diseases can be useful to allow other researchers and patients to find these individuals to encourage additional research and patient support group participation (especially for rare diseases or conditions).
 
 However, such information can put these individuals at risk for difficulty with insurance and employment, as well as at risk for other forms of discrimination. Furthermore, research data often also contains basic information about individuals, such as their address, which can be potentially deleterious for the safety of those individuals. New forms of research data from apps on our phone such as social media data collection, can pose more complicated risks based on data collection about the behaviors of research participants [@seh_breaches_2020].  
 
-Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised.
+Beyond the risk that data breaches pose to research participants, such breaches also cause harm to the research institutes where the breach occurred. Reputations and funding opportunities can be greatly compromised. Transparency and/or informed consent are discussed below as ways to mitigate these risks. 
 
 
-Why else does data protection matter at the individual level?
+### Why else does data protection matter at the individual level?
 
 If data gets manipulated or corrupted, this can result in false research findings, altered treatment plans by physicians, and more @seh_breaches_2020.
 
+If patients are concerned that information will be used against them, there is some evidence that they are less likely to be forthcoming and honest with their providers. This poses concerns for data quality as well as trust in clinicians and health systems [@nong_discrimination_2022].
+
+Perpetuation of inequity is often cyclical. Considerations before research shape our options after research. For example, if people are excluded from the research process, data models are more likely to be biased against those populations.
 
 We will discuss what can be done to reduce the risks of research participants and others from your research.
+
+
 
 
 
@@ -72,9 +102,9 @@ See [here](https://jhudatascience.org/Informatics_Research_Leadership/promoting-
 
 
 
-## General Ethics Code
+## Principles of Bioethics
 
-Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles.
+Several general concepts for Healthcare ethics, and by extension medical research ethics have been described in several commonly used ways, including the four pillars and the seven guiding principles. In the wake of medical and scientific abuses during WWII and beyond, several ethical principles and codes emerged.  The Belmont Report (1979) defines the core bioethical pillars that drive ethical analysis in healthcare and research even today.
 
 
 ### The [four pillars](https://educationprojects.co.uk/medical-ethics-ethical-dilemmas-in-healthcare/) (this discussion is from @melvin_medical_2020):
@@ -99,11 +129,12 @@ Patients need to make their own decisions about their health. They should be equ
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png" title="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " alt="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png" alt="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " width="100%" style="display: block; margin: auto;" />
 
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
-This discussion is from @Principles_2015.
+The NIH published its @Principles_2015, which stem from the four pillars described above to provide a framework for ensuring the protection of people who volunteer for clinical research.
+
 
 1)**Social and clinical value**
 
@@ -136,10 +167,30 @@ Individuals should be treated with respect for the entirety of the process inclu
   - respecting their right to change their mind, including providing them any new information about risks or benefits that might cause them to change their mind
   - respecting their welfare and providing treatment if needed and removing individuals for their welfare if needed
   - respecting their welfare and their right to knowledge by letting them know what was learned from the research
+  
+## Ethical Principles for Data
+
+These guidelines are also very useful for ensuring inclusive, transparent, open, and respectful data management practices:
+
+- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care), which largely focus on the self-determination of indigenous people and the usage of their data, as well as consideration for the impact and purpose of data: 
+
+  - **C** stands for: Collective Benefit
+  - **A** stands for: Authority to Control
+  - **R** stands for: Responsibility 
+  - **E** stands for: Ethics
+  
+- [FAIR Principles](https://www.go-fair.org/fair-principles/) aim to promote open data sharing:
+
+  - **F** stands for: Findable
+  - **A** stands for: Accessible
+  - **I** stands for: Interoperable
+  - **R** stands for: Reusable
+  
+It is encouraged to consider both the CARE and FAIR principles together. 
 
 ## Concept of Consent
 
-We have already talked about the concept of informed consent. Obtaining consent should also include (based on @IRB_Iowa and @wikipedia_informed_2023 and the author's thoughts):
+We have already talked about the concept of informed consent. Obtaining consent should also include the following elements (based on @IRB_Iowa and @wikipedia_informed_2023 and the author's thoughts):
 
   - Individuals should not feel pressured and should have adequate time to make the decision.
   - Individuals should not experience undue influence, be coerced or be manipulated - They should not feel pressured by the individual recruiting, such as a boss or someone else of power or by offers in exchange for participation that would sway the decision.
@@ -147,7 +198,9 @@ We have already talked about the concept of informed consent. Obtaining consent 
   - Individuals should be made aware of the uncertainty associated with risks and benefits
   - Individuals should have the capacity to understand the risks and benefits (this involves consideration for language barriers, intellectual capacity, emotional capacity, stress, sleep loss and other forms of physical strain)
   - Individuals should be able to withdraw consent at anytime
-  - Individuals should be respected through-out the process including consideration for the cultural values of the recruited populations
+  - Individuals should be respected throughout the process including consideration for the cultural values of the recruited populations
+  - Consent forms and processes should be reviewed by people with diverse expertise, such as understanding of ethics, equity, and patients and community experience
+
 
 
 ## Medical Ethics Timeline
@@ -157,7 +210,7 @@ It is helpful to get a sense of the timing when society established ethical medi
 <!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" title="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
 
 See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 
@@ -173,9 +226,62 @@ The United States [American Medical Association](https://code-medical-ethics.ama
 
 See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00158-0229.pdf) by @higgins_history_1989 and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132445/) by @moskop_hippocrates_2005 for more about the history of medical ethics codes. 
 
+### Declaration of Helsinki (1964)
+
+The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognized ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principals for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
+
+It outlines that research subjects welfare is the priority, that they have a right to self determination and the right to informed consent. Risks and benefits should be carefully considered and research should be discontinued if risks are determined to be to high [@wma_1964].
+
 ### International Covenant on Civil and Political Rights (1966)
 
 The United Nations adopted the concept of "free consent" (similar to informed consent) into international law [@wikipedia_informed_2023].
+
+### Beecher's Ethics and clinical research (1966)
+
+In 1966, Henry Beecher published an article called ["Ethics and clinical research"](https://www.scielosp.org/pdf/bwho/2001.v79n4/367-372/en), outlining serious ethical issues in biomedical research at the time. This encouraged the creation of additional guidelines [@beecher_ethics_1966; @stark_unintended_2016]. 
+
+### The Belmont Report (1979)
+
+The [Belmont Report](https://www.hhs.gov/ohrp/sites/default/files/the-belmont-report-508c_FINAL.pdf) was written to describe guidelines for human subjects in biomedical and behavioral research. The report aims to provide a general framework for ethical consideration of research. It states that:
+
+> These principles cannot always be applied so as to resolve beyond dispute particular ethical problems. The objective is to provide an analytical framework that will guide the resolution of ethical problems arising from research involving human subjects [@belmont_1979].
+
+Here we briefly describe some of the major aspects of the report [@belmont_1979].
+
+There are 3 ethical principals defined:
+
+1) Respect for Persons
+
+People should be allowed autonomy to use their judgment to make decisions for themselves. Those that cannot make all decisions for themselves, such as children or those who are incapacitated should be protected. 
+
+2) Beneficence
+
+Harm to human subjects should be minimized and benefits should be maximized.
+
+3) Justice
+
+Benefits and burdens of research should be distributed equally.
+
+> Justice demands both that these not provide advantages only to those who can afford them and that such research should not unduly involve persons from groups unlikely to be among the beneficiaries of subsequent applications of the research [@belmont_1979]
+
+The application of these principals should involve the following:
+
+1) Informed Consent
+
+Consent should involve: information, comprehension, and voluntariness.
+
+2) Assessment of Risks and Benefits
+
+Potential risks and benefits should be thoroughly evaluated, including if human subjects are truly necessary.
+
+> Benefits and risks must be "balanced" and shown to be "in a favorable ratio." [@belmont_1979]
+
+3) Selection of Subjects
+
+There must be fair procedures and outcomes in the selection of research subjects. Less burdened individuals should be called upon first to take on research burdens.
+
+Individuals who might be in conditions where they might be utilized for research more readily (such as those who are incarcerated or institutionalized), should be protected. 
+
 
 ### Health Insurance Portability and Accountability Act (HIPAA) (1996)
 
@@ -255,7 +361,7 @@ While personality traits were identified, the above reasons suggest that if rese
 
 ## Consequences of research misconduct
 
-Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_incidence_2017.
+Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_2017.
 
 <!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
 <!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
