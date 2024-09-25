@@ -375,6 +375,12 @@ While personality traits were identified, the above reasons suggest that if rese
 
 Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_2017.
 
+```{r, fig.align='center', echo = FALSE, fig.alt= "The consequences of research misconduct today impact many levels of people and are far reaching. The researchers themselves could face debarment, job loss, revoked degrees, revoked awards, and lawsuits, institutions and journals could face loses in their reputation or funding, The field can be misdirected and waste valuable time and effort. Finally most importantly, patients face slower progress in the treatment of disease and may lose trust in our health care and reserach systems", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g30574cf51bd_0_8")
+```
+
+
+
 <!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
 <!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
 <!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
@@ -400,6 +406,14 @@ Not only does misconduct lead to costs associated with a researcher and or insti
 ## Misconduct prevention
 
 Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "Incentivizing research quality over quantity can help prevent research misconduct. Integrity can be encouraged if evaluations for career progression places a high priority for ethical consideration, research quality, and rigor over simply publishing more.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g30574cf51bd_0_169")
+```
+
+
 
 ## Summary
 
