@@ -8,7 +8,7 @@ ottrpal::set_knitr_image_path()
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research.", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Explain some of the consequences of irresponsible research.", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g11ef3a2f2bf_0_4")
 ```
 
