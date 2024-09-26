@@ -217,9 +217,6 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
-<!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
-
-
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g15797d1181d_0_0")
 ```
