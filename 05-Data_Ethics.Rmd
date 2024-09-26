@@ -62,7 +62,11 @@ Overall there is a continuum of risk across the various types of data that we as
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g302b08a6790_0_0")
 ```
 
-Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. These suggestions may be out-of-date or may not be in alignment with institutional regulations, so please consult with experts at your organization. 
+Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. 
+
+:::warning
+By the time you read these suggestions, they may be out-of-date or they may not be in alignment with institutional regulations, so please consult with experts at your organization. 
+:::
 
 ### Why does it mater that research subjects might be identifiable to others?
 
