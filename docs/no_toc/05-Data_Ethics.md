@@ -52,9 +52,9 @@ While data sharing can result in wonderful opportunities for secondary analysis,
 Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020].
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestsions for sharing different types of data, with public access to anyone for model organism data and images of internal tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestions for sharing different types of data, with public access to anyone for model organism data and images of certain tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
 
-
+Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. These suggestions may be out-of-date or may not be in alignment with institutional regulations, so please consult with experts at your organization. 
 
 ### Why does it mater that research subjects might be identifiable to others?
 
@@ -363,6 +363,10 @@ While personality traits were identified, the above reasons suggest that if rese
 
 Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_2017.
 
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_8.png" alt="The consequences of research misconduct today impact many levels of people and are far reaching. The researchers themselves could face debarment, job loss, revoked degrees, revoked awards, and lawsuits, institutions and journals could face loses in their reputation or funding, The field can be misdirected and waste valuable time and effort. Finally most importantly, patients face slower progress in the treatment of disease and may lose trust in our health care and reserach systems" width="100%" style="display: block; margin: auto;" />
+
+
+
 <!-- https://en.wikipedia.org/wiki/Scientific_misconduct -->
 <!-- Goodstein, D. 2002. “Scientific Misconduct.” Academe Online; 88(1): -->
 <!-- https://www.ncbi.nlm.nih.gov/books/NBK475945/ -->
@@ -388,6 +392,12 @@ Not only does misconduct lead to costs associated with a researcher and or insti
 ## Misconduct prevention
 
 Several models have been proposed to reduce misconduct [@mousavi_review_2020; @kumar_theoretical_2010]. They center on evaluating the pressures in academic evaluation and advancement and avoiding using simple quantitative metrics, such as the number of publications that a researcher publishes, with out more nuanced evaluation. They point out that a lack of experience or knowledge can also increase the risk of misconduct. **It is suggested that the quality of research be prioritized over quantity.** This would reduce pressures on academics to obtain flashy looking metrics and instead focus on doing work with the utmost integrity and rigor in a system where evaluations could better value these qualities.
+
+
+
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_169.png" alt="Incentivizing research quality over quantity can help prevent research misconduct. Integrity can be encouraged if evaluations for career progression places a high priority for ethical consideration, research quality, and rigor over simply publishing more." width="100%" style="display: block; margin: auto;" />
+
+
 
 ## Summary
 
