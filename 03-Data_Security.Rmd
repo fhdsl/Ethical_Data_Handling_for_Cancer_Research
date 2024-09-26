@@ -350,7 +350,7 @@ Avoid clicking on links in emails as much as possible! If you know that your col
 
 An example of these types of phishing methods is if your colleague hasn't told you that he is sending a Google doc link and you receive an email from him with a link, then do not click it before verifying that the person really intended to send it. Yet another example is if an administrator sends you a link for you to update your password. Typically they will instead have you go to whatever portal you need to go to manually on your own to update your password. **Keep in mind that phishing criminals can make the emails look very legitimate!**
 
-Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
+Here is a [real example](https://w2.csun.edu/it/information-security/information-security-tips/avoid-fraudulent-email-messages/phishing-examples) of a such a phishing email from California State University Northridge:
 
 
 <div class = "email">
@@ -383,7 +383,7 @@ If someone asks for your credentials or personal information, you should be espe
 
 Often phishers will create a false urgent situation to trick you into clicking a link or giving information.
 
-Here is a [real example](https://www.csun.edu/it/phishing-examples) of a such a phishing email from California State University Northridge:
+Here is a [real example](https://w2.csun.edu/it/information-security/information-security-tips/avoid-fraudulent-email-messages/phishing-examples) of a such a phishing email from California State University Northridge:
 
 
 <div class = "email">

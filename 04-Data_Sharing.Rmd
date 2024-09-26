@@ -177,7 +177,7 @@ Roles should be verified by your institutional review board (IRB) before beginni
 
 2) Reports
 
-Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on [de-identification](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification) to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.
+Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on [de-identification](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification) to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.
 
 For example, you might remove the dates from the following report:
 
