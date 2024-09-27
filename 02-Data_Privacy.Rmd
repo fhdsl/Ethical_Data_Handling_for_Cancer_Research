@@ -167,7 +167,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 <!-- GINA is critical to the well-being of research participants, however this does not nullify the benefits and necessity of data sharing. Indeed both things are true: genetic data is sensitive and its protection is imperative *but* for research to benefit society and reach cures data sharing is also critical. -->
 
-<!-- So what does GINA mean in terms of data sharing? The principle of [least privilege](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principal-of-least-privilege) discussed in the previous security chapter still applies. -->
+<!-- So what does GINA mean in terms of data sharing? The principle of [least privilege](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#the-principle-of-least-privilege) discussed in the previous security chapter still applies. -->
 
 <!-- For many genetic data types a controlled access database is the appropriate solution to balance data sharing while maintaining the security of these data. One such database is dbGaP. dbGaP holds genetic dataset information but for individuals to gain access, they must apply and explain how their project and access will be of benefit. More details about how these applications for access are [described here](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=GeneralAAInstructions.pdf). -->
 
