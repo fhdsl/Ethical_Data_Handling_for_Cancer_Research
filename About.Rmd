@@ -16,15 +16,15 @@ These credits are based on our [course contributors table guidelines](https://gi
 |-------|-----|
 |**Pedagogy**||
 |Lead Content Instructor|[Carrie Wright]|
-|Content Contributors|[Candace Savonen] (sections of Data Sharing, Data Security, Data Ethics, and quizzes)|
+|Content Contributors|[Candace Savonen] (sections of Data Sharing, Data Security, Data Ethics, and Coursera/Leanpub quizzes), [Kate Isaac] (Coursera practice quizzes)|
 |Content Editors/Reviewers|[Candace Savonen], [Jeff Leek], [Jodyn Platt]|
 |Content Directors| [Jeff Leek]|
 |Content Consultant (General)| [Elana Fertig]|
 |Content Consultants (REDCap section)| Jennifer Durham|
 |Acknowledgments ||
 |**Production**||
-|Content Publisher|[Ira Gooding], [Kate Isaac]|
-|Content Publishing Reviewers|[Ira Gooding], [Candace Savonen]|
+|Content Publisher|[Kate Isaac]|
+|Content Publishing Reviewers|[Candace Savonen]|
 |**Technical**||
 |Course Publishing Engineer|[Carrie Wright]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
@@ -45,7 +45,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 [Shasta Nicholson]: https://www.linkedin.com/in/shastanicholson/
 [Jodyn Platt]: https://sph.umich.edu/faculty-profiles/platt-jodyn.html
 [Elana Fertig]: https://fertiglab.com/
-[Ira Gooding]: https://publichealth.jhu.edu/faculty/4130/ira-gooding
 [John Muschelli]: https://johnmuschelli.com/
 [Kate Isaac]: https://kweav.github.io/
 
