@@ -15,31 +15,40 @@ These credits are based on our [course contributors table guidelines](https://gi
 |Credits|Names| 
 |-------|-----|
 |**Pedagogy**||
-|Lead Content Instructor|[Carrie Wright](https://carriewright11.github.io)|
-|Content Contributors|[Candace Savonen](https://www.cansavvy.com/) (sections of Data Sharing, Data Security, Data Ethics, and quizzes)|
-|Content Editors/Reviewers|[Candace Savonen](https://www.cansavvy.com/), [Jeff Leek](https://jtleek.com/), [Jodyn Platt](https://sph.umich.edu/faculty-profiles/platt-jodyn.html)|
-|Content Directors| [Jeff Leek](https://jtleek.com/)|
-|Content Consultant (General)| [Elana Fertig](https://fertiglab.com/)|
+|Lead Content Instructor|[Carrie Wright]|
+|Content Contributors|[Candace Savonen] (sections of Data Sharing, Data Security, Data Ethics, and quizzes)|
+|Content Editors/Reviewers|[Candace Savonen], [Jeff Leek], [Jodyn Platt]|
+|Content Directors| [Jeff Leek]|
+|Content Consultant (General)| [Elana Fertig]|
 |Content Consultants (REDCap section)| Jennifer Durham|
 |Acknowledgments ||
 |**Production**||
-|Content Publisher|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding)|
-|Content Publishing Reviewers|[Ira Gooding](https://publichealth.jhu.edu/faculty/4130/ira-gooding), [Candace Savonen](https://www.cansavvy.com/)|
+|Content Publisher|[Ira Gooding], [Kate Isaac]|
+|Content Publishing Reviewers|[Ira Gooding], [Candace Savonen]|
 |**Technical**||
-|Course Publishing Engineer|[Carrie Wright](https://carriewright11.github.io/)|
-|Template Publishing Engineers|[Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/) [Ava Hoffman]|
-|Publishing Maintenance Engineer|[Candace Savonen](https://www.cansavvy.com/)|
-|Technical Publishing Stylists|[Carrie Wright](https://carriewright11.github.io/), [Candace Savonen](https://www.cansavvy.com/)|
-|Package Developers ([ottrpal](https://github.com/jhudsl/ottrpal))|[John Muschelli](https://johnmuschelli.com/), [Candace Savonen](https://www.cansavvy.com/), [Carrie Wright](https://carriewright11.github.io/)|
+|Course Publishing Engineer|[Carrie Wright]|
+|Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
+|Publishing Maintenance Engineer|[Candace Savonen]|
+|Technical Publishing Stylists|[Carrie Wright], [Candace Savonen]|
+|Package Developers ([ottrpal](https://github.com/jhudsl/ottrpal))|[Candace Savonen], [John Muschelli], [Carrie Wright]|
 |**Art and Design**||
-|Illustrator|[Carrie Wright](https://carriewright11.github.io)|
+|Illustrator|[Carrie Wright]|
 |**Funding**||
 |Funder|[National Cancer Institute (NCI)](https://www.cancer.gov/) [UE5 CA254170](https://grantome.com/grant/NIH/UE5-CA254170-01)|
 |Funding Staff| [Sandra Ormbrek], [Shasta Nicholson] |
 
+[Carrie Wright]: https://carriewright11.github.io
+[Candace Savonen]: https://www.cansavvy.com/
+[Jeff Leek]: https://jtleek.com/
 [Ava Hoffman]: https://www.avahoffman.com/
 [Sandra Ormbrek]: https://hutchdatascience.org/ourteam/
 [Shasta Nicholson]: https://www.linkedin.com/in/shastanicholson/
+[Jodyn Platt]: https://sph.umich.edu/faculty-profiles/platt-jodyn.html
+[Elana Fertig]: https://fertiglab.com/
+[Ira Gooding]: https://publichealth.jhu.edu/faculty/4130/ira-gooding
+[John Muschelli]: https://johnmuschelli.com/
+[Kate Isaac]: https://kweav.github.io/
+
 
 &nbsp;
 
