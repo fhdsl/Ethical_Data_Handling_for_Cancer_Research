@@ -1,6 +1,6 @@
 --- 
 title: "Ethical Data Handling for Cancer Research"
-date: "2024-09-26"
+date: "2024-10-01"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
