@@ -6,7 +6,7 @@
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Understand the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Explain some of the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
 
 ## What is data ethics?
 
@@ -54,7 +54,11 @@ Overall there is a continuum of risk across the various types of data that we as
 
 <img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestions for sharing different types of data, with public access to anyone for model organism data and images of certain tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
 
-Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. These suggestions may be out-of-date or may not be in alignment with institutional regulations, so please consult with experts at your organization. 
+Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. 
+
+:::warning
+By the time you read these suggestions, they may be out-of-date or they may not be in alignment with institutional regulations, so please consult with experts at your organization. 
+:::
 
 ### Why does it mater that research subjects might be identifiable to others?
 
@@ -207,9 +211,6 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
-<!-- <div id="934B460036D53660C557F2FC651EA51CB15"><div id="934B460036D53660C557F2FC651EA51CB15_91242_robot"><a href="https://cloud.smartdraw.com/share.aspx/?pubDocShare=934B460036D53660C557F2FC651EA51CB15" target="_blank"><img src="https://cloud.smartdraw.com/cloudstorage/934B460036D53660C557F2FC651EA51CB15/preview2.png"></a></div></div><script src="https://cloud.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script><script type="text/javascript">SDJS_Widget("934B460036D53660C557F2FC651EA51CB15",91242,0,"");</script><br/> -->
-
-
 <img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
 
 See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
@@ -228,7 +229,7 @@ See [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2280818/pdf/canfamphys00
 
 ### Declaration of Helsinki (1964)
 
-The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognized ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principals for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
+The [Declaration of Helsinki](https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/) was published by the World Medical Association (WMA) and is considered "the world’s most widely recognized ethical principle for medical research involving humans" [@kurihara_declaration_2024]. It describes a set of principles for "medical research involving human subjects, including research on identifiable human material and data." It has been amended several times and the WMA aims to keep it up to date.
 
 It outlines that research subjects welfare is the priority, that they have a right to self determination and the right to informed consent. Risks and benefits should be carefully considered and research should be discontinued if risks are determined to be to high [@wma_1964].
 
@@ -248,7 +249,7 @@ The [Belmont Report](https://www.hhs.gov/ohrp/sites/default/files/the-belmont-re
 
 Here we briefly describe some of the major aspects of the report [@belmont_1979].
 
-There are 3 ethical principals defined:
+There are 3 ethical principles defined:
 
 1) Respect for Persons
 
@@ -264,7 +265,7 @@ Benefits and burdens of research should be distributed equally.
 
 > Justice demands both that these not provide advantages only to those who can afford them and that such research should not unduly involve persons from groups unlikely to be among the beneficiaries of subsequent applications of the research [@belmont_1979]
 
-The application of these principals should involve the following:
+The application of these principles should involve the following:
 
 1) Informed Consent
 

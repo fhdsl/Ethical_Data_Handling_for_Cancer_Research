@@ -6,7 +6,7 @@
 
 Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Understand what the current ethical dilemmas are in the current climate of biomedical research 2. Be aware of methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Eplain what some of the current ethical dilemmas are in the current climate of biomedical research 2. Recognize methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
 
 
 ## Current Ethical Issues
