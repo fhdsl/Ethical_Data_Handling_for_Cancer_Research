@@ -76,9 +76,9 @@ The `-` at the beginning indicates that the file is a regular file, the next 3 v
 There are commands to modify file permissions. If you are using a Unix-like system, you can modify permissions with the `chmod` command, which stands for "change mode" [@chmod].
 
 
-#### The principal of least privilege
+#### The principle of least privilege
 
-The principal of least privilege (PoLP) also called the principal of least authority specifies that users should only have access to the data or resources necessary to complete a task.
+The principle of least privilege (PoLP) also called the principle of least authority specifies that users should only have access to the data or resources necessary to complete a task.
 
 If someone does not need access to perform work, they should not be given access. Furthermore, if someone is given access to perform a task and they complete that task, access should then be removed from that person. Additionally, if someone only needs to read a file, then they do not need  access to modify the file. In this case a user can have read permissions but not write permissions. Ultimately this type of management leads to the least number of users having access to read or alter protected or sensitive data at a given time [@CISA_Least_Privilege; @Wikipedia_principle].
 
@@ -407,7 +407,7 @@ In summary, we covered issues related to data security in this chapter. We prese
 - Authentication is the process of verifying the identity of users and servers in a communication. Users provide their credentials (username and password), while servers present certificates to confirm their identity.
 - Authorization is the process of ensuring that someone has permission to access a file or computing resource in a particular way. 
 - In Unix-like systems, files have permissions for three types of users: owner, group users, and other users. These permissions include read, write, and execute privileges, and they are represented by letters (r, w, x) in file listings.
-- Principal of Least Privilege: This principle states that users should only have access to data or resources necessary to complete their tasks. Unnecessary access should be avoided, and privileges should be revoked when no longer needed.
+- Principle of Least Privilege: This principle states that users should only have access to data or resources necessary to complete their tasks. Unnecessary access should be avoided, and privileges should be revoked when no longer needed.
 - It is crucial to use secure WiFi networks and avoid public ones whenever possible. If necessary, use a Virtual Private Network (VPN) to enhance security while using public networks.
 - Strong passwords should be used, preferably in the form of sentences with symbols and numbers. Password managers like Keychain, Dashlane, or other services can help securely store passwords.
 - Computers use caching to store recent data for faster access. Clearing caches regularly is essential to avoid security risks and potential exposure of sensitive data.
