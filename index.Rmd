@@ -1,5 +1,5 @@
 --- 
-title: "Ethical Data Handling for Cancer Research"
+title: "Ethical Data Handling"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
