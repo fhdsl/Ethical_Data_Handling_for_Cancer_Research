@@ -197,13 +197,13 @@ It has been shown that certain types of de-identified genomic data can be re-ide
 
 The following articles have more extensive information about the current re-identification risk of different genomic data types:
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/
-https://pubmed.ncbi.nlm.nih.gov/23329047/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/
-https://www.eff.org/issues/genetic-information-privacy
-https://www.eff.org/issues/law-and-medical-privacy
-https://www.nature.com/articles/d41586-021-00331-5
+- [Privacy considerations for sharing genomics data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/)
+- [Identifying personal genomes by surname inference](https://pubmed.ncbi.nlm.nih.gov/23329047/)
+- [Preserving genomic privacy via selective Sharing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/)
+- [Impact of HIPAA’s minimum necessary standard on genomic data sharing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/)
+- [Genetic information privacy](https://www.eff.org/issues/genetic-information-privacy)
+- [The law and medical privacy](https://www.eff.org/issues/law-and-medical-privacy)
+- [Challenges of sharing genomic data](https://www.nature.com/articles/d41586-021-00331-5)
 
 
 ## How to ensure the privacy of this information
