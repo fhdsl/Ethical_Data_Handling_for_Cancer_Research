@@ -6,7 +6,7 @@ ottrpal::set_knitr_image_path()
 
 # Data Privacy
 
-Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
+Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter, we will discuss data management strategies to maintain compliance with these important regulations.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_1758")
