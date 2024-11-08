@@ -4,7 +4,7 @@
 
 # Data Privacy
 
-Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
+Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter, we will discuss data management strategies to maintain compliance with these important regulations.
 
 <img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1758.png" alt="Learning Objectives: 1.Define the terms personal identifiable information (PII) and protected health information (PHI), 2. Describe the difference between PII and PHI, 3.Explain the risks associated with PII and PHI 4. Explain what HIPAA is and how to maintain complaince 5. List strategies used to protect PHI" width="100%" style="display: block; margin: auto;" />
 
@@ -31,7 +31,7 @@ Data privacy has a close relationship with data security. Both are concerned wit
 
 PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
 
-PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppii) as:
+PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppii){target="_blank"}  as:
 
 > "Any representation of information that permits the **identity** of an individual to whom the information applies to be reasonably inferred by either **direct** or **indirect** means."
 
