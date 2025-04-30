@@ -122,7 +122,7 @@ PHI is really a subset of PII. It is personal identifiable information that rela
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
 ```
 
-Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless the are  in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
+Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless they are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
 
 ## PHI Risk
 
