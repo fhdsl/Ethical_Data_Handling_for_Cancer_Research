@@ -181,7 +181,7 @@ So what does this mean for the data you handle?
   - Exome sequencing
   - Whole transcriptome sequencing
 - Single nucleotide polymorphisms
-- Geneology information
+- Genealogy information
 
 **What is not protected and generally is safe:**   
 
