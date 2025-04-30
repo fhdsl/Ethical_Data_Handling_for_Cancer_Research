@@ -71,7 +71,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ### PII Risk
 
-What is the risk of PII getting into the hands of people it shouldn't? Why was the Protection Act necessary?
+What is the risk of PII getting into the hands of people it shouldn't? Why was the Privacy Act necessary?
 
 PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
