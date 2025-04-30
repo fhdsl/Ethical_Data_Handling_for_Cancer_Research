@@ -246,7 +246,7 @@ If your computer gets hacked by hackers through a phishing email or otherwise, t
 
 3) Unauthorized Access
 
-Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore using your laptop in public or even at home can pose a risk from people who walk by.
+Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore using your laptop in public or even at home can pose a risk from people who walk by if you have the data open.
 
 4) Loss or Theft of Devices
 
@@ -260,7 +260,7 @@ Sometimes there are remnants of your data still on your device!
 
 Accessing your data form an unsecured WIFI network can also make the data vulnerable.
 
-See [here](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
+See [the Privacy Rule and research FAQs](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
 
 In the next chapter, we will talk about measures that you can do to avoid these violations.
 
