@@ -63,7 +63,7 @@ Thus this information is categorized in two ways as being nonsensitive  which is
 
 ### PII Risk
 
-What is the risk of PII getting into the hands of people it shouldn't? Why was the Protection Act necessary?
+What is the risk of PII getting into the hands of people it shouldn't? Why was the Privacy Act necessary?
 
 PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
@@ -110,7 +110,7 @@ PHI is really a subset of PII. It is personal identifiable information that rela
 
 <img src="resources/images/02-Data_Privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_497.png" alt="PHI is a subset of PII that pertains to health" width="100%" style="display: block; margin: auto;" />
 
-Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless the are  in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
+Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless they are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
 
 ## PHI Risk
 
@@ -165,7 +165,7 @@ So what does this mean for the data you handle?
   - Exome sequencing
   - Whole transcriptome sequencing
 - Single nucleotide polymorphisms
-- Geneology information
+- Genealogy information
 
 **What is not protected and generally is safe:**   
 
@@ -194,19 +194,19 @@ The following articles have more extensive information about the current re-iden
 
 Your institution will have guidance regarding how to keep this information private and protected but in general there are 4 main strategies we will summarize here:
 
-1. As few eyes as possible
+1. Limit access to the data
 
-The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle the data.
+The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle data.
 Make sure the data is stored in a place that only these few people who are allowed have access to it. If you aren't sure who has access to a place -- don't put the data there!
 
 2. Aggressively de-identify the shared data
 
-Before results or data are shared or published, it is aggressively de-identified. We will talk more about what this is in the next chapter.
-If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.
+Before results or data are shared or published, they must be de-identified. We will talk more about what this is in the next chapter.
+If data have been summarized over the cohort and there are no identifiers then it is probably safe to share.
 
 3. Consider a data use agreement
 
-Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.
+Data use agreements (DUA) are required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.
 
 See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
@@ -246,11 +246,11 @@ If your computer gets hacked by hackers through a phishing email or otherwise, t
 
 3) Unauthorized Access
 
-Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore leaving your laptop open to PHI data in public or even at home can pose a risk from people who walk by.
+Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore using your laptop in public or even at home can pose a risk from people who walk by.
 
 4) Loss or Theft of Devices
 
-If your laptop are external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next. Again the measures in the next chapter will help to avoid this potential issue.
+If your laptop or external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next. Again the measures in the next chapter will help to avoid this potential issue.
 
 5) Improper Disposal of data or devices
 
