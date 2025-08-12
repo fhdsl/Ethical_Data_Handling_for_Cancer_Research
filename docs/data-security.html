@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Data Security | Ethical Data Handling</title>
   <meta name="description" content="This course covers material about economic, privacy, security, usability, and discoverability aspects of data management for cancer research." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Data Security | Ethical Data Handling" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-02-21" />
+<meta name="date" content="2025-08-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -301,12 +301,12 @@ div.csl-indent {
 <div id="data-security" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Data Security<a href="data-security.html#data-security" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>In this chapter we will discuss best practices for keeping your data safe and secure.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_24.png" alt="Learning Objectives: 1.Define the term data security, 2. Describe major data security strategies, 3.Explain the basics of how encryption works, 4.Be aware of how data security practices may or may not be a part of your workflow" width="100%" style="display: block; margin: auto;" /></p>
 <p>Data security involves protecting your data from human error, as well as from cybercriminals. Precious data needs to be protected from being corrupted (rendered unusable), being deleted, being misused, and being leaked to the public when the data is sensitive or private (as is the case with much of our clinical data)<span class="citation">(<a href="#ref-IBM_data_security"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> n.d.</a>)</span>.</p>
 <div id="data-security-strategies" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Data Security Strategies<a href="data-security.html#data-security-strategies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>There a several major strategies to achieve data security. We will cover the following 4 major categories, in part according to <span class="citation"><span>“What Is <span>Data</span> <span>Security</span>? <span>Data</span> <span>Security</span> <span>Definition</span> and <span>Overview</span>”</span> (<a href="#ref-IBM_data_security">n.d.</a>)</span>.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_7.png" alt="Major Data Security Methods: 1) Restricted access - minimizing access to only authorized users, 2) Data masking - removing/obscuring/changing values a) De-identification -concealing data that can be used to identify patients b) Data encryption - translating the data mathematically 3) Data erasure - fully deleting all traces of data from shared spaces, 4) Data resiliency - maintaining backups of the data and recovery strategies" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="data-access" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Data access<a href="data-security.html#data-access" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -321,7 +321,7 @@ div.csl-indent {
 <div id="permissions" class="section level3 hasAnchor" number="3.2.3">
 <h3><span class="header-section-number">3.2.3</span> Permissions<a href="data-security.html#permissions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you use the command line, you may have noticed that files are sometimes listed with letters like so:</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_31.png" alt="File permission example showing that there are 10-11 letters listed before other file information." width="100%" style="display: block; margin: auto;" /></p>
 <p>These letters indicate the users ability to perform tasks for each file called file system permissions.</p>
 <p>In unix or unix-like systems, there are three types of users:</p>
 <ol style="list-style-type: decimal">
@@ -335,7 +335,7 @@ div.csl-indent {
 <li><strong>write (w)</strong> - the user can modify the file, or the user can create or delete files in the case of a directory (or folder)</li>
 <li><strong>execute (x)</strong> - the user can execute a file - this allows the operating system to run the file, for example a user could run a script, or the user can search among files in the case of a directory (or folder)</li>
 </ol>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gfc518be854_0_0.png" alt="File permissions figure showing that the order is consistent with information first about the file type, then about owner permissions, then about group permissions, then about other user permissions, permissions also follow a standard order of read, write, and execute. If there is a - symbol in the permission information then this indicates that that type of user does not have those permissions for that file." width="100%" style="display: block; margin: auto;" /></p>
 <p>Values for permission follow a standard form:</p>
 <ul>
 <li>The first value indicates information about the <a href="https://en.wikipedia.org/wiki/Unix_file_types">file type</a>, if it is a regular file it is often just a <code>-</code>. This does not indicate any information about permissions. If it is a link to a file located somewhere else it is indicated with an <code>l</code>.</li>
@@ -363,7 +363,7 @@ div.csl-indent {
 <p>Passwords need to be effective. This means they should be hard to guess by people who should not have them. Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers <span class="citation">(<a href="#ref-passwords"><span>“Guidelines for <span>Strong</span> <span>Passwords</span> · <span>Information</span> <span>Technology</span> <span>Services</span> · <span>Lafayette</span> <span>College</span>”</span> n.d.</a>)</span>.</p>
 <p>Don’t share your password and keep it safe!</p>
 <p>We highly suggest you consider a password manager to keep your passwords extra safe and secure. If you have a Mac, you could consider storing it in your <a href="https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac">Keychain</a>, alternatively if you have a different type of computer or don’t like the Mac Keychain, consider <a href="https://www.dashlane.com/">Dashlane</a> or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="cached-data" class="section level3 hasAnchor" number="3.2.6">
 <h3><span class="header-section-number">3.2.6</span> Cached data<a href="data-security.html#cached-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -397,11 +397,11 @@ div.csl-indent {
 <div id="data-masking" class="section level2 hasAnchor" number="3.3">
 <h2><span class="header-section-number">3.3</span> Data masking<a href="data-security.html#data-masking" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Data masking refers to several several methods for protecting sensitive data. One example you might be familiar with is encryption. Encryption is a relatively complex method of data masking. There are other methods for obscuring parts of the data that are less complex, such as simply removing pieces of information, showing only parts of data values or shuffling the data.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g1016753ce66_0_0.png" alt="Data Masking Methods can include: deletion or nulling out by making a value in the data invisible to others. Masking out: showing only part of a data value, Number and date variance  - changing or varying the data values by a small amount so that it is still meaningful but less traceable, Shuffling  -  moving around the data points (for example the order of participants) - again meaningful but less traceable, Substitution - changing a field that renders the value less traceable - for example using de-identification numbers instead of patient names, Encryption - complex encoding or translation of data values following a key of instructions" width="100%" style="display: block; margin: auto;" /></p>
 <div id="de-identification" class="section level3 hasAnchor" number="3.3.1">
 <h3><span class="header-section-number">3.3.1</span> De-identification<a href="data-security.html#de-identification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Data de-identification is the process of removing any values that could be used to identify an individual. In other words, it is the process of obscuring the identity of the individuals who have data values within a data set.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1215.png" alt="De-identification of data is a balance between removing identifiable information and preserving useful information. It requires an expert to understand the particular risks of that data." width="100%" style="display: block; margin: auto;" /></p>
 <p>Re-identification is the process of determining the identity of such individuals based on data <span class="citation">(<a href="#ref-de-identification_2022"><span>“De-Identification”</span> 2022</a>)</span>. Typically an ID number is assigned to each individual to allow for re-identification.</p>
 <p>The key for these ID numbers and the original identifier information should be stored in a safe manner with a limited number of individuals with access. The ID number should <strong><em>not</em></strong> be created by using any identifiable information (for example birthday -15*32 followed by the first digit of Zip code). In some cases people use what is called a <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">cryptographic hash function</a> which is a condensed representation of an individual’s data (including identifiable information) to a standard ID length. Such functions are HIPAA compliant under special circumstances, such as restricted access because they are very difficult to decipher. These hash function IDs have an advantage of allowing for the same individual across different datasets to be tracked, which can be helpful for longitudinal studies <span class="citation">(<a href="#ref-hipaa_regulations"><span>“<span>HIPAA</span> <span>Privacy</span> <span>Regulations</span>: <span>Other</span> <span>Requirements</span> <span>Relating</span> to <span>Uses</span> and <span>Disclosures</span> of <span>Protected</span> <span>Health</span> <span>Information</span>: <span>Re</span>-<span>Identification</span> - § 164.514(c)”</span> n.d.</a>)</span>. Hash function IDs are not intended for re-identification. See <a href="https://www.bricker.com/industries-practices/health-care/insights-resources/resource/hipaa-privacy-regulations-other-requirements-relating-to-uses-and-disclosures-of-protected-health-information-re-identification-%C2%A7-164514c-368">here</a> for additional information about HIPAA de-identification regulations.</p>
 <p>While somewhat useful for protecting the identity of those included in data, de-identification alone is not necessarily robust to newer re-identification methods. Thus other security, privacy, and protection methods are necessary.</p>
@@ -426,7 +426,7 @@ An example of generalization would be that all individuals over a certain age co
 <p>In some cases removing protected information can result in data loss that could impede research initiatives. However, generally the limitations of de-identification are the risks that they pose for re-identification.</p>
 <p>For the Safe Harbor method, de-identification based on 18 PHI categories does not necessarily protect from re-identification, particularly given the ubiquity of large data sets. Even though it is the more stringent method, Safe Harbor has privacy limitations. There are other aspects about the data that could be or could become identifiable. For example, if an individual has a very unique occupation (such as state senator) or combination of certain remaining characteristics, they could become identifiable. Another example is if an individual was a very unique clinical case.</p>
 <p>For the Expert Determination method, the determination of risk of re-identification is subjective. There is no specific degree requirement or training to be considered an “expert”, however typically they are individuals with a statistical background and people who have had experience in making risk determinations. There is also no specific threshold of what constitutes a very small risk. This is determined by the expert. Additionally, there is no required length of time that a determination expires. It is highly suggested that additional evaluations occur over time as the risks change as technology changes and as the uniqueness of the individuals within the dataset evolves. For example if there are much fewer people over a certain age still living in a sparsely populated area, they could become identifiable.</p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1224.png" alt="De-identification can be tricky! This shows an example of a woman named Jane Doe who is 96, using an age group of 95-100 could be problematic if few people are in that age bracket in the region studied." width="100%" style="display: block; margin: auto;" /></p>
 <p>There is also no standard single method to assess re-identification risk. Instead there are a set of methods that follow major principles of risk assessment. They are based on the ability to reproduce the data values for the individual, the availability of identifiable data values from other sources, and the uniqueness or distinguishability of the data values. However, whatever methods are used, the expert is required to document this and make it available to the OCR if they request it.</p>
 </div>
 </div>
@@ -471,8 +471,8 @@ An example of generalization would be that all individuals over a certain age co
 <li>With this key a channel between the user’s computer and the remote computer cluster can be opened.</li>
 <li>Now the user can login to the remote computer’s operating system.</li>
 </ol>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="resources/images/03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_14.png" alt="1. The user initiates a connection by submitting a command to contact the server 2. The server returns a key 3. With this key a channel between the user's computer and the remote computer cluster can be opened. 4. Now the user can login to the remote computer's operating system. " width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="03-Data_Security_files/figure-html/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2134f5bcd65_0_0.png" alt="SSL vs SSH SSL has cryptographic tunneling protocol and has a username/password authentication system. SSL does not have a username/password authentication system like SSH. SSH completely depends on the network tunneling. SSL is asynchronous as it depends on the certificates. SSH is appropriate and effective for securely executing commands across the internet." width="100%" style="display: block; margin: auto;" /></p>
 <p>For more about SSH and SSL:</p>
 <ul>
 <li><a href="https://sectigostore.com/blog/ssh-vs-ssl-exploring-the-similarities-and-differences/">SSH and SSL exploring the similarities and differences</a></li>
@@ -714,42 +714,42 @@ Tilly Holland. 2020. <span>“What’s the Difference Between Data Deletion and 
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>

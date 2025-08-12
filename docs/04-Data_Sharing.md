@@ -6,7 +6,7 @@
 
 In this chapter we will discuss the importance of data sharing, best practices for data sharing, places where you can store your data, as well as methods to share data in contexts in which you might have thought sharing was not possible! 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_gcfd3d3081e_2_1.png" alt="Learning Objectives: 1.Describe the importance of data sharing, 2.Identify best practices for data sharing, 3.List places where you can store your data, 4. Describe methods to share data in contexts in which you might have thought sharing was not possible" width="100%" style="display: block; margin: auto;" />
 
 ## Data sharing is important!
 
@@ -26,15 +26,15 @@ There's so many excellent reasons to put your data in a repository whether or no
 
 1. Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing [@colavizza_citation_2020].
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_636.png" alt="Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’" width="100%" style="display: block; margin: auto;" />
 
 2. Helps your relieve your own workload so your email inbox isn't loaded by requests you probably don't have time to respond to.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_616.png" alt="Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’." width="100%" style="display: block; margin: auto;" />
 
 3. Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_1_37.png" alt="Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’" width="100%" style="display: block; margin: auto;" />
 
 4. It also provides more opportunities for others to replicate your results, which could help advance not only your career, but our understanding of science and medicine.
 
@@ -46,7 +46,7 @@ It also helps support researchers at institutes that do not have as many resourc
 
 Ultimately it can also therefore help patients benefit from research faster, as faster advances can be made through more efficient research.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2fddd2b0ce1_0_0.png" alt="Data Sharing can also help with costs related to collecting data, reduces the time and effort to collect new data, including the burden on patients, it allows research to be more efficient, the same data can be used for multiple studies, which is especially helpful if combining different kinds of data and researchers don't necessarily have to ability to collect each kind of data, it supports researchers at insitutions that have less resources, and it helps patients get the benefits of research faster.’" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g2fddd2b0ce1_0_0.png" alt="Data Sharing can also help with costs related to collecting data, reduces the time and effort to collect new data, including the burden on patients, it allows research to be more efficient, the same data can be used for multiple studies, which is especially helpful if combining different kinds of data and researchers don't necessarily have to ability to collect each kind of data, it supports researchers at insitutions that have less resources, and it helps patients get the benefits of research faster.’" width="100%" style="display: block; margin: auto;" />
 
 
 ## Data repositories
@@ -91,7 +91,7 @@ Uploading a dataset to a data repository is a great step toward sharing your dat
 
 Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
 
 To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
 There are two files you should make sure to include to help describe and organize your data project:
@@ -149,11 +149,11 @@ REDCap allows for various roles to be established for users on a project. Thus a
 
 You can modify roles using the `User Rights` menu.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
 
 This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
 
 Roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
@@ -163,7 +163,7 @@ Reports that are exported can be customized to only show data that should be sha
 
 For example, you might remove the dates from the following report:
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
 
 
 3) Auditing
@@ -179,7 +179,7 @@ If your instruments are too long, this can result in accidentally sharing data t
 You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified. 
 
 
-<img src="resources/images/04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
+<img src="04-Data_Sharing_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
 
 
 <!-- Scott Carey can help with this section maybe -->
