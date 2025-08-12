@@ -6,7 +6,7 @@
 
 Given rapid changes in technology, data ethics is also rapidly evolving. Now we cover some of the current concerns for cancer research.
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Eplain what some of the current ethical dilemmas are in the current climate of biomedical research 2. Recognize methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
+<img src="06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g256fece0af0_0_184.png" alt="Learning Objectives:  1. Eplain what some of the current ethical dilemmas are in the current climate of biomedical research 2. Recognize methods for mitigating current ethical issues to protect both the participants in your research and others. " width="100%" style="display: block; margin: auto;" />
 
 
 ## Current Ethical Issues
@@ -32,10 +32,10 @@ Although ethical guidelines about this type of consent are evolving as research 
 3) **dynamic consent** - Subjects are asked case-by-case for others to use their data. This requires more burden on both the data managers and also the subjects, as they need to continually decide about providing consent or not.
 4) **meta consent** - Subjects get to choose what type of consent they prefer of the other 3 options.
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" />
+<img src="06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1047.png" alt="An image of blanket and broad consent. " width="100%" style="display: block; margin: auto;" />
 
 
-<img src="resources/images/06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" />
+<img src="06-Current_Data_Concerns_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1053.png" alt="An image of dynamic and meta consent. " width="100%" style="display: block; margin: auto;" />
 
 @mckeown_consent_2021 suggests that we also need to be mindful of the following:
 

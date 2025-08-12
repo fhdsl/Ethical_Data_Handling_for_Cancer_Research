@@ -6,7 +6,7 @@
 
 Now that we have covered the basics of data management, we will take a moment to consider and reflect on the implications of our use and sharing of data.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Explain some of the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g11ef3a2f2bf_0_4.png" alt="Learning Objectives: 1. Recognize that the process of ethical data handling happens long before a study and long after. 2. Describe the general considerations for data ethics. 3. Recognize where these considerations come from in the history of research. 4. Explain some of the consequences of irresponsible research." width="100%" style="display: block; margin: auto;" />
 
 ## What is data ethics?
 
@@ -32,7 +32,7 @@ Data ethics requires thoughtfulness *both* throughout the planning and research 
 Researchers need to consider how their work will resolve unanswered questions and who the research might help, as well as consider how others might use or misuse their data, code, and results in the future [@lipworth_ethics_2017; @teoli_informatics_2021].
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g3001a067199_0_0.png" alt="Research requires ethical considerations before and after research. Beforehand one should consider how to reduce risks but enhance benefits for research participants and society, if the planned samples will be inclusive, if the data collection on those samples will be inclusive, and will the data be managed in a safe and private way. Afterwards, one should consider if people will be able to re-identify research participants, if the might be able to in the future and what that might mean for those patients, and if and how others might misuse the data, code or findings. " width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g3001a067199_0_0.png" alt="Research requires ethical considerations before and after research. Beforehand one should consider how to reduce risks but enhance benefits for research participants and society, if the planned samples will be inclusive, if the data collection on those samples will be inclusive, and will the data be managed in a safe and private way. Afterwards, one should consider if people will be able to re-identify research participants, if the might be able to in the future and what that might mean for those patients, and if and how others might misuse the data, code or findings. " width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -52,7 +52,7 @@ While data sharing can result in wonderful opportunities for secondary analysis,
 Overall there is a continuum of risk across the various types of data that we as researchers collect. Wile some forms of data, such as that derived from model organisms pose essentially no risk, intermediate forms of data such as summarized counts across a set of human samples pose more risk, while raw data and in particular data from individuals such as whole genome sequencing data, pose great risk for identification [@byrd_responsible_2020].
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestions for sharing different types of data, with public access to anyone for model organism data and images of certain tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g302b08a6790_0_0.png" alt="re-identification risk is on a continuum. The image shows a double sided arrow that goes from green to red with the green side showing model organism data and the red side showing whole genome sequencing. It offers suggestions for sharing different types of data, with public access to anyone for model organism data and images of certain tissues, public sharing of processed data for whole genome somatic varaints and RNA-Seq (expression estimates), Aggregate group sharing of data from exome-seq and DNA methylation data  and controlled access (only for certain people) for whole genome germline data" width="100%" style="display: block; margin: auto;" />
 
 Note that recent technology advances in AI, show that chest X-ray images can now re-identify individuals (@packhauser_deep_2022). In addition, some histopathology images are also re-identifiable, see @ganz_re-identification_2025 for guidance about how to share images more safely. 
 
@@ -133,7 +133,7 @@ Patients need to make their own decisions about their health. They should be equ
 This is otherwise includes informed consent [@commissioner_guide_2020], which means before a patient can truly consent, they need to be fully informed of the risks, ins and outs of any procedure, treatment, or research study participation.
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png" alt="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_5.png" alt="Healthcare ethics, and by extension medical research ethics can be described in four pillars: Beneficence, Non-maleficence, autonomy, justice. " width="100%" style="display: block; margin: auto;" />
 
 ### The NIH Clinical Center [Seven Principles](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research)
 
@@ -211,7 +211,7 @@ We have already talked about the concept of informed consent. Obtaining consent 
 
 It is helpful to get a sense of the timing when society established ethical medical standards and laws. Here we will point out important events in the timeline of medical ethics, with an emphasis on the United States.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g15797d1181d_0_0.png" alt="Medical Ethics Timeline: Hippocratic Oath American Medical Association 1st Code of Ethics (1874) Tuskegee Syphilis Trial (1932-1972) Nuremberg code (1947) Henrietta Lacks and Hela Cells (1951) Code of Medical Ethics (1957) Declaration of Helsinki (1964) National Research Act (1973) Belmont Report (1979) Principles of Biomedical Ethics (1979) Health Insurance Portability and Accountability Act (HIPAA) (1996) Office for Human Research Protections (2000) Genetic Information Nondiscrimination Act of 2008 (GINA) Health Information Technology for Economic and Clinical Health (HITECH) Act (2009) Code of Federal Regulations (CFR) Great resource for more: https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf" width="100%" style="display: block; margin: auto;" />
 
 See [here](https://www.usuhs.edu/sites/default/files/2021-06/TimelineofLandmarkEventsinBioethics.pdf) for a more in-depth timeline.  
 
@@ -364,7 +364,7 @@ While personality traits were identified, the above reasons suggest that if rese
 
 Research misconduct either due to malicious intent or unintentional neglect can have far reaching consequences. This section is based on @davis_causal_2007 and @national_academies_of_sciences_2017.
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_8.png" alt="The consequences of research misconduct today impact many levels of people and are far reaching. The researchers themselves could face debarment, job loss, revoked degrees, revoked awards, and lawsuits, institutions and journals could face loses in their reputation or funding, The field can be misdirected and waste valuable time and effort. Finally most importantly, patients face slower progress in the treatment of disease and may lose trust in our health care and reserach systems" width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_8.png" alt="The consequences of research misconduct today impact many levels of people and are far reaching. The researchers themselves could face debarment, job loss, revoked degrees, revoked awards, and lawsuits, institutions and journals could face loses in their reputation or funding, The field can be misdirected and waste valuable time and effort. Finally most importantly, patients face slower progress in the treatment of disease and may lose trust in our health care and reserach systems" width="100%" style="display: block; margin: auto;" />
 
 
 
@@ -396,7 +396,7 @@ Several models have been proposed to reduce misconduct [@mousavi_review_2020; @k
 
 
 
-<img src="resources/images/05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_169.png" alt="Incentivizing research quality over quantity can help prevent research misconduct. Integrity can be encouraged if evaluations for career progression places a high priority for ethical consideration, research quality, and rigor over simply publishing more." width="100%" style="display: block; margin: auto;" />
+<img src="05-Data_Ethics_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g30574cf51bd_0_169.png" alt="Incentivizing research quality over quantity can help prevent research misconduct. Integrity can be encouraged if evaluations for career progression places a high priority for ethical consideration, research quality, and rigor over simply publishing more." width="100%" style="display: block; margin: auto;" />
 
 
 
