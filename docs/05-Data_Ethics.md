@@ -176,7 +176,7 @@ Individuals should be treated with respect for the entirety of the process inclu
 
 These guidelines are also very useful for ensuring inclusive, transparent, open, and respectful data management practices:
 
-- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care), which largely focus on the self-determination of indigenous people and the usage of their data, as well as consideration for the impact and purpose of data: 
+- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/careprinciples), which largely focus on the self-determination of indigenous people and the usage of their data, as well as consideration for the impact and purpose of data: 
 
   - **C** stands for: Collective Benefit
   - **A** stands for: Authority to Control

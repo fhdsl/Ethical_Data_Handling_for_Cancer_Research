@@ -93,7 +93,7 @@ To be more mindful of future consequences, researchers could also ask their rese
 
 <!-- ### Data Security and Privacy in the Age of AI -->
 
-<!-- avocado... possibly introduce: differential privacy https://mccourt.georgetown.edu/research/the-massive-data-institute/resources/dp-resources/ -->
+<!--  possibly introduce: differential privacy  -->
 
 
 <!-- patient experience: https://journals.sagepub.com/doi/full/10.1177/160940691401300121 -->
