@@ -1,6 +1,6 @@
 --- 
 title: "Ethical Data Handling"
-date: "2025-08-12"
+date: "2026-10-05"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
