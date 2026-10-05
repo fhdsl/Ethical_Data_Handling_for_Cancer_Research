@@ -2,6 +2,8 @@
 
 [![Render Bookdown, Leanpub, and Coursera](https://github.com/fhdsl/Ethical_Data_Handling_for_Cancer_Research/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/Ethical_Data_Handling_for_Cancer_Research/actions/workflows/render-all.yml)
 
+<a href="https://doi.org/10.5281/zenodo.23167809"><img src="https://zenodo.org/badge/434288670.svg" alt="DOI"></a>
+
 This course was created from [this github template](https://github.com/jhudsl/DaSL_Course_Template_Bookdown).
 
 You can see the rendered course material here:  https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/
